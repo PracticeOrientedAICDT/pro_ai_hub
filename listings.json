@@ -2,15 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-      "/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html"
+      "/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+      "/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right copy/index.html",
-      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
+      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right copy/index.html"
     ]
   }
 ]
