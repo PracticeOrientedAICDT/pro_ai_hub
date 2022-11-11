@@ -14,8 +14,11 @@ website:
       - text: "Blog"
         file: blog.html
       - about.qmd 
+
+title-block-banner: true      
 format:
   html:
+    page-layout: article
     theme: journal
     css: styles.css
     toc: true
