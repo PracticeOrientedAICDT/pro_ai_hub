@@ -1,6 +1,7 @@
 ---
 title: "Interactive Content Repository"
 listing:
+  id: content_listings
   contents: content
   sort: "date desc"
   type: default
@@ -8,4 +9,5 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: true
+title-block-banner: true
 ---

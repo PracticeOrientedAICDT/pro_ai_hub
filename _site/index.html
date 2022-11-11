@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-content_listings .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-content_listings'] = new List('listing-content_listings', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -163,9 +163,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-content_listings">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Calibration" data-listing-file-modified-sort="1668173848029" data-listing-reading-time-sort="0.85">
+<div class="quarto-post image-right" data-index="0" data-categories="Calibration" data-listing-file-modified-sort="1668181733161" data-listing-reading-time-sort="0.85">
 <div class="thumbnail">
 <a href="./content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html">
 <div class="thumbnail-image">
