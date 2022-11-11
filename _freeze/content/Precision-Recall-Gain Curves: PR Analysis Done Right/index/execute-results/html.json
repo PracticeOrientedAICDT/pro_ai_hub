@@ -1,0 +1,18 @@
+{
+  "hash": "7f8e2c5f75811b29c28a2f845db9deb0",
+  "result": {
+    "markdown": "---\ntitle: \"FPrecision-Recall-Gain Curves: PR Analysis Done Right\"\n\ncategories: [\"F-Score\", \"Precision-Recall\", \"ROC\"]\nimage: map.jpg\nformat: \n  html:\n    df-print: paged\n    toc: true\nengine: knitr\n---\n\n\n\n## Tldr \n\nDon't use Precision-Recall curves -- use PRG curves instead! Selected for spotlight presentation at NIPS'15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), [video](video_header), poster and slides.\n    \n## Author \ncspaf\n\n## Image  \n\n![hero-image](http://people.cs.bris.ac.uk/~flach/PRGcurves/curves.jpg)\n\n## Paper-authors\n- Peter A. Flach\n- Meelis Kull\n\n## Venue\n- [NIPS 2015](http://papers.nips.cc/paper/5867-precision-recall-gain-curves-pr-analysis-done-right)\n\n(video_header)=\n## Video   \n\nhttp://people.cs.bris.ac.uk/~flach/PRGcurves/259653_clipped.mp4\n\n\n## Slides\nhttp://people.cs.bris.ac.uk/~flach/PRGcurves/PRcurves_ISL.pdf\n\n## Code\nhttps://github.com/meeliskull/prg\n\n## More Resources\n\n[![](https://img.shields.io/badge/read-PDF-green.svg)](https://research-information.bris.ac.uk/ws/portalfiles/portal/72164009/5867_precision_recall_gain_curves_pr_analysis_done_right.pdf)\n\n[![](https://img.shields.io/badge/View-Poster-green.svg)](http://people.cs.bris.ac.uk/~flach/PRGcurves/2015_12_07_nips_prg_poster.pdf)\n\n[![](https://img.shields.io/badge/Read-Supplement-green.svg)](http://people.cs.bris.ac.uk/~flach/PRGcurves/PRcurves_supplementary.pdf)\n\n[![](https://img.shields.io/badge/Read-Scholar-green.svg)](https://scholar.google.com/citations?user=o9ggd4sAAAAJ&hl=en#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Do9ggd4sAAAAJ%26cstart%3D20%26pagesize%3D80%26citation_for_view%3Do9ggd4sAAAAJ%3ARc-B-9qnGaUC%26tzom%3D-60)",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

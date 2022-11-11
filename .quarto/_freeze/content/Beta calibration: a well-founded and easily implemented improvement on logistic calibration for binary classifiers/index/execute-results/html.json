@@ -1,0 +1,18 @@
+{
+  "hash": "a453fc1dd68ea016091817398712bbe1",
+  "result": {
+    "markdown": "---\ntitle: \"Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\"\n\ncategories: [\"Calibration\"] \nformat: \n  html:\n    df-print: paged\n    toc: true\nengine: knitr\n---\n\n\n## Tldr \n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is however prone to overfitting on smaller datasets; hence a parametric method based on the logistic curve is commonly used. While logistic calibration is designed to correct for a specific kind of distortion where classifiers tend to score on too narrow a scale, we demonstrate experimentally that many classifiers including naive Bayes and Adaboost suffer from the opposite distortion where scores tend too much to the extremes. In such cases logistic calibration can easily yield probability estimates that are worse than the original scores. Moreover, the logistic curve family does not include the identity function, and hence logistic calibration can easily uncalibrate a perfectly calibrated classifier.\n    \n## Author \ncspaf\n\n\n## Paper-authors\n- Meelis Kull\n- Telmo M. Silva Filho\n- Peter A. Flach\n\n## Slides\nhttps://github.com/betacal/aistats2017/blob/master/aistats2017_beta_calibration_slides.pdf\n\n## Code\nhttps://github.com/meeliskull/prg\n\n\n## More Resources\n\n[![](https://img.shields.io/badge/read-PDF-green.svg)](http://proceedings.mlr.press/v54/kull17a.html)\n\n[![](https://img.shields.io/badge/View-Poster-green.svg)](https://github.com/betacal/aistats2017/blob/master/aistats2017_beta_calibration_poster.pdf)",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

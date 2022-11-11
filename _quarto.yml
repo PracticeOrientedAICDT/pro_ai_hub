@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  comments:
+    hypothesis: 
+      theme: clean
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "Blog"
+        file: blog.html
+      - about.qmd 
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true
+
+
+

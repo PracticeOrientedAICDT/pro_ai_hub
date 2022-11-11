@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "2a8ea013"
+  },
+  "about.qmd": {
+    "about.html": "28c3cca5"
+  },
+  "talks.qmd": {
+    "talks.html": "4ad2168e"
+  },
+  "blog.qmd": {
+    "blog.html": "12e2dbcd"
+  },
+  "posts/2022-11-10/index.qmd": {
+    "index.html": "493616d8"
+  },
+  "content/2022-11-10/index.qmd": {
+    "index.html": "6e510c25"
+  },
+  "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.qmd": {
+    "index.html": "5d874896"
+  },
+  "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.qmd": {
+    "index.html": "0627ad62"
+  },
+  "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.qmd": {
+    "index.html": "2cdba8b4"
+  },
+  "posts/Precision-Recall-Gain Curves: PR Analysis Done Right copy/index.qmd": {
+    "index.html": "48de7744"
+  },
+  "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.qmd": {
+    "index.html": "f9d23684"
+  }
+}
