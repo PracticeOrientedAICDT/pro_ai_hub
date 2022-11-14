@@ -19,7 +19,9 @@ title-block-banner: true
 format:
   html:
     page-layout: article
-    theme: journal
+    theme: 
+      light: cosmo
+      dark: cyborg
     css: styles.css
     toc: true
 

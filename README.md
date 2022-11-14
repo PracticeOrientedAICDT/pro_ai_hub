@@ -60,8 +60,10 @@ format:
 
 [Scholar](<google-scholar-link>)
 
-[Blog Post](../../posts/Precision-Recall-Gain Curves: PR Analysis Done Right/)*
+[Blog Post](../../posts/<name-for-your-blogpost>/)*
 
 ```
 
 *You can create a blog post related to your content and link it.
+
+### Creating a Blog post 
