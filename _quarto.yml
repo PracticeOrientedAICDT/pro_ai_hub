@@ -20,7 +20,7 @@ format:
   html:
     page-layout: article
     theme: 
-      light: cosmo
+      light: simplex
       dark: cyborg
     css: styles.css
     toc: true
