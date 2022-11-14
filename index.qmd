@@ -9,6 +9,6 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: true
-  max-description-length: 250
+  max-description-length: 100
 title-block-banner: true
 ---
