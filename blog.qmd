@@ -7,6 +7,7 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-  feed: true
+  feed: false
+  max-description-length: 250
 title-block-banner: true
 ---
