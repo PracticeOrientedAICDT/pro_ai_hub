@@ -67,3 +67,6 @@ format:
 *You can create a blog post related to your content and link it.
 
 ### Creating a Blog post 
+
+The blog post creation is similar to content creation. First create a new directory into the posts directory. 
+Inside the new created directory add a index.qmd file that will include your blogpost.
