@@ -15,7 +15,7 @@ First, inside the content directory, create a new directory with your title. Ins
 ```
 ---
 title: "<Your Title>"
-
+description: <a-short-paragraph-about-your-content>
 categories: ["category_1", "category_2", "category_3"]
 format: 
   html:
@@ -70,3 +70,15 @@ format:
 
 The blog post creation is similar to content creation. First create a new directory into the posts directory. 
 Inside the new created directory add a index.qmd file that will include your blogpost.
+
+
+Please include the heading at the top of your blogpost
+
+```
+---
+title: <your-title>
+description: <short-paragraph-about-your-post>
+categories: [<category_1>, <category_2>, <category_3>]
+---
+
+```

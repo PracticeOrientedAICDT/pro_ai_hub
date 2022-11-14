@@ -1,6 +1,6 @@
 ---
 title: "Precision-Recall-Gain Curves: PR Analysis Done Right"
-
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.
 categories: ["F-Score", "Precision-Recall", "ROC"]
 ---
 
