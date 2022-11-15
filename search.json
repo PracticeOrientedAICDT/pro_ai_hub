@@ -35,13 +35,6 @@
     "text": "Don’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides."
   },
   {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#author",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#author",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Author",
-    "text": "Author\ncspaf"
-  },
-  {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
@@ -98,13 +91,6 @@
     "text": "For optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is however prone to overfitting on smaller datasets; hence a parametric method based on the logistic curve is commonly used. While logistic calibration is designed to correct for a specific kind of distortion where classifiers tend to score on too narrow a scale, we demonstrate experimentally that many classifiers including naive Bayes and Adaboost suffer from the opposite distortion where scores tend too much to the extremes. In such cases logistic calibration can easily yield probability estimates that are worse than the original scores. Moreover, the logistic curve family does not include the identity function, and hence logistic calibration can easily uncalibrate a perfectly calibrated classifier."
   },
   {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#author",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#author",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "Author",
-    "text": "Author\ncspaf"
-  },
-  {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#paper-authors",
     "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#paper-authors",
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
@@ -116,14 +102,14 @@
     "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#slides",
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
     "section": "Slides",
-    "text": "Slides\nhttps://github.com/betacal/aistats2017/blob/master/aistats2017_beta_calibration_slides.pdf"
+    "text": "Slides\nHere"
   },
   {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#code",
     "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#code",
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
     "section": "Code",
-    "text": "Code\nhttps://github.com/meeliskull/prg"
+    "text": "Code\nHere"
   },
   {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
