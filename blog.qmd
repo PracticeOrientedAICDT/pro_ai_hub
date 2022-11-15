@@ -10,4 +10,5 @@ listing:
   feed: false
   max-description-length: 250
 title-block-banner: true
+comments: false
 ---
