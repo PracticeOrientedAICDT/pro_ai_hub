@@ -4,7 +4,8 @@ project:
 website:
   comments:
     giscus:
-      repo: quarto-dev/quarto-web
+      repo: DelmiroDaladier/icr
+
   navbar:
     background: primary
     search: true
