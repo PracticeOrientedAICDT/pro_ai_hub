@@ -5,6 +5,7 @@ website:
   comments:
     giscus:
       repo: DelmiroDaladier/icr
+      theme:  preferred_color_scheme
 
   navbar:
     background: primary

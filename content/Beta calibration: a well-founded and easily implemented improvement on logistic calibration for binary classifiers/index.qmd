@@ -11,21 +11,18 @@ format:
 ## Tldr 
 
 For optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is however prone to overfitting on smaller datasets; hence a parametric method based on the logistic curve is commonly used. While logistic calibration is designed to correct for a specific kind of distortion where classifiers tend to score on too narrow a scale, we demonstrate experimentally that many classifiers including naive Bayes and Adaboost suffer from the opposite distortion where scores tend too much to the extremes. In such cases logistic calibration can easily yield probability estimates that are worse than the original scores. Moreover, the logistic curve family does not include the identity function, and hence logistic calibration can easily uncalibrate a perfectly calibrated classifier.
-    
-## Author 
-cspaf
 
 
 ## Paper-authors
-- Meelis Kull
-- Telmo M. Silva Filho
-- Peter A. Flach
+- [Meelis Kull](https://scholar.google.com/citations?user=yJwctG4AAAAJ&hl=en)
+- [Telmo M. Silva Filho](https://scholar.google.com/citations?user=-EGO0o8AAAAJ&hl=en)
+- [Peter A. Flach]((https://scholar.google.com/citations?user=o9ggd4sAAAAJ&hl=en#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Do9ggd4sAAAAJ%26cstart%3D20%26pagesize%3D80%26citation_for_view%3Do9ggd4sAAAAJ%3ARc-B-9qnGaUC%26tzom%3D-60))
 
 ## Slides
-https://github.com/betacal/aistats2017/blob/master/aistats2017_beta_calibration_slides.pdf
+[Here](https://github.com/betacal/aistats2017/blob/master/aistats2017_beta_calibration_slides.pdf)
 
 ## Code
-https://github.com/meeliskull/prg
+[Here](https://github.com/meeliskull/prg)
 
 
 ## More Resources
