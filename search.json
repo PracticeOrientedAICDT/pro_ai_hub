@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "cision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
@@ -30,63 +30,63 @@
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "",
     "text": "Don’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides."
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#author",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#author",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Author",
     "text": "Author\ncspaf"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Image",
     "text": "Image\n\n\n\nhero-image"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nPeter A. Flach\nMeelis Kull"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Venue",
     "text": "Venue\n\nNIPS 2015"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Video",
     "text": "Video"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#slides",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#slides",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Slides",
     "text": "Slides\nhere"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#code",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#code",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Code",
     "text": "Code\nHere"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
-    "title": "cision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "More Resources",
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
