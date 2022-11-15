@@ -2,9 +2,7 @@ project:
   type: website
 
 website:
-  comments:
-    hypothesis: 
-      theme: clean
+  comments: false
   navbar:
     background: primary
     search: true
