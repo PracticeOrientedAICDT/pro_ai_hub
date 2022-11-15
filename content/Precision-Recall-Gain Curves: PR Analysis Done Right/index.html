@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,13 +85,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Home</a>
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">Blog</a>
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">About</a>
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -117,6 +122,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
       
+    
       
     </div>
     
@@ -167,8 +173,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="paper-authors" class="level2">
 <h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
 <ul>
-<li>Peter A. Flach</li>
-<li>Meelis Kull</li>
+<li><a href="https://scholar.google.com/citations?user=o9ggd4sAAAAJ&amp;hl=en#d=gs_md_cita-d&amp;u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Do9ggd4sAAAAJ%26cstart%3D20%26pagesize%3D80%26citation_for_view%3Do9ggd4sAAAAJ%3ARc-B-9qnGaUC%26tzom%3D-60">Peter A. Flach</a></li>
+<li>[Meelis Kull]</li>
 </ul>
 </section>
 <section id="venue" class="level2">
@@ -179,15 +185,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="video" class="level2">
 <h2 class="anchored" data-anchor-id="video">Video</h2>
-<p></p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="http://people.cs.bris.ac.uk/~flach/PRGcurves/259653_clipped.mp4"></video></div>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p>http://people.cs.bris.ac.uk/~flach/PRGcurves/PRcurves_ISL.pdf</p>
+<p><a href="http://people.cs.bris.ac.uk/~flach/PRGcurves/PRcurves_ISL.pdf">here</a></p>
 </section>
 <section id="code" class="level2">
 <h2 class="anchored" data-anchor-id="code">Code</h2>
-<p>https://github.com/meeliskull/prg</p>
+<p><a href="https://github.com/meeliskull/prg">Here</a></p>
 </section>
 <section id="more-resources" class="level2">
 <h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
@@ -195,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="http://people.cs.bris.ac.uk/~flach/PRGcurves/2015_12_07_nips_prg_poster.pdf">Poster</a></p>
 <p><a href="http://people.cs.bris.ac.uk/~flach/PRGcurves/PRcurves_supplementary.pdf">Supplement</a></p>
 <p><a href="https://scholar.google.com/citations?user=o9ggd4sAAAAJ&amp;hl=en#d=gs_md_cita-d&amp;u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Do9ggd4sAAAAJ%26cstart%3D20%26pagesize%3D80%26citation_for_view%3Do9ggd4sAAAAJ%3ARc-B-9qnGaUC%26tzom%3D-60">Scholar</a></p>
-<p><a href="../../posts/Precision-Recall-Gain%20Curves:%20PR%20Analysis%20Done%20Right/">Blog Post</a></p>
+<p><a href="../../posts/Precision-Recall-Gain Curves: PR Analysis Done Right/">Blog Post</a></p>
 
 
 </section>
@@ -333,7 +339,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -355,7 +363,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -391,28 +416,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
