@@ -14,3 +14,40 @@ page-layout: full
 title-block-banner: true
 comments: false
 ---
+
+## Tldr 
+
+<a-short-paragraph-describing-your-work>
+
+## Image  
+
+![](<link-for-your-image>)
+
+## Paper-authors
+- [<author-1-name>](<link-for-author-1-page-or-scholar>)
+- [<author-2-name>](<link-for-author-2-page-or-scholar>)
+
+## Venue
+- [<venue-name>](<link-for-venue>)
+
+## Video   
+
+{{< video <link-for-video> >}}
+
+## Slides
+[here](link-for-slides)
+
+## Code
+[Here](<link-for-repo>)
+
+## More Resources
+
+[PDF](<link-for-pdf>)
+
+[Poster](<link-for-poster>)
+
+[Supplement](<link-for-supplement.)
+
+[Scholar](<link-for-scholar>)
+
+[Blog Post](../../posts/<name-of-related-blog-post>/)

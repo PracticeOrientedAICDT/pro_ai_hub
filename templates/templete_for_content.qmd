@@ -11,11 +11,11 @@ format:
 
 ## Tldr 
 
-Don't use Precision-Recall curves -- use PRG curves instead! Selected for spotlight presentation at NIPS'15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.
+.
 
 ## Image  
 
-![](http://people.cs.bris.ac.uk/~flach/PRGcurves/curves.jpg)
+![hero-image](http://people.cs.bris.ac.uk/~flach/PRGcurves/curves.jpg)
 
 ## Paper-authors
 - [Peter A. Flach](https://scholar.google.com/citations?user=o9ggd4sAAAAJ&hl=en#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Do9ggd4sAAAAJ%26cstart%3D20%26pagesize%3D80%26citation_for_view%3Do9ggd4sAAAAJ%3ARc-B-9qnGaUC%26tzom%3D-60)

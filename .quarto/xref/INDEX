@@ -31,5 +31,8 @@
   },
   "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.qmd": {
     "index.html": "f9d23684"
+  },
+  "templates/templete_for_content.qmd": {
+    "templete_for_content.html": "f8204293"
   }
 }
