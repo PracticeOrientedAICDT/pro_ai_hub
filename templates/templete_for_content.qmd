@@ -1,47 +1,46 @@
 ---
-title: "Precision-Recall-Gain Curves: PR Analysis Done Right"
-decription: Don't use Precision-Recall curves -- use PRG curves instead! Selected for spotlight presentation at NIPS'15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), [video](video_header), poster and slides.
-categories: ["F-Score", "Precision-Recall", "ROC"]
+title: "Title for your work"
+decription: A shord description for your work
+categories: ["category_1", "category_2", "category_3"]
 format: 
   html:
     df-print: paged
     toc: true
 ---
 
-
 ## Tldr 
 
-.
+<a-short-paragraph-describing-your-work>
 
 ## Image  
 
-![hero-image](http://people.cs.bris.ac.uk/~flach/PRGcurves/curves.jpg)
+![](<link-for-your-image>)
 
 ## Paper-authors
-- [Peter A. Flach](https://scholar.google.com/citations?user=o9ggd4sAAAAJ&hl=en#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Do9ggd4sAAAAJ%26cstart%3D20%26pagesize%3D80%26citation_for_view%3Do9ggd4sAAAAJ%3ARc-B-9qnGaUC%26tzom%3D-60)
-- [Meelis Kull](https://scholar.google.com/citations?user=yJwctG4AAAAJ&hl=en)
+- [<author-1-name>](<link-for-author-1-page-or-scholar>)
+- [<author-2-name>](<link-for-author-2-page-or-scholar>)
 
 ## Venue
-- [NIPS 2015](http://papers.nips.cc/paper/5867-precision-recall-gain-curves-pr-analysis-done-right)
+- [<venue-name>](<link-for-venue>)
 
 ## Video   
 
-{{< video http://people.cs.bris.ac.uk/~flach/PRGcurves/259653_clipped.mp4 >}}
+{{< video <link-for-video> >}}
 
 ## Slides
-[here](http://people.cs.bris.ac.uk/~flach/PRGcurves/PRcurves_ISL.pdf)
+[here](link-for-slides)
 
 ## Code
-[Here](https://github.com/meeliskull/prg)
+[Here](<link-for-repo>)
 
 ## More Resources
 
-[PDF](https://research-information.bris.ac.uk/ws/portalfiles/portal/72164009/5867_precision_recall_gain_curves_pr_analysis_done_right.pdf)
+[PDF](<link-for-pdf>)
 
-[Poster](http://people.cs.bris.ac.uk/~flach/PRGcurves/2015_12_07_nips_prg_poster.pdf)
+[Poster](<link-for-poster>)
 
-[Supplement](http://people.cs.bris.ac.uk/~flach/PRGcurves/PRcurves_supplementary.pdf)
+[Supplement](<link-for-supplement.)
 
-[Scholar](https://scholar.google.com/citations?user=o9ggd4sAAAAJ&hl=en#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Do9ggd4sAAAAJ%26cstart%3D20%26pagesize%3D80%26citation_for_view%3Do9ggd4sAAAAJ%3ARc-B-9qnGaUC%26tzom%3D-60)
+[Scholar](<link-for-scholar>)
 
-[Blog Post](../../posts/Precision-Recall-Gain Curves: PR Analysis Done Right/)
+[Blog Post](../../posts/<name-of-related-blog-post>/)

@@ -156,49 +156,231 @@
   {
     "objectID": "templates/templete_for_content.html#image",
     "href": "templates/templete_for_content.html#image",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Title for your work",
     "section": "Image",
-    "text": "Image\n\n\n\nhero-image"
+    "text": "Image"
   },
   {
     "objectID": "templates/templete_for_content.html#paper-authors",
     "href": "templates/templete_for_content.html#paper-authors",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Title for your work",
     "section": "Paper-authors",
-    "text": "Paper-authors\n\nPeter A. Flach\nMeelis Kull"
+    "text": "Paper-authors"
   },
   {
     "objectID": "templates/templete_for_content.html#venue",
     "href": "templates/templete_for_content.html#venue",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Title for your work",
     "section": "Venue",
-    "text": "Venue\n\nNIPS 2015"
+    "text": "Venue"
   },
   {
     "objectID": "templates/templete_for_content.html#video",
     "href": "templates/templete_for_content.html#video",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Title for your work",
     "section": "Video",
     "text": "Video"
   },
   {
     "objectID": "templates/templete_for_content.html#slides",
     "href": "templates/templete_for_content.html#slides",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Title for your work",
     "section": "Slides",
     "text": "Slides\nhere"
   },
   {
     "objectID": "templates/templete_for_content.html#code",
     "href": "templates/templete_for_content.html#code",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "title": "Title for your work",
     "section": "Code",
     "text": "Code\nHere"
   },
   {
     "objectID": "templates/templete_for_content.html#more-resources",
     "href": "templates/templete_for_content.html#more-resources",
+    "title": "Title for your work",
+    "section": "More Resources",
+    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "index.html#image",
+    "href": "index.html#image",
+    "title": "Interactive Content Repository",
+    "section": "Image",
+    "text": "Image"
+  },
+  {
+    "objectID": "index.html#paper-authors",
+    "href": "index.html#paper-authors",
+    "title": "Interactive Content Repository",
+    "section": "Paper-authors",
+    "text": "Paper-authors"
+  },
+  {
+    "objectID": "index.html#venue",
+    "href": "index.html#venue",
+    "title": "Interactive Content Repository",
+    "section": "Venue",
+    "text": "Venue"
+  },
+  {
+    "objectID": "index.html#video",
+    "href": "index.html#video",
+    "title": "Interactive Content Repository",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "index.html#slides",
+    "href": "index.html#slides",
+    "title": "Interactive Content Repository",
+    "section": "Slides",
+    "text": "Slides\nhere"
+  },
+  {
+    "objectID": "index.html#code",
+    "href": "index.html#code",
+    "title": "Interactive Content Repository",
+    "section": "Code",
+    "text": "Code\nHere"
+  },
+  {
+    "objectID": "index.html#more-resources",
+    "href": "index.html#more-resources",
+    "title": "Interactive Content Repository",
+    "section": "More Resources",
+    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "templates_folder/template_for_blogposts.html",
+    "href": "templates_folder/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html",
+    "href": "templates_folder/templete_for_content.html",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "",
+    "text": "."
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html#image",
+    "href": "templates_folder/templete_for_content.html#image",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "Image",
+    "text": "Image\n\n\n\nhero-image"
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html#paper-authors",
+    "href": "templates_folder/templete_for_content.html#paper-authors",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nPeter A. Flach\nMeelis Kull"
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html#venue",
+    "href": "templates_folder/templete_for_content.html#venue",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "Venue",
+    "text": "Venue\n\nNIPS 2015"
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html#video",
+    "href": "templates_folder/templete_for_content.html#video",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html#slides",
+    "href": "templates_folder/templete_for_content.html#slides",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "Slides",
+    "text": "Slides\nhere"
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html#code",
+    "href": "templates_folder/templete_for_content.html#code",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "Code",
+    "text": "Code\nHere"
+  },
+  {
+    "objectID": "templates_folder/templete_for_content.html#more-resources",
+    "href": "templates_folder/templete_for_content.html#more-resources",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "More Resources",
+    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "models/template_for_blogposts.html",
+    "href": "models/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "models/templete_for_content.html",
+    "href": "models/templete_for_content.html",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "",
+    "text": "."
+  },
+  {
+    "objectID": "models/templete_for_content.html#image",
+    "href": "models/templete_for_content.html#image",
+    "title": "Title for your work",
+    "section": "Image",
+    "text": "Image"
+  },
+  {
+    "objectID": "models/templete_for_content.html#paper-authors",
+    "href": "models/templete_for_content.html#paper-authors",
+    "title": "Title for your work",
+    "section": "Paper-authors",
+    "text": "Paper-authors"
+  },
+  {
+    "objectID": "models/templete_for_content.html#venue",
+    "href": "models/templete_for_content.html#venue",
+    "title": "Title for your work",
+    "section": "Venue",
+    "text": "Venue"
+  },
+  {
+    "objectID": "models/templete_for_content.html#video",
+    "href": "models/templete_for_content.html#video",
+    "title": "Title for your work",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "models/templete_for_content.html#slides",
+    "href": "models/templete_for_content.html#slides",
+    "title": "Title for your work",
+    "section": "Slides",
+    "text": "Slides\nhere"
+  },
+  {
+    "objectID": "models/templete_for_content.html#code",
+    "href": "models/templete_for_content.html#code",
+    "title": "Title for your work",
+    "section": "Code",
+    "text": "Code\nHere"
+  },
+  {
+    "objectID": "models/templete_for_content.html#more-resources",
+    "href": "models/templete_for_content.html#more-resources",
+    "title": "Title for your work",
     "section": "More Resources",
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   }

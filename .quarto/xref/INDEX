@@ -34,5 +34,20 @@
   },
   "templates/templete_for_content.qmd": {
     "templete_for_content.html": "f8204293"
+  },
+  "templates/template_for_blogposts.qmd": {
+    "template_for_blogposts.html": "c5e2f1d8"
+  },
+  "templates_folder/template_for_blogposts.qmd": {
+    "template_for_blogposts.html": "4692c033"
+  },
+  "templates_folder/templete_for_content.qmd": {
+    "templete_for_content.html": "0b9eadb8"
+  },
+  "models/template_for_blogposts.qmd": {
+    "template_for_blogposts.html": "e9354ced"
+  },
+  "models/templete_for_content.qmd": {
+    "templete_for_content.html": "90329677"
   }
 }
