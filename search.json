@@ -21,60 +21,60 @@
     "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "templates/templete_for_content.html#image",
-    "href": "templates/templete_for_content.html#image",
-    "title": "Title for your work",
-    "section": "Image",
-    "text": "Image"
-  },
-  {
-    "objectID": "templates/templete_for_content.html#paper-authors",
-    "href": "templates/templete_for_content.html#paper-authors",
-    "title": "Title for your work",
-    "section": "Paper-authors",
-    "text": "Paper-authors"
-  },
-  {
-    "objectID": "templates/templete_for_content.html#venue",
-    "href": "templates/templete_for_content.html#venue",
-    "title": "Title for your work",
-    "section": "Venue",
-    "text": "Venue"
-  },
-  {
-    "objectID": "templates/templete_for_content.html#video",
-    "href": "templates/templete_for_content.html#video",
-    "title": "Title for your work",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "templates/templete_for_content.html#slides",
-    "href": "templates/templete_for_content.html#slides",
-    "title": "Title for your work",
-    "section": "Slides",
-    "text": "Slides\nhere"
-  },
-  {
-    "objectID": "templates/templete_for_content.html#code",
-    "href": "templates/templete_for_content.html#code",
-    "title": "Title for your work",
-    "section": "Code",
-    "text": "Code\nHere"
-  },
-  {
-    "objectID": "templates/templete_for_content.html#more-resources",
-    "href": "templates/templete_for_content.html#more-resources",
-    "title": "Title for your work",
-    "section": "More Resources",
-    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
-  },
-  {
     "objectID": "templates/template_for_blogposts.html",
     "href": "templates/template_for_blogposts.html",
     "title": "Title",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "templates/template_for_content.html#image",
+    "href": "templates/template_for_content.html#image",
+    "title": "Title for your work",
+    "section": "Image",
+    "text": "Image"
+  },
+  {
+    "objectID": "templates/template_for_content.html#paper-authors",
+    "href": "templates/template_for_content.html#paper-authors",
+    "title": "Title for your work",
+    "section": "Paper-authors",
+    "text": "Paper-authors"
+  },
+  {
+    "objectID": "templates/template_for_content.html#venue",
+    "href": "templates/template_for_content.html#venue",
+    "title": "Title for your work",
+    "section": "Venue",
+    "text": "Venue"
+  },
+  {
+    "objectID": "templates/template_for_content.html#video",
+    "href": "templates/template_for_content.html#video",
+    "title": "Title for your work",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "templates/template_for_content.html#slides",
+    "href": "templates/template_for_content.html#slides",
+    "title": "Title for your work",
+    "section": "Slides",
+    "text": "Slides\nhere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#code",
+    "href": "templates/template_for_content.html#code",
+    "title": "Title for your work",
+    "section": "Code",
+    "text": "Code\nHere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#more-resources",
+    "href": "templates/template_for_content.html#more-resources",
+    "title": "Title for your work",
+    "section": "More Resources",
+    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
   {
     "objectID": "blog.html",
