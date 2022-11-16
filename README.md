@@ -10,7 +10,8 @@ The application is tracked by git hub actions. The automatic delivery occurs aft
 
 ### Creating content
 
-First, inside the content directory, create a new directory with your title. Inside this newly created dir create a index.qmd file, according to the model below. 
+First, inside the content directory, create a new directory with your work title. Inside this newly created dir create a index.qmd file, according to the model below. 
+For more information, check the tamplete_for_content.qmd file on templates directory.
 
 ```
 ---
@@ -72,7 +73,7 @@ The blog post creation is similar to content creation. First create a new direct
 Inside the new created directory add a index.qmd file that will include your blogpost.
 
 
-Please include the heading at the top of your blogpost
+Please include the heading at the top of your blogpost. For more information, check the tamplete_for_blogpost.qmd file on templates directory.
 
 ```
 ---
