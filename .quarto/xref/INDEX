@@ -49,5 +49,8 @@
   },
   "models/templete_for_content.qmd": {
     "templete_for_content.html": "90329677"
+  },
+  "templates/template_for_content.qmd": {
+    "template_for_content.html": "41ecadd3"
   }
 }

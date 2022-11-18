@@ -39,7 +39,7 @@
     "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#slides",
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
     "section": "Slides",
-    "text": "Slides\nHere"
+    "text": "Slides\nhere"
   },
   {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#code",
@@ -53,7 +53,7 @@
     "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
     "section": "More Resources",
-    "text": "More Resources\nPDF\nPoster\nBlog Post"
+    "text": "More Resources"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
@@ -81,14 +81,14 @@
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Paper-authors",
-    "text": "Paper-authors\n\nPeter A. Flach\nMeelis Kull"
+    "text": "Paper-authors\n-Peter A. Flach -Meelis Kull"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Venue",
-    "text": "Venue\n\nNIPS 2015"
+    "text": "Venue\nNIPS 2015 NIPS 2015"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
@@ -115,22 +115,22 @@
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "More Resources",
-    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+    "section": "More resources",
+    "text": "More resources"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT."
+    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
   },
   {
     "objectID": "blog.html",
@@ -383,5 +383,61 @@
     "title": "Title for your work",
     "section": "More Resources",
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "templates/template_for_content.html#image",
+    "href": "templates/template_for_content.html#image",
+    "title": "Title for your work",
+    "section": "Image",
+    "text": "Image"
+  },
+  {
+    "objectID": "templates/template_for_content.html#paper-authors",
+    "href": "templates/template_for_content.html#paper-authors",
+    "title": "Title for your work",
+    "section": "Paper-authors",
+    "text": "Paper-authors"
+  },
+  {
+    "objectID": "templates/template_for_content.html#venue",
+    "href": "templates/template_for_content.html#venue",
+    "title": "Title for your work",
+    "section": "Venue",
+    "text": "Venue"
+  },
+  {
+    "objectID": "templates/template_for_content.html#video",
+    "href": "templates/template_for_content.html#video",
+    "title": "Title for your work",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "templates/template_for_content.html#slides",
+    "href": "templates/template_for_content.html#slides",
+    "title": "Title for your work",
+    "section": "Slides",
+    "text": "Slides\nhere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#code",
+    "href": "templates/template_for_content.html#code",
+    "title": "Title for your work",
+    "section": "Code",
+    "text": "Code\nHere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#more-resources",
+    "href": "templates/template_for_content.html#more-resources",
+    "title": "Title for your work",
+    "section": "More Resources",
+    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#tldr",
+    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#tldr",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "Tldr",
+    "text": "Tldr\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides."
   }
 ]
