@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "templates/template_for_blogposts.html",
@@ -102,14 +102,14 @@
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Paper-authors",
-    "text": "Paper-authors\n\nPeter A. Flach\nMeelis Kull"
+    "text": "Paper-authors\n-Peter A. Flach -Meelis Kull"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "Venue",
-    "text": "Venue\n\nNIPS 2015"
+    "text": "Venue\nNIPS 2015 NIPS 2015"
   },
   {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
@@ -119,25 +119,11 @@
     "text": "Video"
   },
   {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#slides",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#slides",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Slides",
-    "text": "Slides\nhere"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#code",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#code",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Code",
-    "text": "Code\nHere"
-  },
-  {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "More Resources",
-    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+    "section": "More resources",
+    "text": "More resources"
   },
   {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
@@ -154,25 +140,11 @@
     "text": "Paper-authors\n\nMeelis Kull\nTelmo M. Silva Filho\nPeter A. Flach"
   },
   {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#slides",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#slides",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "Slides",
-    "text": "Slides\nHere"
-  },
-  {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#code",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#code",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "Code",
-    "text": "Code\nHere"
-  },
-  {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
     "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
     "section": "More Resources",
-    "text": "More Resources\nPDF\nPoster\nBlog Post"
+    "text": "More Resources"
   },
   {
     "objectID": "about.html",
