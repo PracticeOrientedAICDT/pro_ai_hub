@@ -1,0 +1,70 @@
+{% extends 'repository/base.html' %} {% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 card mb-4  mt-3 left  top">
+      <div class="card-body">
+        <h2>{% block title %} {{ post.title }} {% endblock title %}</h2>
+        <h3>Tldr</h3>
+        <div id="updatePost" class="form-group col-md-2 mt-5 text-center" >
+          <a href="{% url 'update_post' post.slug  %}" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#updatePostModal"> edit </a>
+        </div>
+        <p class="card-text ">{{ post.overview | safe }}</p>
+        <h3>Paper authors</h3>
+          {% for author in post.authors.all %}  
+            <a class="card-text" href={{ author.user_url }}>{{ author.user }}</a>
+            <br>
+          {% endfor %}
+        <h3>Venue</h3>
+          <a href= {{ post.venue.venue_url }} >{{ post.venue.venue_name }} {{ post.venue.year }}</a>
+        
+        {% if post.video %}  
+        <h3>Video</h3>
+          <iframe width="560" height="315" src={{ post.video }} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        {% endif %}
+
+        <h3>More resources</h3>
+          
+          {% if post.citation %}
+            <a  href={{ post.citation }}> 
+              <img  src="https://img.shields.io/badge/citation-9cf?style=flat.svg">  
+            </a>
+          {% endif %}
+
+          {% if post.supplement %}
+            <a  href={{ post.supplement }}> 
+              <img  src="https://img.shields.io/badge/supplement-yellowgreen?style=flat">  
+            </a>
+          {% endif %}
+
+          {% if post.pdf %}
+            <a  href={{ post.pdf }}> 
+              <img  src="https://img.shields.io/badge/PDF-green?style=flat">  
+            </a>
+          {% endif %}
+
+          {% if post.slides %}
+            <a  href={{ post.slides }}> 
+              <img  src="https://img.shields.io/badge/slides-ff69b4?style=flat">  
+            </a>
+          {% endif %}
+
+          {% if post.poster %}
+            <a  href={{ post.poster }}> 
+              <img  src="https://img.shields.io/badge/poster-yellow?style=flat">  
+            </a>
+          {% endif %}
+
+          {% if post.code %}
+            <a  href={{ post.code }}> 
+              <img  src="https://img.shields.io/badge/code-blue?style=flat">  
+            </a>
+          {% endif %}
+
+      </div>
+    </div>
+    {% block sidebar %} {% include 'repository/sidebar.html' %} {% endblock sidebar %}
+  </div>
+</div>
+
+{% endblock content %}

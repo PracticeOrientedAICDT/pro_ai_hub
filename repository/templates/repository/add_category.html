@@ -1,0 +1,19 @@
+{% block content %}
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+            <h1 class="modal-title fs-5"  id="addCategoryModalLabel"> Add Category </h1>
+        </div>
+        <form id="addCategoryForm" action="{% url 'add_category' %}" method="post" >
+            <div class="modal-body">
+                {% csrf_token %}
+                <table>
+                    {{ form.as_table }}
+                </table>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+
+    </div>
+</div>
+{% endblock content %}

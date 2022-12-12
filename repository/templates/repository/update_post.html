@@ -1,0 +1,19 @@
+{% block content %}
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+            <h1 class="modal-title fs-5"  id="updatePostModalLabel"> Update Post </h1>
+        </div>
+        <form id="updatePostForm"  method="post" >
+            <div class="modal-body">
+                {% csrf_token %}
+                <table>
+                    {{ form.as_table }}
+                </table>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+
+    </div>
+</div>
+{% endblock content %}

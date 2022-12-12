@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+{% load static %}
+<head>
+    <title>Interactive Content Repository</title>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Interactive Content Repository</title>
+
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+      
+    <script>
+            $(document).ready(function () {
+                let my_modal = $("#updatePostModal");
+                const url_form = "update_post/{{ post.slug }}";
+                $("#updatePost a").click(function (e) {
+                    e.preventDefault();
+                    my_modal.load(url_form, function () {
+                        my_modal.modal("show"); // Open Modal
+                        $("#updatePostForm").submit(function (e) {
+                            e.preventDefault(); // Cancel the default action
+                            $.ajax({
+                                method: "POST",
+                                data: $(this).serialize(),
+                                dataType: "json",
+                                url: "update_post/",
+                                success: function (response) {
+                                    my_modal.modal('hide');
+                                },
+                                error: function (response) {
+                                    console.log(response);
+                                    my_modal.modal('hide');
+                                },
+                            });
+                        });
+                    });
+                });
+            });
+            $(document).ready(function () {
+                let my_modal = $("#addAuthorModal");
+                const url_form = "author_create/";
+                $("#addAuthor a").click(function (e) {
+                    e.preventDefault();
+                    my_modal.load(url_form, function () {
+                        my_modal.modal("show"); // Open Modal
+                        $("#addAuthorForm").submit(function (e) {
+                            e.preventDefault(); // Cancel the default action
+                            $.ajax({
+                                method: "POST",
+                                data: $(this).serialize(),
+                                dataType: "json",
+                                url: "author_create/",
+                                success: function (response) {
+                                    my_modal.modal('hide');
+                                },
+                                error: function (response) {
+                                    console.log(response);
+                                    my_modal.modal('hide');
+                                },
+                            });
+                        });
+                    });
+                });
+            });
+            $(document).ready(function () {
+                let my_modal = $("#addCategoryModal");
+                const url_form = "add_category/";
+                $("#addCategory a").click(function (e) {
+                    e.preventDefault();
+                    my_modal.load(url_form, function () {
+                        my_modal.modal("show"); // Open Modal
+                        $("#addCategoryForm").submit(function (e) {
+                            e.preventDefault(); // Cancel the default action
+                            $.ajax({
+                                method: "POST",
+                                data: $(this).serialize(),
+                                dataType: "json",
+                                url: "add_category/",
+                                success: function (response) {
+                                    my_modal.modal('hide');
+                                },
+                                error: function (response) {
+                                    console.log(response);
+                                    my_modal.modal('hide');
+                                },
+                            });
+                        });
+                    });
+                });
+            });
+            $(document).ready(function () {
+                let my_modal = $("#addVenueModal");
+                const url_form = "add_venue/";
+                $("#addVenue a").click(function (e) {
+                    e.preventDefault();
+                    my_modal.load(url_form, function () {
+                        my_modal.modal("show"); // Open Modal
+                        $("#addVenueForm").submit(function (e) {
+                            e.preventDefault(); // Cancel the default action
+                            $.ajax({
+                                method: "POST",
+                                data: $(this).serialize(),
+                                dataType: "json",
+                                url: "add_venue/",
+                                success: function (response) {
+                                    my_modal.modal('hide');
+                                },
+                                error: function (response) {
+                                    console.log(response);
+                                    my_modal.modal('hide');
+                                },
+                            });
+                        });
+                    });
+                });
+            });
+    </script>
+</head>
+
+<body>
+    <script src="{% static "modal_forms/js/script.js" %}"></script>
+    <input type="hidden" id="mf-url-base" value="/mf-data">
+    
+    {% if invalid_form %}
+    <input
+        type="hidden"
+        id="mf-error"
+        data-mf_name="{{ invalid_form.name }}"
+        data-mf_pk="{{ invalid_form.pk }}"
+    >
+    {% endif %}
+    
+    
+    
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'homepage' %}">Interactive Content Rerpository</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'homepage' %}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'blog_homepage' %}">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="masthead">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h3 class=" site-heading my-4 mt-3 text-white"> Interactive Content Repository </h3>
+                        <p class="text-light">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    {% include 'repository/modals.html' %}
+    {% block content %}
+    <!-- Content Goes here -->
+    {% endblock content %}
+    <!-- Footer -->
+
+    <footer class="py-3 bg-grey">
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+
+</html>
