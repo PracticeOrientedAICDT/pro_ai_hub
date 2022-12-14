@@ -19,14 +19,13 @@ class PostForm(forms.ModelForm):
                     queryset=Venue.objects.all(),
                     widget = forms.SelectMultiple(attrs={'class': 'form-control'})
                     )
-
-    citation = forms.URLField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    pdf = forms.URLField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    supplement = forms.URLField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    slides = forms.URLField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    poster = forms.URLField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    code = forms.URLField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    video = forms.URLField(widget=forms.TextInput(attrs={'class': 'form-control'}))
+    citation = forms.URLField(required=False, widget=forms.TextInput(attrs={'class': 'form-control'}))
+    pdf = forms.URLField(required=False,widget=forms.TextInput(attrs={'class': 'form-control'}))
+    supplement = forms.URLField(required=False, widget=forms.TextInput(attrs={'class': 'form-control'}))
+    slides = forms.URLField(required=False, widget=forms.TextInput(attrs={'class': 'form-control'}))
+    poster = forms.URLField(required=False, widget=forms.TextInput(attrs={'class': 'form-control'}))
+    code = forms.URLField(required=False, widget=forms.TextInput(attrs={'class': 'form-control'}))
+    video = forms.URLField(required=False, widget=forms.TextInput(attrs={'class': 'form-control'}))
 
     class Meta:
         model = Post

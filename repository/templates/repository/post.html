@@ -1,13 +1,16 @@
-{% extends 'repository/base.html' %} {% block content %}
+{% extends 'repository/base.html' %} 
+{% load crispy_forms_tags %}
 
+{% block content %}
 <div class="container">
   <div class="row">
     <div class="col-md-8 card mb-4  mt-3 left  top">
       <div class="card-body">
         <h2>{% block title %} {{ post.title }} {% endblock title %}</h2>
         <h3>Tldr</h3>
-        <div id="updatePost" class="form-group col-md-2 mt-5 text-center" >
-          <a href="{% url 'update_post' post.slug  %}" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#updatePostModal"> edit </a>
+        <div id="updatePost" class="form-group mr-5" style="text-align:right">
+          <a class="btn btn-primary btn-sm pull-right"  data-bs-toggle="modal" data-bs-target="#updatePostModal" > Edit 
+          </a>
         </div>
         <p class="card-text ">{{ post.overview | safe }}</p>
         <h3>Paper authors</h3>

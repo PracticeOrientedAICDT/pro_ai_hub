@@ -97,7 +97,7 @@ def add_category(request):
 
     if request.method == 'GET':
         form  = CategoryForm()
-        context={'form':form}
+        context = {'form':form}
         return render(request, 'repository/add_category.html', context=context)
     
     form = AuthorForm(request.POST)
@@ -115,12 +115,10 @@ def update_post(request, slug):
 
     form = PostForm(request.POST or None, instance = post)
 
-    if form.is_valid():
-        form.save()
-        post_instance = form.save()
-        instance = serializers.serialize('json', [ post_instance, ])
-        JsonResponse({"instance": instance}, status=200)
+    print(post.slug)
+    if request.method == 'GET':
+        context = {'form':form} 
+        return render(request, "repository/update_post.html", context=context)
+
     
     context["form"] = form
-
-    return render(request, "repository/update_post.html", context)
