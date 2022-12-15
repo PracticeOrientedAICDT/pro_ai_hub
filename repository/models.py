@@ -4,8 +4,6 @@ from django.db import models
 
 from embed_video.fields import EmbedVideoField
 
-User = get_user_model()
-
 class Author(models.Model):
     user = models.CharField(max_length=250)
     user_url = models.URLField(blank=True, null=True)
@@ -23,6 +21,7 @@ class Venue(models.Model):
         return self.venue_name + ' '+ str(self.year)
 
 class Category(models.Model):
+
     title = models.CharField(max_length=250)
     slug = models.SlugField()
 

@@ -9,21 +9,26 @@
         <h2>{% block title %} {{ post.title }} {% endblock title %}</h2>
         <h3>Tldr</h3>
         <div id="updatePost" class="form-group mr-5" style="text-align:right">
-          <a class="btn btn-primary btn-sm pull-right"  data-bs-toggle="modal" data-bs-target="#updatePostModal" > Edit 
-          </a>
+          <a class="btn btn-primary btn-sm pull-right"  data-bs-toggle="modal" data-bs-target="#updatePostModal" >Edit</a>
         </div>
         <p class="card-text ">{{ post.overview | safe }}</p>
+        <br>
         <h3>Paper authors</h3>
           {% for author in post.authors.all %}  
             <a class="card-text" href={{ author.user_url }}>{{ author.user }}</a>
             <br>
           {% endfor %}
+
+        {% if post.venue.venue_name %}
         <h3>Venue</h3>
           <a href= {{ post.venue.venue_url }} >{{ post.venue.venue_name }} {{ post.venue.year }}</a>
-        
+          <br>
+        {% endif %}
+
         {% if post.video %}  
         <h3>Video</h3>
           <iframe width="560" height="315" src={{ post.video }} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <br>
         {% endif %}
 
         <h3>More resources</h3>

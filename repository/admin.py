@@ -8,7 +8,7 @@ admin.site.register(Category)
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    filter_horizontal = ("authors",)
+    filter_horizontal = ("authors", "venue", "categories",)
 
 
 admin.site.register(Venue)

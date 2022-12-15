@@ -85,7 +85,7 @@ def add_venue(request):
         context={'form':form}
         return render(request, 'repository/add_venue.html', context=context)
     
-    form = AuthorForm(request.POST)
+    form = VenueForm(request.POST)
 
     if form.is_valid():
         venue_instance = form.save()
@@ -99,13 +99,16 @@ def add_category(request):
         form  = CategoryForm()
         context = {'form':form}
         return render(request, 'repository/add_category.html', context=context)
-    
-    form = AuthorForm(request.POST)
-
+        
+    form = CategoryForm(request.POST)
     if form.is_valid():
         category_instance = form.save()
         instance = serializers.serialize('json', [ category_instance, ])
         return JsonResponse({"instance": instance}, status=200)
+    else:
+        print('errors')
+        print(form.errors.as_data())
+        
 
 def update_post(request, slug):
     
