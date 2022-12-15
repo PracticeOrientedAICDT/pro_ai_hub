@@ -105,9 +105,6 @@ def add_category(request):
         category_instance = form.save()
         instance = serializers.serialize('json', [ category_instance, ])
         return JsonResponse({"instance": instance}, status=200)
-    else:
-        print('errors')
-        print(form.errors.as_data())
         
 
 def update_post(request, slug):
@@ -124,4 +121,11 @@ def update_post(request, slug):
         return render(request, "repository/update_post.html", context=context)
 
     
-    context["form"] = form
+    if form.is_valid():
+        post_instance = Post.objects.get(slug=slug)
+        form = PostForm(request.POST, instance=post)
+        form.save()
+        instance = serializers.serialize('json', [ post_instance, ])
+        return JsonResponse({"instance": instance}, status=200)
+    
+    print(form.errors.as_data())
