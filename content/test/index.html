@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.">
+<meta name="description" content="Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).">
 
-<title>Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers</title>
+<title>A two-level Item Response Theory model to evaluate speech synthesis and recognition</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,14 +102,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers</h1>
+      <h1 class="title">A two-level Item Response Theory model to evaluate speech synthesis and recognition</h1>
                   <div>
         <div class="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.
+          Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Calibration</div>
+                <div class="quarto-category">item response theory</div>
               </div>
                   </div>
   </div>
@@ -127,7 +127,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">Tldr</a></li>
+  <li><a href="#paper-authors" id="toc-paper-authors" class="nav-link" data-scroll-target="#paper-authors">Paper-authors</a></li>
+  <li><a href="#more-resources" id="toc-more-resources" class="nav-link" data-scroll-target="#more-resources">More Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -135,12 +143,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.</p>
-<p>Facilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.</p>
-<p>Convallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.</p>
-<p>Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu.</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
+<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).</p>
+</section>
+<section id="paper-authors" class="level2">
+<h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
+<ul>
+<li><a href="https://scholar.google.com/citations?user=-EGO0o8AAAAJ&amp;hl=en">Telmo M. Silva Filho</a></li>
+<li><a href="https://scholar.google.co.uk/scholar?q=chaina+s+oliveira&amp;hl=pt-BR&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart">Chaina S. Oliveira</a></li>
+<li><a href="https://scholar.google.co.uk/citations?user=P6InHKcAAAAJ&amp;hl=pt-BR&amp;oi=sra">Ricardo Bastos C. Prudêncio</a></li>
+</ul>
+</section>
+<section id="more-resources" class="level2">
+<h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
