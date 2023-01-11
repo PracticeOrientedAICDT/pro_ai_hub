@@ -85,10 +85,6 @@ def create_push_request(file_path: str):
     auth_token = os.getenv('GH_TOKEN')
     repo = os.getenv('GH_REPOSITORY')
 
-    print(user)
-    print(auth_token)
-    print(repo)
-
     header = {
         'Authorization': 'Bearer ' + auth_token
     }
