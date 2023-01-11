@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Interactive Content Repository",
@@ -19,20 +12,6 @@
     "title": "About",
     "section": "",
     "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
-  },
-  {
-    "objectID": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "href": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
-  },
-  {
-    "objectID": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "href": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
   },
   {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
@@ -52,6 +31,27 @@
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
     "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/test/index.html",
+    "href": "content/test/index.html",
+    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "section": "",
+    "text": "Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability)."
+  },
+  {
+    "objectID": "content/test/index.html#paper-authors",
+    "href": "content/test/index.html#paper-authors",
+    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nTelmo M. Silva Filho\nChaina S. Oliveira\nRicardo Bastos C. Prudêncio"
+  },
+  {
+    "objectID": "content/test/index.html#more-resources",
+    "href": "content/test/index.html#more-resources",
+    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -96,34 +96,6 @@
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "More resources",
     "text": "More resources"
-  },
-  {
-    "objectID": "content/test/index.html",
-    "href": "content/test/index.html",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
-    "section": "",
-    "text": "Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability)."
-  },
-  {
-    "objectID": "content/test/index.html#paper-authors",
-    "href": "content/test/index.html#paper-authors",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nTelmo M. Silva Filho\nChaina S. Oliveira\nRicardo Bastos C. Prudêncio"
-  },
-  {
-    "objectID": "content/test/index.html#more-resources",
-    "href": "content/test/index.html#more-resources",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
   },
   {
     "objectID": "templates/template_for_content.html#image",
@@ -173,5 +145,33 @@
     "title": "Title for your work",
     "section": "More Resources",
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+    "href": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+  },
+  {
+    "objectID": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+    "href": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
