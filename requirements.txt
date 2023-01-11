@@ -8,4 +8,5 @@ django-widget-tweaks==1.4.12
 django-embed-video==1.4.8
 django-addanother==2.2.2
 Markdown==3.4.1
-markdown  
+PyYAML==5.4.1
+python-dotenv==0.21.0  

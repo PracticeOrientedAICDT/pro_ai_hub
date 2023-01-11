@@ -95,6 +95,7 @@ def create_push_request(file_path: str):
 
     sha_last_commit_url =  f'https://api.github.com/repos/{user}/{repo}/branches/main'
     response = requests.get(sha_last_commit_url, headers= header)
+    print(response.json())
     sha_last_commit = response.json()['commit']['sha']
 
     url = f'https://api.github.com/repos/{user}/{repo}/git/commits/{sha_last_commit}'
@@ -117,6 +118,8 @@ def create_push_request(file_path: str):
 
     url = 'https://api.github.com/repos/DelmiroDaladier/icr/git/blobs'
     response = requests.post(url, json.dumps(data), headers=header)
+    blob_sha = response.json()['sha']
+
 
     data = {
         'base_tree': sha_base_tree,
@@ -125,7 +128,7 @@ def create_push_request(file_path: str):
             'path': 'content/test/index.qmd',
             'mode': '100644',
             'type': 'blob',
-            'sha': 'e519bda16fc56406319a2516ddc1bae49564475f'
+            'sha': blob_sha
             }
         ]
     }
@@ -149,10 +152,12 @@ def create_push_request(file_path: str):
 
     url = f'https://api.github.com/repos/DelmiroDaladier/icr/git/commits'
     response = requests.post(url, json.dumps(data), headers=header)
+    new_commit_sha = response.json()['sha']
+
 
     data = {
         "ref": "refs/heads/main",
-        "sha": sha_last_commit
+        "sha": new_commit_sha
     }
 
     url = f'https://api.github.com/repos/DelmiroDaladier/icr/git/refs/heads/main'
