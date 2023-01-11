@@ -77,7 +77,7 @@ def generate_page_content(content, filepath: str):
         if content['params']['code_url']:
             fp.write('[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})\n')
 
-def create_push_request(file_path: str):
+def create_push_request(file_path: str, folder_name: str):
 
     load_dotenv()
 
@@ -121,7 +121,7 @@ def create_push_request(file_path: str):
         'base_tree': sha_base_tree,
         'tree': [
             {
-            'path': 'content/test/index.qmd',
+            'path': f'content/{folder_name}/index.qmd',
             'mode': '100644',
             'type': 'blob',
             'sha': blob_sha

@@ -28,8 +28,6 @@ def homepage(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            print(current_path)
-            #current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path+f'/icr/content/{folder_name}/'
 
             print(current_path)
@@ -46,7 +44,7 @@ def homepage(request):
 
             generate_page_content(content, file_path)
 
-            create_push_request(file_path)
+            create_push_request(file_path, folder_name)
         
         return render(request, 'repository/new_post.html', {'form': filled_form})
     else:
