@@ -1,0 +1,68 @@
+---
+categories:
+- item response theory
+description: Automatic speech recognition (ASR) systems should be tested ideally using
+  diverse speech test data. A promising alternative to produce such test data is to
+  synthesize speeches from diverse sentences and speakers. However, despite the great
+  amount of test data that can be produced, not all speeches are equally relevant.
+  This paper proposes a two-level Item Response Theory (IRT) model to simultaneously
+  evaluate ASR systems, speakers and sentences.
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Telmo M. Silva Filho
+    url: https://scholar.google.com/citations?user=-EGO0o8AAAAJ&hl=en
+  author_2:
+    name: Chaina S. Oliveira
+    url: https://scholar.google.co.uk/scholar?q=chaina+s+oliveira&hl=pt-BR&as_sdt=0&as_vis=1&oi=scholart
+  author_3:
+    name: "Ricardo Bastos C. Prud\xEAncio"
+    url: https://scholar.google.co.uk/citations?user=P6InHKcAAAAJ&hl=pt-BR&oi=sra
+  code_url: ''
+  overview: Automatic speech recognition (ASR) systems should be tested ideally using
+    diverse speech test data. A promising alternative to produce such test data is
+    to synthesize speeches from diverse sentences and speakers. However, despite the
+    great amount of test data that can be produced, not all speeches are equally relevant.
+    This paper proposes a two-level Item Response Theory (IRT) model to simultaneously
+    evaluate ASR systems, speakers and sentences.
+  pdf_url: ''
+  poster_url: ''
+  scholar_url: ''
+  slides_url: ''
+  supplement_url: ''
+title: A two-level Item Response Theory model to evaluate speech synthesis and recognition
+
+---
+## Tldr 
+Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+- [{{< meta params.author_3.name >}}]({{< meta params.author_3.url >}})
+
+## More Resources
+
+## Tldr 
+Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+- [{{< meta params.author_3.name >}}]({{< meta params.author_3.url >}})
+
+## More Resources
+
+## Tldr 
+Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+- [{{< meta params.author_3.name >}}]({{< meta params.author_3.url >}})
+
+## More Resources
