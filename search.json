@@ -37,21 +37,21 @@
   {
     "objectID": "content/test/index.html",
     "href": "content/test/index.html",
-    "title": "test-test-test",
+    "title": "second post today",
     "section": "",
     "text": "just a test"
   },
   {
     "objectID": "content/test/index.html#paper-authors",
     "href": "content/test/index.html#paper-authors",
-    "title": "test-test-test",
+    "title": "second post today",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nTelmo M. Silva Filho"
   },
   {
     "objectID": "content/test/index.html#more-resources",
     "href": "content/test/index.html#more-resources",
-    "title": "test-test-test",
+    "title": "second post today",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -172,6 +172,6 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest-test-test\n\n\n\n\n\n\n\ncalibration\n\n\n\n\njust a test\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nsecond post today\n\n\n\n\n\n\n\ncalibration\n\n\n\n\njust a test\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
