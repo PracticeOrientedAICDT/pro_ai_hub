@@ -1,66 +1,57 @@
-from django.views.generic.edit import CreateView
-from django.shortcuts import render, redirect, get_object_or_404, HttpResponseRedirect
+import os
+import yaml
+
+from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
+from django.contrib.auth.decorators import login_required
+from django.template.defaultfilters import slugify
 from .models import Category, Post, Author
-from django.forms import formset_factory
-from .forms import PostForm, AuthorForm, VenueForm, CategoryForm
-
 from django.http import JsonResponse
-
 from django.core import serializers
 
-from django_addanother.views import CreatePopupMixin
 
+from .forms import PostForm, AuthorForm, VenueForm, CategoryForm
+from .utils import generate_qmd_header, generate_page_content, create_push_request
+
+@login_required
 def homepage(request):
-    categories = Category.objects.all()
-    posts = Post.objects.order_by('-timestamp')
-    context = {
-        'posts' : posts,
-        'categories' : categories
-    }
-
-    return render(request, 'repository/homepage.html', context)
-
-def post(request, slug):
-    post = Post.objects.get(slug = slug)
-    context = {
-        'post' : post
-    }
-
-    return render(request, 'repository/post.html', context)
-
-def about(request):
-    return render(request, 'repository/about_page.html')
-
-def category_post_list(request, slug):
-    category = Category.objects.get(slug = slug)
-    posts = Post.objects.filter(categories_in=[category])
-    context = {
-        'post': posts
-    }
-    return render(request, 'repository/post_list.html', context)
-
-def allposts(request):
-    posts = Post.objects.all()
-    context = {
-        'posts':posts
-    }
-    return render(request, 'repository/all_posts.html', context)
-
-def new_post(request):
 
     if request.method == 'POST':
         filled_form = PostForm(request.POST)
-        
-        print(filled_form.is_valid())
-        if filled_form.is_valid():
-            post_instance = filled_form.save()
-            return redirect('/')
 
+        if filled_form.is_valid():
+            form_data = filled_form.cleaned_data 
+
+
+            content = {}
+            content = generate_qmd_header(content, form_data)
+
+            folder_name = slugify(content.get('title', ''))
+
+            current_path = os.getcwd()
+            current_path = '/'.join(current_path.split('/')[:-1])
+            current_path = current_path+f'/icr/content/{folder_name}/'
+
+            file_path = f'{current_path}index.qmd'
+
+            if not os.path.exists(current_path):
+                os.makedirs(current_path)
+
+                with open(file_path, 'w+') as fp:
+                    fp.write('---\n')
+                    yaml.dump(content, fp)
+                    fp.write('\n---')
+
+            generate_page_content(content, file_path)
+
+            create_push_request(file_path)
         
         return render(request, 'repository/new_post.html', {'form': filled_form})
     else:
         filled_form = PostForm()
         return render(request, 'repository/new_post.html', context={'form': filled_form})
+
+def about(request):
+    return render(request, 'repository/about_page.html')
 
 def author_create(request):
 

@@ -16,6 +16,7 @@ class PostForm(forms.ModelForm):
                     widget = forms.SelectMultiple(attrs={'class': 'form-control'})
                     )
     venue = forms.ModelMultipleChoiceField(
+                    required=False,
                     queryset=Venue.objects.all(),
                     widget = forms.SelectMultiple(attrs={'class': 'form-control'})
                     )
