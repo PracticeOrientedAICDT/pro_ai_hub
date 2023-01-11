@@ -46,3 +46,12 @@ just a test
 - [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
 
 ## More Resources
+
+## Tldr 
+just a test
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+
+## More Resources
