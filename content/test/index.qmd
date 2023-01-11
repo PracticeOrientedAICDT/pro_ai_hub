@@ -18,7 +18,7 @@ params:
   scholar_url: ''
   slides_url: ''
   supplement_url: ''
-title: test-test-test
+title: second post today
 
 ---
 ## Tldr 
