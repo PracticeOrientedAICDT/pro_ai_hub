@@ -135,7 +135,7 @@ def create_push_request(file_path: str, folder_name: str):
     tree_sha = response.json()['sha']
 
     data = {
-        "message": "Add new files at once programatically",
+        "message": f"Add new files at content/{folder_name}",
         "author": {
             "name": "Delmiro Daladier",
             "email": "daladiersampaio@gmail.com"
