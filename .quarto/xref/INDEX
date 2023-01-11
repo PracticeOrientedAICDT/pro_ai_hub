@@ -52,5 +52,11 @@
   },
   "templates/template_for_content.qmd": {
     "template_for_content.html": "41ecadd3"
+  },
+  "content/test/index.qmd": {
+    "index.html": "07dc37b6"
+  },
+  "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.qmd": {
+    "index.html": "20993eb6"
   }
 }

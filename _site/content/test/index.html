@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).">
 
-<title>Title for your work</title>
+<title>A two-level Item Response Theory model to evaluate speech synthesis and recognition</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="../site_libs/quarto-contrib/videojs/video.min.js"></script>
-<link href="../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -79,15 +78,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html">
+    <a class="nav-link" href="../../blog.html">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">
+    <a class="nav-link" href="../../about.html">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -103,11 +102,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Title for your work</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">category_1</div>
-                <div class="quarto-category">category_2</div>
-                <div class="quarto-category">category_3</div>
+      <h1 class="title">A two-level Item Response Theory model to evaluate speech synthesis and recognition</h1>
+                  <div>
+        <div class="description">
+          Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">item response theory</div>
               </div>
                   </div>
   </div>
@@ -130,12 +132,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">Tldr</a></li>
-  <li><a href="#image" id="toc-image" class="nav-link" data-scroll-target="#image">Image</a></li>
   <li><a href="#paper-authors" id="toc-paper-authors" class="nav-link" data-scroll-target="#paper-authors">Paper-authors</a></li>
-  <li><a href="#venue" id="toc-venue" class="nav-link" data-scroll-target="#venue">Venue</a></li>
-  <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
   <li><a href="#more-resources" id="toc-more-resources" class="nav-link" data-scroll-target="#more-resources">More Resources</a></li>
   </ul>
 </nav>
@@ -148,44 +145,18 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
-<p><a-short-paragraph-describing-your-work></a-short-paragraph-describing-your-work></p>
-</section>
-<section id="image" class="level2">
-<h2 class="anchored" data-anchor-id="image">Image</h2>
-<p><img src="link-for-your-image.png" class="img-fluid"></p>
+<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).</p>
 </section>
 <section id="paper-authors" class="level2">
 <h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
 <ul>
-<li><a href="link-for-author-1-page-or-scholar"><author-1-name></author-1-name></a></li>
-<li><a href="link-for-author-2-page-or-scholar"><author-2-name></author-2-name></a></li>
+<li><a href="https://scholar.google.com/citations?user=-EGO0o8AAAAJ&amp;hl=en">Telmo M. Silva Filho</a></li>
+<li><a href="https://scholar.google.co.uk/scholar?q=chaina+s+oliveira&amp;hl=pt-BR&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart">Chaina S. Oliveira</a></li>
+<li><a href="https://scholar.google.co.uk/citations?user=P6InHKcAAAAJ&amp;hl=pt-BR&amp;oi=sra">Ricardo Bastos C. Prudêncio</a></li>
 </ul>
-</section>
-<section id="venue" class="level2">
-<h2 class="anchored" data-anchor-id="venue">Venue</h2>
-<ul>
-<li><a href="link-for-venue"><venue-name></venue-name></a></li>
-</ul>
-</section>
-<section id="video" class="level2">
-<h2 class="anchored" data-anchor-id="video">Video</h2>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src=""></video></div>
-</section>
-<section id="slides" class="level2">
-<h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p><a href="link-for-slides">here</a></p>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">Code</h2>
-<p><a href="link-for-repo">Here</a></p>
 </section>
 <section id="more-resources" class="level2">
 <h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
-<p><a href="link-for-pdf">PDF</a></p>
-<p><a href="link-for-poster">Poster</a></p>
-<p><a href="<link-for-supplement.">Supplement</a></p>
-<p><a href="link-for-scholar">Scholar</a></p>
-<p><a href="../../posts/<name-of-related-blog-post>/">Blog Post</a></p>
 
 
 </section>
@@ -442,7 +413,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <script src="https://giscus.app/client.js" data-repo="DelmiroDaladier/icr" data-repo-id="R_kgDOIajQkw" data-category="General" data-category-id="DIC_kwDOIajQk84CSkWk" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
-<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
