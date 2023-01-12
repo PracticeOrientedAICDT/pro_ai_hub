@@ -9,7 +9,7 @@ class BlogPostForm(forms.ModelForm):
                     queryset=Author.objects.all(),
                     widget = forms.SelectMultiple(attrs={'class': 'form-control'}))
 
-    categories = authors = forms.ModelMultipleChoiceField(
+    categories = forms.ModelMultipleChoiceField(
                     queryset=Category.objects.all(),
                     widget = forms.SelectMultiple(attrs={'class': 'form-control'}))
 

@@ -30,8 +30,6 @@ def homepage(request):
             current_path = os.getcwd()
             current_path = current_path+f'/icr/content/{folder_name}/'
 
-            print(current_path)
-
             file_path = f'{current_path}index.qmd'
 
             if not os.path.exists(current_path):

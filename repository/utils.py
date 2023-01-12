@@ -59,8 +59,6 @@ def generate_page_content(content, filepath: str):
         
         fp.write('\n## More Resources\n')
 
-        print(content['params'])
-
         if content['params']['scholar_url']:
             fp.write('[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})\n')
         
