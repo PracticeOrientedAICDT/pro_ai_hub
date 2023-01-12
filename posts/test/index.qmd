@@ -5,8 +5,8 @@ format:
   html:
     df-print: paged
     toc: true
-text: will it override the content?
+text: this is a blogpost test
 title: test
 
 ---
-will it override the content?
+this is a blogpost test
