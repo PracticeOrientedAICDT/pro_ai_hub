@@ -5,23 +5,6 @@ from .forms import BlogPostForm
 # Create your views here.
 
 def blog_homepage(request):
-    posts = BlogPost.objects.order_by('-timestamp')
-    context = {
-        'posts' : posts,
-    }
-
-    return render(request, 'blog/blog_homepage.html', context)
-
-def blogpost(request, slug):
-    post = BlogPost.objects.get(slug = slug)
-    context = {
-        'post' : post
-    }
-    print(post.authors.all())
-    return render(request, 'blog/blogpost.html', context)
-
-def new_blogpost(request):
-
     if request.method == 'POST':
         filled_form = BlogPostForm(request.POST)
         
