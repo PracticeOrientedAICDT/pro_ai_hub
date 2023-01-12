@@ -35,16 +35,22 @@ def homepage(request):
             if not os.path.exists(current_path):
                 os.makedirs(current_path)
 
-                with open(file_path, 'w+') as fp:
-                    fp.write('---\n')
-                    yaml.dump(content, fp)
-                    fp.write('\n---')
+            with open(file_path, 'w+') as fp:
+                fp.write('---\n')
+                yaml.dump(content, fp)
+                fp.write('\n---')
 
             generate_page_content(content, file_path)
 
             create_push_request(file_path, folder_name)
-        
-        return render(request, 'repository/new_post.html', {'form': filled_form})
+
+            context = {
+                'folder_name':folder_name,
+                'form': filled_form
+            }
+
+        return render(request, 'repository/submission.html', context=context)
+
     else:
         filled_form = PostForm()
         return render(request, 'repository/new_post.html', context={'form': filled_form})

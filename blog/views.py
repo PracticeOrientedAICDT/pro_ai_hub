@@ -12,7 +12,6 @@ def blog_homepage(request):
     if request.method == 'POST':
         filled_form = BlogPostForm(request.POST)
         
-        print(filled_form.is_valid())
         if filled_form.is_valid():
             form_data = filled_form.cleaned_data
             print(form_data)
@@ -29,17 +28,20 @@ def blog_homepage(request):
             if not os.path.exists(current_path):
                 os.makedirs(current_path)
 
-                with open(file_path, 'w+') as fp:
-                    fp.write('---\n')
-                    yaml.dump(content, fp)
-                    fp.write('\n---')
+            with open(file_path, 'w+') as fp:
+                fp.write('---\n')
+                yaml.dump(content, fp)
+                fp.write('\n---')
 
             generate_page_content(content, file_path)
             create_push_request(file_path, folder_name)
 
-            return redirect('/blog')
+            context = {
+                'form': filled_form,
+                'folder_name': folder_name
+            }
 
-        return render(request, 'blog/new_blogpost.html', {'form': filled_form})
+        return render(request, 'blog/submission.html', context=context)
 
     else:
         filled_form = BlogPostForm()
