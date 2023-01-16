@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers have begun investigating the style of characters, finding that the variation remains within authorial bounds. We address the stylistic distinctiveness of characters in drama.…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
@@ -96,6 +96,27 @@
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
     "section": "More resources",
     "text": "More resources"
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "",
+    "text": "Stylometry is mostly applied to authorial style. Recently, researchers have begun investigating the style of characters, finding that the variation remains within authorial bounds. We address the stylistic distinctiveness of characters in drama. Our primary contribution is methodological; we introduce and evaluate two non-parametric methods to produce a summary statistic for character distinctiveness that can be usefully applied and compared across languages and times. Our first method is based on bootstrap distances between 3-gram probability distributions, the second (reminiscent of ‘unmasking’ techniques) on word keyness curves. Both methods are validated and explored by applying them to a reasonably large corpus (a subset of DraCor): we analyse 3301 characters drawn from 2324 works, covering five centuries and four languages (French, German, Russian, and the works of Shakespeare). Both methods appear useful; the 3-gram method is statistically more powerful but the word keyness method offers rich interpretability. Both methods are able to capture phonological differences such as accent or dialect, as well as broad differences in topic and lexical richness. Based on exploratory analysis, we find that smaller characters tend to be more distinctive, and that women are cross-linguistically more distinctive than men, with this latter finding carefully interrogated using multiple regression. This greater distinctiveness stems from a historical tendency for female characters to be restricted to an ‘internal narrative domain’ covering mainly direct discourse and family/romantic themes. It is hoped that direct, comparable statistical measures will form a basis for more sophisticated future studies, and advances in theory."
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nŠeļa, Artjoms\nNagy, Ben\nByszuk, Joanna\nHernández-Lorenzo, Laura\nSzemes, Botond\nEder, Maciej"
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "More Resources",
+    "text": "More Resources"
   },
   {
     "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
