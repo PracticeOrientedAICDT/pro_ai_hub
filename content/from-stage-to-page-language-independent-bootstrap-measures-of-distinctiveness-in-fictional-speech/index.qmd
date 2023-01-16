@@ -1,0 +1,161 @@
+---
+description: ' Stylometry is mostly applied to authorial style. Recently, researchers
+  have
+
+  begun investigating the style of characters, finding that the variation remains
+
+  within authorial bounds. We address the stylistic distinctiveness of characters
+
+  in drama. Our primary contribution is methodological; we introduce and evaluate
+
+  two non-parametric methods to produce a summary statistic for character
+
+  distinctiveness that can be usefully applied and compared across languages and
+
+  times. Our first method is based on bootstrap distances between 3-gram
+
+  probability distributions, the second (reminiscent of ''unmasking'' techniques)
+
+  on word keyness curves. Both methods are validated and explored by applying
+
+  them to a reasonably large corpus (a subset of DraCor): we analyse 3301
+
+  characters drawn from 2324 works, covering five centuries and four languages
+
+  (French, German, Russian, and the works of Shakespeare). Both methods appear
+
+  useful; the 3-gram method is statistically more powerful but the word keyness
+
+  method offers rich interpretability. Both methods are able to capture
+
+  phonological differences such as accent or dialect, as well as broad
+
+  differences in topic and lexical richness. Based on exploratory analysis, we
+
+  find that smaller characters tend to be more distinctive, and that women are
+
+  cross-linguistically more distinctive than men, with this latter finding
+
+  carefully interrogated using multiple regression. This greater distinctiveness
+
+  stems from a historical tendency for female characters to be restricted to an
+
+  ''internal narrative domain'' covering mainly direct discourse and
+
+  family/romantic themes. It is hoped that direct, comparable statistical
+
+  measures will form a basis for more sophisticated future studies, and advances
+
+  in theory.
+
+  '
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: "\u0160e\u013Ca, Artjoms"
+  author_2:
+    name: Nagy, Ben
+  author_3:
+    name: Byszuk, Joanna
+  author_4:
+    name: "Hern\xE1ndez-Lorenzo, Laura"
+  author_5:
+    name: Szemes, Botond
+  author_6:
+    name: Eder, Maciej
+  overview: ' Stylometry is mostly applied to authorial style. Recently, researchers
+    have
+
+    begun investigating the style of characters, finding that the variation remains
+
+    within authorial bounds. We address the stylistic distinctiveness of characters
+
+    in drama. Our primary contribution is methodological; we introduce and evaluate
+
+    two non-parametric methods to produce a summary statistic for character
+
+    distinctiveness that can be usefully applied and compared across languages and
+
+    times. Our first method is based on bootstrap distances between 3-gram
+
+    probability distributions, the second (reminiscent of ''unmasking'' techniques)
+
+    on word keyness curves. Both methods are validated and explored by applying
+
+    them to a reasonably large corpus (a subset of DraCor): we analyse 3301
+
+    characters drawn from 2324 works, covering five centuries and four languages
+
+    (French, German, Russian, and the works of Shakespeare). Both methods appear
+
+    useful; the 3-gram method is statistically more powerful but the word keyness
+
+    method offers rich interpretability. Both methods are able to capture
+
+    phonological differences such as accent or dialect, as well as broad
+
+    differences in topic and lexical richness. Based on exploratory analysis, we
+
+    find that smaller characters tend to be more distinctive, and that women are
+
+    cross-linguistically more distinctive than men, with this latter finding
+
+    carefully interrogated using multiple regression. This greater distinctiveness
+
+    stems from a historical tendency for female characters to be restricted to an
+
+    ''internal narrative domain'' covering mainly direct discourse and
+
+    family/romantic themes. It is hoped that direct, comparable statistical
+
+    measures will form a basis for more sophisticated future studies, and advances
+
+    in theory.
+
+    '
+  pdf_url: ''
+title: 'From stage to page: language independent bootstrap measures of distinctiveness
+  in fictional speech'
+
+---
+## Tldr 
+ Stylometry is mostly applied to authorial style. Recently, researchers have
+begun investigating the style of characters, finding that the variation remains
+within authorial bounds. We address the stylistic distinctiveness of characters
+in drama. Our primary contribution is methodological; we introduce and evaluate
+two non-parametric methods to produce a summary statistic for character
+distinctiveness that can be usefully applied and compared across languages and
+times. Our first method is based on bootstrap distances between 3-gram
+probability distributions, the second (reminiscent of 'unmasking' techniques)
+on word keyness curves. Both methods are validated and explored by applying
+them to a reasonably large corpus (a subset of DraCor): we analyse 3301
+characters drawn from 2324 works, covering five centuries and four languages
+(French, German, Russian, and the works of Shakespeare). Both methods appear
+useful; the 3-gram method is statistically more powerful but the word keyness
+method offers rich interpretability. Both methods are able to capture
+phonological differences such as accent or dialect, as well as broad
+differences in topic and lexical richness. Based on exploratory analysis, we
+find that smaller characters tend to be more distinctive, and that women are
+cross-linguistically more distinctive than men, with this latter finding
+carefully interrogated using multiple regression. This greater distinctiveness
+stems from a historical tendency for female characters to be restricted to an
+'internal narrative domain' covering mainly direct discourse and
+family/romantic themes. It is hoped that direct, comparable statistical
+measures will form a basis for more sophisticated future studies, and advances
+in theory.
+
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+- [{{< meta params.author_3.name >}}]({{< meta params.author_3.url >}})
+- [{{< meta params.author_4.name >}}]({{< meta params.author_4.url >}})
+- [{{< meta params.author_5.name >}}]({{< meta params.author_5.url >}})
+- [{{< meta params.author_6.name >}}]({{< meta params.author_6.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
