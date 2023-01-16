@@ -1,16 +1,19 @@
 import os
 import yaml
+import requests
+from bs4 import BeautifulSoup
+from collections import defaultdict
 
-from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
-from django.contrib.auth.decorators import login_required
-from django.template.defaultfilters import slugify
-from .models import Category, Post, Author
-from django.http import JsonResponse
 from django.core import serializers
+from django.http import JsonResponse
+from .models import Category, Post, Author
+from django.template.defaultfilters import slugify
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
 
 
-from .forms import PostForm, AuthorForm, VenueForm, CategoryForm
-from .utils import generate_qmd_header, generate_page_content, create_push_request
+from .forms import PostForm, AuthorForm, VenueForm, CategoryForm, ArxivForm
+from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv
 
 @login_required
 def homepage(request):
@@ -125,3 +128,63 @@ def update_post(request, slug):
         return JsonResponse({"instance": instance}, status=200)
     
     print(form.errors.as_data())
+
+def arxiv_post(request):
+
+    if request.method == 'POST':
+        context = {}
+
+        filled_form = ArxivForm(request.POST)
+
+        if filled_form.is_valid():
+            form_data = filled_form.cleaned_data
+
+            url = form_data.get('link', '')
+            soup = BeautifulSoup(requests.get(url).content, "html.parser")
+
+            meta_tags = list(soup.find_all("meta"))
+            tags = list(meta_tags)
+            names = ['citation_author', 'citation_abstract', 'citation_title']
+            selected_tags = [tag for tag in tags if tag.get('name') in names]
+            
+            data = defaultdict(list)
+
+            for tag in selected_tags:
+                if tag.get('name') == 'citation_author':
+                    data[tag.get('name')].append(tag.get('content'))
+                else:
+                    data[tag.get('name')] = tag.get('content')
+
+
+            content = generate_qmd_header_for_arxiv(data)
+
+            folder_name = slugify(content.get('title', ''))
+
+            current_path = os.getcwd()
+            current_path = current_path+f'/icr/content/{folder_name}/'
+            file_path = f'{current_path}index.qmd'
+
+            if not os.path.exists(current_path):
+                os.makedirs(current_path)
+
+            with open(file_path, 'w+') as fp:
+                fp.write('---\n')
+                yaml.dump(content, fp)
+                fp.write('\n---')
+
+            generate_page_content(content, file_path)
+            create_push_request(file_path, folder_name)
+
+            context = {
+                'folder_name':folder_name,
+                'form': filled_form
+            }
+
+        return render(request, 'repository/submission.html', context=context)
+
+    else:
+        form = ArxivForm()
+        context = {
+            'form': form
+        }
+        return render(request, 'repository/arxiv_post.html', context=context)

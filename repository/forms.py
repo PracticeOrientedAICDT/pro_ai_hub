@@ -75,3 +75,7 @@ class CategoryForm(forms.ModelForm):
         model = Category
         fields = ["title"]
         labels = ['Title']
+
+class ArxivForm(forms.Form):
+    link = forms.CharField(max_length=200)
+    

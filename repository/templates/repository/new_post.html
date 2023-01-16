@@ -4,6 +4,7 @@
 {% block content %}
     <div class="container">
         <h1>New Post</h1>
+        <p><a href="{% url 'arxiv_post' %}">Post using Arxiv link</a></p>
         <form id="newPostForm" method="post" action="{% url 'homepage' %}" >
             {% csrf_token %}
             <div class="form-group row">
