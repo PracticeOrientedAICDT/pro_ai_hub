@@ -8,11 +8,12 @@ from django.contrib.auth.decorators import login_required
 from .forms import BlogPostForm
 from .utils import generate_qmd_header, generate_page_content, create_push_request
 
+
 @login_required
 def blog_homepage(request):
     if request.method == 'POST':
         filled_form = BlogPostForm(request.POST)
-        
+
         if filled_form.is_valid():
             form_data = filled_form.cleaned_data
             print(form_data)
@@ -23,7 +24,7 @@ def blog_homepage(request):
 
             current_path = os.getcwd()
             current_path = '/'.join(current_path.split('/')[:-1])
-            current_path = current_path+f'/icr/posts/{folder_name}/'
+            current_path = current_path + f'/icr/posts/{folder_name}/'
 
             file_path = f'{current_path}index.qmd'
 
@@ -47,4 +48,8 @@ def blog_homepage(request):
 
     else:
         filled_form = BlogPostForm()
-        return render(request, 'blog/new_blogpost.html', context={'form': filled_form})
+        return render(
+            request,
+            'blog/new_blogpost.html',
+            context={
+                'form': filled_form})

@@ -4,21 +4,23 @@ import requests
 
 from dotenv import load_dotenv
 
+
 def generate_qmd_header(content: dict, form_data: dict):
 
     content = {
-                'title': form_data.get('title', ''),
-                'text': form_data.get('text', ''),
-                'categories': [category.title for category in form_data['categories']] ,
-                'format': {
-                    'html':{
-                        'df-print': 'paged',
-                        'toc': True
-                    }
-                }
+        'title': form_data.get('title', ''),
+        'text': form_data.get('text', ''),
+        'categories': [category.title for category in form_data['categories']],
+        'format': {
+            'html': {
+                'df-print': 'paged',
+                'toc': True
             }
-    
+        }
+    }
+
     return content
+
 
 def generate_page_content(content: str, file_path: str):
 
@@ -27,6 +29,7 @@ def generate_page_content(content: str, file_path: str):
         fp.write('\n')
         overview = content['text']
         fp.write(f'{overview}\n')
+
 
 def create_push_request(file_path: str, folder_name: str):
 
@@ -40,8 +43,8 @@ def create_push_request(file_path: str, folder_name: str):
         'Authorization': 'Bearer ' + auth_token
     }
 
-    sha_last_commit_url =  f'https://api.github.com/repos/{user}/{repo}/branches/main'
-    response = requests.get(sha_last_commit_url, headers= header)
+    sha_last_commit_url = f'https://api.github.com/repos/{user}/{repo}/branches/main'
+    response = requests.get(sha_last_commit_url, headers=header)
 
     sha_last_commit = response.json()['commit']['sha']
 
@@ -51,7 +54,6 @@ def create_push_request(file_path: str, folder_name: str):
 
     with open(file_path, 'r') as fp:
         content = fp.read()
-
 
     data = {
         "content": content,
@@ -66,7 +68,6 @@ def create_push_request(file_path: str, folder_name: str):
     url = 'https://api.github.com/repos/DelmiroDaladier/icr/git/blobs'
     response = requests.post(url, json.dumps(data), headers=header)
     blob_sha = response.json()['sha']
-
 
     data = {
         'base_tree': sha_base_tree,
@@ -101,7 +102,6 @@ def create_push_request(file_path: str, folder_name: str):
     response = requests.post(url, json.dumps(data), headers=header)
     new_commit_sha = response.json()['sha']
 
-
     data = {
         "ref": "refs/heads/main",
         "sha": new_commit_sha
@@ -109,4 +109,3 @@ def create_push_request(file_path: str, folder_name: str):
 
     url = f'https://api.github.com/repos/DelmiroDaladier/icr/git/refs/heads/main'
     response = requests.post(url, json.dumps(data), headers=header)
- 

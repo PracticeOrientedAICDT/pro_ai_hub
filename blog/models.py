@@ -3,6 +3,7 @@ from django.template.defaultfilters import slugify
 from repository.models import Author, Category
 # Create your models here.
 
+
 class BlogPost(models.Model):
     title = models.CharField(max_length=250, unique=True)
     slug = models.SlugField(unique=True)
