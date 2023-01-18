@@ -3,12 +3,13 @@ import yaml
 
 from django.shortcuts import render, redirect
 from django.template.defaultfilters import slugify
+from django.contrib.auth.decorators import login_required
 
 from .forms import BlogPostForm
 from .utils import generate_qmd_header, generate_page_content, create_push_request
 
+@login_required
 def blog_homepage(request):
-
     if request.method == 'POST':
         filled_form = BlogPostForm(request.POST)
         

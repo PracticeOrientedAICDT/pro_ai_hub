@@ -6,13 +6,15 @@ from collections import defaultdict
 
 from django.core import serializers
 from django.http import JsonResponse
+from django.contrib import messages
+from django.contrib.auth import login
 from .models import Category, Post, Author
 from django.template.defaultfilters import slugify
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
+from django.shortcuts import render, redirect, get_object_or_404, HttpResponseRedirect
 
 
-from .forms import PostForm, AuthorForm, VenueForm, CategoryForm, ArxivForm
+from .forms import PostForm, AuthorForm, VenueForm, CategoryForm, ArxivForm, NewUserForm
 from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv
 
 @login_required
@@ -145,7 +147,7 @@ def arxiv_post(request):
 
             meta_tags = list(soup.find_all("meta"))
             tags = list(meta_tags)
-            names = ['citation_author', 'citation_abstract', 'citation_title']
+            names = ['citation_author', 'citation_abstract', 'citation_title', 'citation_pdf_url']
             selected_tags = [tag for tag in tags if tag.get('name') in names]
             
             data = defaultdict(list)
@@ -190,3 +192,16 @@ def arxiv_post(request):
             'form': form
         }
         return render(request, 'repository/arxiv_post.html', context=context)
+
+def register_request(request):
+    if request.method == "POST":
+        form = NewUserForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            messages.success(request, "Registration successfull.")
+            return redirect("/home")
+        messages.error(request, "Uncessfull registration. Invalid information.")
+    form = NewUserForm()
+    return render(request, 'registration/register.html', context={"register_form": form} )
+
