@@ -4,13 +4,14 @@ import requests
 from bs4 import BeautifulSoup
 from collections import defaultdict
 
+from .models import Post, Author
 from django.core import serializers
 from django.http import JsonResponse
 from django.contrib import messages
 from django.contrib.auth import login
-from .models import Post, Author
 from django.template.defaultfilters import slugify
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import user_passes_test
 from django.shortcuts import render, redirect, get_object_or_404, HttpResponseRedirect
 
 
@@ -205,14 +206,32 @@ def arxiv_post(request):
         return render(request, 'repository/arxiv_post.html', context=context)
 
 
+def email_check(user):
+    if user.is_authenticated:
+        return user.email.endswith('@bristol.ac.uk')
+    print('Fudeu')
+    return False
+
+
 def register_request(request):
     if request.method == "POST":
         form = NewUserForm(request.POST)
         if form.is_valid():
-            user = form.save()
-            login(request, user)
-            messages.success(request, "Registration successfull.")
-            return redirect("/home")
+            form_data = form.cleaned_data
+            email = form_data['email']
+
+            if email.endswith('@bristol.ac.uk'):
+                user = form.save()
+                login(request, user)
+                messages.success(request, "Registration successfull.")
+                return redirect("/home")
+            messages.error(
+                request, "Email should belong to @bristol.ac.uk domain.")
+            return render(
+                request,
+                'registration/register.html',
+                context={
+                    "register_form": form})
         messages.error(
             request,
             "Uncessfull registration. Invalid information.")
