@@ -224,7 +224,7 @@ def register_request(request):
                 user = form.save()
                 login(request, user)
                 messages.success(request, "Registration successfull.")
-                return redirect("/homepage")
+                return redirect("")
             messages.error(
                 request, "Email should belong to @bristol.ac.uk domain.")
             return render(
