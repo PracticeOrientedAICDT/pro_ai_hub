@@ -5,14 +5,20 @@ from django.shortcuts import render, redirect
 from django.template.defaultfilters import slugify
 from django.contrib.auth.decorators import login_required
 
+from dotenv import load_dotenv
 from .forms import BlogPostForm
 from .utils import generate_qmd_header, generate_page_content, create_push_request
 
 
 @login_required
 def blog_homepage(request):
+
+    load_dotenv()
+
     if request.method == 'POST':
         filled_form = BlogPostForm(request.POST)
+
+        enviroment_name = os.getenv('ENV_NAME')
 
         if filled_form.is_valid():
             form_data = filled_form.cleaned_data
@@ -23,7 +29,8 @@ def blog_homepage(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            current_path = '/'.join(current_path.split('/')[:-1])
+            if enviroment_name == 'dev':
+                current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/posts/{folder_name}/'
 
             file_path = f'{current_path}index.qmd'

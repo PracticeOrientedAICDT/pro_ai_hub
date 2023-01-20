@@ -4,6 +4,7 @@ import requests
 import urllib3
 
 from .models import Post
+from dotenv import load_dotenv
 from django.core import serializers
 from django.http import JsonResponse
 from django.contrib import messages
@@ -20,6 +21,10 @@ from .utils import generate_qmd_header, generate_page_content, create_push_reque
 @login_required
 def homepage(request):
 
+    load_dotenv()
+
+    enviroment_name = os.getenv('ENV_NAME')
+
     if request.method == 'POST':
         filled_form = PostForm(request.POST)
 
@@ -32,7 +37,8 @@ def homepage(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            current_path = '/'.join(current_path.split('/')[:-1])
+            if enviroment_name == 'dev':
+                current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/content/{folder_name}/'
 
             file_path = f'{current_path}index.qmd'
@@ -141,9 +147,12 @@ def update_post(request, slug):
 
 def arxiv_post(request):
 
+    load_dotenv()
+
     if request.method == 'POST':
         context = {}
 
+        enviroment_name = os.getenv('ENV_NAME')
         filled_form = ArxivForm(request.POST)
 
         if filled_form.is_valid():
@@ -162,7 +171,8 @@ def arxiv_post(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            current_path = '/'.join(current_path.split('/')[:-1])
+            if enviroment_name == 'dev':
+                current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/content/{folder_name}/'
             file_path = f'{current_path}index.qmd'
 
