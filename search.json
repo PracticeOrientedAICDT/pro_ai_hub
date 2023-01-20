@@ -147,11 +147,32 @@
     "text": "More Resources"
   },
   {
+    "objectID": "content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html",
+    "href": "content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html",
+    "title": "Jointly Learning Consistent Causal Abstractions Over Multiple Interventional Distributions",
+    "section": "",
+    "text": "An abstraction can be used to relate two structural causal modelsrepresenting the same system at different levels of resolution. Learningabstractions which guarantee consistency with respect to interventionaldistributions would allow one to jointly reason about evidence across multiplelevels of granularity while respecting the underlying cause-effectrelationships. In this paper, we introduce a first framework for causalabstraction learning between SCMs based on the formalization of abstractionrecently proposed by Rischel (2020). Based on that, we propose a differentiableprogramming solution that jointly solves a number of combinatorialsub-problems, and we study its performance and benefits against independent andsequential approaches on synthetic settings and on a challenging real-worldproblem related to electric vehicle battery manufacturing."
+  },
+  {
+    "objectID": "content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html#paper-authors",
+    "href": "content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html#paper-authors",
+    "title": "Jointly Learning Consistent Causal Abstractions Over Multiple Interventional Distributions",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nZennaro, Fabio Massimo\nDrávucz, Máté\nApachitei, Geanina\nWidanage, W. Dhammika\nDamoulas, Theodoros"
+  },
+  {
+    "objectID": "content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html#more-resources",
+    "href": "content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html#more-resources",
+    "title": "Jointly Learning Consistent Causal Abstractions Over Multiple Interventional Distributions",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Natural Language Processing of Aviation Occurrence Reports for Safety Management\n\n\n\n\n\nOccurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Natural Language Processing of Aviation Occurrence Reports for Safety Management\n\n\n\n\n\nOccurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nJointly Learning Consistent Causal Abstractions Over Multiple Interventional Distributions\n\n\n\n\n\nAn abstraction can be used to relate two structural causal modelsrepresenting the same system at different levels of resolution. Learningabstractions which guarantee consistency with respect to interventionaldistributions would allow one to jointly…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "templates/template_for_content.html#image",
