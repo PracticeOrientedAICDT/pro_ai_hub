@@ -198,6 +198,7 @@ def generate_qmd_header_for_arxiv(data: dict):
 
     return content
 
+
 def scrap_data_from_arxiv(url: str):
     url_first_part, url_second_part = tuple(url.split('://'))
     url = f"{url_first_part}://export.{url_second_part}"
@@ -213,14 +214,15 @@ def scrap_data_from_arxiv(url: str):
     meta_tags = list(soup.find_all("meta"))
     tags = list(meta_tags)
     names = [
-                'citation_author',
-                'citation_title',
-                'citation_pdf_url']
+        'citation_author',
+        'citation_title',
+        'citation_pdf_url']
     selected_tags = [tag for tag in tags if tag.get('name') in names]
 
     data = defaultdict(list)
 
-    data['citation_abstract'] = soup.select('.abstract')[0].text.replace('\n', '').replace('Abstract:', '').strip()
+    data['citation_abstract'] = soup.select('.abstract')[0].text.replace(
+        '\n', '').replace('Abstract:', '').strip()
 
     for tag in selected_tags:
         if tag.get('name') == 'citation_author':

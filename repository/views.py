@@ -163,7 +163,9 @@ def arxiv_post(request):
             try:
                 data = scrap_data_from_arxiv(url)
             except Exception as ex:
-                messages.error(request, "We are experiencing some problems when fetching information from Arxiv. Please Try again later.")    
+                messages.error(
+                    request,
+                    "We are experiencing some problems when fetching information from Arxiv. Please Try again later.")
                 return redirect("arxiv_post")
 
             content = generate_qmd_header_for_arxiv(data)
@@ -185,7 +187,14 @@ def arxiv_post(request):
                 fp.write('\n---')
 
             generate_page_content(content, file_path)
-            create_push_request(file_path, folder_name)
+
+            try:
+                create_push_request(file_path, folder_name)
+            except Exception as ex:
+                messages.error(
+                    request,
+                    "We are experiencing some problems when fetching when communication with github. Please Try again later.")
+                return redirect("arxiv_post")
 
             context = {
                 'folder_name': folder_name,
