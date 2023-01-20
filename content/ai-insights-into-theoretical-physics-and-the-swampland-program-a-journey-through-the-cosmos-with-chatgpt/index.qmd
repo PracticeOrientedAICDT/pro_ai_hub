@@ -1,0 +1,24 @@
+---
+description: ''
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Lehnert, Kay
+  overview: ''
+  pdf_url: http://arxiv.org/pdf/2301.08155
+title: 'AI Insights into Theoretical Physics and the Swampland Program: A Journey
+  Through the Cosmos with ChatGPT'
+
+---
+## Tldr 
+
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
