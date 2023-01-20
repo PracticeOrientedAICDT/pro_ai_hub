@@ -1,24 +1,20 @@
 import os
 import yaml
 import requests
-from bs4 import BeautifulSoup
-from collections import defaultdict
-from urllib3.util.retry import Retry
-from requests.adapters import HTTPAdapter
+import urllib3
 
-from .models import Post, Author
+from .models import Post
 from django.core import serializers
 from django.http import JsonResponse
 from django.contrib import messages
 from django.contrib.auth import login
 from django.template.defaultfilters import slugify
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.decorators import user_passes_test
-from django.shortcuts import render, redirect, get_object_or_404, HttpResponseRedirect
+from django.shortcuts import render, redirect, get_object_or_404
 
 
 from .forms import PostForm, AuthorForm, VenueForm, CategoryForm, ArxivForm, NewUserForm
-from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv
+from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv, scrap_data_from_arxiv
 
 
 @login_required
@@ -36,6 +32,7 @@ def homepage(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
+            current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/content/{folder_name}/'
 
             file_path = f'{current_path}index.qmd'
@@ -153,40 +150,19 @@ def arxiv_post(request):
             form_data = filled_form.cleaned_data
 
             url = form_data.get('link', '')
-            url_first_part, url_second_part = tuple(url.split('://'))
-            url = f"{url_first_part}://export.{url_second_part}"
 
-            session = requests.Session()
-            retry = Retry(connect=3, backoff_factor=0.5)
-            adapter = HTTPAdapter(max_retries=retry)
-            session.mount('http://', adapter)
-            session.mount('https://', adapter)
-
-            soup = BeautifulSoup(session.get(url).content, "html.parser")
-
-            meta_tags = list(soup.find_all("meta"))
-            tags = list(meta_tags)
-            names = [
-                'citation_author',
-                'citation_title',
-                'citation_pdf_url']
-            selected_tags = [tag for tag in tags if tag.get('name') in names]
-
-            data = defaultdict(list)
-
-            data['citation_abstract'] = soup.select('.abstract')[0].text.replace('\n', '').replace('Abstract:', '').strip()
-
-            for tag in selected_tags:
-                if tag.get('name') == 'citation_author':
-                    data[tag.get('name')].append(tag.get('content'))
-                else:
-                    data[tag.get('name')] = tag.get('content')
+            try:
+                data = scrap_data_from_arxiv(url)
+            except Exception as ex:
+                messages.error(request, "We are experiencing some problems when fetching information from Arxiv. Please Try again later.")    
+                return redirect("arxiv_post")
 
             content = generate_qmd_header_for_arxiv(data)
 
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
+            current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/content/{folder_name}/'
             file_path = f'{current_path}index.qmd'
 

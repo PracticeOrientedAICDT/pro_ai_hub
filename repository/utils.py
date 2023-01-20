@@ -1,7 +1,11 @@
 import os
 import json
 import requests
+from collections import defaultdict
+from urllib3.util.retry import Retry
+from requests.adapters import HTTPAdapter
 
+from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
 
@@ -193,3 +197,35 @@ def generate_qmd_header_for_arxiv(data: dict):
         }
 
     return content
+
+def scrap_data_from_arxiv(url: str):
+    url_first_part, url_second_part = tuple(url.split('://'))
+    url = f"{url_first_part}://export.{url_second_part}"
+
+    session = requests.Session()
+    retry = Retry(connect=3, backoff_factor=0.5)
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+
+    soup = BeautifulSoup(session.get(url).content, "html.parser")
+
+    meta_tags = list(soup.find_all("meta"))
+    tags = list(meta_tags)
+    names = [
+                'citation_author',
+                'citation_title',
+                'citation_pdf_url']
+    selected_tags = [tag for tag in tags if tag.get('name') in names]
+
+    data = defaultdict(list)
+
+    data['citation_abstract'] = soup.select('.abstract')[0].text.replace('\n', '').replace('Abstract:', '').strip()
+
+    for tag in selected_tags:
+        if tag.get('name') == 'citation_author':
+            data[tag.get('name')].append(tag.get('content'))
+        else:
+            data[tag.get('name')] = tag.get('content')
+
+    return data
