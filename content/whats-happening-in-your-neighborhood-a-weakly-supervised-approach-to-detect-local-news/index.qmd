@@ -1,0 +1,30 @@
+---
+description: ''
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Shah, Deven Santosh
+  author_2:
+    name: He, Shiying
+  author_3:
+    name: Bansal, Radhika
+  overview: ''
+  pdf_url: http://arxiv.org/pdf/2301.08146
+title: What's happening in your neighborhood? A Weakly Supervised Approach to Detect
+  Local News
+
+---
+## Tldr 
+
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+- [{{< meta params.author_3.name >}}]({{< meta params.author_3.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
