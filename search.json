@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "content/language-embeddings-sometimes-contain-typological-generalizations/index.html#paper-authors",
-    "href": "content/language-embeddings-sometimes-contain-typological-generalizations/index.html#paper-authors",
-    "title": "Language Embeddings Sometimes Contain Typological Generalizations",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nÖstling, Robert\nKurfalı, Murathan"
-  },
-  {
-    "objectID": "content/language-embeddings-sometimes-contain-typological-generalizations/index.html#more-resources",
-    "href": "content/language-embeddings-sometimes-contain-typological-generalizations/index.html#more-resources",
-    "title": "Language Embeddings Sometimes Contain Typological Generalizations",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
@@ -140,32 +126,11 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/whats-happening-in-your-neighborhood-a-weakly-supervised-approach-to-detect-local-news/index.html",
-    "href": "content/whats-happening-in-your-neighborhood-a-weakly-supervised-approach-to-detect-local-news/index.html",
-    "title": "What’s happening in your neighborhood? A Weakly Supervised Approach to Detect Local News",
-    "section": "",
-    "text": "Local news articles are a subset of news that impact users in a geographicalarea, such as a city, county, or state. Detecting local news (Step 1) andsubsequently deciding its geographical location as well as radius of impact(Step 2) are two important steps towards accurate local news recommendation.Naive rule-based methods, such as detecting city names from the news title,tend to give erroneous results due to lack of understanding of the newscontent. Empowered by the latest development in natural language processing, wedevelop an integrated pipeline that enables automatic local news detection andcontent-based local news recommendations. In this paper, we focus on Step 1 ofthe pipeline, which highlights: (1) a weakly supervised framework incorporatedwith domain knowledge and auto data processing, and (2) scalability tomulti-lingual settings. Compared with Stanford CoreNLP NER model, our pipelinehas higher precision and recall evaluated on a real-world and human-labeleddataset. This pipeline has potential to more precise local news to users, helpslocal businesses get more exposure, and gives people more information abouttheir neighborhood safety."
-  },
-  {
-    "objectID": "content/whats-happening-in-your-neighborhood-a-weakly-supervised-approach-to-detect-local-news/index.html#paper-authors",
-    "href": "content/whats-happening-in-your-neighborhood-a-weakly-supervised-approach-to-detect-local-news/index.html#paper-authors",
-    "title": "What’s happening in your neighborhood? A Weakly Supervised Approach to Detect Local News",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nShah, Deven Santosh\nHe, Shiying\nBansal, Radhika"
-  },
-  {
-    "objectID": "content/whats-happening-in-your-neighborhood-a-weakly-supervised-approach-to-detect-local-news/index.html#more-resources",
-    "href": "content/whats-happening-in-your-neighborhood-a-weakly-supervised-approach-to-detect-local-news/index.html#more-resources",
-    "title": "What’s happening in your neighborhood? A Weakly Supervised Approach to Detect Local News",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Language Embeddings Sometimes Contain Typological Generalizations\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nWhat’s happening in your neighborhood? A Weakly Supervised Approach to Detect Local News\n\n\n\n\n\nLocal news articles are a subset of news that impact users in a geographicalarea, such as a city, county, or state. Detecting local news (Step 1) andsubsequently deciding its geographical location as well as radius of impact(Step 2) are two…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "templates/template_for_content.html#image",

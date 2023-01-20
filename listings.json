@@ -2,11 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/content/language-embeddings-sometimes-contain-typological-generalizations/index.html",
       "/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
       "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
-      "/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-      "/content/whats-happening-in-your-neighborhood-a-weakly-supervised-approach-to-detect-local-news/index.html"
+      "/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
     ]
   },
   {
