@@ -3,6 +3,8 @@ import yaml
 import requests
 from bs4 import BeautifulSoup
 from collections import defaultdict
+from urllib3.util.retry import Retry
+from requests.adapters import HTTPAdapter
 
 from .models import Post, Author
 from django.core import serializers
@@ -34,7 +36,6 @@ def homepage(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/content/{folder_name}/'
 
             file_path = f'{current_path}index.qmd'
@@ -152,18 +153,28 @@ def arxiv_post(request):
             form_data = filled_form.cleaned_data
 
             url = form_data.get('link', '')
-            soup = BeautifulSoup(requests.get(url).content, "html.parser")
+            url_first_part, url_second_part = tuple(url.split('://'))
+            url = f"{url_first_part}://export.{url_second_part}"
+
+            session = requests.Session()
+            retry = Retry(connect=3, backoff_factor=0.5)
+            adapter = HTTPAdapter(max_retries=retry)
+            session.mount('http://', adapter)
+            session.mount('https://', adapter)
+
+            soup = BeautifulSoup(session.get(url).content, "html.parser")
 
             meta_tags = list(soup.find_all("meta"))
             tags = list(meta_tags)
             names = [
                 'citation_author',
-                'citation_abstract',
                 'citation_title',
                 'citation_pdf_url']
             selected_tags = [tag for tag in tags if tag.get('name') in names]
 
             data = defaultdict(list)
+
+            data['citation_abstract'] = soup.select('.abstract')[0].text.replace('\n', '').replace('Abstract:', '').strip()
 
             for tag in selected_tags:
                 if tag.get('name') == 'citation_author':
@@ -176,7 +187,6 @@ def arxiv_post(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/content/{folder_name}/'
             file_path = f'{current_path}index.qmd'
 
@@ -231,10 +241,13 @@ def register_request(request):
                 request,
                 'registration/register.html',
                 context={
-                    "register_form": form})
+                    "register_form": form,
+                    "message": "Email should belong to @bristol.ac.uk domain."})
+
         messages.error(
             request,
             "Uncessfull registration. Invalid information.")
+
     form = NewUserForm()
     return render(
         request,

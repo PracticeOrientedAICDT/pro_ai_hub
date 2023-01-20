@@ -23,7 +23,6 @@ def blog_homepage(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            current_path = '/'.join(current_path.split('/')[:-1])
             current_path = current_path + f'/icr/posts/{folder_name}/'
 
             file_path = f'{current_path}index.qmd'
