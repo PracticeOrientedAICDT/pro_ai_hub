@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html",
+    "href": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html",
+    "title": "Natural Language Processing of Aviation Occurrence Reports for Safety Management",
+    "section": "",
+    "text": "Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts."
+  },
+  {
+    "objectID": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#paper-authors",
+    "href": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#paper-authors",
+    "title": "Natural Language Processing of Aviation Occurrence Reports for Safety Management",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nJonk, Patrick\nde Vries, Vincent\nWever, Rombout\nSidiropoulos, Georgios\nKanoulas, Evangelos"
+  },
+  {
+    "objectID": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#more-resources",
+    "href": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#more-resources",
+    "title": "Natural Language Processing of Aviation Occurrence Reports for Safety Management",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
     "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
     "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
@@ -130,7 +151,7 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Natural Language Processing of Aviation Occurrence Reports for Safety Management\n\n\n\n\n\nOccurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "templates/template_for_content.html#image",
