@@ -1,0 +1,26 @@
+---
+description: ''
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: "\xD6stling, Robert"
+  author_2:
+    name: "Kurfal\u0131, Murathan"
+  overview: ''
+  pdf_url: http://arxiv.org/pdf/2301.08115
+title: Language Embeddings Sometimes Contain Typological Generalizations
+
+---
+## Tldr 
+
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
