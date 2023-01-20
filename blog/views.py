@@ -22,7 +22,7 @@ def blog_homepage(request):
 
         if filled_form.is_valid():
             form_data = filled_form.cleaned_data
-            print(form_data)
+
             content = {}
             content = generate_qmd_header(content, form_data)
 
