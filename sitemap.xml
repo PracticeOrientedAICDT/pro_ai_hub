@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-01-16T12:33:17.553Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html</loc>
+    <lastmod>2023-01-20T10:46:21.023Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-01-16T12:33:19.861Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-01-16T12:33:20.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-01-16T12:33:21.497Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-01-16T12:33:22.321Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-01-16T12:33:23.889Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/content/language-embeddings-sometimes-contain-typological-generalizations/index.html</loc>
+    <lastmod>2023-01-20T10:46:23.607Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-01-16T12:33:24.809Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html</loc>
-    <lastmod>2023-01-16T12:33:25.689Z</lastmod>
+    <lastmod>2023-01-20T10:46:24.419Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html</loc>
-    <lastmod>2023-01-16T12:33:26.593Z</lastmod>
+    <lastmod>2023-01-20T10:46:25.147Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-01-16T12:33:27.473Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
+    <lastmod>2023-01-20T10:46:25.891Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-01-20T10:46:26.307Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-01-16T12:33:28.381Z</lastmod>
+    <lastmod>2023-01-20T10:46:27.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2023-01-20T10:46:27.811Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
+    <lastmod>2023-01-20T10:46:28.163Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
+    <lastmod>2023-01-20T10:46:28.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
+    <lastmod>2023-01-20T10:46:29.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
+    <lastmod>2023-01-20T10:46:29.967Z</lastmod>
   </url>
 </urlset>
