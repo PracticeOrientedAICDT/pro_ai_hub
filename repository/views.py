@@ -29,6 +29,7 @@ def homepage(request):
         filled_form = PostForm(request.POST)
 
         if filled_form.is_valid():
+            filled_form.save()
             form_data = filled_form.cleaned_data
 
             content = {}
@@ -156,6 +157,7 @@ def arxiv_post(request):
         filled_form = ArxivForm(request.POST)
 
         if filled_form.is_valid():
+            filled_form.save()
             form_data = filled_form.cleaned_data
 
             url = form_data.get('link', '')
