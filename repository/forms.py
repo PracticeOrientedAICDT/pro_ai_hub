@@ -135,3 +135,48 @@ class NewUserForm(UserCreationForm):
         if commit:
             user.save()
         return user
+
+class ConferenceForm(forms.Form):
+
+    date_formats = [
+        '%Y-%m-%d',  # '2006-10-25'
+        '%m/%d/%Y',  # '10/25/2006'
+        '%m/%d/%y',  # '10/25/06'
+        '%b %d %Y',  # 'Oct 25 2006'
+        '%b %d, %Y',  # 'Oct 25, 2006'
+        '%d %b %Y',  # '25 Oct 2006'
+        '%d %b, %Y',  # '25 Oct, 2006'
+        '%B %d %Y',  # 'October 25 2006'
+        '%B %d, %Y',  # 'October 25, 2006'
+        '%d %B %Y',  # '25 October 2006'
+        '%d %B, %Y',  # '25 October, 2006'
+        '%d %b',
+        '%d %B'
+    ]
+
+    link = forms.CharField(
+        max_length=200,
+        widget=forms.TextInput(attrs={'class': 'conference_link form-control'})
+    )
+
+    name = forms.CharField(
+        max_length=200,
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control'})
+    )
+
+    starting = forms.DateField(
+        required=False,
+        input_formats=date_formats,
+        widget=forms.TextInput(attrs={'class': 'form-control'})
+    )
+    to = forms.DateField(
+        required=False,
+        input_formats=date_formats,
+        widget=forms.TextInput(attrs={'class': 'form-control'})
+    )
+    location = forms.CharField(
+        max_length=200,
+        required=False,
+        widget=forms.TextInput(attrs={'class': 'form-control'})
+    )

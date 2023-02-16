@@ -113,7 +113,6 @@
                     my_modal.load(url_form, function () {
                         my_modal.modal("show"); // Open Modal
                         $("#updatePostForm").submit(function (e) {
-                            console.log('Passou carai')
                             e.preventDefault(); // Cancel the default action
                             $.ajax({
                                 method: "POST",
@@ -134,6 +133,47 @@
                 });
             });
             
+            function getCookie(c_name)
+            {
+                if (document.cookie.length > 0)
+                {
+                    c_start = document.cookie.indexOf(c_name + "=");
+                    if (c_start != -1)
+                    {
+                        c_start = c_start + c_name.length + 1;
+                        c_end = document.cookie.indexOf(";", c_start);
+                        if (c_end == -1) c_end = document.cookie.length;
+                        return unescape(document.cookie.substring(c_start,c_end));
+                    }
+                }
+                return "";
+            }
+
+            $(document).ready(function (){
+                $('.conference_link').change(function (e) {
+                    console.log('you have a conference link pasted');
+                    e.preventDefault();
+                    $.ajaxSetup({
+                        headers: { "X-CSRFToken": getCookie("csrftoken") }
+                    });
+                    $.ajax({
+                                
+                                method: "POST",
+                                
+                                dataType: "json",
+                                url: "/submit_conference/",
+                                success: function (request, response) {
+                                    console.log('AAAAAAAAAAAAAAAAAAAAAAAAAAA')
+                                    window.location.reload();
+                                },
+                                error: function (request, response) {
+                                    console.log('ERRRRRRROU')
+                                    console.log(response)
+                                },
+                    });
+
+                });
+            });
 
     </script>
 </head>
@@ -163,6 +203,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'homepage' %}">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'blog_homepage' %}">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'submit_conference' %}">Conferences</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
                     {% if user.is_authenticated %}
                         <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}?next={{ request.path }}">Logout</a></li>

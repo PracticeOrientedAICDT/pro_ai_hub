@@ -14,8 +14,8 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 
 
-from .forms import PostForm, AuthorForm, VenueForm, CategoryForm, ArxivForm, NewUserForm
-from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv, scrap_data_from_arxiv
+from .forms import PostForm, AuthorForm, VenueForm, CategoryForm, ArxivForm, NewUserForm, ConferenceForm
+from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv, scrap_data_from_arxiv, get_conference_information
 
 
 @login_required
@@ -251,3 +251,46 @@ def register_request(request):
         'registration/register.html',
         context={
             "register_form": form})
+
+@login_required
+def submit_conference(request):
+
+    if request.method == 'POST':
+        form = ConferenceForm(request.POST)
+        if form.is_valid():
+            form_data = form.cleaned_data
+            url = form_data['link']
+            conference_data = get_conference_information(url)
+            print(conference_data)
+            form = ConferenceForm({
+                'link': url,
+                'name': conference_data['title'],
+                'starting': f"{conference_data['dates'][0][0].strip()}",
+                'to' : f"{conference_data['dates'][0][1].strip()}",
+                'location': str(conference_data['places'][0])
+            })
+
+            context = {
+                'form': form,
+                'conference_data': get_conference_information(url)}
+            
+            return render(
+                request,
+                'repository/submit_conference.html',
+                context=context
+            )
+        messages.error(
+            request,
+            "Invalid form data.")
+
+    form = ConferenceForm()
+
+    context = {
+        "form": form
+    }
+
+    return render(
+        request,
+        'repository/submit_conference.html',
+        context=context
+    )
