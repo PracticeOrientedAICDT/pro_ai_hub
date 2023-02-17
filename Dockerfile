@@ -17,4 +17,4 @@ RUN python -m spacy download en_core_web_sm
 
 EXPOSE 8000  
 
-CMD python -m  gunicorn icr.wsgi
+CMD ["gunicorn", "--bind", ":8000", "--workers", "1", "icr.wsgi:application"]
