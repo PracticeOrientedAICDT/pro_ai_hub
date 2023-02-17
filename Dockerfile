@@ -1,6 +1,7 @@
 FROM python:3.10.6-slim
 
 ENV DockerHOME=/home/app/webapp
+ENV PYTHONUNBUFFERED=1
 
 RUN mkdir -p $DockerHOME
 
