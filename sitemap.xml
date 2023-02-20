@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html</loc>
-    <lastmod>2023-01-20T17:01:35.227Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-01-20T17:01:36.891Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html</loc>
-    <lastmod>2023-01-20T17:01:37.803Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-01-20T17:01:38.679Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html</loc>
-    <lastmod>2023-01-20T17:01:39.603Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-01-20T17:01:40.007Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-01-20T17:01:40.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-01-20T17:01:41.626Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-01-20T17:01:41.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-01-20T17:01:42.822Z</lastmod>
+    <lastmod>2023-02-20T15:16:32.379Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-01-20T17:01:43.702Z</lastmod>
+    <lastmod>2023-02-20T15:16:35.383Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
+    <lastmod>2023-02-20T15:16:36.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2023-02-20T15:16:36.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
+    <lastmod>2023-02-20T15:16:37.851Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-01-20T17:01:44.026Z</lastmod>
+    <lastmod>2023-02-20T15:16:38.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-02-20T15:16:39.187Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
+    <lastmod>2023-02-20T15:16:40.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/dcso-ibworibaouerhv0934h3pi4-3/index.html</loc>
+    <lastmod>2023-02-20T15:16:41.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
+    <lastmod>2023-02-20T15:16:42.107Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html</loc>
+    <lastmod>2023-02-20T15:16:42.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html</loc>
+    <lastmod>2023-02-20T15:16:43.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html</loc>
+    <lastmod>2023-02-20T15:16:44.571Z</lastmod>
   </url>
 </urlset>

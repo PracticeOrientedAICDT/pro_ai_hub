@@ -1,19 +1,20 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html",
-      "/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
-      "/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-      "/content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html"
+      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html"
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
+      "/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+      "/content/dcso-ibworibaouerhv0934h3pi4-3/index.html",
+      "/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+      "/content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html",
+      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
+      "/content/jointly-learning-consistent-causal-abstractions-over-multiple-interventional-distributions/index.html"
     ]
   }
 ]
