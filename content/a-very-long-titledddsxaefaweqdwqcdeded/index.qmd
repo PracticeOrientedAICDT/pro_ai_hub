@@ -1,0 +1,40 @@
+---
+categories:
+- calibration
+description: a very long titlea very long title
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Telmo M. Silva Filho
+    url: https://scholar.google.com/citations?user=-EGO0o8AAAAJ&hl=en
+  author_2:
+    name: Meelis Kull
+    url: https://scholar.google.com/citations?user=yJwctG4AAAAJ&hl=en
+  code_url: ''
+  overview: a very long titlea very long title
+  pdf_url: ''
+  poster_url: ''
+  scholar_url: ''
+  slides_url: ''
+  supplement_url: ''
+title: a very long titledddsxaefaweqdwqcdeded
+
+---
+## Tldr 
+a very long titlea very long title
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
+[![](https://img.shields.io/badge/supplement-yellowgreen?style=flat)]({{< meta params.supplement_url >}})
+[![](https://img.shields.io/badge/blog-blue?style=flat)]({{< meta params.slides_url >}}
+[![](https://img.shields.io/badge/poster-yellow?style=flat)]({{< meta params.poster_url >}})
+[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})
