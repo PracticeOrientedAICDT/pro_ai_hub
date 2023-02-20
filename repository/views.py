@@ -23,8 +23,6 @@ def homepage(request):
 
     load_dotenv()
 
-    enviroment_name = os.getenv('ENV_NAME')
-
     if request.method == 'POST':
         filled_form = PostForm(request.POST)
 
@@ -38,9 +36,8 @@ def homepage(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            if enviroment_name == 'dev':
-                current_path = '/'.join(current_path.split('/')[:-1])
-            current_path = current_path + f'/icr/content/{folder_name}/'
+            
+            current_path = current_path + f'/icr_frontend/content/{folder_name}/'
 
             file_path = f'{current_path}index.qmd'
 
@@ -61,7 +58,10 @@ def homepage(request):
                 'form': filled_form
             }
 
-        return render(request, 'repository/submission.html', context=context)
+            print(context)
+        else:
+            print(filled_form.errors.as_data())
+        return render(request, 'repository/submission.html', context)
 
     else:
         filled_form = PostForm()
@@ -175,9 +175,8 @@ def arxiv_post(request):
             folder_name = slugify(content.get('title', ''))
 
             current_path = os.getcwd()
-            if enviroment_name == 'dev':
-                current_path = '/'.join(current_path.split('/')[:-1])
-            current_path = current_path + f'/icr/content/{folder_name}/'
+
+            current_path = current_path + f'/icr_frontend/content/{folder_name}/'
             file_path = f'{current_path}index.qmd'
 
             if not os.path.exists(current_path):
