@@ -51,7 +51,13 @@ def homepage(request):
 
             generate_page_content(content, file_path)
 
-            create_push_request(file_path, folder_name)
+            try:
+                create_push_request(file_path, folder_name)
+            except Exception as ex:
+                messages.error(
+                    request,
+                    "We are experiencing some problems when fetching when communication with github. Please Try again later.")
+                return redirect("")
 
             context = {
                 'folder_name': folder_name,
@@ -60,9 +66,9 @@ def homepage(request):
 
             print(context)
         else:
-            print(filled_form.errors.as_data())
-        return render(request, 'repository/submission.html', context)
+            messages.error(request, filled_form.errors.as_data().title)
 
+        return render(request, 'repository/submission.html', context)
     else:
         filled_form = PostForm()
         return render(
@@ -92,6 +98,8 @@ def author_create(request):
         author_instance = form.save()
         instance = serializers.serialize('json', [author_instance, ])
         return JsonResponse({"instance": instance}, status=200)
+    else:
+        messages.error(request, form.errors.as_data().title)
 
 
 def add_venue(request):
@@ -107,6 +115,8 @@ def add_venue(request):
         venue_instance = form.save()
         instance = serializers.serialize('json', [venue_instance, ])
         return JsonResponse({"instance": instance}, status=200)
+    else:
+        messages.error(request, form.errors.as_data().title)
 
 
 def add_category(request):
@@ -121,6 +131,8 @@ def add_category(request):
         category_instance = form.save()
         instance = serializers.serialize('json', [category_instance, ])
         return JsonResponse({"instance": instance}, status=200)
+    else:
+        messages.error(request, form.errors.as_data().title)
 
 
 def update_post(request, slug):
@@ -131,7 +143,6 @@ def update_post(request, slug):
 
     form = PostForm(request.POST or None, instance=post)
 
-    print(post.slug)
     if request.method == 'GET':
         context = {'form': form}
         return render(request, "repository/update_post.html", context=context)
@@ -142,9 +153,9 @@ def update_post(request, slug):
         form.save()
         instance = serializers.serialize('json', [post_instance, ])
         return JsonResponse({"instance": instance}, status=200)
-
-    print(form.errors.as_data())
-
+    else:
+        messages.error(request, form.errors.as_data().title)
+    
 
 def arxiv_post(request):
 
@@ -157,7 +168,7 @@ def arxiv_post(request):
         filled_form = ArxivForm(request.POST)
 
         if filled_form.is_valid():
-            filled_form.save()
+            #filled_form.save()
             form_data = filled_form.cleaned_data
 
             url = form_data.get('link', '')
@@ -202,14 +213,15 @@ def arxiv_post(request):
                 'form': filled_form
             }
 
-        return render(request, 'repository/submission.html', context=context)
+            return render(request, 'repository/submission.html', context=context)
+        
+        messages.error(request, filled_form.errors.as_data().title)
 
-    else:
-        form = ArxivForm()
-        context = {
-            'form': form
-        }
-        return render(request, 'repository/arxiv_post.html', context=context)
+    form = ArxivForm()
+    context = {
+        'form': form
+    }
+    return render(request, 'repository/arxiv_post.html', context=context)
 
 
 def email_check(user):
@@ -256,6 +268,7 @@ def submit_conference(request):
 
     if request.method == 'POST':
         form = ConferenceForm(request.POST)
+        print(form)
         if form.is_valid():
             form_data = form.cleaned_data
             url = form_data['link']
@@ -264,8 +277,8 @@ def submit_conference(request):
             form = ConferenceForm({
                 'link': url,
                 'name': conference_data['title'],
-                'starting': f"{conference_data['dates'][0][0].strip()}",
-                'to' : f"{conference_data['dates'][0][1].strip()}",
+                'start_date': f"{conference_data['dates'][0][0].strip()}",
+                'end_date' : f"{conference_data['dates'][0][1].strip()}",
                 'location': str(conference_data['places'][0])
             })
 
@@ -273,6 +286,8 @@ def submit_conference(request):
                 'form': form,
                 'conference_data': get_conference_information(url)}
             
+            print(form)
+
             return render(
                 request,
                 'repository/submit_conference.html',

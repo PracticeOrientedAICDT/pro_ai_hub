@@ -62,10 +62,13 @@ class Post(models.Model):
             self.slug = slugify(self.title)
         return super().save(*args, **kwargs)
 
-class conference(models.Model):
-    title = models.CharField(max_length=250, unique=True)
-    location = models.CharField(max_length=250, unique=True)
-    date = models.DateField()
+class Conference(models.Model):
+    conference_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=250, unique=True)
+    link = models.URLField(max_length=5000)
+    location = models.CharField(max_length=250)
+    start_date = models.DateField()
+    end_date = models.DateField()
 
     def __str__(self):
         return self.title

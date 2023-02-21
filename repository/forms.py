@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
 
-from .models import Post, Author, Venue, Category
+from .models import Post, Author, Venue, Category, Conference
 
 
 class PostForm(forms.ModelForm):
@@ -136,7 +136,7 @@ class NewUserForm(UserCreationForm):
             user.save()
         return user
 
-class ConferenceForm(forms.Form):
+class ConferenceForm(forms.ModelForm):
 
     date_formats = [
         '%Y-%m-%d',  # '2006-10-25'
@@ -165,12 +165,12 @@ class ConferenceForm(forms.Form):
         widget=forms.TextInput(attrs={'class': 'form-control'})
     )
 
-    starting = forms.DateField(
+    start_date = forms.DateField(
         required=False,
         input_formats=date_formats,
         widget=forms.TextInput(attrs={'class': 'form-control'})
     )
-    to = forms.DateField(
+    end_date = forms.DateField(
         required=False,
         input_formats=date_formats,
         widget=forms.TextInput(attrs={'class': 'form-control'})
@@ -180,3 +180,14 @@ class ConferenceForm(forms.Form):
         required=False,
         widget=forms.TextInput(attrs={'class': 'form-control'})
     )
+
+    class Meta:
+        model = Conference
+        fields = ['link', 'name', 'start_date', 'end_date', 'location']
+        labels = {
+            'name': 'Name',
+            'link': 'Conference Link',
+            'location': 'Location',
+            'start_date': 'Starting on',
+            'end_date': 'To'
+        }
