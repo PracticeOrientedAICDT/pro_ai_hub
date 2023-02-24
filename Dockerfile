@@ -11,7 +11,7 @@ WORKDIR $DockerHOME
 
 RUN pip install --upgrade pip  
 
-COPY . $DockerHOME/ 
+COPY . $DockerHOME 
 
 RUN ls -a
 RUN pwd 
