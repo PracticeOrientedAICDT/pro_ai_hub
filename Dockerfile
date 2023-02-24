@@ -13,7 +13,7 @@ RUN pip install --upgrade pip
 
 COPY . $DockerHOME/ 
 
-RUN ls
+RUN ls -a
 RUN pwd 
 
 RUN apt install git
