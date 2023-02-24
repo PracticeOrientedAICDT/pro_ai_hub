@@ -2,7 +2,6 @@ FROM python:3.10.6
 
 ENV DockerHOME=/home/app/webapp
 ENV PYTHONUNBUFFERED=1
-ENV GH_USER=DelmiroDaladier
 
 RUN mkdir -p $DockerHOME
 

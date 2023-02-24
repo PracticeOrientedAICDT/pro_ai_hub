@@ -131,7 +131,7 @@ def generate_page_content(content, filepath: str):
 def create_push_request(file_path: str, folder_name: str, repo: str):
 
     
-    load_dotenv()
+    load_dotenv(override=True)
 
     user = os.getenv('GH_USER')
     auth_token = os.getenv('GH_TOKEN')
