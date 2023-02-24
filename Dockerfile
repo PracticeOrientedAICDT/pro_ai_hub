@@ -18,7 +18,8 @@ RUN pwd
 
 RUN apt install git
 
-RUN git remote add origin https://github.com/DelmiroDaladier/cdt-icr.git
+RUN cd conference_calendar
+
 RUN git submodule init
 RUN git submodule update --remote
 
