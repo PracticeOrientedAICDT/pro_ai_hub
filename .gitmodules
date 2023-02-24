@@ -1,0 +1,6 @@
+[submodule "conference_calendar"]
+	path = conference_calendar
+	url = https://github.com/DelmiroDaladier/conference_calendar
+[submodule "icr_frontend"]
+	path = icr_frontend
+	url = https://github.com/DelmiroDaladier/icr
