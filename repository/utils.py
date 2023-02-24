@@ -149,7 +149,8 @@ def create_push_request(file_path: str, folder_name: str, repo: str):
 
     url = f'https://api.github.com/repos/{user}/{repo}/git/commits/{sha_last_commit}'
     response = requests.get(url, headers=header)
-    
+    print(response)
+    print(response.json())
     sha_base_tree = response.json()['sha']
 
     with open(file_path, 'r') as fp:
