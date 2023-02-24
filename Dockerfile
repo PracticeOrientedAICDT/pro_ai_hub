@@ -12,13 +12,13 @@ WORKDIR $DockerHOME
 RUN pip install --upgrade pip  
 
 COPY . $DockerHOME 
-COPY ['.git/'] $DockerHOME
 
 RUN ls -a
 RUN pwd 
 
 RUN apt install git
 
+RUN git remote add origin https://github.com/DelmiroDaladier/cdt-icr.git
 RUN git submodule init
 RUN git submodule update --remote
 
