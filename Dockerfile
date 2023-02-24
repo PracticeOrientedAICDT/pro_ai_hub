@@ -18,8 +18,6 @@ RUN pwd
 
 RUN apt install git
 
-RUN cd conference_calendar
-
 RUN git submodule init
 RUN git submodule update --remote
 
