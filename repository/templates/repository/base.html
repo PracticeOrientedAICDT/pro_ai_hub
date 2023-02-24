@@ -150,23 +150,26 @@
             }
 
             $(document).ready(function (){
-                $('.conference_link').change(function (e) {
-                    console.log('you have a conference link pasted');
+                $(".conference_link").change(function (e) {
+                    link = $(this).val()
+                    console.log(link);
                     e.preventDefault();
                     $.ajaxSetup({
                         headers: { "X-CSRFToken": getCookie("csrftoken") }
                     });
                     $.ajax({
-                                
-                                method: "POST",
-                                
-                                dataType: "json",
+                                method: "POST",    
+                                data: link,
                                 url: "/submit_conference/",
-                                success: function (request, response) {
-                                    window.location.reload();
+                                contentType: 'application/json; charset=UTF-8',
+                                success: function (response) {
+                                    console.log(response);
+                                    $("#id_name").val(response['title']);
+                                    $("#id_start_date").val(response['dates'][0][0]);
+                                    $("#id_end_date").val(response['dates'][0][1]);
+                                    $("#id_location").val(response['places'][0]);
                                 },
                                 error: function (request, response) {
-                                    console.log('ERRRRRRROU')
                                     console.log(response)
                                 },
                     });

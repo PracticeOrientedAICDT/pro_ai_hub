@@ -71,4 +71,4 @@ class Conference(models.Model):
     end_date = models.DateField()
 
     def __str__(self):
-        return self.title
+        return self.name

@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import yaml
 import requests
 from dateutil.parser import parse
 from collections import defaultdict
@@ -60,6 +61,37 @@ def generate_qmd_header(content: dict, form_data: dict):
 
     return content
 
+def generate_headers_for_conference_calendar(filepath):
+
+    os.remove(filepath)
+
+    content = {
+        'title': 'Conference clendar',
+        'page-layout': 'full',
+        'title-block-banner': True,
+        'comments': False
+    }
+
+    with open(filepath, 'w+') as fp:
+        fp.write('---\n')
+        yaml.dump(content, fp)
+        fp.write('\n---')
+
+def generate_content_for_conference_calendar(conference_objects, filepath: str):
+    
+    with open(filepath, 'a') as fp:
+        fp.write('\n<hr>\n')
+        for object in conference_objects:
+            fp.write('\n<p style="text-align: center;"> \n')
+            fp.write(f"<strong> {object.name} </strong>")
+            fp.write(f"\n<br>")
+            fp.write(f"\nStart date:{object.start_date}")
+            fp.write(f"\n<br>")
+            fp.write(f"\nEnd date:{object.end_date}")
+            fp.write(f"\n<br>")
+            fp.write(f"\n<a href={object.end_date}>Link</a>")
+            fp.write('\n<hr>')
+            fp.write('\n</p> \n')
 
 def generate_page_content(content, filepath: str):
 
@@ -96,14 +128,13 @@ def generate_page_content(content, filepath: str):
                 '[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})\n')
 
 
-def create_push_request(file_path: str, folder_name: str):
+def create_push_request(file_path: str, folder_name: str, repo: str):
 
     
-    load_dotenv(override=True)
+    load_dotenv()
 
     user = os.getenv('GH_USER')
     auth_token = os.getenv('GH_TOKEN')
-    repo = os.getenv('GH_REPOSITORY')
 
     header = {
         'Authorization': 'Bearer ' + auth_token
@@ -118,6 +149,7 @@ def create_push_request(file_path: str, folder_name: str):
 
     url = f'https://api.github.com/repos/{user}/{repo}/git/commits/{sha_last_commit}'
     response = requests.get(url, headers=header)
+    
     sha_base_tree = response.json()['sha']
 
     with open(file_path, 'r') as fp:
@@ -137,11 +169,18 @@ def create_push_request(file_path: str, folder_name: str):
     response = requests.post(url, json.dumps(data), headers=header)
     blob_sha = response.json()['sha']
 
+    path = ''
+
+    if folder_name == '':
+        path = 'index.qmd'
+    else:
+        path = f'content/{folder_name}/index.qmd'
+
     data = {
         'base_tree': sha_base_tree,
         'tree': [
             {
-                'path': f'content/{folder_name}/index.qmd',
+                'path': path,
                 'mode': '100644',
                 'type': 'blob',
                 'sha': blob_sha
@@ -149,7 +188,7 @@ def create_push_request(file_path: str, folder_name: str):
         ]
     }
 
-    url = 'https://api.github.com/repos/Delmirodaladier/icr/git/trees'
+    url = f'https://api.github.com/repos/Delmirodaladier/{repo}/git/trees'
     response = requests.post(url, json.dumps(data), headers=header)
 
     tree_sha = response.json()['sha']
@@ -166,7 +205,7 @@ def create_push_request(file_path: str, folder_name: str):
         "tree": tree_sha
     }
 
-    url = f'https://api.github.com/repos/DelmiroDaladier/icr/git/commits'
+    url = f'https://api.github.com/repos/DelmiroDaladier/{repo}/git/commits'
     response = requests.post(url, json.dumps(data), headers=header)
     new_commit_sha = response.json()['sha']
 
@@ -175,7 +214,7 @@ def create_push_request(file_path: str, folder_name: str):
         "sha": new_commit_sha
     }
 
-    url = f'https://api.github.com/repos/DelmiroDaladier/icr/git/refs/heads/main'
+    url = f'https://api.github.com/repos/DelmiroDaladier/{repo}/git/refs/heads/main'
     response = requests.post(url, json.dumps(data), headers=header)
 
 
@@ -277,6 +316,12 @@ def get_days(date: str):
     
     return candidates 
 
+def get_years(date: str):
+    candidates = re.findall('[0-9]+', date)
+    candidates = [candidate for candidate in candidates if re.fullmatch('\d\d\d\d', candidate)]
+
+    return candidates
+
 def get_month(date: str):
     candidates = re.findall('[A-Za-z]+', date)
 
@@ -288,7 +333,11 @@ def get_dates_from_text(sentences: list):
     dates = [date[0] for date in dates]
     
     dates = [date for date in dates if re.fullmatch('(\w+\s)*\d+(st|nd|rd|th)*\s(-|to|—|–|through)\s(\w+\s)*\d+(st|nd|rd|th)*(\s\w+)*(,\s\d\d\d\d)*', date)]
-    print(dates)
+
+    year = [get_years(date) for date in dates]
+    year = [list(set(item)) for item in year]
+    year = year[0][0]
+
     months = [get_month(date) for date in dates]
     months = [list(set(item)) for item in months]
 
@@ -297,7 +346,7 @@ def get_dates_from_text(sentences: list):
 
     dates = []
     for candidate_day, candidate_month in zip(days, months):
-        dates.append([f"{day} {month}" for day in candidate_day for month in candidate_month if month not in ('to', 'of', 'through')])
+        dates.append([f"{day} {month} {year}" for day in candidate_day for month in candidate_month if month not in ('to', 'of', 'through')])
 
     dates = [sorted(date, key=lambda x: parse(x)) for date in dates]
 
@@ -310,6 +359,7 @@ def get_places_from_text(sentences: list):
 
 
 def get_conference_information(url: str):
+
     text, title = fetch_data(url)
     nlp = en_core_web_sm.load()
     sentences = text_preprocess(text, nlp)
@@ -322,7 +372,5 @@ def get_conference_information(url: str):
         'places': places,
         'title': title 
     }
-
-    print(context)
 
     return context

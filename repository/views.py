@@ -1,21 +1,22 @@
 import os
 import yaml
+import json
 import requests
 import urllib3
 
 from .models import Post
 from dotenv import load_dotenv
 from django.core import serializers
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.contrib import messages
 from django.contrib.auth import login
 from django.template.defaultfilters import slugify
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 
-
+from .models import Conference
 from .forms import PostForm, AuthorForm, VenueForm, CategoryForm, ArxivForm, NewUserForm, ConferenceForm
-from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv, scrap_data_from_arxiv, get_conference_information
+from .utils import generate_qmd_header, generate_page_content, create_push_request, generate_qmd_header_for_arxiv, scrap_data_from_arxiv, get_conference_information, generate_headers_for_conference_calendar, generate_content_for_conference_calendar
 
 
 @login_required
@@ -51,8 +52,10 @@ def homepage(request):
 
             generate_page_content(content, file_path)
 
+            repo = 'icr'
+
             try:
-                create_push_request(file_path, folder_name)
+                create_push_request(file_path, folder_name, repo)
             except Exception as ex:
                 messages.error(
                     request,
@@ -267,44 +270,48 @@ def register_request(request):
 def submit_conference(request):
 
     if request.method == 'POST':
+        if request.headers.get('x-requested-with') == 'XMLHttpRequest':    
+            url = request.body.decode('UTF-8')
+            if url != '':
+                response = get_conference_information(url)
+
+                return JsonResponse(response, status=200, safe=False)  
+            else:
+                response = {
+                    'title': '',
+                    'dates': [['', '']],
+                    'places': '',
+
+                }
+                return JsonResponse(response, status=200, safe=False)
+        
         form = ConferenceForm(request.POST)
-        print(form)
+
         if form.is_valid():
-            form_data = form.cleaned_data
-            url = form_data['link']
-            conference_data = get_conference_information(url)
-            print(conference_data)
-            form = ConferenceForm({
-                'link': url,
-                'name': conference_data['title'],
-                'start_date': f"{conference_data['dates'][0][0].strip()}",
-                'end_date' : f"{conference_data['dates'][0][1].strip()}",
-                'location': str(conference_data['places'][0])
-            })
-
-            context = {
-                'form': form,
-                'conference_data': get_conference_information(url)}
+            form.save()
             
-            print(form)
+            conferences = Conference.objects.order_by('start_date')
 
-            return render(
-                request,
-                'repository/submit_conference.html',
-                context=context
-            )
-        messages.error(
-            request,
-            "Invalid form data.")
+            current_path = os.getcwd()
+            
+            filepath = current_path + f'/conference_calendar/index.qmd'
+
+            generate_headers_for_conference_calendar(filepath=filepath)
+
+            generate_content_for_conference_calendar(conference_objects=conferences, filepath=filepath)
+
+            repo = 'conference_calendar'
+
+            create_push_request(file_path=filepath, folder_name='', repo=repo)
 
     form = ConferenceForm()
 
     context = {
-        "form": form
-    }
+            "form": form
+        }
 
     return render(
-        request,
-        'repository/submit_conference.html',
-        context=context
-    )
+            request,
+            'repository/submit_conference.html',
+            context=context
+        )
