@@ -13,6 +13,9 @@ RUN pip install --upgrade pip
 
 COPY . $DockerHOME  
 
+RUN git submodule init
+RUN git submodule update --remote
+
 RUN pip install -r requirements.txt  
 
 RUN python -m spacy download en_core_web_sm
