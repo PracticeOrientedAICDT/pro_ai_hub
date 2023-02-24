@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM python:3.10.6
 
 ENV DockerHOME=/home/app/webapp
 ENV PYTHONUNBUFFERED=1
@@ -9,21 +9,14 @@ RUN mkdir -p $DockerHOME
 
 WORKDIR $DockerHOME
 
-RUN apt update
-RUN apt install python3 python3-pip -y
-
-RUN sudo apt-get update; \
-    sudo apt-get -y upgrade; \
-    sudo apt-get install -y gnupg2 wget lsb_release 
-
 RUN pip install --upgrade pip  
+
+COPY . $DockerHOME  
 
 RUN apt install git
 
 RUN git submodule init
 RUN git submodule update --remote
-
-COPY . $DockerHOME  
 
 RUN pip install -r requirements.txt  
 
