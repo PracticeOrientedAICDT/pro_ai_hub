@@ -1,0 +1,66 @@
+---
+categories:
+- calibration
+description: In the last decade, parameter-free approaches to shape optimization problems
+  have matured to a state where they provide a versatile tool for complex engineering
+  applications. However, sensitivity distributions obtained from shape derivatives
+  in this context cannot be directly used as a shape update in gradient-based optimization
+  strategies. Instead, an auxiliary problem has to be solved to obtain a gradient
+  from the sensitivity. While several choices for these auxiliary problems were investigated
+  mathematically, the complexity of the concepts behind their derivation has often
+  prevented their application in engineering. This work aims at an explanation of
+  several approaches to compute shape updates from an engineering perspective. We
+  introduce the corresponding auxiliary problems in a formal way and compare the choices
+  by means of numerical examples. To this end, a test case and exemplary applications
+  from computational fluid dynamics are considered.
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Telmo M. Silva Filho
+    url: https://scholar.google.com/citations?user=-EGO0o8AAAAJ&hl=en
+  author_2:
+    name: Meelis Kull
+    url: https://scholar.google.com/citations?user=yJwctG4AAAAJ&hl=en
+  author_3:
+    name: Peter A. Flach
+    url: https://scholar.google.com/citations?user=o9ggd4sAAAAJ&hl=en
+  code_url: ''
+  overview: In the last decade, parameter-free approaches to shape optimization problems
+    have matured to a state where they provide a versatile tool for complex engineering
+    applications. However, sensitivity distributions obtained from shape derivatives
+    in this context cannot be directly used as a shape update in gradient-based optimization
+    strategies. Instead, an auxiliary problem has to be solved to obtain a gradient
+    from the sensitivity. While several choices for these auxiliary problems were
+    investigated mathematically, the complexity of the concepts behind their derivation
+    has often prevented their application in engineering. This work aims at an explanation
+    of several approaches to compute shape updates from an engineering perspective.
+    We introduce the corresponding auxiliary problems in a formal way and compare
+    the choices by means of numerical examples. To this end, a test case and exemplary
+    applications from computational fluid dynamics are considered.
+  pdf_url: ''
+  poster_url: ''
+  scholar_url: ''
+  slides_url: ''
+  supplement_url: ''
+title: 'Parameter-free shape optimization: various shape updates for engineering applications'
+
+---
+## Tldr 
+In the last decade, parameter-free approaches to shape optimization problems have matured to a state where they provide a versatile tool for complex engineering applications. However, sensitivity distributions obtained from shape derivatives in this context cannot be directly used as a shape update in gradient-based optimization strategies. Instead, an auxiliary problem has to be solved to obtain a gradient from the sensitivity. While several choices for these auxiliary problems were investigated mathematically, the complexity of the concepts behind their derivation has often prevented their application in engineering. This work aims at an explanation of several approaches to compute shape updates from an engineering perspective. We introduce the corresponding auxiliary problems in a formal way and compare the choices by means of numerical examples. To this end, a test case and exemplary applications from computational fluid dynamics are considered.
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+- [{{< meta params.author_3.name >}}]({{< meta params.author_3.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
+[![](https://img.shields.io/badge/supplement-yellowgreen?style=flat)]({{< meta params.supplement_url >}})
+[![](https://img.shields.io/badge/blog-blue?style=flat)]({{< meta params.slides_url >}}
+[![](https://img.shields.io/badge/poster-yellow?style=flat)]({{< meta params.poster_url >}})
+[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})
