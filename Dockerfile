@@ -18,6 +18,7 @@ RUN pwd
 
 RUN apt install git
 
+RUN git pull
 RUN git submodule init
 RUN git submodule update --remote
 
