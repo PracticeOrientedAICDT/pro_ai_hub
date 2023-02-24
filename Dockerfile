@@ -12,13 +12,13 @@ WORKDIR $DockerHOME
 RUN pip install --upgrade pip  
 
 COPY . $DockerHOME 
+COPY ['.git/', '.gitmodules', '.gitignore']
 
 RUN ls -a
 RUN pwd 
 
 RUN apt install git
 
-RUN git pull
 RUN git submodule init
 RUN git submodule update --remote
 
