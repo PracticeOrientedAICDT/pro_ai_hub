@@ -16,10 +16,7 @@ COPY . $DockerHOME
 RUN ls -a
 RUN pwd 
 
-RUN apt install git
 
-RUN git submodule init
-RUN git submodule update --remote
 
 RUN pip install -r requirements.txt  
 
