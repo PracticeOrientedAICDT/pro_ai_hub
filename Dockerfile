@@ -12,7 +12,7 @@ WORKDIR $DockerHOME
 RUN pip install --upgrade pip  
 
 COPY . $DockerHOME 
-COPY ['.git/', '.gitmodules', '.gitignore']
+COPY ['.git/'] $DockerHOME
 
 RUN ls -a
 RUN pwd 
