@@ -14,12 +14,12 @@ RUN apt install python3 python3-pip -y
 
 RUN pip install --upgrade pip  
 
-COPY . $DockerHOME  
-
-RUN apt-get install git
+RUN apt install git
 
 RUN git submodule init
 RUN git submodule update --remote
+
+COPY . $DockerHOME  
 
 RUN pip install -r requirements.txt  
 
