@@ -166,7 +166,7 @@ def create_push_request(file_path: str, folder_name: str, repo: str):
         'Authorization': 'Bearer ' + auth_token
     }
 
-    url = 'https://api.github.com/repos/DelmiroDaladier/icr/git/blobs'
+    url = f'https://api.github.com/repos/DelmiroDaladier/{repo}/git/blobs'
     response = requests.post(url, json.dumps(data), headers=header)
     blob_sha = response.json()['sha']
 
@@ -176,6 +176,8 @@ def create_push_request(file_path: str, folder_name: str, repo: str):
         path = 'index.qmd'
     else:
         path = f'content/{folder_name}/index.qmd'
+
+    print(path)
 
     data = {
         'base_tree': sha_base_tree,
@@ -188,6 +190,8 @@ def create_push_request(file_path: str, folder_name: str, repo: str):
             }
         ]
     }
+
+    print(data)
 
     url = f'https://api.github.com/repos/Delmirodaladier/{repo}/git/trees'
     response = requests.post(url, json.dumps(data), headers=header)
