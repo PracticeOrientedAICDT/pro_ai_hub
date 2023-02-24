@@ -12,6 +12,10 @@ WORKDIR $DockerHOME
 RUN apt update
 RUN apt install python3 python3-pip -y
 
+RUN sudo apt-get update; \
+    sudo apt-get -y upgrade; \
+    sudo apt-get install -y gnupg2 wget lsb_release 
+
 RUN pip install --upgrade pip  
 
 RUN apt install git
