@@ -13,6 +13,9 @@ RUN pip install --upgrade pip
 
 COPY . $DockerHOME/ 
 
+RUN ls
+RUN pwd 
+
 RUN apt install git
 
 RUN git submodule init
