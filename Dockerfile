@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim
+FROM ubuntu:latest
 
 ENV DockerHOME=/home/app/webapp
 ENV PYTHONUNBUFFERED=1
@@ -8,6 +8,9 @@ ENV GH_USER=DelmiroDaladier
 RUN mkdir -p $DockerHOME
 
 WORKDIR $DockerHOME
+
+RUN apt update
+RUN apt install python3 python3-pip -y
 
 RUN pip install --upgrade pip  
 
