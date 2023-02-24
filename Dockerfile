@@ -13,6 +13,8 @@ RUN pip install --upgrade pip
 
 COPY . $DockerHOME  
 
+RUN apt-get install git
+
 RUN git submodule init
 RUN git submodule update --remote
 
