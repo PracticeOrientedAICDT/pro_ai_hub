@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-02-24T17:09:59.992Z</lastmod>
+    <lastmod>2023-03-01T14:23:20.015Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-02-24T17:10:02.868Z</lastmod>
+    <lastmod>2023-03-01T14:23:21.823Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-02-24T17:10:03.684Z</lastmod>
+    <lastmod>2023-03-01T14:23:22.735Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-02-24T17:10:04.464Z</lastmod>
+    <lastmod>2023-03-01T14:23:23.407Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-02-24T17:10:05.256Z</lastmod>
+    <lastmod>2023-03-01T14:23:24.231Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-02-24T17:10:05.552Z</lastmod>
+    <lastmod>2023-03-01T14:23:24.531Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-02-24T17:10:05.988Z</lastmod>
+    <lastmod>2023-03-01T14:23:24.983Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-02-24T17:10:07.016Z</lastmod>
+    <lastmod>2023-03-01T14:23:25.711Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-02-24T17:10:07.868Z</lastmod>
+    <lastmod>2023-03-01T14:23:26.567Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html</loc>
-    <lastmod>2023-02-24T17:10:08.984Z</lastmod>
+    <lastmod>2023-03-01T14:23:27.279Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html</loc>
-    <lastmod>2023-02-24T17:10:09.808Z</lastmod>
+    <lastmod>2023-03-01T14:23:28.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/crossing-minimization-in-time-interval-storylines/index.html</loc>
+    <lastmod>2023-03-01T14:23:28.827Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html</loc>
-    <lastmod>2023-02-24T17:10:10.644Z</lastmod>
+    <lastmod>2023-03-01T14:23:29.575Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/on-price-induced-minmax-matchings/index.html</loc>
-    <lastmod>2023-02-24T17:10:11.536Z</lastmod>
+    <lastmod>2023-03-01T14:23:30.399Z</lastmod>
   </url>
 </urlset>
