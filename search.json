@@ -86,30 +86,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "",
+    "title": "Interactive Content Repository",
     "section": "",
-    "text": "conference_id,name,link,location,start_date,end_date 38,Home| Artificial Intelligence and Statistics Conference,http://aistats.org/aistats2023/,Spain,2023-04-25,2023-04-27"
-  },
-  {
-    "objectID": "content/upload-data/index.html",
-    "href": "content/upload-data/index.html",
-    "title": "Upload Data",
-    "section": "",
-    "text": "loren ipsum"
-  },
-  {
-    "objectID": "content/upload-data/index.html#paper-authors",
-    "href": "content/upload-data/index.html#paper-authors",
-    "title": "Upload Data",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nTelmo M. Silva Filho\nMeelis Kull\nPeter A. Flach"
-  },
-  {
-    "objectID": "content/upload-data/index.html#more-resources",
-    "href": "content/upload-data/index.html#more-resources",
-    "title": "Upload Data",
-    "section": "More Resources",
-    "text": "More Resources\n   []("
+    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNatural Language Processing of Aviation Occurrence Reports for Safety Management\n\n\n\n\n\nOccurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nParameter-free shape optimization: various shape updates for engineering applications\n\n\n\n\n\n\n\ncalibration\n\n\n\n\nIn the last decade, parameter-free approaches to shape optimization problems have matured to a state where they provide a versatile tool for complex engineering applications. However, sensitivity distributions obtained from shape derivatives in…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
@@ -217,27 +196,6 @@
     "text": "More Resources\n   []("
   },
   {
-    "objectID": "content/crossing-minimization-in-time-interval-storylines/index.html",
-    "href": "content/crossing-minimization-in-time-interval-storylines/index.html",
-    "title": "Crossing Minimization in Time Interval Storylines",
-    "section": "",
-    "text": "Storyline visualizations are a popular way of visualizing characters andtheir interactions over time: Characters are drawn as x-monotone curves andinteractions are visualized through close proximity of the correspondingcharacter curves in a vertical strip. Existing methods to generate storylinesassume a total ordering of the interactions, although real-world data often donot contain such a total order. Instead, multiple interactions are oftengrouped into coarser time intervals such as years. We exploit this groupingproperty by introducing a new model called storylines with time intervals andpresent two methods to minimize the number of crossings and horizontal spaceusage. We then evaluate these algorithms on a small benchmark set to show theireffectiveness."
-  },
-  {
-    "objectID": "content/crossing-minimization-in-time-interval-storylines/index.html#paper-authors",
-    "href": "content/crossing-minimization-in-time-interval-storylines/index.html#paper-authors",
-    "title": "Crossing Minimization in Time Interval Storylines",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nDobler, Alexander\nNöllenburg, Martin\nStojanovic, Daniel\nVilledieu, Anaïs\nWulms, Jules"
-  },
-  {
-    "objectID": "content/crossing-minimization-in-time-interval-storylines/index.html#more-resources",
-    "href": "content/crossing-minimization-in-time-interval-storylines/index.html#more-resources",
-    "title": "Crossing Minimization in Time Interval Storylines",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
     "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
     "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
     "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
@@ -299,26 +257,5 @@
     "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
     "section": "More Resources",
     "text": "More Resources"
-  },
-  {
-    "objectID": "content/on-price-induced-minmax-matchings/index.html",
-    "href": "content/on-price-induced-minmax-matchings/index.html",
-    "title": "On price-induced minmax matchings",
-    "section": "",
-    "text": "We study a natural combinatorial pricing problem for sequentially arriving buyers with equal budgets. Each buyer is interested in exactly one pair of items and purchases this pair if and only if, upon arrival, both items are still available and the sum of the item prices does not exceed the budget. The goal of the seller is to set prices to the items such that the number of transactions is maximized when buyers arrive in adversarial order. Formally, we are given an undirected graph where vertices represent items and edges represent buyers. Once prices are set to the vertices, edges with a total price exceeding the buyers’ budgets are evicted. Any arrival order of the buyers leads to a set of transactions that forms a maximal matching in this subgraph, and an adversarial arrival order results in a minimum maximal matching. In order to measure the performance of a pricing strategy, we compare the size of such a matching to the size of a maximum matching in the original graph. It was shown by Correa et al. [IPCO 2022] that the best ratio any pricing strategy can guarantee lies within [1/2,2/3]. Our contribution to the problem is two-fold: First, we provide several characterizations of subgraphs that may result from pricing schemes. Second, building upon these, we show an improved upper bound of 3/5 and a lower bound of 1/2+2/n, where n is the number of items"
-  },
-  {
-    "objectID": "content/on-price-induced-minmax-matchings/index.html#paper-authors",
-    "href": "content/on-price-induced-minmax-matchings/index.html#paper-authors",
-    "title": "On price-induced minmax matchings",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nChristoph Dürr"
-  },
-  {
-    "objectID": "content/on-price-induced-minmax-matchings/index.html#more-resources",
-    "href": "content/on-price-induced-minmax-matchings/index.html#more-resources",
-    "title": "On price-induced minmax matchings",
-    "section": "More Resources",
-    "text": "More Resources\n   []("
   }
 ]
