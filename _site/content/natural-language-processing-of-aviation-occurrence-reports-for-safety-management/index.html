@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).">
+<meta name="description" content="Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts.">
 
-<title>A two-level Item Response Theory model to evaluate speech synthesis and recognition</title>
+<title>Natural Language Processing of Aviation Occurrence Reports for Safety Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,16 +102,13 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">A two-level Item Response Theory model to evaluate speech synthesis and recognition</h1>
+      <h1 class="title">Natural Language Processing of Aviation Occurrence Reports for Safety Management</h1>
                   <div>
         <div class="description">
-          Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).
+          Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts.
         </div>
       </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">item response theory</div>
-              </div>
-                  </div>
+                </div>
   </div>
     
   
@@ -145,18 +142,25 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
-<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences. In the first level, the transcription rates obtained by a pool of ASR systems on a set of synthesized speeches are recorded and then analyzed to estimate: each speech’s difficulty and each ASR system’s ability. In the second level, each speech’s difficulty is decomposed as a function of two factors: the sentence’s difficulty and the speaker’s quality. Thus, the speech’s difficulty is high when generated from a difficult sentence and a bad speaker, while an ASR is good when it is robust to hard speeches. Performed experiments revealed useful insights on how the quality of speech synthesis and recognition can be affected by distinct factors (e.g., sentence difficulty and speaker ability).</p>
+<p>Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts.</p>
 </section>
 <section id="paper-authors" class="level2">
 <h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
 <ul>
-<li><a href="https://scholar.google.com/citations?user=-EGO0o8AAAAJ&amp;hl=en">Telmo M. Silva Filho</a></li>
-<li><a href="https://scholar.google.co.uk/scholar?q=chaina+s+oliveira&amp;hl=pt-BR&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart">Chaina S. Oliveira</a></li>
-<li><a href="https://scholar.google.co.uk/citations?user=P6InHKcAAAAJ&amp;hl=pt-BR&amp;oi=sra">Ricardo Bastos C. Prudêncio</a></li>
+<li><a href="?meta:params.author_1.url">Jonk, Patrick</a></li>
+<li><a href="?meta:params.author_2.url">de Vries, Vincent</a></li>
+<li><a href="?meta:params.author_3.url">Wever, Rombout</a></li>
+<li><a href="?meta:params.author_4.url">Sidiropoulos, Georgios</a></li>
+<li><a href="?meta:params.author_5.url">Kanoulas, Evangelos</a></li>
 </ul>
 </section>
 <section id="more-resources" class="level2">
 <h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://arxiv.org/pdf/2301.05663"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 
 
 </section>
