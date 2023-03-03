@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Interactive Content Repository</title>
+<title>index</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,37 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-content_listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-content_listings'] = new List('listing-content_listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -130,261 +98,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Interactive Content Repository</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Calibration">Calibration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="F-Score">F-Score <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Precision-Recall">Precision-Recall <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ROC">ROC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="calibration">calibration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="game theory">game theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="item response theory">item response theory <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
+<p>conference_id,name,link,location,start_date,end_date 37,Home| Artificial Intelligence and Statistics Conference,http://aistats.org/aistats2023/,Spain,2023-04-25,2023-04-27</p>
 
 
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-content_listings">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="item response theory" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="0.22">
-<div class="thumbnail">
-<p><a href="./content/upload-data/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/upload-data/index.html">
-<h3 class="no-anchor listing-title">
-Upload Data
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('item response theory'); return false;">
-item response theory
-</div>
-</div>
-<a href="./content/upload-data/index.html">
-<div class="listing-description">
-<p>loren ipsum</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/upload-data/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Calibration" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="0.915">
-<div class="thumbnail">
-<p><a href="./content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html">
-<h3 class="no-anchor listing-title">
-Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Calibration'); return false;">
-Calibration
-</div>
-</div>
-<a href="./content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html">
-<div class="listing-description">
-<p>For optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="F-Score,Precision-Recall,ROC" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="0.495">
-<div class="thumbnail">
-<p><a href="./content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html"> <img src="http://people.cs.bris.ac.uk/~flach/PRGcurves/curves.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html">
-<h3 class="no-anchor listing-title">
-Precision-Recall-Gain Curves: PR Analysis Done Right
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('F-Score'); return false;">
-F-Score
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Precision-Recall'); return false;">
-Precision-Recall
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ROC'); return false;">
-ROC
-</div>
-</div>
-<a href="./content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html">
-<div class="listing-description">
-<p>Don’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), <span>video</span>, poster and slides.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="1.08">
-<div class="thumbnail">
-<p><a href="./content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html">
-<h3 class="no-anchor listing-title">
-Natural Language Processing of Aviation Occurrence Reports for Safety Management
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="calibration" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="0.9">
-<div class="thumbnail">
-<p><a href="./content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html">
-<h3 class="no-anchor listing-title">
-Parameter-free shape optimization: various shape updates for engineering applications
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('calibration'); return false;">
-calibration
-</div>
-</div>
-<a href="./content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html">
-<div class="listing-description">
-<p>In the last decade, parameter-free approaches to shape optimization problems have matured to a state where they provide a versatile tool for complex engineering applications. However, sensitivity distributions obtained from shape derivatives in…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="0.73">
-<div class="thumbnail">
-<p><a href="./content/crossing-minimization-in-time-interval-storylines/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/crossing-minimization-in-time-interval-storylines/index.html">
-<h3 class="no-anchor listing-title">
-Crossing Minimization in Time Interval Storylines
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Storyline visualizations are a popular way of visualizing characters andtheir interactions over time: Characters are drawn as x-monotone curves andinteractions are visualized through close proximity of the correspondingcharacter curves in a…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/crossing-minimization-in-time-interval-storylines/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="item response theory" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="1.375">
-<div class="thumbnail">
-<p><a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html">
-<h3 class="no-anchor listing-title">
-A two-level Item Response Theory model to evaluate speech synthesis and recognition
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('item response theory'); return false;">
-item response theory
-</div>
-</div>
-<a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html">
-<div class="listing-description">
-<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="game theory" data-listing-file-modified-sort="1677680981290" data-listing-reading-time-sort="1.315">
-<div class="thumbnail">
-<p><a href="./content/on-price-induced-minmax-matchings/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/on-price-induced-minmax-matchings/index.html">
-<h3 class="no-anchor listing-title">
-On price-induced minmax matchings
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('game theory'); return false;">
-game theory
-</div>
-</div>
-<a href="./content/on-price-induced-minmax-matchings/index.html">
-<div class="listing-description">
-<p>We study a natural combinatorial pricing problem for sequentially arriving buyers with equal budgets. Each buyer is interested in exactly one pair of items and purchases this pair if and only if, upon arrival, both items are still available and the…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/on-price-induced-minmax-matchings/index.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -632,6 +361,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://giscus.app/client.js" data-repo="DelmiroDaladier/icr" data-repo-id="R_kgDOIajQkw" data-category="General" data-category-id="DIC_kwDOIajQk84CSkWk" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 
