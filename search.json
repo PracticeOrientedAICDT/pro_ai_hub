@@ -11,112 +11,7 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nclassification\n\n\n\n\ntest\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest 1\n\n\n\n\n\n\n\nclassification\n\n\n\n\nasdf123asdf123\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntesting-a-blog-post-2\n\n\n\n\n\n\n\nclassification\n\n\n\n\ntesting-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "",
-    "text": "For optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is however prone to overfitting on smaller datasets; hence a parametric method based on the logistic curve is commonly used. While logistic calibration is designed to correct for a specific kind of distortion where classifiers tend to score on too narrow a scale, we demonstrate experimentally that many classifiers including naive Bayes and Adaboost suffer from the opposite distortion where scores tend too much to the extremes. In such cases logistic calibration can easily yield probability estimates that are worse than the original scores. Moreover, the logistic curve family does not include the identity function, and hence logistic calibration can easily uncalibrate a perfectly calibrated classifier."
-  },
-  {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#paper-authors",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#paper-authors",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nMeelis Kull\nTelmo M. Silva Filho\nPeter A. Flach"
-  },
-  {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "",
-    "text": "Don’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides."
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Image",
-    "text": "Image"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n-Peter A. Flach -Meelis Kull"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Venue",
-    "text": "Venue\nNIPS 2015 NIPS 2015"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "More resources",
-    "text": "More resources"
-  },
-  {
-    "objectID": "content/test/index.html",
-    "href": "content/test/index.html",
-    "title": "test",
-    "section": "",
-    "text": "test"
-  },
-  {
-    "objectID": "content/test/index.html#paper-authors",
-    "href": "content/test/index.html#paper-authors",
-    "title": "test",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nMasoud Akbari\nM. Hassan Shirali-Shahreza"
-  },
-  {
-    "objectID": "content/test/index.html#more-resources",
-    "href": "content/test/index.html#more-resources",
-    "title": "test",
-    "section": "More Resources",
-    "text": "More Resources\n   []("
-  },
-  {
-    "objectID": "content/test-1/index.html",
-    "href": "content/test-1/index.html",
-    "title": "test 1",
-    "section": "",
-    "text": "asdf123asdf123"
-  },
-  {
-    "objectID": "content/test-1/index.html#paper-authors",
-    "href": "content/test-1/index.html#paper-authors",
-    "title": "test 1",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nMasoud Akbari\nAli Mohades\nM. Hassan Shirali-Shahreza"
-  },
-  {
-    "objectID": "content/test-1/index.html#more-resources",
-    "href": "content/test-1/index.html#more-resources",
-    "title": "test 1",
-    "section": "More Resources",
-    "text": "More Resources\n   []("
+    "text": "A two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
@@ -180,27 +75,6 @@
     "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
     "section": "More Resources",
     "text": "More Resources"
-  },
-  {
-    "objectID": "content/testing-a-blog-post-2/index.html",
-    "href": "content/testing-a-blog-post-2/index.html",
-    "title": "testing-a-blog-post-2",
-    "section": "",
-    "text": "testing-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2testing-a-blog-post-2"
-  },
-  {
-    "objectID": "content/testing-a-blog-post-2/index.html#paper-authors",
-    "href": "content/testing-a-blog-post-2/index.html#paper-authors",
-    "title": "testing-a-blog-post-2",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nMasoud Akbari\nAli Mohades"
-  },
-  {
-    "objectID": "content/testing-a-blog-post-2/index.html#more-resources",
-    "href": "content/testing-a-blog-post-2/index.html#more-resources",
-    "title": "testing-a-blog-post-2",
-    "section": "More Resources",
-    "text": "More Resources\n   []("
   },
   {
     "objectID": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",

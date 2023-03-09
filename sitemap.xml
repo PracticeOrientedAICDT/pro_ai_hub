@@ -2,54 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-03-09T10:41:41.851Z</lastmod>
+    <lastmod>2023-03-09T10:44:00.490Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-03-09T10:41:44.248Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-03-09T10:41:45.144Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-03-09T10:41:46.372Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/test/index.html</loc>
-    <lastmod>2023-03-09T10:41:47.184Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/test-1/index.html</loc>
-    <lastmod>2023-03-09T10:41:48.056Z</lastmod>
+    <lastmod>2023-03-09T10:44:02.562Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html</loc>
-    <lastmod>2023-03-09T10:41:48.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/testing-a-blog-post-2/index.html</loc>
-    <lastmod>2023-03-09T10:41:49.684Z</lastmod>
+    <lastmod>2023-03-09T10:44:03.594Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-03-09T10:41:50.520Z</lastmod>
+    <lastmod>2023-03-09T10:44:04.350Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-03-09T10:41:51.416Z</lastmod>
+    <lastmod>2023-03-09T10:44:05.102Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-03-09T10:41:51.832Z</lastmod>
+    <lastmod>2023-03-09T10:44:05.462Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-03-09T10:41:52.716Z</lastmod>
+    <lastmod>2023-03-09T10:44:06.194Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-03-09T10:41:53.524Z</lastmod>
+    <lastmod>2023-03-09T10:44:06.862Z</lastmod>
   </url>
 </urlset>
