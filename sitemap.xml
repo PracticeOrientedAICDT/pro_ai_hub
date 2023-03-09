@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-03-09T10:44:00.490Z</lastmod>
+    <lastmod>2023-03-09T10:49:58.600Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-03-09T10:44:02.562Z</lastmod>
+    <lastmod>2023-03-09T10:50:00.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/test-1/index.html</loc>
+    <lastmod>2023-03-09T10:50:01.596Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html</loc>
-    <lastmod>2023-03-09T10:44:03.594Z</lastmod>
+    <lastmod>2023-03-09T10:50:02.808Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-03-09T10:44:04.350Z</lastmod>
+    <lastmod>2023-03-09T10:50:03.644Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-03-09T10:44:05.102Z</lastmod>
+    <lastmod>2023-03-09T10:50:04.368Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-03-09T10:44:05.462Z</lastmod>
+    <lastmod>2023-03-09T10:50:04.704Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-03-09T10:44:06.194Z</lastmod>
+    <lastmod>2023-03-09T10:50:05.412Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-03-09T10:44:06.862Z</lastmod>
+    <lastmod>2023-03-09T10:50:06.076Z</lastmod>
   </url>
 </urlset>

@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/content/test-1/index.html",
       "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html"
     ]
   },
