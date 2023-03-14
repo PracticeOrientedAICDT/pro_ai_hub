@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "A two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "A two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nModel-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
@@ -73,6 +73,27 @@
     "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources-2",
     "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources-2",
     "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
+    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
+    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
+    "section": "",
+    "text": "In recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized weights); and (iii) fine-tune the entire model on a downstream task(MLP). This procedure has produced massive gains on standard NLP benchmarks,but these models remain brittle, even to mild adversarial perturbations, suchas word-level synonym substitutions. In this work, we demonstrate surprisinggains in adversarial robustness enjoyed by Model-tuning Via Prompts (MVP), analternative method of adapting to downstream tasks. Rather than modifying themodel (by appending an MLP head), MVP instead modifies the input (by appendinga prompt template). Across three classification datasets, MVP improvesperformance against adversarial word-level synonym substitutions by an averageof 8% over standard methods and even outperforms adversarial training-basedstate-of-art defenses by 3.5%. By combining MVP with adversarial training, weachieve further improvements in robust accuracy while maintaining cleanaccuracy. Finally, we conduct ablations to investigate the mechanism underlyingthese gains. Notably, we find that the main causes of vulnerability of MLP canbe attributed to the misalignment between pre-training and fine-tuning tasks,and the randomly initialized MLP parameters. Code is available atthis https URL"
+  },
+  {
+    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#paper-authors",
+    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#paper-authors",
+    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nRaman, Mrigank\nMaini, Pratyush\nKolter, J. Zico\nLipton, Zachary C.\nPruthi, Danish"
+  },
+  {
+    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#more-resources",
+    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#more-resources",
+    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
     "section": "More Resources",
     "text": "More Resources"
   },
