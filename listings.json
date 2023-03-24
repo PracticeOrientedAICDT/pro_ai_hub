@@ -1,16 +1,17 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
-      "/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html"
+      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html"
+      "/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
+      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
+      "/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html"
     ]
   }
 ]
