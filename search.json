@@ -7,6 +7,27 @@
     "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "",
+    "text": "Stylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our primary contribution is methodological; we introduce and evaluatetwo non-parametric methods to produce a summary statistic for characterdistinctiveness that can be usefully applied and compared across languages andtimes. Our first method is based on bootstrap distances between 3-gramprobability distributions, the second (reminiscent of ‘unmasking’ techniques)on word keyness curves. Both methods are validated and explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse 3301characters drawn from 2324 works, covering five centuries and four languages(French, German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod offers rich interpretability. Both methods are able to capturephonological differences such as accent or dialect, as well as broaddifferences in topic and lexical richness. Based on exploratory analysis, wefind that smaller characters tend to be more distinctive, and that women arecross-linguistically more distinctive than men, with this latter findingcarefully interrogated using multiple regression. This greater distinctivenessstems from a historical tendency for female characters to be restricted to an’internal narrative domain’ covering mainly direct discourse andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures will form a basis for more sophisticated future studies, and advancesin theory."
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nŠeļa, Artjoms\nNagy, Ben\nByszuk, Joanna\nHernández-Lorenzo, Laura\nSzemes, Botond\nEder, Maciej"
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
     "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
     "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
     "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
@@ -193,6 +214,6 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nModel-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
