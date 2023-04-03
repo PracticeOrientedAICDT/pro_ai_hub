@@ -1,0 +1,36 @@
+---
+categories:
+- calibration
+description: test test test test test test test test
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Wayne Xin Zhao
+    url: null
+  code_url: ''
+  overview: test test test test test test test test
+  pdf_url: ''
+  poster_url: ''
+  scholar_url: ''
+  slides_url: ''
+  supplement_url: ''
+title: test
+
+---
+## Tldr 
+test test test test test test test test
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
+[![](https://img.shields.io/badge/supplement-yellowgreen?style=flat)]({{< meta params.supplement_url >}})
+[![](https://img.shields.io/badge/blog-blue?style=flat)]({{< meta params.slides_url >}}
+[![](https://img.shields.io/badge/poster-yellow?style=flat)]({{< meta params.poster_url >}})
+[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})
