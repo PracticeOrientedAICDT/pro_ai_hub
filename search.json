@@ -28,6 +28,27 @@
     "text": "More Resources"
   },
   {
+    "objectID": "content/a-survey-of-large-language-models/index.html",
+    "href": "content/a-survey-of-large-language-models/index.html",
+    "title": "A Survey of Large Language Models",
+    "section": "",
+    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#paper-authors",
+    "href": "content/a-survey-of-large-language-models/index.html#paper-authors",
+    "title": "A Survey of Large Language Models",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nZhao, Wayne Xin\nZhou, Kun\nLi, Junyi\nTang, Tianyi\nWang, Xiaolei\nHou, Yupeng\nMin, Yingqian\nZhang, Beichen\nZhang, Junjie\nDong, Zican\nDu, Yifan\nYang, Chen\nChen, Yushuo\nChen, Zhipeng\nJiang, Jinhao\nRen, Ruiyang\nLi, Yifan\nTang, Xinyu\nLiu, Zikang\nLiu, Peiyu\nNie, Jian-Yun\nWen, Ji-Rong"
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#more-resources",
+    "href": "content/a-survey-of-large-language-models/index.html#more-resources",
+    "title": "A Survey of Large Language Models",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
     "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
     "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
     "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
@@ -214,6 +235,6 @@
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nModel-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Survey of Large Language Models\n\n\n\n\n\nLanguage is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nModel-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
