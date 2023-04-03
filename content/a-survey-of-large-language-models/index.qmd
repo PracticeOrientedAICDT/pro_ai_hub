@@ -1,0 +1,130 @@
+---
+description: Language is essentially a complex, intricate system of human expressionsgoverned
+  by grammatical rules. It poses a significant challenge to developcapable AI algorithms
+  for comprehending and grasping a language. As a majorapproach, language modeling
+  has been widely studied for language understandingand generation in the past two
+  decades, evolving from statistical languagemodels to neural language models. Recently,
+  pre-trained language models (PLMs)have been proposed by pre-training Transformer
+  models over large-scale corpora,showing strong capabilities in solving various NLP
+  tasks. Since researchershave found that model scaling can lead to performance improvement,
+  they furtherstudy the scaling effect by increasing the model size to an even larger
+  size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage
+  models not only achieve a significant performance improvement but alsoshow some
+  special abilities that are not present in small-scale languagemodels. To discriminate
+  the difference in parameter scale, the researchcommunity has coined the term large
+  language models (LLM) for the PLMs ofsignificant size. Recently, the research on
+  LLMs has been largely advanced byboth academia and industry, and a remarkable progress
+  is the launch of ChatGPT,which has attracted widespread attention from society.
+  The technical evolutionof LLMs has been making an important impact on the entire
+  AI community, whichwould revolutionize the way how we develop and use AI algorithms.
+  In thissurvey, we review the recent advances of LLMs by introducing the background,key
+  findings, and mainstream techniques. In particular, we focus on four majoraspects
+  of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation.
+  Besides, we also summarize the available resources fordeveloping LLMs and discuss
+  the remaining issues for future directions.
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Zhao, Wayne Xin
+  author_10:
+    name: Dong, Zican
+  author_11:
+    name: Du, Yifan
+  author_12:
+    name: Yang, Chen
+  author_13:
+    name: Chen, Yushuo
+  author_14:
+    name: Chen, Zhipeng
+  author_15:
+    name: Jiang, Jinhao
+  author_16:
+    name: Ren, Ruiyang
+  author_17:
+    name: Li, Yifan
+  author_18:
+    name: Tang, Xinyu
+  author_19:
+    name: Liu, Zikang
+  author_2:
+    name: Zhou, Kun
+  author_20:
+    name: Liu, Peiyu
+  author_21:
+    name: Nie, Jian-Yun
+  author_22:
+    name: Wen, Ji-Rong
+  author_3:
+    name: Li, Junyi
+  author_4:
+    name: Tang, Tianyi
+  author_5:
+    name: Wang, Xiaolei
+  author_6:
+    name: Hou, Yupeng
+  author_7:
+    name: Min, Yingqian
+  author_8:
+    name: Zhang, Beichen
+  author_9:
+    name: Zhang, Junjie
+  overview: Language is essentially a complex, intricate system of human expressionsgoverned
+    by grammatical rules. It poses a significant challenge to developcapable AI algorithms
+    for comprehending and grasping a language. As a majorapproach, language modeling
+    has been widely studied for language understandingand generation in the past two
+    decades, evolving from statistical languagemodels to neural language models. Recently,
+    pre-trained language models (PLMs)have been proposed by pre-training Transformer
+    models over large-scale corpora,showing strong capabilities in solving various
+    NLP tasks. Since researchershave found that model scaling can lead to performance
+    improvement, they furtherstudy the scaling effect by increasing the model size
+    to an even larger size.Interestingly, when the parameter scale exceeds a certain
+    level, these enlargedlanguage models not only achieve a significant performance
+    improvement but alsoshow some special abilities that are not present in small-scale
+    languagemodels. To discriminate the difference in parameter scale, the researchcommunity
+    has coined the term large language models (LLM) for the PLMs ofsignificant size.
+    Recently, the research on LLMs has been largely advanced byboth academia and industry,
+    and a remarkable progress is the launch of ChatGPT,which has attracted widespread
+    attention from society. The technical evolutionof LLMs has been making an important
+    impact on the entire AI community, whichwould revolutionize the way how we develop
+    and use AI algorithms. In thissurvey, we review the recent advances of LLMs by
+    introducing the background,key findings, and mainstream techniques. In particular,
+    we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning,
+    utilization, andcapacity evaluation. Besides, we also summarize the available
+    resources fordeveloping LLMs and discuss the remaining issues for future directions.
+  pdf_url: http://arxiv.org/pdf/2303.18223
+title: A Survey of Large Language Models
+
+---
+## Tldr 
+Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions.
+
+## Paper-authors
+- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+- [{{< meta params.author_3.name >}}]({{< meta params.author_3.url >}})
+- [{{< meta params.author_4.name >}}]({{< meta params.author_4.url >}})
+- [{{< meta params.author_5.name >}}]({{< meta params.author_5.url >}})
+- [{{< meta params.author_6.name >}}]({{< meta params.author_6.url >}})
+- [{{< meta params.author_7.name >}}]({{< meta params.author_7.url >}})
+- [{{< meta params.author_8.name >}}]({{< meta params.author_8.url >}})
+- [{{< meta params.author_9.name >}}]({{< meta params.author_9.url >}})
+- [{{< meta params.author_10.name >}}]({{< meta params.author_10.url >}})
+- [{{< meta params.author_11.name >}}]({{< meta params.author_11.url >}})
+- [{{< meta params.author_12.name >}}]({{< meta params.author_12.url >}})
+- [{{< meta params.author_13.name >}}]({{< meta params.author_13.url >}})
+- [{{< meta params.author_14.name >}}]({{< meta params.author_14.url >}})
+- [{{< meta params.author_15.name >}}]({{< meta params.author_15.url >}})
+- [{{< meta params.author_16.name >}}]({{< meta params.author_16.url >}})
+- [{{< meta params.author_17.name >}}]({{< meta params.author_17.url >}})
+- [{{< meta params.author_18.name >}}]({{< meta params.author_18.url >}})
+- [{{< meta params.author_19.name >}}]({{< meta params.author_19.url >}})
+- [{{< meta params.author_20.name >}}]({{< meta params.author_20.url >}})
+- [{{< meta params.author_21.name >}}]({{< meta params.author_21.url >}})
+- [{{< meta params.author_22.name >}}]({{< meta params.author_22.url >}})
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
