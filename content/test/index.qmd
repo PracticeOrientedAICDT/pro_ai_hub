@@ -1,7 +1,7 @@
 ---
 categories:
-- calibration
-description: test test test test test test test test
+- Natural Language Processing
+description: test test
 format:
   html:
     df-print: paged
@@ -9,10 +9,13 @@ format:
 image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
 params:
   author_1:
-    name: Wayne Xin Zhao
+    name: Jinhyuk Lee
+    url: null
+  author_2:
+    name: Zhuyun Dai
     url: null
   code_url: ''
-  overview: test test test test test test test test
+  overview: test test
   pdf_url: ''
   poster_url: ''
   scholar_url: ''
@@ -22,10 +25,11 @@ title: test
 
 ---
 ## Tldr 
-test test test test test test test test
+test test
 
 ## Paper-authors
 - [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
+- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
 
 ## More Resources
 [![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
