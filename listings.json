@@ -1,22 +1,23 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
+      "/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+      "/content/a-survey-of-large-language-models/index.html",
+      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
+      "/content/test/index.html",
+      "/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
+      "/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
+      "/content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
       "/posts/test/index.html",
       "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
-      "/content/a-survey-of-large-language-models/index.html",
-      "/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
-      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
-      "/content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html",
-      "/content/test/index.html",
-      "/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html"
     ]
   }
 ]
