@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.">
+<meta name="description" content="Recent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being unimodal and applied mainly to question-answering tasks.We claim that incorporating visual augmentation into reasoning is essential,especially for complex, imaginative tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought prompting with vision-languagegrounding to recursively bridge the logical gaps within sequential data. Ourmethod uses visual guidance to generate synthetic multimodal infillings thatadd consistent and novel information to reduce the logical gaps for downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability into models’ multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow summarization datasets and demonstrate through humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating chain of thought baselines, which can be used to enhance downstreamperformance.">
 
-<title>A two-level Item Response Theory model to evaluate speech synthesis and recognition</title>
+<title>Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -61,6 +95,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -102,16 +138,13 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">A two-level Item Response Theory model to evaluate speech synthesis and recognition</h1>
+      <h1 class="title">Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings</h1>
                   <div>
         <div class="description">
-          Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.
+          Recent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being unimodal and applied mainly to question-answering tasks.We claim that incorporating visual augmentation into reasoning is essential,especially for complex, imaginative tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought prompting with vision-languagegrounding to recursively bridge the logical gaps within sequential data. Ourmethod uses visual guidance to generate synthetic multimodal infillings thatadd consistent and novel information to reduce the logical gaps for downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability into models’ multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow summarization datasets and demonstrate through humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating chain of thought baselines, which can be used to enhance downstreamperformance.
         </div>
       </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">item response theory</div>
-              </div>
-                  </div>
+                </div>
   </div>
     
   
@@ -134,12 +167,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">Tldr</a></li>
   <li><a href="#paper-authors" id="toc-paper-authors" class="nav-link" data-scroll-target="#paper-authors">Paper-authors</a></li>
   <li><a href="#more-resources" id="toc-more-resources" class="nav-link" data-scroll-target="#more-resources">More Resources</a></li>
-  <li><a href="#tldr-1" id="toc-tldr-1" class="nav-link" data-scroll-target="#tldr-1">Tldr</a></li>
-  <li><a href="#paper-authors-1" id="toc-paper-authors-1" class="nav-link" data-scroll-target="#paper-authors-1">Paper-authors</a></li>
-  <li><a href="#more-resources-1" id="toc-more-resources-1" class="nav-link" data-scroll-target="#more-resources-1">More Resources</a></li>
-  <li><a href="#tldr-2" id="toc-tldr-2" class="nav-link" data-scroll-target="#tldr-2">Tldr</a></li>
-  <li><a href="#paper-authors-2" id="toc-paper-authors-2" class="nav-link" data-scroll-target="#paper-authors-2">Paper-authors</a></li>
-  <li><a href="#more-resources-2" id="toc-more-resources-2" class="nav-link" data-scroll-target="#more-resources-2">More Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -149,55 +176,68 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="62" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 61;"><span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> [<span class="st">"Daniel Rose"</span><span class="op">,</span><span class="st">"Vaishnavi Himakunthala"</span><span class="op">,</span><span class="st">"Andy Ouyang"</span><span class="op">,</span><span class="st">"Ryan He"</span><span class="op">,</span><span class="st">"Alex Mei"</span><span class="op">,</span><span class="st">"Yujie Lu"</span><span class="op">,</span><span class="st">"Michael Saxon"</span><span class="op">,</span><span class="st">"Chinmay Sonar"</span><span class="op">,</span><span class="st">"Diba Mirza"</span><span class="op">,</span><span class="st">"William Yang Wang"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
-<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.</p>
+<p>Recent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being unimodal and applied mainly to question-answering tasks.We claim that incorporating visual augmentation into reasoning is essential,especially for complex, imaginative tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought prompting with vision-languagegrounding to recursively bridge the logical gaps within sequential data. Ourmethod uses visual guidance to generate synthetic multimodal infillings thatadd consistent and novel information to reduce the logical gaps for downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability into models’ multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow summarization datasets and demonstrate through humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating chain of thought baselines, which can be used to enhance downstreamperformance.</p>
 </section>
 <section id="paper-authors" class="level2">
 <h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
-<ul>
-<li><a href="https://scholar.google.com/citations?user=-EGO0o8AAAAJ&amp;hl=en">Telmo M. Silva Filho</a></li>
-<li><a href="https://scholar.google.co.uk/scholar?q=chaina+s+oliveira&amp;hl=pt-BR&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart">Chaina S. Oliveira</a></li>
-<li><a href="https://scholar.google.co.uk/citations?user=P6InHKcAAAAJ&amp;hl=pt-BR&amp;oi=sra">Ricardo Bastos C. Prudêncio</a></li>
-</ul>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="73" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 72;"><span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>names<span class="op">.</span><span class="fu">map</span>(name <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;&lt;a href="../../posts_by_author.html?name=</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">" &gt;</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/li&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="79" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 78;"><span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>htl <span class="op">=</span> <span class="pp">require</span>(<span class="st">"htl@0.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="85" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 84;"><span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>html <span class="op">=</span> htl<span class="op">.</span><span class="at">html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
 </section>
 <section id="more-resources" class="level2">
 <h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
-</section>
-<section id="tldr-1" class="level2">
-<h2 class="anchored" data-anchor-id="tldr-1">Tldr</h2>
-<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.</p>
-</section>
-<section id="paper-authors-1" class="level2">
-<h2 class="anchored" data-anchor-id="paper-authors-1">Paper-authors</h2>
-<ul>
-<li><a href="https://scholar.google.com/citations?user=-EGO0o8AAAAJ&amp;hl=en">Telmo M. Silva Filho</a></li>
-<li><a href="https://scholar.google.co.uk/scholar?q=chaina+s+oliveira&amp;hl=pt-BR&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart">Chaina S. Oliveira</a></li>
-<li><a href="https://scholar.google.co.uk/citations?user=P6InHKcAAAAJ&amp;hl=pt-BR&amp;oi=sra">Ricardo Bastos C. Prudêncio</a></li>
-</ul>
-</section>
-<section id="more-resources-1" class="level2">
-<h2 class="anchored" data-anchor-id="more-resources-1">More Resources</h2>
-</section>
-<section id="tldr-2" class="level2">
-<h2 class="anchored" data-anchor-id="tldr-2">Tldr</h2>
-<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences.</p>
-</section>
-<section id="paper-authors-2" class="level2">
-<h2 class="anchored" data-anchor-id="paper-authors-2">Paper-authors</h2>
-<ul>
-<li><a href="https://scholar.google.com/citations?user=-EGO0o8AAAAJ&amp;hl=en">Telmo M. Silva Filho</a></li>
-<li><a href="https://scholar.google.co.uk/scholar?q=chaina+s+oliveira&amp;hl=pt-BR&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart">Chaina S. Oliveira</a></li>
-<li><a href="https://scholar.google.co.uk/citations?user=P6InHKcAAAAJ&amp;hl=pt-BR&amp;oi=sra">Ricardo Bastos C. Prudêncio</a></li>
-</ul>
-</section>
-<section id="more-resources-2" class="level2">
-<h2 class="anchored" data-anchor-id="more-resources-2">More Resources</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://arxiv.org/pdf/2305.02317"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 
 
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n names = [\"Daniel Rose\",\"Vaishnavi Himakunthala\",\"Andy Ouyang\",\"Ryan He\",\"Alex Mei\",\"Yujie Lu\",\"Michael Saxon\",\"Chinmay Sonar\",\"Diba Mirza\",\"William Yang Wang\"] \n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\n html`<ul>${names.map(name => html`<li><a href=\"../../posts_by_author.html?name=${name}\" >${name}</a></li>`)}</ul>` \n\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\n htl = require(\"htl@0.2\") \n\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\n html = htl.html \n\n"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+    "href": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+  },
+  {
     "objectID": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
     "href": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
     "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
@@ -14,141 +21,43 @@
     "text": "asdf123"
   },
   {
-    "objectID": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "href": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
+    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
+    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
+    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+    "text": "In recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized weights); and (iii) fine-tune the entire model on a downstream task(MLP). This procedure has produced massive gains on standard NLP benchmarks,but these models remain brittle, even to mild adversarial perturbations, suchas word-level synonym substitutions. In this work, we demonstrate surprisinggains in adversarial robustness enjoyed by Model-tuning Via Prompts (MVP), analternative method of adapting to downstream tasks. Rather than modifying themodel (by appending an MLP head), MVP instead modifies the input (by appendinga prompt template). Across three classification datasets, MVP improvesperformance against adversarial word-level synonym substitutions by an averageof 8% over standard methods and even outperforms adversarial training-basedstate-of-art defenses by 3.5%. By combining MVP with adversarial training, weachieve further improvements in robust accuracy while maintaining cleanaccuracy. Finally, we conduct ablations to investigate the mechanism underlyingthese gains. Notably, we find that the main causes of vulnerability of MLP canbe attributed to the misalignment between pre-training and fine-tuning tasks,and the randomly initialized MLP parameters. Code is available atthis https URL"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interactive Content Repository",
+    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#tldr",
+    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#tldr",
+    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
     "section": "",
-    "text": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks\n\n\n\n\n\nIndex coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Survey of Large Language Models\n\n\n\n\n\nLanguage is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\ntest test\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nModel-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRethinking the Role of Token Retrieval in Multi-Vector Retrieval\n\n\n\n\n\nMulti-vector retrieval models such as ColBERT [Khattab and Zaharia, 2020]allow token-level interactions between queries and documents, and hence achievestate of the art on many information retrieval benchmarks. However, theirnon-linear scoring…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "In recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized weights); and (iii) fine-tune the entire model on a downstream task(MLP). This procedure has produced massive gains on standard NLP benchmarks,but these models remain brittle, even to mild adversarial perturbations, suchas word-level synonym substitutions. In this work, we demonstrate surprisinggains in adversarial robustness enjoyed by Model-tuning Via Prompts (MVP), analternative method of adapting to downstream tasks. Rather than modifying themodel (by appending an MLP head), MVP instead modifies the input (by appendinga prompt template). Across three classification datasets, MVP improvesperformance against adversarial word-level synonym substitutions by an averageof 8% over standard methods and even outperforms adversarial training-basedstate-of-art defenses by 3.5%. By combining MVP with adversarial training, weachieve further improvements in robust accuracy while maintaining cleanaccuracy. Finally, we conduct ablations to investigate the mechanism underlyingthese gains. Notably, we find that the main causes of vulnerability of MLP canbe attributed to the misalignment between pre-training and fine-tuning tasks,and the randomly initialized MLP parameters. Code is available atthis https URL"
   },
   {
-    "objectID": "templates/template_for_content.html#image",
-    "href": "templates/template_for_content.html#image",
-    "title": "Title for your work",
-    "section": "Image",
-    "text": "Image"
-  },
-  {
-    "objectID": "templates/template_for_content.html#paper-authors",
-    "href": "templates/template_for_content.html#paper-authors",
-    "title": "Title for your work",
+    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#paper-authors",
+    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#paper-authors",
+    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
     "section": "Paper-authors",
-    "text": "Paper-authors"
+    "text": "Paper-authors\n\nRaman, Mrigank\nMaini, Pratyush\nKolter, J. Zico\nLipton, Zachary C.\nPruthi, Danish"
   },
   {
-    "objectID": "templates/template_for_content.html#venue",
-    "href": "templates/template_for_content.html#venue",
-    "title": "Title for your work",
-    "section": "Venue",
-    "text": "Venue"
-  },
-  {
-    "objectID": "templates/template_for_content.html#video",
-    "href": "templates/template_for_content.html#video",
-    "title": "Title for your work",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "templates/template_for_content.html#slides",
-    "href": "templates/template_for_content.html#slides",
-    "title": "Title for your work",
-    "section": "Slides",
-    "text": "Slides\nhere"
-  },
-  {
-    "objectID": "templates/template_for_content.html#code",
-    "href": "templates/template_for_content.html#code",
-    "title": "Title for your work",
-    "section": "Code",
-    "text": "Code\nHere"
-  },
-  {
-    "objectID": "templates/template_for_content.html#more-resources",
-    "href": "templates/template_for_content.html#more-resources",
-    "title": "Title for your work",
-    "section": "More Resources",
-    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
-  },
-  {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
-  },
-  {
-    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
-    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
-    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
-    "section": "",
-    "text": "Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access technique used in 5G networks. Index-coded NOMA (IC-NOMA)transmission scheme in Vehicular Adhoc Networks (VANETs) involves applying NOMAprinciples on index-coded data to avoid network congestion and to improvespectral efficiency compared to conventional IC systems. In this work, aspectral efficient transmission scheme called 3-Group IC-NOMA is proposed, andan innovative index code design that fits with NOMA decoding principles toobtain improved spectral efficiency is developed. Through exhaustive analyticalstudies, we demonstrate that the proposed transmission scheme always supportshigher rates than the conventional IC systems and requires less power toachieve an information rate at least as good as conventional IC systems."
-  },
-  {
-    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
-    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
-    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nDeekshitula, Sai Pavan\nRajan, B. Sundar"
-  },
-  {
-    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
-    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
-    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
-    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
-    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
-    "section": "",
-    "text": "Stylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our primary contribution is methodological; we introduce and evaluatetwo non-parametric methods to produce a summary statistic for characterdistinctiveness that can be usefully applied and compared across languages andtimes. Our first method is based on bootstrap distances between 3-gramprobability distributions, the second (reminiscent of ‘unmasking’ techniques)on word keyness curves. Both methods are validated and explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse 3301characters drawn from 2324 works, covering five centuries and four languages(French, German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod offers rich interpretability. Both methods are able to capturephonological differences such as accent or dialect, as well as broaddifferences in topic and lexical richness. Based on exploratory analysis, wefind that smaller characters tend to be more distinctive, and that women arecross-linguistically more distinctive than men, with this latter findingcarefully interrogated using multiple regression. This greater distinctivenessstems from a historical tendency for female characters to be restricted to an’internal narrative domain’ covering mainly direct discourse andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures will form a basis for more sophisticated future studies, and advancesin theory."
-  },
-  {
-    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
-    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
-    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nŠeļa, Artjoms\nNagy, Ben\nByszuk, Joanna\nHernández-Lorenzo, Laura\nSzemes, Botond\nEder, Maciej"
-  },
-  {
-    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
-    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
-    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/a-survey-of-large-language-models/index.html",
-    "href": "content/a-survey-of-large-language-models/index.html",
-    "title": "A Survey of Large Language Models",
-    "section": "",
-    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
-  },
-  {
-    "objectID": "content/a-survey-of-large-language-models/index.html#paper-authors",
-    "href": "content/a-survey-of-large-language-models/index.html#paper-authors",
-    "title": "A Survey of Large Language Models",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nZhao, Wayne Xin\nZhou, Kun\nLi, Junyi\nTang, Tianyi\nWang, Xiaolei\nHou, Yupeng\nMin, Yingqian\nZhang, Beichen\nZhang, Junjie\nDong, Zican\nDu, Yifan\nYang, Chen\nChen, Yushuo\nChen, Zhipeng\nJiang, Jinhao\nRen, Ruiyang\nLi, Yifan\nTang, Xinyu\nLiu, Zikang\nLiu, Peiyu\nNie, Jian-Yun\nWen, Ji-Rong"
-  },
-  {
-    "objectID": "content/a-survey-of-large-language-models/index.html#more-resources",
-    "href": "content/a-survey-of-large-language-models/index.html#more-resources",
-    "title": "A Survey of Large Language Models",
+    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#more-resources",
+    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#more-resources",
+    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
     "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
     "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
+    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "section": "",
+    "text": "Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences."
+  },
+  {
+    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#tldr",
+    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#tldr",
     "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
     "section": "",
     "text": "Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences."
@@ -210,8 +119,99 @@
     "text": "More Resources"
   },
   {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "",
+    "text": "names = [\"Daniel Rose\",\"Vaishnavi Himakunthala\",\"Andy Ouyang\",\"Ryan He\",\"Alex Mei\",\"Yujie Lu\",\"Michael Saxon\",\"Chinmay Sonar\",\"Diba Mirza\",\"William Yang Wang\"]"
+  },
+  {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#tldr",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#tldr",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "Tldr",
+    "text": "Tldr\nRecent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being unimodal and applied mainly to question-answering tasks.We claim that incorporating visual augmentation into reasoning is essential,especially for complex, imaginative tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought prompting with vision-languagegrounding to recursively bridge the logical gaps within sequential data. Ourmethod uses visual guidance to generate synthetic multimodal infillings thatadd consistent and novel information to reduce the logical gaps for downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability into models’ multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow summarization datasets and demonstrate through humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating chain of thought baselines, which can be used to enhance downstreamperformance."
+  },
+  {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#paper-authors",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#paper-authors",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#more-resources",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#more-resources",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
+    "section": "",
+    "text": "Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access technique used in 5G networks. Index-coded NOMA (IC-NOMA)transmission scheme in Vehicular Adhoc Networks (VANETs) involves applying NOMAprinciples on index-coded data to avoid network congestion and to improvespectral efficiency compared to conventional IC systems. In this work, aspectral efficient transmission scheme called 3-Group IC-NOMA is proposed, andan innovative index code design that fits with NOMA decoding principles toobtain improved spectral efficiency is developed. Through exhaustive analyticalstudies, we demonstrate that the proposed transmission scheme always supportshigher rates than the conventional IC systems and requires less power toachieve an information rate at least as good as conventional IC systems."
+  },
+  {
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#tldr",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#tldr",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
+    "section": "",
+    "text": "Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access technique used in 5G networks. Index-coded NOMA (IC-NOMA)transmission scheme in Vehicular Adhoc Networks (VANETs) involves applying NOMAprinciples on index-coded data to avoid network congestion and to improvespectral efficiency compared to conventional IC systems. In this work, aspectral efficient transmission scheme called 3-Group IC-NOMA is proposed, andan innovative index code design that fits with NOMA decoding principles toobtain improved spectral efficiency is developed. Through exhaustive analyticalstudies, we demonstrate that the proposed transmission scheme always supportshigher rates than the conventional IC systems and requires less power toachieve an information rate at least as good as conventional IC systems."
+  },
+  {
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nDeekshitula, Sai Pavan\nRajan, B. Sundar"
+  },
+  {
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html",
+    "href": "content/a-survey-of-large-language-models/index.html",
+    "title": "A Survey of Large Language Models",
+    "section": "",
+    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#tldr",
+    "href": "content/a-survey-of-large-language-models/index.html#tldr",
+    "title": "A Survey of Large Language Models",
+    "section": "",
+    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#paper-authors",
+    "href": "content/a-survey-of-large-language-models/index.html#paper-authors",
+    "title": "A Survey of Large Language Models",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nZhao, Wayne Xin\nZhou, Kun\nLi, Junyi\nTang, Tianyi\nWang, Xiaolei\nHou, Yupeng\nMin, Yingqian\nZhang, Beichen\nZhang, Junjie\nDong, Zican\nDu, Yifan\nYang, Chen\nChen, Yushuo\nChen, Zhipeng\nJiang, Jinhao\nRen, Ruiyang\nLi, Yifan\nTang, Xinyu\nLiu, Zikang\nLiu, Peiyu\nNie, Jian-Yun\nWen, Ji-Rong"
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#more-resources",
+    "href": "content/a-survey-of-large-language-models/index.html#more-resources",
+    "title": "A Survey of Large Language Models",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
     "objectID": "content/test/index.html",
     "href": "content/test/index.html",
+    "title": "test",
+    "section": "",
+    "text": "test test"
+  },
+  {
+    "objectID": "content/test/index.html#tldr",
+    "href": "content/test/index.html#tldr",
     "title": "test",
     "section": "",
     "text": "test test"
@@ -231,50 +231,15 @@
     "text": "More Resources\n   []("
   },
   {
-    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
-    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
-    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
-    "section": "",
-    "text": "In recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized weights); and (iii) fine-tune the entire model on a downstream task(MLP). This procedure has produced massive gains on standard NLP benchmarks,but these models remain brittle, even to mild adversarial perturbations, suchas word-level synonym substitutions. In this work, we demonstrate surprisinggains in adversarial robustness enjoyed by Model-tuning Via Prompts (MVP), analternative method of adapting to downstream tasks. Rather than modifying themodel (by appending an MLP head), MVP instead modifies the input (by appendinga prompt template). Across three classification datasets, MVP improvesperformance against adversarial word-level synonym substitutions by an averageof 8% over standard methods and even outperforms adversarial training-basedstate-of-art defenses by 3.5%. By combining MVP with adversarial training, weachieve further improvements in robust accuracy while maintaining cleanaccuracy. Finally, we conduct ablations to investigate the mechanism underlyingthese gains. Notably, we find that the main causes of vulnerability of MLP canbe attributed to the misalignment between pre-training and fine-tuning tasks,and the randomly initialized MLP parameters. Code is available atthis https URL"
-  },
-  {
-    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#paper-authors",
-    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#paper-authors",
-    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nRaman, Mrigank\nMaini, Pratyush\nKolter, J. Zico\nLipton, Zachary C.\nPruthi, Danish"
-  },
-  {
-    "objectID": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#more-resources",
-    "href": "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html#more-resources",
-    "title": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
-    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
-    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
-    "section": "",
-    "text": "Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge volume of financial content. Most investors prefer togo through these contents before making decisions. Every industry has termsthat are specific to the domain it operates in. Banking and Financial Servicesare not an exception to this. In order to fully comprehend these contents, oneneeds to have a thorough understanding of the financial terms. Getting a basicidea about a term becomes easy when it is explained with the help of the broadcategory to which it belongs. This broad category is referred to as hypernym.For example, “bond” is a hypernym of the financial term “alternativedebenture”. In this paper, we propose a system capable of extracting andranking hypernyms for a given financial term. The system has been trained withfinancial text corpora obtained from various sources like DBpedia [4],Investopedia, Financial Industry Business Ontology (FIBO), prospectus and soon. Embeddings of these terms have been extracted using FinBERT [3], FinISH [1]and fine-tuned using SentenceBERT [54]. A novel approach has been used toaugment the training set with negative samples. It uses the hierarchy presentin FIBO. Finally, we benchmark the system performance with that of the existingones. We establish that it performs better than the existing ones and is alsoscalable."
-  },
-  {
-    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
-    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
-    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nGhosh, Sohom\nChopra, Ankush\nNaskar, Sudip Kumar"
-  },
-  {
-    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
-    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
-    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
     "objectID": "content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html",
     "href": "content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html",
+    "title": "Rethinking the Role of Token Retrieval in Multi-Vector Retrieval",
+    "section": "",
+    "text": "Multi-vector retrieval models such as ColBERT [Khattab and Zaharia, 2020]allow token-level interactions between queries and documents, and hence achievestate of the art on many information retrieval benchmarks. However, theirnon-linear scoring function cannot be scaled to millions of documents,necessitating a three-stage process for inference: retrieving initialcandidates via token retrieval, accessing all token vectors, and scoring theinitial candidate documents. The non-linear scoring function is applied overall token vectors of each candidate document, making the inference processcomplicated and slow. In this paper, we aim to simplify the multi-vectorretrieval by rethinking the role of token retrieval. We present XTR,ConteXtualized Token Retriever, which introduces a simple, yet novel, objectivefunction that encourages the model to retrieve the most important documenttokens first. The improvement to token retrieval allows XTR to rank candidatesonly using the retrieved tokens rather than all tokens in the document, andenables a newly designed scoring stage that is two-to-three orders of magnitudecheaper than that of ColBERT. On the popular BEIR benchmark, XTR advances thestate-of-the-art by 2.8 nDCG@10 without any distillation. Detailed analysisconfirms our decision to revisit the token retrieval stage, as XTR demonstratesmuch better recall of the token retrieval stage compared to ColBERT."
+  },
+  {
+    "objectID": "content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html#tldr",
+    "href": "content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html#tldr",
     "title": "Rethinking the Role of Token Retrieval in Multi-Vector Retrieval",
     "section": "",
     "text": "Multi-vector retrieval models such as ColBERT [Khattab and Zaharia, 2020]allow token-level interactions between queries and documents, and hence achievestate of the art on many information retrieval benchmarks. However, theirnon-linear scoring function cannot be scaled to millions of documents,necessitating a three-stage process for inference: retrieving initialcandidates via token retrieval, accessing all token vectors, and scoring theinitial candidate documents. The non-linear scoring function is applied overall token vectors of each candidate document, making the inference processcomplicated and slow. In this paper, we aim to simplify the multi-vectorretrieval by rethinking the role of token retrieval. We present XTR,ConteXtualized Token Retriever, which introduces a simple, yet novel, objectivefunction that encourages the model to retrieve the most important documenttokens first. The improvement to token retrieval allows XTR to rank candidatesonly using the retrieved tokens rather than all tokens in the document, andenables a newly designed scoring stage that is two-to-three orders of magnitudecheaper than that of ColBERT. On the popular BEIR benchmark, XTR advances thestate-of-the-art by 2.8 nDCG@10 without any distillation. Detailed analysisconfirms our decision to revisit the token retrieval stage, as XTR demonstratesmuch better recall of the token retrieval stage compared to ColBERT."
@@ -294,11 +259,60 @@
     "text": "More Resources"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Interactive Content Repository",
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
     "section": "",
-    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Stylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our primary contribution is methodological; we introduce and evaluatetwo non-parametric methods to produce a summary statistic for characterdistinctiveness that can be usefully applied and compared across languages andtimes. Our first method is based on bootstrap distances between 3-gramprobability distributions, the second (reminiscent of ‘unmasking’ techniques)on word keyness curves. Both methods are validated and explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse 3301characters drawn from 2324 works, covering five centuries and four languages(French, German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod offers rich interpretability. Both methods are able to capturephonological differences such as accent or dialect, as well as broaddifferences in topic and lexical richness. Based on exploratory analysis, wefind that smaller characters tend to be more distinctive, and that women arecross-linguistically more distinctive than men, with this latter findingcarefully interrogated using multiple regression. This greater distinctivenessstems from a historical tendency for female characters to be restricted to an’internal narrative domain’ covering mainly direct discourse andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures will form a basis for more sophisticated future studies, and advancesin theory."
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#tldr",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#tldr",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "",
+    "text": "Stylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our primary contribution is methodological; we introduce and evaluatetwo non-parametric methods to produce a summary statistic for characterdistinctiveness that can be usefully applied and compared across languages andtimes. Our first method is based on bootstrap distances between 3-gramprobability distributions, the second (reminiscent of ‘unmasking’ techniques)on word keyness curves. Both methods are validated and explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse 3301characters drawn from 2324 works, covering five centuries and four languages(French, German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod offers rich interpretability. Both methods are able to capturephonological differences such as accent or dialect, as well as broaddifferences in topic and lexical richness. Based on exploratory analysis, wefind that smaller characters tend to be more distinctive, and that women arecross-linguistically more distinctive than men, with this latter findingcarefully interrogated using multiple regression. This greater distinctivenessstems from a historical tendency for female characters to be restricted to an’internal narrative domain’ covering mainly direct discourse andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures will form a basis for more sophisticated future studies, and advancesin theory."
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nŠeļa, Artjoms\nNagy, Ben\nByszuk, Joanna\nHernández-Lorenzo, Laura\nSzemes, Botond\nEder, Maciej"
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "",
+    "text": "Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge volume of financial content. Most investors prefer togo through these contents before making decisions. Every industry has termsthat are specific to the domain it operates in. Banking and Financial Servicesare not an exception to this. In order to fully comprehend these contents, oneneeds to have a thorough understanding of the financial terms. Getting a basicidea about a term becomes easy when it is explained with the help of the broadcategory to which it belongs. This broad category is referred to as hypernym.For example, “bond” is a hypernym of the financial term “alternativedebenture”. In this paper, we propose a system capable of extracting andranking hypernyms for a given financial term. The system has been trained withfinancial text corpora obtained from various sources like DBpedia [4],Investopedia, Financial Industry Business Ontology (FIBO), prospectus and soon. Embeddings of these terms have been extracted using FinBERT [3], FinISH [1]and fine-tuned using SentenceBERT [54]. A novel approach has been used toaugment the training set with negative samples. It uses the hierarchy presentin FIBO. Finally, we benchmark the system performance with that of the existingones. We establish that it performs better than the existing ones and is alsoscalable."
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#tldr",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#tldr",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "",
+    "text": "Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge volume of financial content. Most investors prefer togo through these contents before making decisions. Every industry has termsthat are specific to the domain it operates in. Banking and Financial Servicesare not an exception to this. In order to fully comprehend these contents, oneneeds to have a thorough understanding of the financial terms. Getting a basicidea about a term becomes easy when it is explained with the help of the broadcategory to which it belongs. This broad category is referred to as hypernym.For example, “bond” is a hypernym of the financial term “alternativedebenture”. In this paper, we propose a system capable of extracting andranking hypernyms for a given financial term. The system has been trained withfinancial text corpora obtained from various sources like DBpedia [4],Investopedia, Financial Industry Business Ontology (FIBO), prospectus and soon. Embeddings of these terms have been extracted using FinBERT [3], FinISH [1]and fine-tuned using SentenceBERT [54]. A novel approach has been used toaugment the training set with negative samples. It uses the hierarchy presentin FIBO. Finally, we benchmark the system performance with that of the existingones. We establish that it performs better than the existing ones and is alsoscalable."
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nGhosh, Sohom\nChopra, Ankush\nNaskar, Sudip Kumar"
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "More Resources",
+    "text": "More Resources"
   },
   {
     "objectID": "about.html",
@@ -306,5 +320,75 @@
     "title": "About",
     "section": "",
     "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "Model-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nVisual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings\n\n\n\n\n\nRecent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDesign and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks\n\n\n\n\n\nIndex coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Survey of Large Language Models\n\n\n\n\n\nLanguage is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\ntest test\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRethinking the Role of Token Retrieval in Multi-Vector Retrieval\n\n\n\n\n\nMulti-vector retrieval models such as ColBERT [Khattab and Zaharia, 2020]allow token-level interactions between queries and documents, and hence achievestate of the art on many information retrieval benchmarks. However, theirnon-linear scoring…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "templates/template_for_content.html#image",
+    "href": "templates/template_for_content.html#image",
+    "title": "Title for your work",
+    "section": "Image",
+    "text": "Image"
+  },
+  {
+    "objectID": "templates/template_for_content.html#paper-authors",
+    "href": "templates/template_for_content.html#paper-authors",
+    "title": "Title for your work",
+    "section": "Paper-authors",
+    "text": "Paper-authors"
+  },
+  {
+    "objectID": "templates/template_for_content.html#venue",
+    "href": "templates/template_for_content.html#venue",
+    "title": "Title for your work",
+    "section": "Venue",
+    "text": "Venue"
+  },
+  {
+    "objectID": "templates/template_for_content.html#video",
+    "href": "templates/template_for_content.html#video",
+    "title": "Title for your work",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "templates/template_for_content.html#slides",
+    "href": "templates/template_for_content.html#slides",
+    "title": "Title for your work",
+    "section": "Slides",
+    "text": "Slides\nhere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#code",
+    "href": "templates/template_for_content.html#code",
+    "title": "Title for your work",
+    "section": "Code",
+    "text": "Code\nHere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#more-resources",
+    "href": "templates/template_for_content.html#more-resources",
+    "title": "Title for your work",
+    "section": "More Resources",
+    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
   }
 ]
