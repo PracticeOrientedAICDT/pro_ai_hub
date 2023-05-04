@@ -1,7 +1,9 @@
 ---
 categories:
-- Natural Language Processing
-description: test test
+- NLP
+description: asdf123
+execute:
+  echo: false
 format:
   html:
     df-print: paged
@@ -9,13 +11,16 @@ format:
 image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
 params:
   author_1:
-    name: Jinhyuk Lee
+    name: Sai Pavan Deekshitula
     url: null
   author_2:
-    name: Zhuyun Dai
+    name: B. Sundar Rajan
+    url: null
+  author_3:
+    name: Karen Zhou
     url: null
   code_url: ''
-  overview: test test
+  overview: asdf123
   pdf_url: ''
   poster_url: ''
   scholar_url: ''
@@ -24,12 +29,34 @@ params:
 title: test
 
 ---
+```{ojs} 
+
+ names = ["Sai Pavan Deekshitula","B. Sundar Rajan","Karen Zhou"] 
+
+``` 
+
 ## Tldr 
-test test
+asdf123
 
 ## Paper-authors
-- [{{< meta params.author_1.name >}}]({{< meta params.author_1.url >}})
-- [{{< meta params.author_2.name >}}]({{< meta params.author_2.url >}})
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
 
 ## More Resources
 [![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
