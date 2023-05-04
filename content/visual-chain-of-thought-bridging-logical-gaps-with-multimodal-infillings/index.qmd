@@ -1,0 +1,92 @@
+---
+description: Recent advances in large language models elicit reasoning in a chain
+  ofthought that allows models to decompose problems in a human-like fashion.Though
+  this paradigm improves multi-step reasoning ability in language models,it is limited
+  by being unimodal and applied mainly to question-answering tasks.We claim that incorporating
+  visual augmentation into reasoning is essential,especially for complex, imaginative
+  tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought
+  prompting with vision-languagegrounding to recursively bridge the logical gaps within
+  sequential data. Ourmethod uses visual guidance to generate synthetic multimodal
+  infillings thatadd consistent and novel information to reduce the logical gaps for
+  downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability
+  into models' multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow
+  summarization datasets and demonstrate through humanevaluation that VCoT offers
+  novel and consistent synthetic data augmentationbeating chain of thought baselines,
+  which can be used to enhance downstreamperformance.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Rose, Daniel
+  author_10:
+    name: Wang, William Yang
+  author_2:
+    name: Himakunthala, Vaishnavi
+  author_3:
+    name: Ouyang, Andy
+  author_4:
+    name: He, Ryan
+  author_5:
+    name: Mei, Alex
+  author_6:
+    name: Lu, Yujie
+  author_7:
+    name: Saxon, Michael
+  author_8:
+    name: Sonar, Chinmay
+  author_9:
+    name: Mirza, Diba
+  overview: Recent advances in large language models elicit reasoning in a chain ofthought
+    that allows models to decompose problems in a human-like fashion.Though this paradigm
+    improves multi-step reasoning ability in language models,it is limited by being
+    unimodal and applied mainly to question-answering tasks.We claim that incorporating
+    visual augmentation into reasoning is essential,especially for complex, imaginative
+    tasks. Consequently, we introduce VCoT, anovel method that leverages chain of
+    thought prompting with vision-languagegrounding to recursively bridge the logical
+    gaps within sequential data. Ourmethod uses visual guidance to generate synthetic
+    multimodal infillings thatadd consistent and novel information to reduce the logical
+    gaps for downstreamtasks that can benefit from temporal reasoning, as well as
+    provideinterpretability into models' multi-step reasoning. We apply VCoT to the
+    VisualStorytelling and WikiHow summarization datasets and demonstrate through
+    humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating
+    chain of thought baselines, which can be used to enhance downstreamperformance.
+  pdf_url: http://arxiv.org/pdf/2305.02317
+title: 'Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings'
+
+---
+```{ojs} 
+
+ names = ["Daniel Rose","Vaishnavi Himakunthala","Andy Ouyang","Ryan He","Alex Mei","Yujie Lu","Michael Saxon","Chinmay Sonar","Diba Mirza","William Yang Wang"] 
+
+``` 
+
+## Tldr 
+Recent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being unimodal and applied mainly to question-answering tasks.We claim that incorporating visual augmentation into reasoning is essential,especially for complex, imaginative tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought prompting with vision-languagegrounding to recursively bridge the logical gaps within sequential data. Ourmethod uses visual guidance to generate synthetic multimodal infillings thatadd consistent and novel information to reduce the logical gaps for downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability into models' multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow summarization datasets and demonstrate through humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating chain of thought baselines, which can be used to enhance downstreamperformance.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
