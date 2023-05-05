@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="asdfasd">
 
-<title>Interactive Content Repository</title>
+<title>asdf</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +21,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,40 +95,11 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-content_listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-content_listings'] = new List('listing-content_listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -111,15 +115,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -133,9 +137,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Interactive Content Repository</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">asdf</h1>
+                  <div>
+        <div class="description">
+          asdfasd
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">NLP</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -147,260 +159,84 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="NLP">NLP <span class="quarto-category-count">(2)</span></div><div class="category" data-category="item response theory">item response theory <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">Tldr</a></li>
+  <li><a href="#paper-authors" id="toc-paper-authors" class="nav-link" data-scroll-target="#paper-authors">Paper-authors</a></li>
+  <li><a href="#more-resources" id="toc-more-resources" class="nav-link" data-scroll-target="#more-resources">More Resources</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-content_listings">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html">
-<h3 class="no-anchor listing-title">
-Model-tuning Via Prompts Makes NLP Models Adversarially Robust
-</h3>
-<div class="listing-subtitle">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="26" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 25;"><span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> [<span class="st">"Maciej Eder"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
 
 </div>
-<div class="listing-description">
-<p>In recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html"> </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="item response theory" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html">
-<h3 class="no-anchor listing-title">
-A two-level Item Response Theory model to evaluate speech synthesis and recognition
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('item response theory'); return false;">
-item response theory
-</div>
-</div>
-<a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html">
-<div class="listing-description">
-<p>Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html">
-<h3 class="no-anchor listing-title">
-Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Recent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html">
-<h3 class="no-anchor listing-title">
-Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./content/a-survey-of-large-language-models/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/a-survey-of-large-language-models/index.html">
-<h3 class="no-anchor listing-title">
-A Survey of Large Language Models
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/a-survey-of-large-language-models/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="NLP" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/asdf/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/asdf/index.html">
-<h3 class="no-anchor listing-title">
-asdf
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('NLP'); return false;">
-NLP
-</div>
-</div>
-<a href="./content/asdf/index.html">
-<div class="listing-description">
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
 <p>asdfasd</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/asdf/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="NLP" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/test/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/test/index.html">
-<h3 class="no-anchor listing-title">
-test
-</h3>
-<div class="listing-subtitle">
+</section>
+<section id="paper-authors" class="level2">
+<h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="37" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 36;"><span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>names<span class="op">.</span><span class="fu">map</span>(name <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;&lt;a href="../../posts_by_author.html?name=</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">" &gt;</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/li&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('NLP'); return false;">
-NLP
 </div>
 </div>
-<a href="./content/test/index.html">
-<div class="listing-description">
-<p>asdf123</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/test/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html">
-<h3 class="no-anchor listing-title">
-Rethinking the Role of Token Retrieval in Multi-Vector Retrieval
-</h3>
-<div class="listing-subtitle">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="43" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 42;"><span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>htl <span class="op">=</span> <span class="pp">require</span>(<span class="st">"htl@0.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
 
 </div>
-<div class="listing-description">
-<p>Multi-vector retrieval models such as ColBERT [Khattab and Zaharia, 2020]allow token-level interactions between queries and documents, and hence achievestate of the art on many information retrieval benchmarks. However, theirnon-linear scoring…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html"> </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html">
-<h3 class="no-anchor listing-title">
-From stage to page: language independent bootstrap measures of distinctiveness in fictional speech
-</h3>
-<div class="listing-subtitle">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="49" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 48;"><span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>html <span class="op">=</span> htl<span class="op">.</span><span class="at">html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
 
 </div>
-<div class="listing-description">
-<p>Stylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html"> </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-file-modified-sort="1683287124418" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html">
-<h3 class="no-anchor listing-title">
-Learning Semantic Text Similarity to rank Hypernyms of Financial Terms
-</h3>
-<div class="listing-subtitle">
+</section>
+<section id="more-resources" class="level2">
+<h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
+<p><a href=""><img src="https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg" class="img-fluid"></a> <a href=""><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid"></a> <a href=""><img src="https://img.shields.io/badge/supplement-yellowgreen?style=flat.png" class="img-fluid"></a> [<img src="https://img.shields.io/badge/blog-blue?style=flat.png" class="img-fluid">]( <a href=""><img src="https://img.shields.io/badge/poster-yellow?style=flat.png" class="img-fluid"></a> <a href=""><img src="https://img.shields.io/badge/code-blueviolet?style=flat.png" class="img-fluid"></a></p>
 
-</div>
-<div class="listing-description">
-<p>Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n names = [\"Maciej Eder\"] \n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\n html`<ul>${names.map(name => html`<li><a href=\"../../posts_by_author.html?name=${name}\" >${name}</a></li>`)}</ul>` \n\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\n htl = require(\"htl@0.2\") \n\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\n html = htl.html \n\n"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../content/asdf";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -748,6 +584,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://giscus.app/client.js" data-repo="DelmiroDaladier/icr" data-repo-id="R_kgDOIajQkw" data-category="General" data-category-id="DIC_kwDOIajQk84CSkWk" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 
