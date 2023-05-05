@@ -1,0 +1,86 @@
+---
+description: Large-scale open-domain dialogue data crawled from public social media
+  hasgreatly improved the performance of dialogue models. However, long-turndialogues
+  are still highly scarce. Specifically, most dialogue sessions inexisting corpora
+  have less than three turns. To alleviate this issue, wepropose the Retrieve, Reorganize
+  and Rescale framework (Re$^3$Dial), which canautomatically construct a billion-scale
+  long-turn dialogue corpus from existingshort-turn dialogue data. Re$^3$Dial first
+  trains an Unsupervised Dense SessionRetriever (UDSR) to capture semantic and discourse
+  relationships withinmulti-turn dialogues for retrieving relevant and coherent sessions.
+  It thenreorganizes the short-turn dialogues into long-turn sessions via recursivelyretrieving
+  and selecting the consecutive sessions with our proposed diversitysampling strategy.
+  Extensive evaluations on multiple multi-turn dialoguebenchmarks demonstrate that
+  Re$^3$Dial consistently and significantly improvesthe dialogue model's ability to
+  utilize long-term context for modelingmulti-turn dialogues across different pre-training
+  settings. Finally, we builda toolkit for efficiently rescaling dialogue corpus with
+  Re$^3$Dial, whichenables us to construct a corpus containing 1B Chinese dialogue
+  sessions with11.3 turns on average (5X longer than the original EVA corpus). We
+  will releaseour UDSR model, toolkit, and data for public use.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Wen, Jiaxin
+  author_2:
+    name: Zhou, Hao
+  author_3:
+    name: Huang, Minlie
+  overview: Large-scale open-domain dialogue data crawled from public social media
+    hasgreatly improved the performance of dialogue models. However, long-turndialogues
+    are still highly scarce. Specifically, most dialogue sessions inexisting corpora
+    have less than three turns. To alleviate this issue, wepropose the Retrieve, Reorganize
+    and Rescale framework (Re$^3$Dial), which canautomatically construct a billion-scale
+    long-turn dialogue corpus from existingshort-turn dialogue data. Re$^3$Dial first
+    trains an Unsupervised Dense SessionRetriever (UDSR) to capture semantic and discourse
+    relationships withinmulti-turn dialogues for retrieving relevant and coherent
+    sessions. It thenreorganizes the short-turn dialogues into long-turn sessions
+    via recursivelyretrieving and selecting the consecutive sessions with our proposed
+    diversitysampling strategy. Extensive evaluations on multiple multi-turn dialoguebenchmarks
+    demonstrate that Re$^3$Dial consistently and significantly improvesthe dialogue
+    model's ability to utilize long-term context for modelingmulti-turn dialogues
+    across different pre-training settings. Finally, we builda toolkit for efficiently
+    rescaling dialogue corpus with Re$^3$Dial, whichenables us to construct a corpus
+    containing 1B Chinese dialogue sessions with11.3 turns on average (5X longer than
+    the original EVA corpus). We will releaseour UDSR model, toolkit, and data for
+    public use.
+  pdf_url: http://arxiv.org/pdf/2305.02606
+title: 'Re$^3$Dial: Retrieve, Reorganize and Rescale Dialogue Corpus for Long-Turn
+  Open-Domain Dialogue Pre-training'
+
+---
+```{ojs} 
+
+ names = ["Jiaxin Wen","Hao Zhou","Minlie Huang"] 
+
+``` 
+
+## Tldr 
+Large-scale open-domain dialogue data crawled from public social media hasgreatly improved the performance of dialogue models. However, long-turndialogues are still highly scarce. Specifically, most dialogue sessions inexisting corpora have less than three turns. To alleviate this issue, wepropose the Retrieve, Reorganize and Rescale framework (Re$^3$Dial), which canautomatically construct a billion-scale long-turn dialogue corpus from existingshort-turn dialogue data. Re$^3$Dial first trains an Unsupervised Dense SessionRetriever (UDSR) to capture semantic and discourse relationships withinmulti-turn dialogues for retrieving relevant and coherent sessions. It thenreorganizes the short-turn dialogues into long-turn sessions via recursivelyretrieving and selecting the consecutive sessions with our proposed diversitysampling strategy. Extensive evaluations on multiple multi-turn dialoguebenchmarks demonstrate that Re$^3$Dial consistently and significantly improvesthe dialogue model's ability to utilize long-term context for modelingmulti-turn dialogues across different pre-training settings. Finally, we builda toolkit for efficiently rescaling dialogue corpus with Re$^3$Dial, whichenables us to construct a corpus containing 1B Chinese dialogue sessions with11.3 turns on average (5X longer than the original EVA corpus). We will releaseour UDSR model, toolkit, and data for public use.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
