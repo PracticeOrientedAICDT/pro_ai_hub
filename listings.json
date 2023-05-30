@@ -1,32 +1,33 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/content/re3dial-retrieve-reorganize-and-rescale-dialogue-corpus-for-long-turn-open-domain-dialogue-pre-training/index.html",
-      "/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
-      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
-      "/content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
-      "/content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
-      "/content/learning-language-specific-layers-for-multilingual-machine-translation/index.html",
-      "/content/semantic-space-grounded-weighted-decoding-for-multi-attribute-controllable-dialogue-generation/index.html",
-      "/content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
-      "/content/a-survey-of-large-language-models/index.html",
-      "/content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
-      "/content/asdf/index.html",
-      "/content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html",
-      "/content/test/index.html",
-      "/content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
-      "/content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html",
-      "/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
-      "/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html"
+      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+      "/posts/test/index.html"
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-      "/posts/test/index.html"
+      "/content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
+      "/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
+      "/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
+      "/content/asdf/index.html",
+      "/content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
+      "/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+      "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
+      "/content/re3dial-retrieve-reorganize-and-rescale-dialogue-corpus-for-long-turn-open-domain-dialogue-pre-training/index.html",
+      "/content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html",
+      "/content/semantic-space-grounded-weighted-decoding-for-multi-attribute-controllable-dialogue-generation/index.html",
+      "/content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
+      "/content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
+      "/content/a-survey-of-large-language-models/index.html",
+      "/content/learning-language-specific-layers-for-multilingual-machine-translation/index.html",
+      "/content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html",
+      "/content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
+      "/content/test/index.html",
+      "/content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html"
     ]
   }
 ]
