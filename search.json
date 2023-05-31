@@ -1,127 +1,113 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Interactive Content Repository",
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
     "section": "",
-    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access technique used in 5G networks. Index-coded NOMA (IC-NOMA)transmission scheme in Vehicular Adhoc Networks (VANETs) involves applying NOMAprinciples on index-coded data to avoid network congestion and to improvespectral efficiency compared to conventional IC systems. In this work, aspectral efficient transmission scheme called 3-Group IC-NOMA is proposed, andan innovative index code design that fits with NOMA decoding principles toobtain improved spectral efficiency is developed. Through exhaustive analyticalstudies, we demonstrate that the proposed transmission scheme always supportshigher rates than the conventional IC systems and requires less power toachieve an information rate at least as good as conventional IC systems."
   },
   {
-    "objectID": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "href": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#tldr",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#tldr",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+    "text": "Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access technique used in 5G networks. Index-coded NOMA (IC-NOMA)transmission scheme in Vehicular Adhoc Networks (VANETs) involves applying NOMAprinciples on index-coded data to avoid network congestion and to improvespectral efficiency compared to conventional IC systems. In this work, aspectral efficient transmission scheme called 3-Group IC-NOMA is proposed, andan innovative index code design that fits with NOMA decoding principles toobtain improved spectral efficiency is developed. Through exhaustive analyticalstudies, we demonstrate that the proposed transmission scheme always supportshigher rates than the conventional IC systems and requires less power toachieve an information rate at least as good as conventional IC systems."
   },
   {
-    "objectID": "posts/test/index.html",
-    "href": "posts/test/index.html",
-    "title": "test",
-    "section": "",
-    "text": "asdf123"
-  },
-  {
-    "objectID": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "href": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings\n\n\n\n\n\nRecent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nModel-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nWhat changes when you randomly choose BPE merge operations? Not much\n\n\n\n\n\nWe introduce three simple randomized variants of byte pair encoding (BPE) andexplore whether randomizing the selection of merge operations substantiallyaffects a downstream machine translation task. We focus on translation intomorphologically rich…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence\n\n\n\n\n\nSentence-level representations are beneficial for various natural languageprocessing tasks. It is commonly believed that vector representations cancapture rich linguistic properties. Currently, large language models (LMs)achieve state-of-the-art…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nProduction Networks Resilience: Cascading Failures, Power Laws and Optimal Interventions\n\n\n\n\n\nIn this paper, we study the severity of cascading failures in supply chainnetworks defined by a node percolation process corresponding to productsuppliers failing independently due to systemic shocks. We first show that thesize of the cascades…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRe\\(^3\\)Dial: Retrieve, Reorganize and Rescale Dialogue Corpus for Long-Turn Open-Domain Dialogue Pre-training\n\n\n\n\n\nLarge-scale open-domain dialogue data crawled from public social media hasgreatly improved the performance of dialogue models. However, long-turndialogues are still highly scarce. Specifically, most dialogue sessions inexisting corpora have less…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nasdf\n\n\n\n\n\n\n\nNLP\n\n\n\n\nasdfasd\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation\n\n\n\n\n\nVision-and-Language Navigation (VLN) requires the agent to follow languageinstructions to navigate through 3D environments. One main challenge in VLN isthe limited availability of photorealistic training environments, which makesit hard to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n2x Faster Language Model Pre-training via Masked Structural Growth\n\n\n\n\n\nAcceleration of large language model pre-training is a critical issue inpresent NLP research. In this paper, we focus on speeding up pre-training byprogressively growing from a small Transformer structure to a large one. Thereare two main research…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Unified Approach for Maximizing Continuous DR-submodular Functions\n\n\n\n\n\nThis paper presents a unified approach for maximizing continuousDR-submodular functions that encompasses a range of settings and oracle accesstypes. Our approach includes a Frank-Wolfe type offline algorithm for bothmonotone and non-monotone…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDesign and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks\n\n\n\n\n\nIndex coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTowards Weakly-Supervised Hate Speech Classification Across Datasets\n\n\n\n\n\nAs pointed out by several scholars, current research on hate speech (HS)recognition is characterized by unsystematic data creation strategies anddiverging annotation schemata. Subsequently, supervised-learning models tend togeneralize poorly to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Survey of Large Language Models\n\n\n\n\n\nLanguage is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSemantic Space Grounded Weighted Decoding for Multi-Attribute Controllable Dialogue Generation\n\n\n\n\n\nControlling chatbot utterance generation with multiple attributes such aspersonalities, emotions and dialogue acts is a practically useful butunder-studied problem. We propose a novel controllable generation frameworkcalled DASC that possesses…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Language-Specific Layers for Multilingual Machine Translation\n\n\n\n\n\nMultilingual Machine Translation promises to improve translation qualitybetween non-English languages. This is advantageous for several reasons, namelylower latency (no need to translate twice), and reduced error cascades (e.g.,avoiding losing…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNLP\n\n\n\n\nasdf123\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSeeding with Differentially Private Network Information\n\n\n\n\n\nWhen designing interventions in public health, development, and education,decision makers rely on social network data to target a small number of people,capitalizing on peer effects and social contagion to bring about the mostwelfare benefits to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRethinking the Role of Token Retrieval in Multi-Vector Retrieval\n\n\n\n\n\nMulti-vector retrieval models such as ColBERT [Khattab and Zaharia, 2020]allow token-level interactions between queries and documents, and hence achievestate of the art on many information retrieval benchmarks. However, theirnon-linear scoring…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCan You Solve Closest String Faster than Exhaustive Search?\n\n\n\n\n\nWe study the fundamental problem of finding the best string to represent agiven set, in the form of the Closest String problem: Given a set \\(X \\subseteq\\Sigma^d\\) of \\(n\\) strings, find the string \\(x^*\\) minimizing the radius of thesmallest Hamming…\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
-  },
-  {
-    "objectID": "templates/template_for_content.html#image",
-    "href": "templates/template_for_content.html#image",
-    "title": "Title for your work",
-    "section": "Image",
-    "text": "Image"
-  },
-  {
-    "objectID": "templates/template_for_content.html#paper-authors",
-    "href": "templates/template_for_content.html#paper-authors",
-    "title": "Title for your work",
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
     "section": "Paper-authors",
-    "text": "Paper-authors"
+    "text": "Paper-authors\n\nDeekshitula, Sai Pavan\nRajan, B. Sundar"
   },
   {
-    "objectID": "templates/template_for_content.html#venue",
-    "href": "templates/template_for_content.html#venue",
-    "title": "Title for your work",
-    "section": "Venue",
-    "text": "Venue"
-  },
-  {
-    "objectID": "templates/template_for_content.html#video",
-    "href": "templates/template_for_content.html#video",
-    "title": "Title for your work",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "templates/template_for_content.html#slides",
-    "href": "templates/template_for_content.html#slides",
-    "title": "Title for your work",
-    "section": "Slides",
-    "text": "Slides\nhere"
-  },
-  {
-    "objectID": "templates/template_for_content.html#code",
-    "href": "templates/template_for_content.html#code",
-    "title": "Title for your work",
-    "section": "Code",
-    "text": "Code\nHere"
-  },
-  {
-    "objectID": "templates/template_for_content.html#more-resources",
-    "href": "templates/template_for_content.html#more-resources",
-    "title": "Title for your work",
+    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
+    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
+    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
     "section": "More Resources",
-    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+    "text": "More Resources"
   },
   {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
+    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html",
+    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html",
+    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+    "text": "names = [\"Mohammad Pedramfar\",\"Christopher John Quinn\",\"Vaneet Aggarwal\"]"
   },
   {
-    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
-    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
-    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
-    "section": "",
-    "text": "names = [\"Daniel Rose\",\"Vaishnavi Himakunthala\",\"Andy Ouyang\",\"Ryan He\",\"Alex Mei\",\"Yujie Lu\",\"Michael Saxon\",\"Chinmay Sonar\",\"Diba Mirza\",\"William Yang Wang\"]"
-  },
-  {
-    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#tldr",
-    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#tldr",
-    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#tldr",
+    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#tldr",
+    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
     "section": "Tldr",
-    "text": "Tldr\nRecent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being unimodal and applied mainly to question-answering tasks.We claim that incorporating visual augmentation into reasoning is essential,especially for complex, imaginative tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought prompting with vision-languagegrounding to recursively bridge the logical gaps within sequential data. Ourmethod uses visual guidance to generate synthetic multimodal infillings thatadd consistent and novel information to reduce the logical gaps for downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability into models’ multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow summarization datasets and demonstrate through humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating chain of thought baselines, which can be used to enhance downstreamperformance."
+    "text": "Tldr\nThis paper presents a unified approach for maximizing continuousDR-submodular functions that encompasses a range of settings and oracle accesstypes. Our approach includes a Frank-Wolfe type offline algorithm for bothmonotone and non-monotone functions, with different restrictions on the generalconvex set. We consider settings where the oracle provides access to either thegradient of the function or only the function value, and where the oracleaccess is either deterministic or stochastic. We determine the number ofrequired oracle accesses in all cases. Our approach gives new/improved resultsfor nine out of the sixteen considered cases, avoids computationally expensiveprojections in two cases, with the proposed framework matching performance ofstate-of-the-art approaches in the remaining five cases. Notably, our approachfor the stochastic function value-based oracle enables the first regret boundswith bandit feedback for stochastic DR-submodular functions."
   },
   {
-    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#paper-authors",
-    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#paper-authors",
-    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#paper-authors",
+    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#paper-authors",
+    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#more-resources",
-    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#more-resources",
-    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#more-resources",
+    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#more-resources",
+    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "",
+    "text": "Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge volume of financial content. Most investors prefer togo through these contents before making decisions. Every industry has termsthat are specific to the domain it operates in. Banking and Financial Servicesare not an exception to this. In order to fully comprehend these contents, oneneeds to have a thorough understanding of the financial terms. Getting a basicidea about a term becomes easy when it is explained with the help of the broadcategory to which it belongs. This broad category is referred to as hypernym.For example, “bond” is a hypernym of the financial term “alternativedebenture”. In this paper, we propose a system capable of extracting andranking hypernyms for a given financial term. The system has been trained withfinancial text corpora obtained from various sources like DBpedia [4],Investopedia, Financial Industry Business Ontology (FIBO), prospectus and soon. Embeddings of these terms have been extracted using FinBERT [3], FinISH [1]and fine-tuned using SentenceBERT [54]. A novel approach has been used toaugment the training set with negative samples. It uses the hierarchy presentin FIBO. Finally, we benchmark the system performance with that of the existingones. We establish that it performs better than the existing ones and is alsoscalable."
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#tldr",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#tldr",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "",
+    "text": "Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge volume of financial content. Most investors prefer togo through these contents before making decisions. Every industry has termsthat are specific to the domain it operates in. Banking and Financial Servicesare not an exception to this. In order to fully comprehend these contents, oneneeds to have a thorough understanding of the financial terms. Getting a basicidea about a term becomes easy when it is explained with the help of the broadcategory to which it belongs. This broad category is referred to as hypernym.For example, “bond” is a hypernym of the financial term “alternativedebenture”. In this paper, we propose a system capable of extracting andranking hypernyms for a given financial term. The system has been trained withfinancial text corpora obtained from various sources like DBpedia [4],Investopedia, Financial Industry Business Ontology (FIBO), prospectus and soon. Embeddings of these terms have been extracted using FinBERT [3], FinISH [1]and fine-tuned using SentenceBERT [54]. A novel approach has been used toaugment the training set with negative samples. It uses the hierarchy presentin FIBO. Finally, we benchmark the system performance with that of the existingones. We establish that it performs better than the existing ones and is alsoscalable."
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nGhosh, Sohom\nChopra, Ankush\nNaskar, Sudip Kumar"
+  },
+  {
+    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
+    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
+    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html",
+    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html",
+    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
+    "section": "",
+    "text": "names = [\"Jialu Li\",\"Mohit Bansal\"]"
+  },
+  {
+    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#tldr",
+    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#tldr",
+    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
+    "section": "Tldr",
+    "text": "Tldr\nVision-and-Language Navigation (VLN) requires the agent to follow languageinstructions to navigate through 3D environments. One main challenge in VLN isthe limited availability of photorealistic training environments, which makesit hard to generalize to new and unseen environments. To address this problem,we propose PanoGen, a generation method that can potentially create an infinitenumber of diverse panoramic environments conditioned on text. Specifically, wecollect room descriptions by captioning the room images in existingMatterport3D environments, and leverage a state-of-the-art text-to-imagediffusion model to generate the new panoramic environments. We use recursiveoutpainting over the generated images to create consistent 360-degree panoramaviews. Our new panoramic environments share similar semantic information withthe original environments by conditioning on text descriptions, which ensuresthe co-occurrence of objects in the panorama follows human intuition, andcreates enough diversity in room appearance and layout with image outpainting.Lastly, we explore two ways of utilizing PanoGen in VLN pre-training andfine-tuning. We generate instructions for paths in our PanoGen environmentswith a speaker built on a pre-trained vision-and-language model for VLNpre-training, and augment the visual observation with our panoramicenvironments during agents’ fine-tuning to avoid overfitting to seenenvironments. Empirically, learning with our PanoGen environments achieves thenew state-of-the-art on the Room-to-Room, Room-for-Room, and CVDN datasets.Pre-training with our PanoGen speaker data is especially effective for CVDN,which has under-specified instructions and needs commonsense knowledge. Lastly,we show that the agent can benefit from training with more generated panoramicenvironments, suggesting promising results for scaling up the PanoGenenvironments."
+  },
+  {
+    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#paper-authors",
+    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#paper-authors",
+    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#more-resources",
+    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#more-resources",
+    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -154,58 +140,30 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
-    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
-    "title": "What changes when you randomly choose BPE merge operations? Not much",
+    "objectID": "content/seeding-with-differentially-private-network-information/index.html",
+    "href": "content/seeding-with-differentially-private-network-information/index.html",
+    "title": "Seeding with Differentially Private Network Information",
     "section": "",
-    "text": "names = [\"Jonne Sälevä\",\"Constantine Lignos\"]"
+    "text": "names = [\"M. Amin Rahimian\",\"Fang-Yi Yu\",\"Carlos Hurtado\"]"
   },
   {
-    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#tldr",
-    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#tldr",
-    "title": "What changes when you randomly choose BPE merge operations? Not much",
+    "objectID": "content/seeding-with-differentially-private-network-information/index.html#tldr",
+    "href": "content/seeding-with-differentially-private-network-information/index.html#tldr",
+    "title": "Seeding with Differentially Private Network Information",
     "section": "Tldr",
-    "text": "Tldr\nWe introduce three simple randomized variants of byte pair encoding (BPE) andexplore whether randomizing the selection of merge operations substantiallyaffects a downstream machine translation task. We focus on translation intomorphologically rich languages, hypothesizing that this task may showsensitivity to the method of choosing subwords. Analysis using a Bayesianlinear model indicates that two of the variants perform nearlyindistinguishably compared to standard BPE while the other degrades performanceless than we anticipated. We conclude that although standard BPE is widelyused, there exists an interesting universe of potential variations on it worthinvestigating. Our code is available at: this https URL"
+    "text": "Tldr\nWhen designing interventions in public health, development, and education,decision makers rely on social network data to target a small number of people,capitalizing on peer effects and social contagion to bring about the mostwelfare benefits to the population. Developing new methods that areprivacy-preserving for network data collection and targeted interventions iscritical for designing sustainable public health and development interventionson social networks. In a similar vein, social media platforms rely on networkdata and information from past diffusions to organize their ad campaign andimprove the efficacy of targeted advertising. Ensuring that these networkoperations do not violate users’ privacy is critical to the sustainability ofsocial media platforms and their ad economies. We study privacy guarantees forinfluence maximization algorithms when the social network is unknown, and theinputs are samples of prior influence cascades that are collected at random.Building on recent results that address seeding with costly networkinformation, our privacy-preserving algorithms introduce randomization in thecollected data or the algorithm output, and can bound each node’s (or group ofnodes’) privacy loss in deciding whether or not their data should be includedin the algorithm input. We provide theoretical guarantees of the seedingperformance with a limited sample size subject to differential privacy budgetsin both central and local privacy regimes. Simulations on synthetic andempirical network datasets reveal the diminishing value of network informationwith decreasing privacy budget in both regimes."
   },
   {
-    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#paper-authors",
-    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#paper-authors",
-    "title": "What changes when you randomly choose BPE merge operations? Not much",
+    "objectID": "content/seeding-with-differentially-private-network-information/index.html#paper-authors",
+    "href": "content/seeding-with-differentially-private-network-information/index.html#paper-authors",
+    "title": "Seeding with Differentially Private Network Information",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#more-resources",
-    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#more-resources",
-    "title": "What changes when you randomly choose BPE merge operations? Not much",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
-    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
-    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
-    "section": "",
-    "text": "names = [\"Haoran Li\",\"Mingshi Xu\",\"Yangqiu Song\"]"
-  },
-  {
-    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#tldr",
-    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#tldr",
-    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
-    "section": "Tldr",
-    "text": "Tldr\nSentence-level representations are beneficial for various natural languageprocessing tasks. It is commonly believed that vector representations cancapture rich linguistic properties. Currently, large language models (LMs)achieve state-of-the-art performance on sentence embedding. However, somerecent works suggest that vector representations from LMs can cause informationleakage. In this work, we further investigate the information leakage issue andpropose a generative embedding inversion attack (GEIA) that aims to reconstructinput sequences based only on their sentence embeddings. Given the black-boxaccess to a language model, we treat sentence embeddings as initial tokens’representations and train or fine-tune a powerful decoder model to decode thewhole sequences directly. We conduct extensive experiments to demonstrate thatour generative inversion attack outperforms previous embedding inversionattacks in classification metrics and generates coherent and contextuallysimilar sentences as the original inputs."
-  },
-  {
-    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#paper-authors",
-    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#paper-authors",
-    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#more-resources",
-    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#more-resources",
-    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
+    "objectID": "content/seeding-with-differentially-private-network-information/index.html#more-resources",
+    "href": "content/seeding-with-differentially-private-network-information/index.html#more-resources",
+    "title": "Seeding with Differentially Private Network Information",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -234,6 +192,90 @@
     "objectID": "content/production-networks-resilience-cascading-failures-power-laws-and-optimal-interventions/index.html#more-resources",
     "href": "content/production-networks-resilience-cascading-failures-power-laws-and-optimal-interventions/index.html#more-resources",
     "title": "Production Networks Resilience: Cascading Failures, Power Laws and Optimal Interventions",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/asdf/index.html",
+    "href": "content/asdf/index.html",
+    "title": "asdf",
+    "section": "",
+    "text": "names = [\"Maciej Eder\"]"
+  },
+  {
+    "objectID": "content/asdf/index.html#tldr",
+    "href": "content/asdf/index.html#tldr",
+    "title": "asdf",
+    "section": "Tldr",
+    "text": "Tldr\nasdfasd"
+  },
+  {
+    "objectID": "content/asdf/index.html#paper-authors",
+    "href": "content/asdf/index.html#paper-authors",
+    "title": "asdf",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/asdf/index.html#more-resources",
+    "href": "content/asdf/index.html#more-resources",
+    "title": "asdf",
+    "section": "More Resources",
+    "text": "More Resources\n   []("
+  },
+  {
+    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
+    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
+    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
+    "section": "",
+    "text": "names = [\"Yiqun Yao\",\"Zheng Zhang\",\"Jing Li\",\"Yequan Wang\"]"
+  },
+  {
+    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#tldr",
+    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#tldr",
+    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
+    "section": "Tldr",
+    "text": "Tldr\nAcceleration of large language model pre-training is a critical issue inpresent NLP research. In this paper, we focus on speeding up pre-training byprogressively growing from a small Transformer structure to a large one. Thereare two main research problems related to progressive growth: growth scheduleand growth operator. For growth schedule, existing work has exploredmulti-stage expansion of depth and feedforward layers. However, the impact ofeach dimension on the schedule’s efficiency is still an open question. Forgrowth operator, existing work relies on the initialization of new weights toinherit knowledge, and achieve only non-strict function preservation, limitingfurther optimization of training dynamics. To address these issues, we proposeMasked Structural Growth (MSG), including growth schedules involving allpossible dimensions and strictly function-preserving growth operators that isindependent of the initialization of new weights. Experiments show that MSG issignificantly faster than related work: we achieve a speed-up of 80% forBert-base and 120% for Bert-large pre-training. Moreover, MSG is able toimprove fine-tuning performances at the same time."
+  },
+  {
+    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#paper-authors",
+    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#paper-authors",
+    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#more-resources",
+    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#more-resources",
+    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "",
+    "text": "names = [\"Artjoms Šeļa\",\"Ben Nagy\",\"Joanna Byszuk\",\"Laura Hernández-Lorenzo\",\"Botond Szemes\",\"Maciej Eder\"]"
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#tldr",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#tldr",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "Tldr",
+    "text": "Tldr\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our primary contribution is methodological; we introduce and evaluatetwo non-parametric methods to produce a summary statistic for characterdistinctiveness that can be usefully applied and compared across languages andtimes. Our first method is based on bootstrap distances between 3-gramprobability distributions, the second (reminiscent of ‘unmasking’ techniques)on word keyness curves. Both methods are validated and explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse 3301characters drawn from 2324 works, covering five centuries and four languages(French, German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod offers rich interpretability. Both methods are able to capturephonological differences such as accent or dialect, as well as broaddifferences in topic and lexical richness. Based on exploratory analysis, wefind that smaller characters tend to be more distinctive, and that women arecross-linguistically more distinctive than men, with this latter findingcarefully interrogated using multiple regression. This greater distinctivenessstems from a historical tendency for female characters to be restricted to an’internal narrative domain’ covering mainly direct discourse andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures will form a basis for more sophisticated future studies, and advancesin theory."
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
+    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -336,254 +378,30 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/asdf/index.html",
-    "href": "content/asdf/index.html",
-    "title": "asdf",
+    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html",
+    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html",
+    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
     "section": "",
-    "text": "names = [\"Maciej Eder\"]"
+    "text": "names = [\"Amir Abboud\",\"Nick Fischer\",\"Elazar Goldenberg\",\"Karthik C. S.\",\"Ron Safier\"]"
   },
   {
-    "objectID": "content/asdf/index.html#tldr",
-    "href": "content/asdf/index.html#tldr",
-    "title": "asdf",
+    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#tldr",
+    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#tldr",
+    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
     "section": "Tldr",
-    "text": "Tldr\nasdfasd"
+    "text": "Tldr\nWe study the fundamental problem of finding the best string to represent agiven set, in the form of the Closest String problem: Given a set \\(X \\subseteq\\Sigma^d\\) of \\(n\\) strings, find the string \\(x^*\\) minimizing the radius of thesmallest Hamming ball around \\(x^*\\) that encloses all the strings in \\(X\\). Inthis paper, we investigate whether the Closest String problem admits algorithmsthat are faster than the trivial exhaustive search algorithm. We obtain thefollowing results for the two natural versions of the problem:\\(\\bullet\\) In the continuous Closest String problem, the goal is to find thesolution string \\(x^*\\) anywhere in \\(\\Sigma^d\\). For binary strings, theexhaustive search algorithm runs in time \\(O(2^d poly(nd))\\) and we prove that itcannot be improved to time \\(O(2^{(1-\\epsilon) d} poly(nd))\\), for any \\(\\epsilon&gt; 0\\), unless the Strong Exponential Time Hypothesis fails.\\(\\bullet\\) In the discrete Closest String problem, \\(x^*\\) is required to be inthe input set \\(X\\). While this problem is clearly in polynomial time, itsfine-grained complexity has been pinpointed to be quadratic time \\(n^{2 \\pmo(1)}\\) whenever the dimension is \\(\\omega(\\log n) &lt; d &lt; n^{o(1)}\\). We complementthis known hardness result with new algorithms, proving essentially thatwhenever \\(d\\) falls out of this hard range, the discrete Closest String problemcan be solved faster than exhaustive search. In the small-\\(d\\) regime, ouralgorithm is based on a novel application of the inclusion-exclusion principle.Interestingly, all of our results apply (and some are even stronger) to thenatural dual of the Closest String problem, called the Remotest String problem,where the task is to find a string maximizing the Hamming distance to all thestrings in \\(X\\)."
   },
   {
-    "objectID": "content/asdf/index.html#paper-authors",
-    "href": "content/asdf/index.html#paper-authors",
-    "title": "asdf",
+    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#paper-authors",
+    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#paper-authors",
+    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/asdf/index.html#more-resources",
-    "href": "content/asdf/index.html#more-resources",
-    "title": "asdf",
-    "section": "More Resources",
-    "text": "More Resources\n   []("
-  },
-  {
-    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
-    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
-    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
-    "section": "",
-    "text": "Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge volume of financial content. Most investors prefer togo through these contents before making decisions. Every industry has termsthat are specific to the domain it operates in. Banking and Financial Servicesare not an exception to this. In order to fully comprehend these contents, oneneeds to have a thorough understanding of the financial terms. Getting a basicidea about a term becomes easy when it is explained with the help of the broadcategory to which it belongs. This broad category is referred to as hypernym.For example, “bond” is a hypernym of the financial term “alternativedebenture”. In this paper, we propose a system capable of extracting andranking hypernyms for a given financial term. The system has been trained withfinancial text corpora obtained from various sources like DBpedia [4],Investopedia, Financial Industry Business Ontology (FIBO), prospectus and soon. Embeddings of these terms have been extracted using FinBERT [3], FinISH [1]and fine-tuned using SentenceBERT [54]. A novel approach has been used toaugment the training set with negative samples. It uses the hierarchy presentin FIBO. Finally, we benchmark the system performance with that of the existingones. We establish that it performs better than the existing ones and is alsoscalable."
-  },
-  {
-    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#tldr",
-    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#tldr",
-    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
-    "section": "",
-    "text": "Over the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge volume of financial content. Most investors prefer togo through these contents before making decisions. Every industry has termsthat are specific to the domain it operates in. Banking and Financial Servicesare not an exception to this. In order to fully comprehend these contents, oneneeds to have a thorough understanding of the financial terms. Getting a basicidea about a term becomes easy when it is explained with the help of the broadcategory to which it belongs. This broad category is referred to as hypernym.For example, “bond” is a hypernym of the financial term “alternativedebenture”. In this paper, we propose a system capable of extracting andranking hypernyms for a given financial term. The system has been trained withfinancial text corpora obtained from various sources like DBpedia [4],Investopedia, Financial Industry Business Ontology (FIBO), prospectus and soon. Embeddings of these terms have been extracted using FinBERT [3], FinISH [1]and fine-tuned using SentenceBERT [54]. A novel approach has been used toaugment the training set with negative samples. It uses the hierarchy presentin FIBO. Finally, we benchmark the system performance with that of the existingones. We establish that it performs better than the existing ones and is alsoscalable."
-  },
-  {
-    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
-    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#paper-authors",
-    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nGhosh, Sohom\nChopra, Ankush\nNaskar, Sudip Kumar"
-  },
-  {
-    "objectID": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
-    "href": "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html#more-resources",
-    "title": "Learning Semantic Text Similarity to rank Hypernyms of Financial Terms",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html",
-    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html",
-    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
-    "section": "",
-    "text": "names = [\"Jialu Li\",\"Mohit Bansal\"]"
-  },
-  {
-    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#tldr",
-    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#tldr",
-    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
-    "section": "Tldr",
-    "text": "Tldr\nVision-and-Language Navigation (VLN) requires the agent to follow languageinstructions to navigate through 3D environments. One main challenge in VLN isthe limited availability of photorealistic training environments, which makesit hard to generalize to new and unseen environments. To address this problem,we propose PanoGen, a generation method that can potentially create an infinitenumber of diverse panoramic environments conditioned on text. Specifically, wecollect room descriptions by captioning the room images in existingMatterport3D environments, and leverage a state-of-the-art text-to-imagediffusion model to generate the new panoramic environments. We use recursiveoutpainting over the generated images to create consistent 360-degree panoramaviews. Our new panoramic environments share similar semantic information withthe original environments by conditioning on text descriptions, which ensuresthe co-occurrence of objects in the panorama follows human intuition, andcreates enough diversity in room appearance and layout with image outpainting.Lastly, we explore two ways of utilizing PanoGen in VLN pre-training andfine-tuning. We generate instructions for paths in our PanoGen environmentswith a speaker built on a pre-trained vision-and-language model for VLNpre-training, and augment the visual observation with our panoramicenvironments during agents’ fine-tuning to avoid overfitting to seenenvironments. Empirically, learning with our PanoGen environments achieves thenew state-of-the-art on the Room-to-Room, Room-for-Room, and CVDN datasets.Pre-training with our PanoGen speaker data is especially effective for CVDN,which has under-specified instructions and needs commonsense knowledge. Lastly,we show that the agent can benefit from training with more generated panoramicenvironments, suggesting promising results for scaling up the PanoGenenvironments."
-  },
-  {
-    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#paper-authors",
-    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#paper-authors",
-    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#more-resources",
-    "href": "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html#more-resources",
-    "title": "PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
-    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
-    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
-    "section": "",
-    "text": "names = [\"Artjoms Šeļa\",\"Ben Nagy\",\"Joanna Byszuk\",\"Laura Hernández-Lorenzo\",\"Botond Szemes\",\"Maciej Eder\"]"
-  },
-  {
-    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#tldr",
-    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#tldr",
-    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
-    "section": "Tldr",
-    "text": "Tldr\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our primary contribution is methodological; we introduce and evaluatetwo non-parametric methods to produce a summary statistic for characterdistinctiveness that can be usefully applied and compared across languages andtimes. Our first method is based on bootstrap distances between 3-gramprobability distributions, the second (reminiscent of ‘unmasking’ techniques)on word keyness curves. Both methods are validated and explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse 3301characters drawn from 2324 works, covering five centuries and four languages(French, German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod offers rich interpretability. Both methods are able to capturephonological differences such as accent or dialect, as well as broaddifferences in topic and lexical richness. Based on exploratory analysis, wefind that smaller characters tend to be more distinctive, and that women arecross-linguistically more distinctive than men, with this latter findingcarefully interrogated using multiple regression. This greater distinctivenessstems from a historical tendency for female characters to be restricted to an’internal narrative domain’ covering mainly direct discourse andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures will form a basis for more sophisticated future studies, and advancesin theory."
-  },
-  {
-    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
-    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#paper-authors",
-    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
-    "href": "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html#more-resources",
-    "title": "From stage to page: language independent bootstrap measures of distinctiveness in fictional speech",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
-    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
-    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
-    "section": "",
-    "text": "names = [\"Yiqun Yao\",\"Zheng Zhang\",\"Jing Li\",\"Yequan Wang\"]"
-  },
-  {
-    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#tldr",
-    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#tldr",
-    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
-    "section": "Tldr",
-    "text": "Tldr\nAcceleration of large language model pre-training is a critical issue inpresent NLP research. In this paper, we focus on speeding up pre-training byprogressively growing from a small Transformer structure to a large one. Thereare two main research problems related to progressive growth: growth scheduleand growth operator. For growth schedule, existing work has exploredmulti-stage expansion of depth and feedforward layers. However, the impact ofeach dimension on the schedule’s efficiency is still an open question. Forgrowth operator, existing work relies on the initialization of new weights toinherit knowledge, and achieve only non-strict function preservation, limitingfurther optimization of training dynamics. To address these issues, we proposeMasked Structural Growth (MSG), including growth schedules involving allpossible dimensions and strictly function-preserving growth operators that isindependent of the initialization of new weights. Experiments show that MSG issignificantly faster than related work: we achieve a speed-up of 80% forBert-base and 120% for Bert-large pre-training. Moreover, MSG is able toimprove fine-tuning performances at the same time."
-  },
-  {
-    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#paper-authors",
-    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#paper-authors",
-    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#more-resources",
-    "href": "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html#more-resources",
-    "title": "2x Faster Language Model Pre-training via Masked Structural Growth",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html",
-    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html",
-    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
-    "section": "",
-    "text": "names = [\"Mohammad Pedramfar\",\"Christopher John Quinn\",\"Vaneet Aggarwal\"]"
-  },
-  {
-    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#tldr",
-    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#tldr",
-    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
-    "section": "Tldr",
-    "text": "Tldr\nThis paper presents a unified approach for maximizing continuousDR-submodular functions that encompasses a range of settings and oracle accesstypes. Our approach includes a Frank-Wolfe type offline algorithm for bothmonotone and non-monotone functions, with different restrictions on the generalconvex set. We consider settings where the oracle provides access to either thegradient of the function or only the function value, and where the oracleaccess is either deterministic or stochastic. We determine the number ofrequired oracle accesses in all cases. Our approach gives new/improved resultsfor nine out of the sixteen considered cases, avoids computationally expensiveprojections in two cases, with the proposed framework matching performance ofstate-of-the-art approaches in the remaining five cases. Notably, our approachfor the stochastic function value-based oracle enables the first regret boundswith bandit feedback for stochastic DR-submodular functions."
-  },
-  {
-    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#paper-authors",
-    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#paper-authors",
-    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#more-resources",
-    "href": "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html#more-resources",
-    "title": "A Unified Approach for Maximizing Continuous DR-submodular Functions",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
-    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
-    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
-    "section": "",
-    "text": "Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access technique used in 5G networks. Index-coded NOMA (IC-NOMA)transmission scheme in Vehicular Adhoc Networks (VANETs) involves applying NOMAprinciples on index-coded data to avoid network congestion and to improvespectral efficiency compared to conventional IC systems. In this work, aspectral efficient transmission scheme called 3-Group IC-NOMA is proposed, andan innovative index code design that fits with NOMA decoding principles toobtain improved spectral efficiency is developed. Through exhaustive analyticalstudies, we demonstrate that the proposed transmission scheme always supportshigher rates than the conventional IC systems and requires less power toachieve an information rate at least as good as conventional IC systems."
-  },
-  {
-    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#tldr",
-    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#tldr",
-    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
-    "section": "",
-    "text": "Index coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access technique used in 5G networks. Index-coded NOMA (IC-NOMA)transmission scheme in Vehicular Adhoc Networks (VANETs) involves applying NOMAprinciples on index-coded data to avoid network congestion and to improvespectral efficiency compared to conventional IC systems. In this work, aspectral efficient transmission scheme called 3-Group IC-NOMA is proposed, andan innovative index code design that fits with NOMA decoding principles toobtain improved spectral efficiency is developed. Through exhaustive analyticalstudies, we demonstrate that the proposed transmission scheme always supportshigher rates than the conventional IC systems and requires less power toachieve an information rate at least as good as conventional IC systems."
-  },
-  {
-    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
-    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#paper-authors",
-    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nDeekshitula, Sai Pavan\nRajan, B. Sundar"
-  },
-  {
-    "objectID": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
-    "href": "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html#more-resources",
-    "title": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html",
-    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html",
-    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
-    "section": "",
-    "text": "names = [\"Yiping Jin\",\"Leo Wanner\",\"Vishakha Laxman Kadam\",\"Alexander Shvets\"]"
-  },
-  {
-    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#tldr",
-    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#tldr",
-    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
-    "section": "Tldr",
-    "text": "Tldr\nAs pointed out by several scholars, current research on hate speech (HS)recognition is characterized by unsystematic data creation strategies anddiverging annotation schemata. Subsequently, supervised-learning models tend togeneralize poorly to datasets they were not trained on, and the performance ofthe models trained on datasets labeled using different HS taxonomies cannot becompared. To ease this problem, we propose applying extremely weak supervisionthat only relies on the class name rather than on class samples from theannotated data. We demonstrate the effectiveness of a state-of-the-artweakly-supervised text classification model in various in-dataset andcross-dataset settings. Furthermore, we conduct an in-depth quantitative andqualitative analysis of the source of poor generalizability of HSclassification models."
-  },
-  {
-    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#paper-authors",
-    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#paper-authors",
-    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#more-resources",
-    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#more-resources",
-    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/a-survey-of-large-language-models/index.html",
-    "href": "content/a-survey-of-large-language-models/index.html",
-    "title": "A Survey of Large Language Models",
-    "section": "",
-    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
-  },
-  {
-    "objectID": "content/a-survey-of-large-language-models/index.html#tldr",
-    "href": "content/a-survey-of-large-language-models/index.html#tldr",
-    "title": "A Survey of Large Language Models",
-    "section": "",
-    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
-  },
-  {
-    "objectID": "content/a-survey-of-large-language-models/index.html#paper-authors",
-    "href": "content/a-survey-of-large-language-models/index.html#paper-authors",
-    "title": "A Survey of Large Language Models",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nZhao, Wayne Xin\nZhou, Kun\nLi, Junyi\nTang, Tianyi\nWang, Xiaolei\nHou, Yupeng\nMin, Yingqian\nZhang, Beichen\nZhang, Junjie\nDong, Zican\nDu, Yifan\nYang, Chen\nChen, Yushuo\nChen, Zhipeng\nJiang, Jinhao\nRen, Ruiyang\nLi, Yifan\nTang, Xinyu\nLiu, Zikang\nLiu, Peiyu\nNie, Jian-Yun\nWen, Ji-Rong"
-  },
-  {
-    "objectID": "content/a-survey-of-large-language-models/index.html#more-resources",
-    "href": "content/a-survey-of-large-language-models/index.html#more-resources",
-    "title": "A Survey of Large Language Models",
+    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#more-resources",
+    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#more-resources",
+    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -616,6 +434,90 @@
     "text": "More Resources"
   },
   {
+    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
+    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
+    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
+    "section": "",
+    "text": "names = [\"Haoran Li\",\"Mingshi Xu\",\"Yangqiu Song\"]"
+  },
+  {
+    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#tldr",
+    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#tldr",
+    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
+    "section": "Tldr",
+    "text": "Tldr\nSentence-level representations are beneficial for various natural languageprocessing tasks. It is commonly believed that vector representations cancapture rich linguistic properties. Currently, large language models (LMs)achieve state-of-the-art performance on sentence embedding. However, somerecent works suggest that vector representations from LMs can cause informationleakage. In this work, we further investigate the information leakage issue andpropose a generative embedding inversion attack (GEIA) that aims to reconstructinput sequences based only on their sentence embeddings. Given the black-boxaccess to a language model, we treat sentence embeddings as initial tokens’representations and train or fine-tune a powerful decoder model to decode thewhole sequences directly. We conduct extensive experiments to demonstrate thatour generative inversion attack outperforms previous embedding inversionattacks in classification metrics and generates coherent and contextuallysimilar sentences as the original inputs."
+  },
+  {
+    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#paper-authors",
+    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#paper-authors",
+    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#more-resources",
+    "href": "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html#more-resources",
+    "title": "Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "",
+    "text": "names = [\"Daniel Rose\",\"Vaishnavi Himakunthala\",\"Andy Ouyang\",\"Ryan He\",\"Alex Mei\",\"Yujie Lu\",\"Michael Saxon\",\"Chinmay Sonar\",\"Diba Mirza\",\"William Yang Wang\"]"
+  },
+  {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#tldr",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#tldr",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "Tldr",
+    "text": "Tldr\nRecent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being unimodal and applied mainly to question-answering tasks.We claim that incorporating visual augmentation into reasoning is essential,especially for complex, imaginative tasks. Consequently, we introduce VCoT, anovel method that leverages chain of thought prompting with vision-languagegrounding to recursively bridge the logical gaps within sequential data. Ourmethod uses visual guidance to generate synthetic multimodal infillings thatadd consistent and novel information to reduce the logical gaps for downstreamtasks that can benefit from temporal reasoning, as well as provideinterpretability into models’ multi-step reasoning. We apply VCoT to the VisualStorytelling and WikiHow summarization datasets and demonstrate through humanevaluation that VCoT offers novel and consistent synthetic data augmentationbeating chain of thought baselines, which can be used to enhance downstreamperformance."
+  },
+  {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#paper-authors",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#paper-authors",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#more-resources",
+    "href": "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html#more-resources",
+    "title": "Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html",
+    "href": "content/a-survey-of-large-language-models/index.html",
+    "title": "A Survey of Large Language Models",
+    "section": "",
+    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#tldr",
+    "href": "content/a-survey-of-large-language-models/index.html#tldr",
+    "title": "A Survey of Large Language Models",
+    "section": "",
+    "text": "Language is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling has been widely studied for language understandingand generation in the past two decades, evolving from statistical languagemodels to neural language models. Recently, pre-trained language models (PLMs)have been proposed by pre-training Transformer models over large-scale corpora,showing strong capabilities in solving various NLP tasks. Since researchershave found that model scaling can lead to performance improvement, they furtherstudy the scaling effect by increasing the model size to an even larger size.Interestingly, when the parameter scale exceeds a certain level, these enlargedlanguage models not only achieve a significant performance improvement but alsoshow some special abilities that are not present in small-scale languagemodels. To discriminate the difference in parameter scale, the researchcommunity has coined the term large language models (LLM) for the PLMs ofsignificant size. Recently, the research on LLMs has been largely advanced byboth academia and industry, and a remarkable progress is the launch of ChatGPT,which has attracted widespread attention from society. The technical evolutionof LLMs has been making an important impact on the entire AI community, whichwould revolutionize the way how we develop and use AI algorithms. In thissurvey, we review the recent advances of LLMs by introducing the background,key findings, and mainstream techniques. In particular, we focus on four majoraspects of LLMs, namely pre-training, adaptation tuning, utilization, andcapacity evaluation. Besides, we also summarize the available resources fordeveloping LLMs and discuss the remaining issues for future directions."
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#paper-authors",
+    "href": "content/a-survey-of-large-language-models/index.html#paper-authors",
+    "title": "A Survey of Large Language Models",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nZhao, Wayne Xin\nZhou, Kun\nLi, Junyi\nTang, Tianyi\nWang, Xiaolei\nHou, Yupeng\nMin, Yingqian\nZhang, Beichen\nZhang, Junjie\nDong, Zican\nDu, Yifan\nYang, Chen\nChen, Yushuo\nChen, Zhipeng\nJiang, Jinhao\nRen, Ruiyang\nLi, Yifan\nTang, Xinyu\nLiu, Zikang\nLiu, Peiyu\nNie, Jian-Yun\nWen, Ji-Rong"
+  },
+  {
+    "objectID": "content/a-survey-of-large-language-models/index.html#more-resources",
+    "href": "content/a-survey-of-large-language-models/index.html#more-resources",
+    "title": "A Survey of Large Language Models",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
     "objectID": "content/learning-language-specific-layers-for-multilingual-machine-translation/index.html",
     "href": "content/learning-language-specific-layers-for-multilingual-machine-translation/index.html",
     "title": "Learning Language-Specific Layers for Multilingual Machine Translation",
@@ -640,6 +542,62 @@
     "objectID": "content/learning-language-specific-layers-for-multilingual-machine-translation/index.html#more-resources",
     "href": "content/learning-language-specific-layers-for-multilingual-machine-translation/index.html#more-resources",
     "title": "Learning Language-Specific Layers for Multilingual Machine Translation",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html",
+    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html",
+    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
+    "section": "",
+    "text": "names = [\"Yiping Jin\",\"Leo Wanner\",\"Vishakha Laxman Kadam\",\"Alexander Shvets\"]"
+  },
+  {
+    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#tldr",
+    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#tldr",
+    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
+    "section": "Tldr",
+    "text": "Tldr\nAs pointed out by several scholars, current research on hate speech (HS)recognition is characterized by unsystematic data creation strategies anddiverging annotation schemata. Subsequently, supervised-learning models tend togeneralize poorly to datasets they were not trained on, and the performance ofthe models trained on datasets labeled using different HS taxonomies cannot becompared. To ease this problem, we propose applying extremely weak supervisionthat only relies on the class name rather than on class samples from theannotated data. We demonstrate the effectiveness of a state-of-the-artweakly-supervised text classification model in various in-dataset andcross-dataset settings. Furthermore, we conduct an in-depth quantitative andqualitative analysis of the source of poor generalizability of HSclassification models."
+  },
+  {
+    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#paper-authors",
+    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#paper-authors",
+    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#more-resources",
+    "href": "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html#more-resources",
+    "title": "Towards Weakly-Supervised Hate Speech Classification Across Datasets",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
+    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
+    "title": "What changes when you randomly choose BPE merge operations? Not much",
+    "section": "",
+    "text": "names = [\"Jonne Sälevä\",\"Constantine Lignos\"]"
+  },
+  {
+    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#tldr",
+    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#tldr",
+    "title": "What changes when you randomly choose BPE merge operations? Not much",
+    "section": "Tldr",
+    "text": "Tldr\nWe introduce three simple randomized variants of byte pair encoding (BPE) andexplore whether randomizing the selection of merge operations substantiallyaffects a downstream machine translation task. We focus on translation intomorphologically rich languages, hypothesizing that this task may showsensitivity to the method of choosing subwords. Analysis using a Bayesianlinear model indicates that two of the variants perform nearlyindistinguishably compared to standard BPE while the other degrades performanceless than we anticipated. We conclude that although standard BPE is widelyused, there exists an interesting universe of potential variations on it worthinvestigating. Our code is available at: this https URL"
+  },
+  {
+    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#paper-authors",
+    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#paper-authors",
+    "title": "What changes when you randomly choose BPE merge operations? Not much",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#more-resources",
+    "href": "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html#more-resources",
+    "title": "What changes when you randomly choose BPE merge operations? Not much",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -672,34 +630,6 @@
     "text": "More Resources\n   []("
   },
   {
-    "objectID": "content/seeding-with-differentially-private-network-information/index.html",
-    "href": "content/seeding-with-differentially-private-network-information/index.html",
-    "title": "Seeding with Differentially Private Network Information",
-    "section": "",
-    "text": "names = [\"M. Amin Rahimian\",\"Fang-Yi Yu\",\"Carlos Hurtado\"]"
-  },
-  {
-    "objectID": "content/seeding-with-differentially-private-network-information/index.html#tldr",
-    "href": "content/seeding-with-differentially-private-network-information/index.html#tldr",
-    "title": "Seeding with Differentially Private Network Information",
-    "section": "Tldr",
-    "text": "Tldr\nWhen designing interventions in public health, development, and education,decision makers rely on social network data to target a small number of people,capitalizing on peer effects and social contagion to bring about the mostwelfare benefits to the population. Developing new methods that areprivacy-preserving for network data collection and targeted interventions iscritical for designing sustainable public health and development interventionson social networks. In a similar vein, social media platforms rely on networkdata and information from past diffusions to organize their ad campaign andimprove the efficacy of targeted advertising. Ensuring that these networkoperations do not violate users’ privacy is critical to the sustainability ofsocial media platforms and their ad economies. We study privacy guarantees forinfluence maximization algorithms when the social network is unknown, and theinputs are samples of prior influence cascades that are collected at random.Building on recent results that address seeding with costly networkinformation, our privacy-preserving algorithms introduce randomization in thecollected data or the algorithm output, and can bound each node’s (or group ofnodes’) privacy loss in deciding whether or not their data should be includedin the algorithm input. We provide theoretical guarantees of the seedingperformance with a limited sample size subject to differential privacy budgetsin both central and local privacy regimes. Simulations on synthetic andempirical network datasets reveal the diminishing value of network informationwith decreasing privacy budget in both regimes."
-  },
-  {
-    "objectID": "content/seeding-with-differentially-private-network-information/index.html#paper-authors",
-    "href": "content/seeding-with-differentially-private-network-information/index.html#paper-authors",
-    "title": "Seeding with Differentially Private Network Information",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/seeding-with-differentially-private-network-information/index.html#more-resources",
-    "href": "content/seeding-with-differentially-private-network-information/index.html#more-resources",
-    "title": "Seeding with Differentially Private Network Information",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
     "objectID": "content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html",
     "href": "content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html",
     "title": "Rethinking the Role of Token Retrieval in Multi-Vector Retrieval",
@@ -728,31 +658,101 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html",
-    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html",
-    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Interactive Content Repository",
     "section": "",
-    "text": "names = [\"Amir Abboud\",\"Nick Fischer\",\"Elazar Goldenberg\",\"Karthik C. S.\",\"Ron Safier\"]"
+    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#tldr",
-    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#tldr",
-    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
-    "section": "Tldr",
-    "text": "Tldr\nWe study the fundamental problem of finding the best string to represent agiven set, in the form of the Closest String problem: Given a set \\(X \\subseteq\\Sigma^d\\) of \\(n\\) strings, find the string \\(x^*\\) minimizing the radius of thesmallest Hamming ball around \\(x^*\\) that encloses all the strings in \\(X\\). Inthis paper, we investigate whether the Closest String problem admits algorithmsthat are faster than the trivial exhaustive search algorithm. We obtain thefollowing results for the two natural versions of the problem:\\(\\bullet\\) In the continuous Closest String problem, the goal is to find thesolution string \\(x^*\\) anywhere in \\(\\Sigma^d\\). For binary strings, theexhaustive search algorithm runs in time \\(O(2^d poly(nd))\\) and we prove that itcannot be improved to time \\(O(2^{(1-\\epsilon) d} poly(nd))\\), for any \\(\\epsilon&gt; 0\\), unless the Strong Exponential Time Hypothesis fails.\\(\\bullet\\) In the discrete Closest String problem, \\(x^*\\) is required to be inthe input set \\(X\\). While this problem is clearly in polynomial time, itsfine-grained complexity has been pinpointed to be quadratic time \\(n^{2 \\pmo(1)}\\) whenever the dimension is \\(\\omega(\\log n) &lt; d &lt; n^{o(1)}\\). We complementthis known hardness result with new algorithms, proving essentially thatwhenever \\(d\\) falls out of this hard range, the discrete Closest String problemcan be solved faster than exhaustive search. In the small-\\(d\\) regime, ouralgorithm is based on a novel application of the inclusion-exclusion principle.Interestingly, all of our results apply (and some are even stronger) to thenatural dual of the Closest String problem, called the Remotest String problem,where the task is to find a string maximizing the Hamming distance to all thestrings in \\(X\\)."
+    "objectID": "templates/template_for_content.html#image",
+    "href": "templates/template_for_content.html#image",
+    "title": "Title for your work",
+    "section": "Image",
+    "text": "Image"
   },
   {
-    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#paper-authors",
-    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#paper-authors",
-    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
+    "objectID": "templates/template_for_content.html#paper-authors",
+    "href": "templates/template_for_content.html#paper-authors",
+    "title": "Title for your work",
     "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+    "text": "Paper-authors"
   },
   {
-    "objectID": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#more-resources",
-    "href": "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html#more-resources",
-    "title": "Can You Solve Closest String Faster than Exhaustive Search?",
+    "objectID": "templates/template_for_content.html#venue",
+    "href": "templates/template_for_content.html#venue",
+    "title": "Title for your work",
+    "section": "Venue",
+    "text": "Venue"
+  },
+  {
+    "objectID": "templates/template_for_content.html#video",
+    "href": "templates/template_for_content.html#video",
+    "title": "Title for your work",
+    "section": "Video",
+    "text": "Video"
+  },
+  {
+    "objectID": "templates/template_for_content.html#slides",
+    "href": "templates/template_for_content.html#slides",
+    "title": "Title for your work",
+    "section": "Slides",
+    "text": "Slides\nhere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#code",
+    "href": "templates/template_for_content.html#code",
+    "title": "Title for your work",
+    "section": "Code",
+    "text": "Code\nHere"
+  },
+  {
+    "objectID": "templates/template_for_content.html#more-resources",
+    "href": "templates/template_for_content.html#more-resources",
+    "title": "Title for your work",
     "section": "More Resources",
-    "text": "More Resources"
+    "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "Design and Analysis of Index codes for 3-Group NOMA in Vehicular Adhoc Networks\n\n\n\n\n\nIndex coding (IC) is a source coding technique employed to improve spectralutilisation, where the source node aims to satisfy users’ demands by makingminimum transmissions. Non-orthogonal multiple access (NOMA) is integral to theradio access…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Unified Approach for Maximizing Continuous DR-submodular Functions\n\n\n\n\n\nThis paper presents a unified approach for maximizing continuousDR-submodular functions that encompasses a range of settings and oracle accesstypes. Our approach includes a Frank-Wolfe type offline algorithm for bothmonotone and non-monotone…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Semantic Text Similarity to rank Hypernyms of Financial Terms\n\n\n\n\n\nOver the years, there has been a paradigm shift in how users access financialservices. With the advancement of digitalization more users have beenpreferring the online mode of performing financial activities. This has led tothe generation of a huge…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation\n\n\n\n\n\nVision-and-Language Navigation (VLN) requires the agent to follow languageinstructions to navigate through 3D environments. One main challenge in VLN isthe limited availability of photorealistic training environments, which makesit hard to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nModel-tuning Via Prompts Makes NLP Models Adversarially Robust\n\n\n\n\n\nIn recent years, NLP practitioners have converged on the following practice:(i) import an off-the-shelf pretrained (masked) language model; (ii) append amultilayer perceptron atop the CLS token’s hidden representation (with randomlyinitialized…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSeeding with Differentially Private Network Information\n\n\n\n\n\nWhen designing interventions in public health, development, and education,decision makers rely on social network data to target a small number of people,capitalizing on peer effects and social contagion to bring about the mostwelfare benefits to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nProduction Networks Resilience: Cascading Failures, Power Laws and Optimal Interventions\n\n\n\n\n\nIn this paper, we study the severity of cascading failures in supply chainnetworks defined by a node percolation process corresponding to productsuppliers failing independently due to systemic shocks. We first show that thesize of the cascades…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nasdf\n\n\n\n\n\n\n\nNLP\n\n\n\n\nasdfasd\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n2x Faster Language Model Pre-training via Masked Structural Growth\n\n\n\n\n\nAcceleration of large language model pre-training is a critical issue inpresent NLP research. In this paper, we focus on speeding up pre-training byprogressively growing from a small Transformer structure to a large one. Thereare two main research…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRe\\(^3\\)Dial: Retrieve, Reorganize and Rescale Dialogue Corpus for Long-Turn Open-Domain Dialogue Pre-training\n\n\n\n\n\nLarge-scale open-domain dialogue data crawled from public social media hasgreatly improved the performance of dialogue models. However, long-turndialogues are still highly scarce. Specifically, most dialogue sessions inexisting corpora have less…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCan You Solve Closest String Faster than Exhaustive Search?\n\n\n\n\n\nWe study the fundamental problem of finding the best string to represent agiven set, in the form of the Closest String problem: Given a set \\(X \\subseteq\\Sigma^d\\) of \\(n\\) strings, find the string \\(x^*\\) minimizing the radius of thesmallest Hamming…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSemantic Space Grounded Weighted Decoding for Multi-Attribute Controllable Dialogue Generation\n\n\n\n\n\nControlling chatbot utterance generation with multiple attributes such aspersonalities, emotions and dialogue acts is a practically useful butunder-studied problem. We propose a novel controllable generation frameworkcalled DASC that possesses…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence\n\n\n\n\n\nSentence-level representations are beneficial for various natural languageprocessing tasks. It is commonly believed that vector representations cancapture rich linguistic properties. Currently, large language models (LMs)achieve state-of-the-art…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nVisual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings\n\n\n\n\n\nRecent advances in large language models elicit reasoning in a chain ofthought that allows models to decompose problems in a human-like fashion.Though this paradigm improves multi-step reasoning ability in language models,it is limited by being…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Survey of Large Language Models\n\n\n\n\n\nLanguage is essentially a complex, intricate system of human expressionsgoverned by grammatical rules. It poses a significant challenge to developcapable AI algorithms for comprehending and grasping a language. As a majorapproach, language modeling…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Language-Specific Layers for Multilingual Machine Translation\n\n\n\n\n\nMultilingual Machine Translation promises to improve translation qualitybetween non-English languages. This is advantageous for several reasons, namelylower latency (no need to translate twice), and reduced error cascades (e.g.,avoiding losing…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTowards Weakly-Supervised Hate Speech Classification Across Datasets\n\n\n\n\n\nAs pointed out by several scholars, current research on hate speech (HS)recognition is characterized by unsystematic data creation strategies anddiverging annotation schemata. Subsequently, supervised-learning models tend togeneralize poorly to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nWhat changes when you randomly choose BPE merge operations? Not much\n\n\n\n\n\nWe introduce three simple randomized variants of byte pair encoding (BPE) andexplore whether randomizing the selection of merge operations substantiallyaffects a downstream machine translation task. We focus on translation intomorphologically rich…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNLP\n\n\n\n\nasdf123\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRethinking the Role of Token Retrieval in Multi-Vector Retrieval\n\n\n\n\n\nMulti-vector retrieval models such as ColBERT [Khattab and Zaharia, 2020]allow token-level interactions between queries and documents, and hence achievestate of the art on many information retrieval benchmarks. However, theirnon-linear scoring…\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+    "href": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
+    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+  },
+  {
+    "objectID": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+    "href": "posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
+    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+  },
+  {
+    "objectID": "posts/test/index.html",
+    "href": "posts/test/index.html",
+    "title": "test",
+    "section": "",
+    "text": "asdf123"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
   }
 ]
