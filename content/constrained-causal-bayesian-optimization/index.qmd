@@ -1,0 +1,74 @@
+---
+categories: machine learning
+description: We propose constrained causal Bayesian optimization (cCBO), an approach
+  forfinding interventions in a known causal graph that optimize a target variableunder
+  some constraints. cCBO first reduces the search space by exploiting thegraph structure
+  and, if available, an observational dataset; and then solvesthe restricted optimization
+  problem by modelling target and constraintquantities using Gaussian processes and
+  by sequentially selecting interventionsvia a constrained expected improvement acquisition
+  function. We proposedifferent surrogate models that enable to integrate observational
+  andinterventional data while capturing correlation among effects with increasinglevels
+  of sophistication. We evaluate cCBO on artificial and real-world causalgraphs showing
+  successful trade off between fast convergence and percentage offeasible interventions.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Aglietti, Virginia
+  author_2:
+    name: Malek, Alan
+  author_3:
+    name: Ktena, Ira
+  author_4:
+    name: Chiappa, Silvia
+  overview: We propose constrained causal Bayesian optimization (cCBO), an approach
+    forfinding interventions in a known causal graph that optimize a target variableunder
+    some constraints. cCBO first reduces the search space by exploiting thegraph structure
+    and, if available, an observational dataset; and then solvesthe restricted optimization
+    problem by modelling target and constraintquantities using Gaussian processes
+    and by sequentially selecting interventionsvia a constrained expected improvement
+    acquisition function. We proposedifferent surrogate models that enable to integrate
+    observational andinterventional data while capturing correlation among effects
+    with increasinglevels of sophistication. We evaluate cCBO on artificial and real-world
+    causalgraphs showing successful trade off between fast convergence and percentage
+    offeasible interventions.
+  pdf_url: http://arxiv.org/pdf/2305.20011
+title: Constrained Causal Bayesian Optimization
+
+---
+```{ojs} 
+
+ names = ["Virginia Aglietti","Alan Malek","Ira Ktena","Silvia Chiappa"] 
+
+``` 
+
+## Tldr 
+We propose constrained causal Bayesian optimization (cCBO), an approach forfinding interventions in a known causal graph that optimize a target variableunder some constraints. cCBO first reduces the search space by exploiting thegraph structure and, if available, an observational dataset; and then solvesthe restricted optimization problem by modelling target and constraintquantities using Gaussian processes and by sequentially selecting interventionsvia a constrained expected improvement acquisition function. We proposedifferent surrogate models that enable to integrate observational andinterventional data while capturing correlation among effects with increasinglevels of sophistication. We evaluate cCBO on artificial and real-world causalgraphs showing successful trade off between fast convergence and percentage offeasible interventions.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
