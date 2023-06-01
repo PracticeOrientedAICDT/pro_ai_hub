@@ -3,35 +3,35 @@
     "listing": "/blog.html",
     "items": [
       "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-      "/posts/test/index.html"
+      "/posts/test/index.html",
+      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
-      "/content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html",
-      "/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
-      "/content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html",
+      "/content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
       "/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html",
-      "/content/seeding-with-differentially-private-network-information/index.html",
+      "/content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
+      "/content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
       "/content/production-networks-resilience-cascading-failures-power-laws-and-optimal-interventions/index.html",
-      "/content/asdf/index.html",
-      "/content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
-      "/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
       "/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
       "/content/re3dial-retrieve-reorganize-and-rescale-dialogue-corpus-for-long-turn-open-domain-dialogue-pre-training/index.html",
-      "/content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html",
-      "/content/semantic-space-grounded-weighted-decoding-for-multi-attribute-controllable-dialogue-generation/index.html",
-      "/content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html",
-      "/content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html",
-      "/content/a-survey-of-large-language-models/index.html",
-      "/content/learning-language-specific-layers-for-multilingual-machine-translation/index.html",
+      "/content/asdf/index.html",
+      "/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html",
+      "/content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html",
+      "/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
+      "/content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html",
+      "/content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html",
+      "/content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html",
       "/content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html",
-      "/content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html",
+      "/content/a-survey-of-large-language-models/index.html",
+      "/content/semantic-space-grounded-weighted-decoding-for-multi-attribute-controllable-dialogue-generation/index.html",
+      "/content/learning-language-specific-layers-for-multilingual-machine-translation/index.html",
       "/content/test/index.html",
-      "/content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html"
+      "/content/seeding-with-differentially-private-network-information/index.html",
+      "/content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html",
+      "/content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html"
     ]
   }
 ]
