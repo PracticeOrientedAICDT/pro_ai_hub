@@ -1,4 +1,5 @@
 ---
+category: computer vision and pattern recognition
 description: Vision-and-Language Navigation (VLN) requires the agent to follow languageinstructions
   to navigate through 3D environments. One main challenge in VLN isthe limited availability
   of photorealistic training environments, which makesit hard to generalize to new
