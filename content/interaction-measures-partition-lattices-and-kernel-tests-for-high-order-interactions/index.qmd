@@ -1,0 +1,98 @@
+---
+categories:
+- machine learning
+description: "Models that rely solely on pairwise relationships often fail to capture\
+  \ the complete statistical structure of the complex multivariate data found in diverse\
+  \ domains, such as socio-economic, ecological, or biomedical systems. Non-trivial\
+  \ dependencies between groups of more than two variables can play a significant\
+  \ role in the analysis and modelling of such systems, yet extracting such high-order\
+  \ interactions from data remains challenging. Here, we introduce a hierarchy of\
+  \ d-order (d\u22652) interaction measures, increasingly inclusive of possible factorisations\
+  \ of the joint probability distribution, and define non-parametric, kernel-based\
+  \ tests to establish systematically the statistical significance of d-order interactions.\
+  \ We also establish mathematical links with lattice theory, which elucidate the\
+  \ derivation of the interaction measures and their composite permutation tests;\
+  \ clarify the connection of simplicial complexes with kernel matrix centring; and\
+  \ provide a means to enhance computational efficiency. We illustrate our results\
+  \ numerically with validations on synthetic data, and through an application to\
+  \ neuroimaging data."
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Zhaolu Liu
+    url: null
+  author_2:
+    name: Robert L. Peach
+    url: null
+  author_3:
+    name: Mauricio Barahona
+    url: null
+  author_4:
+    name: Pedro A.M. Mediano
+    url: null
+  code_url: ''
+  overview: "Models that rely solely on pairwise relationships often fail to capture\
+    \ the complete statistical structure of the complex multivariate data found in\
+    \ diverse domains, such as socio-economic, ecological, or biomedical systems.\
+    \ Non-trivial dependencies between groups of more than two variables can play\
+    \ a significant role in the analysis and modelling of such systems, yet extracting\
+    \ such high-order interactions from data remains challenging. Here, we introduce\
+    \ a hierarchy of d-order (d\u22652) interaction measures, increasingly inclusive\
+    \ of possible factorisations of the joint probability distribution, and define\
+    \ non-parametric, kernel-based tests to establish systematically the statistical\
+    \ significance of d-order interactions. We also establish mathematical links with\
+    \ lattice theory, which elucidate the derivation of the interaction measures and\
+    \ their composite permutation tests; clarify the connection of simplicial complexes\
+    \ with kernel matrix centring; and provide a means to enhance computational efficiency.\
+    \ We illustrate our results numerically with validations on synthetic data, and\
+    \ through an application to neuroimaging data."
+  pdf_url: ''
+  poster_url: ''
+  scholar_url: ''
+  slides_url: ''
+  supplement_url: ''
+title: Interaction Measures, Partition Lattices and Kernel Tests for High-Order Interactions
+
+---
+```{ojs} 
+
+ names = ["Zhaolu Liu","Robert L. Peach","Mauricio Barahona","Pedro A.M. Mediano"] 
+
+``` 
+
+## Tldr 
+Models that rely solely on pairwise relationships often fail to capture the complete statistical structure of the complex multivariate data found in diverse domains, such as socio-economic, ecological, or biomedical systems. Non-trivial dependencies between groups of more than two variables can play a significant role in the analysis and modelling of such systems, yet extracting such high-order interactions from data remains challenging. Here, we introduce a hierarchy of d-order (d≥2) interaction measures, increasingly inclusive of possible factorisations of the joint probability distribution, and define non-parametric, kernel-based tests to establish systematically the statistical significance of d-order interactions. We also establish mathematical links with lattice theory, which elucidate the derivation of the interaction measures and their composite permutation tests; clarify the connection of simplicial complexes with kernel matrix centring; and provide a means to enhance computational efficiency. We illustrate our results numerically with validations on synthetic data, and through an application to neuroimaging data.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
+[![](https://img.shields.io/badge/supplement-yellowgreen?style=flat)]({{< meta params.supplement_url >}})
+[![](https://img.shields.io/badge/blog-blue?style=flat)]({{< meta params.slides_url >}}
+[![](https://img.shields.io/badge/poster-yellow?style=flat)]({{< meta params.poster_url >}})
+[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})
