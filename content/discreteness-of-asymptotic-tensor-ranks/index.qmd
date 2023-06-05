@@ -1,0 +1,98 @@
+---
+categories: computational complexity
+description: Tensor parameters that are amortized or regularized over large tensor
+  powers,often called "asymptotic" tensor parameters, play a central role in severalareas
+  including algebraic complexity theory (constructing fast matrixmultiplication algorithms),
+  quantum information (entanglement cost anddistillable entanglement), and additive
+  combinatorics (bounds on cap sets,sunflower-free sets, etc.). Examples are the asymptotic
+  tensor rank, asymptoticslice rank and asymptotic subrank. Recent works (Costa-Dalai,Blatter-Draisma-Rupniewski,
+  Christandl-Gesmundo-Zuiddam) have investigatednotions of discreteness (no accumulation
+  points) or "gaps" in the values ofsuch tensor parameters.We prove a general discreteness
+  theorem for asymptotic tensor parameters oforder-three tensors and use this to prove
+  that (1) over any finite field, theasymptotic subrank and the asymptotic slice rank
+  have no accumulation points,and (2) over the complex numbers, the asymptotic slice
+  rank has no accumulationpoints.Central to our approach are two new general lower
+  bounds on the asymptoticsubrank of tensors, which measures how much a tensor can
+  be diagonalized. Thefirst lower bound says that the asymptotic subrank of any concise
+  three-tensoris at least the cube-root of the smallest dimension. The second lower
+  boundsays that any three-tensor that is "narrow enough" (has one dimension muchsmaller
+  than the other two) has maximal asymptotic subrank.Our proofs rely on new lower
+  bounds on the maximum rank in matrix subspacesthat are obtained by slicing a three-tensor
+  in the three different directions.We prove that for any concise tensor the product
+  of any two such maximum ranksmust be large, and as a consequence there are always
+  two distinct directionswith large max-rank.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: "Bri\xEBt, Jop"
+  author_2:
+    name: Christandl, Matthias
+  author_3:
+    name: Leigh, Itai
+  author_4:
+    name: Shpilka, Amir
+  author_5:
+    name: Zuiddam, Jeroen
+  overview: Tensor parameters that are amortized or regularized over large tensor
+    powers,often called "asymptotic" tensor parameters, play a central role in severalareas
+    including algebraic complexity theory (constructing fast matrixmultiplication
+    algorithms), quantum information (entanglement cost anddistillable entanglement),
+    and additive combinatorics (bounds on cap sets,sunflower-free sets, etc.). Examples
+    are the asymptotic tensor rank, asymptoticslice rank and asymptotic subrank. Recent
+    works (Costa-Dalai,Blatter-Draisma-Rupniewski, Christandl-Gesmundo-Zuiddam) have
+    investigatednotions of discreteness (no accumulation points) or "gaps" in the
+    values ofsuch tensor parameters.We prove a general discreteness theorem for asymptotic
+    tensor parameters oforder-three tensors and use this to prove that (1) over any
+    finite field, theasymptotic subrank and the asymptotic slice rank have no accumulation
+    points,and (2) over the complex numbers, the asymptotic slice rank has no accumulationpoints.Central
+    to our approach are two new general lower bounds on the asymptoticsubrank of tensors,
+    which measures how much a tensor can be diagonalized. Thefirst lower bound says
+    that the asymptotic subrank of any concise three-tensoris at least the cube-root
+    of the smallest dimension. The second lower boundsays that any three-tensor that
+    is "narrow enough" (has one dimension muchsmaller than the other two) has maximal
+    asymptotic subrank.Our proofs rely on new lower bounds on the maximum rank in
+    matrix subspacesthat are obtained by slicing a three-tensor in the three different
+    directions.We prove that for any concise tensor the product of any two such maximum
+    ranksmust be large, and as a consequence there are always two distinct directionswith
+    large max-rank.
+  pdf_url: http://arxiv.org/pdf/2306.01718
+title: Discreteness of asymptotic tensor ranks
+
+---
+```{ojs} 
+
+ names = ["Jop Briët","Matthias Christandl","Itai Leigh","Amir Shpilka","Jeroen Zuiddam"] 
+
+``` 
+
+## Tldr 
+Tensor parameters that are amortized or regularized over large tensor powers,often called "asymptotic" tensor parameters, play a central role in severalareas including algebraic complexity theory (constructing fast matrixmultiplication algorithms), quantum information (entanglement cost anddistillable entanglement), and additive combinatorics (bounds on cap sets,sunflower-free sets, etc.). Examples are the asymptotic tensor rank, asymptoticslice rank and asymptotic subrank. Recent works (Costa-Dalai,Blatter-Draisma-Rupniewski, Christandl-Gesmundo-Zuiddam) have investigatednotions of discreteness (no accumulation points) or "gaps" in the values ofsuch tensor parameters.We prove a general discreteness theorem for asymptotic tensor parameters oforder-three tensors and use this to prove that (1) over any finite field, theasymptotic subrank and the asymptotic slice rank have no accumulation points,and (2) over the complex numbers, the asymptotic slice rank has no accumulationpoints.Central to our approach are two new general lower bounds on the asymptoticsubrank of tensors, which measures how much a tensor can be diagonalized. Thefirst lower bound says that the asymptotic subrank of any concise three-tensoris at least the cube-root of the smallest dimension. The second lower boundsays that any three-tensor that is "narrow enough" (has one dimension muchsmaller than the other two) has maximal asymptotic subrank.Our proofs rely on new lower bounds on the maximum rank in matrix subspacesthat are obtained by slicing a three-tensor in the three different directions.We prove that for any concise tensor the product of any two such maximum ranksmust be large, and as a consequence there are always two distinct directionswith large max-rank.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
