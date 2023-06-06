@@ -1,0 +1,76 @@
+---
+categories: data structures and algorithms
+description: Computing the convolution $A \star B$ of two vectors of dimension $n$
+  is oneof the most important computational primitives in many fields. For thenon-negative
+  convolution scenario, the classical solution is to leverage theFast Fourier Transform
+  whose time complexity is $O(n \log n)$. However, thevectors $A$ and $B$ could be
+  very sparse and we can exploit such property toaccelerate the computation to obtain
+  the result. In this paper, we show thatwhen $\|A \star B\|_{\geq c_1} = k$ and $\|A
+  \star B\|_{\leq c_2} = n-k$ holds,we can approximately recover the all index in
+  $\mathrm{supp}_{\geq c_1}(A \starB)$ with point-wise error of $o(1)$ in $O(k \log
+  (n) \log(k)\log(k/\delta))$time. We further show that we can iteratively correct
+  the error and recover allindex in $\mathrm{supp}_{\geq c_1}(A \star B)$ correctly
+  in $O(k \log(n)\log^2(k) (\log(1/\delta) + \log\log(k)))$ time.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Li_X/0/1/0/all/0/1
+    name: Li, Xiaoxiao
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Song_Z/0/1/0/all/0/1
+    name: Song, Zhao
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Zhang_G/0/1/0/all/0/1
+    name: Zhang, Guangyi
+  overview: Computing the convolution $A \star B$ of two vectors of dimension $n$
+    is oneof the most important computational primitives in many fields. For thenon-negative
+    convolution scenario, the classical solution is to leverage theFast Fourier Transform
+    whose time complexity is $O(n \log n)$. However, thevectors $A$ and $B$ could
+    be very sparse and we can exploit such property toaccelerate the computation to
+    obtain the result. In this paper, we show thatwhen $\|A \star B\|_{\geq c_1} =
+    k$ and $\|A \star B\|_{\leq c_2} = n-k$ holds,we can approximately recover the
+    all index in $\mathrm{supp}_{\geq c_1}(A \starB)$ with point-wise error of $o(1)$
+    in $O(k \log (n) \log(k)\log(k/\delta))$time. We further show that we can iteratively
+    correct the error and recover allindex in $\mathrm{supp}_{\geq c_1}(A \star B)$
+    correctly in $O(k \log(n)\log^2(k) (\log(1/\delta) + \log\log(k)))$ time.
+  pdf_url: http://arxiv.org/pdf/2306.02381
+title: Sparse Convolution for Approximate Sparse Instance
+
+---
+```{ojs} 
+
+ names = ["Xiaoxiao Li","Zhao Song","Guangyi Zhang"] 
+
+``` 
+
+## Tldr 
+Computing the convolution $A \star B$ of two vectors of dimension $n$ is oneof the most important computational primitives in many fields. For thenon-negative convolution scenario, the classical solution is to leverage theFast Fourier Transform whose time complexity is $O(n \log n)$. However, thevectors $A$ and $B$ could be very sparse and we can exploit such property toaccelerate the computation to obtain the result. In this paper, we show thatwhen $\|A \star B\|_{\geq c_1} = k$ and $\|A \star B\|_{\leq c_2} = n-k$ holds,we can approximately recover the all index in $\mathrm{supp}_{\geq c_1}(A \starB)$ with point-wise error of $o(1)$ in $O(k \log (n) \log(k)\log(k/\delta))$time. We further show that we can iteratively correct the error and recover allindex in $\mathrm{supp}_{\geq c_1}(A \star B)$ correctly in $O(k \log(n)\log^2(k) (\log(1/\delta) + \log\log(k)))$ time.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
