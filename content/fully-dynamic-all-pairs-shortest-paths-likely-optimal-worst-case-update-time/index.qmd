@@ -1,23 +1,22 @@
 ---
 categories:
 - data structures and algorithms
-description: "The All-Pairs Shortest Paths (APSP) problem is one of the fundamental\
-  \ problems in theoretical computer science. It asks to compute the distance matrix\
-  \ of a given n-vertex graph. We revisit the classical problem of maintaining the\
-  \ distance matrix under a \\emph{fully-dynamic} setting undergoing vertex insertions\
-  \ and deletions with a fast \\emph{worst-case} running time and efficient space\
-  \ usage.\r\nAlthough amortized algorithm with O~(n2) update-time has been known\
-  \ for nearly two decades [Demetrescu and Italiano, STOC 2003], the current best\
-  \ algorithm for worst-case running time with efficient space usage runs is due to\
-  \ [Gutenberg and Wulff-Nilsen, SODA 2020], which improves the space usage of the\
-  \ previous algorithm due to [Abraham, Chechik, and Krinninger, SODA 2017] to O~(n2)\
-  \ but fails to improve their running time of O~(n2+2/3). It has been conjectured\
-  \ that no algorithm in O(n2.5\u2212\u03F5) worst-case update time exists. For graphs\
-  \ without negative cycles, we meet this conjectured lower bound by introducing a\
-  \ Monte Carlo algorithm running in randomized O~(n2.5) time while keeping the O~(n2)\
-  \ space bound from the previous algorithm. Our improvement is made possible using\
-  \ a novel multi-layer approach that exploits the gaps between hops (number of vertices\
-  \ traversed) of paths."
+description: Inspired by the visualization of dental plaque at the dentist's office,
+  this article proposes a novel visualization technique for identifying redundancies
+  in relational data. Our approach builds upon an established information-theoretic
+  framework that, despite being well-principled, remains unexplored in practical applications.
+  In this framework, we calculate the information content (or entropy) of each cell
+  in a relation instance, given a set of functional dependencies. The entropy value
+  represents the likelihood of inferring the cell's value based on the dependencies
+  and the remaining tuples. By highlighting cells with lower entropy, we effectively
+  visualize redundancies in the data. We present an initial prototype implementation
+  and demonstrate that a straightforward approach is insufficient for handling practical
+  problem sizes. To address this limitation, we propose several optimizations, which
+  we prove to be correct. Additionally, we present a Monte Carlo approximation technique
+  with a known error, enabling computationally tractable computations. Using a real-world
+  dataset of modest size, we illustrate the potential of our visualization technique.
+  Our vision is to support domain experts with data profiling and data cleaning tasks,
+  akin to the functionality of a plaque test at the dentist's.
 execute:
   echo: false
 format:
@@ -30,23 +29,23 @@ params:
     name: Xiao Mao
     url: null
   code_url: ''
-  overview: "The All-Pairs Shortest Paths (APSP) problem is one of the fundamental\
-    \ problems in theoretical computer science. It asks to compute the distance matrix\
-    \ of a given n-vertex graph. We revisit the classical problem of maintaining the\
-    \ distance matrix under a \\emph{fully-dynamic} setting undergoing vertex insertions\
-    \ and deletions with a fast \\emph{worst-case} running time and efficient space\
-    \ usage.\r\nAlthough amortized algorithm with O~(n2) update-time has been known\
-    \ for nearly two decades [Demetrescu and Italiano, STOC 2003], the current best\
-    \ algorithm for worst-case running time with efficient space usage runs is due\
-    \ to [Gutenberg and Wulff-Nilsen, SODA 2020], which improves the space usage of\
-    \ the previous algorithm due to [Abraham, Chechik, and Krinninger, SODA 2017]\
-    \ to O~(n2) but fails to improve their running time of O~(n2+2/3). It has been\
-    \ conjectured that no algorithm in O(n2.5\u2212\u03F5) worst-case update time\
-    \ exists. For graphs without negative cycles, we meet this conjectured lower bound\
-    \ by introducing a Monte Carlo algorithm running in randomized O~(n2.5) time while\
-    \ keeping the O~(n2) space bound from the previous algorithm. Our improvement\
-    \ is made possible using a novel multi-layer approach that exploits the gaps between\
-    \ hops (number of vertices traversed) of paths."
+  overview: Inspired by the visualization of dental plaque at the dentist's office,
+    this article proposes a novel visualization technique for identifying redundancies
+    in relational data. Our approach builds upon an established information-theoretic
+    framework that, despite being well-principled, remains unexplored in practical
+    applications. In this framework, we calculate the information content (or entropy)
+    of each cell in a relation instance, given a set of functional dependencies. The
+    entropy value represents the likelihood of inferring the cell's value based on
+    the dependencies and the remaining tuples. By highlighting cells with lower entropy,
+    we effectively visualize redundancies in the data. We present an initial prototype
+    implementation and demonstrate that a straightforward approach is insufficient
+    for handling practical problem sizes. To address this limitation, we propose several
+    optimizations, which we prove to be correct. Additionally, we present a Monte
+    Carlo approximation technique with a known error, enabling computationally tractable
+    computations. Using a real-world dataset of modest size, we illustrate the potential
+    of our visualization technique. Our vision is to support domain experts with data
+    profiling and data cleaning tasks, akin to the functionality of a plaque test
+    at the dentist's.
   pdf_url: ''
   poster_url: ''
   scholar_url: ''
@@ -62,8 +61,7 @@ title: 'Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update
 ``` 
 
 ## Tldr 
-The All-Pairs Shortest Paths (APSP) problem is one of the fundamental problems in theoretical computer science. It asks to compute the distance matrix of a given n-vertex graph. We revisit the classical problem of maintaining the distance matrix under a \emph{fully-dynamic} setting undergoing vertex insertions and deletions with a fast \emph{worst-case} running time and efficient space usage.
-Although amortized algorithm with O~(n2) update-time has been known for nearly two decades [Demetrescu and Italiano, STOC 2003], the current best algorithm for worst-case running time with efficient space usage runs is due to [Gutenberg and Wulff-Nilsen, SODA 2020], which improves the space usage of the previous algorithm due to [Abraham, Chechik, and Krinninger, SODA 2017] to O~(n2) but fails to improve their running time of O~(n2+2/3). It has been conjectured that no algorithm in O(n2.5−ϵ) worst-case update time exists. For graphs without negative cycles, we meet this conjectured lower bound by introducing a Monte Carlo algorithm running in randomized O~(n2.5) time while keeping the O~(n2) space bound from the previous algorithm. Our improvement is made possible using a novel multi-layer approach that exploits the gaps between hops (number of vertices traversed) of paths.
+Inspired by the visualization of dental plaque at the dentist's office, this article proposes a novel visualization technique for identifying redundancies in relational data. Our approach builds upon an established information-theoretic framework that, despite being well-principled, remains unexplored in practical applications. In this framework, we calculate the information content (or entropy) of each cell in a relation instance, given a set of functional dependencies. The entropy value represents the likelihood of inferring the cell's value based on the dependencies and the remaining tuples. By highlighting cells with lower entropy, we effectively visualize redundancies in the data. We present an initial prototype implementation and demonstrate that a straightforward approach is insufficient for handling practical problem sizes. To address this limitation, we propose several optimizations, which we prove to be correct. Additionally, we present a Monte Carlo approximation technique with a known error, enabling computationally tractable computations. Using a real-world dataset of modest size, we illustrate the potential of our visualization technique. Our vision is to support domain experts with data profiling and data cleaning tasks, akin to the functionality of a plaque test at the dentist's.
 
 ## Paper-authors
 
