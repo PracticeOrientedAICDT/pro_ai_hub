@@ -55,3 +55,40 @@ params:
 title: 'Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time'
 
 ---
+```{ojs} 
+
+ names = ["Xiao Mao"] 
+
+``` 
+
+## Tldr 
+The All-Pairs Shortest Paths (APSP) problem is one of the fundamental problems in theoretical computer science. It asks to compute the distance matrix of a given n-vertex graph. We revisit the classical problem of maintaining the distance matrix under a \emph{fully-dynamic} setting undergoing vertex insertions and deletions with a fast \emph{worst-case} running time and efficient space usage.
+    Although amortized algorithm with O~(n2) update-time has been known for nearly two decades [Demetrescu and Italiano, STOC 2003], the current best algorithm for worst-case running time with efficient space usage runs is due to [Gutenberg and Wulff-Nilsen, SODA 2020], which improves the space usage of the previous algorithm due to [Abraham, Chechik, and Krinninger, SODA 2017] to O~(n2) but fails to improve their running time of O~(n2+2/3). It has been conjectured that no algorithm in O(n2.5−ϵ) worst-case update time exists. For graphs without negative cycles, we meet this conjectured lower bound by introducing a Monte Carlo algorithm running in randomized O~(n2.5) time while keeping the O~(n2) space bound from the previous algorithm. Our improvement is made possible using a novel multi-layer approach that exploits the gaps between hops (number of vertices traversed) of paths.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
+[![](https://img.shields.io/badge/supplement-yellowgreen?style=flat)]({{< meta params.supplement_url >}})
+[![](https://img.shields.io/badge/blog-blue?style=flat)]({{< meta params.slides_url >}}
+[![](https://img.shields.io/badge/poster-yellow?style=flat)]({{< meta params.poster_url >}})
+[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})
