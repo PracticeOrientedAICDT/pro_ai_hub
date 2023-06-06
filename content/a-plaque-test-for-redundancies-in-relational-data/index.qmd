@@ -1,6 +1,6 @@
 ---
 categories:
-- computational complexity
+- data structures and algorithms
 description: Inspired by the visualization of dental plaque at the dentist's office,
   this article proposes a novel visualization technique for identifying redundancies
   in relational data. Our approach builds upon an established information-theoretic
