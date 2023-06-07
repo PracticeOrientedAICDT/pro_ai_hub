@@ -48,4 +48,4 @@ asdfqwe
 ``` 
 
 ## More Resources
-[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
+[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.citation >}})
