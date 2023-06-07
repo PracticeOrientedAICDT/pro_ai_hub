@@ -13,6 +13,7 @@ params:
   author_1:
     name: Xiao Mao
     url: null
+  citation: https://scholar.google.com/scholar_lookup?arxiv_id=2306.02890
   overview: asdfqwe
 title: 'Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time'
 
