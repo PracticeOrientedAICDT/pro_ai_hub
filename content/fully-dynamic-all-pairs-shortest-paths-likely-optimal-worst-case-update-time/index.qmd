@@ -1,22 +1,7 @@
 ---
 categories:
-- data structures and algorithms
-description: Inspired by the visualization of dental plaque at the dentist's office,
-  this article proposes a novel visualization technique for identifying redundancies
-  in relational data. Our approach builds upon an established information-theoretic
-  framework that, despite being well-principled, remains unexplored in practical applications.
-  In this framework, we calculate the information content (or entropy) of each cell
-  in a relation instance, given a set of functional dependencies. The entropy value
-  represents the likelihood of inferring the cell's value based on the dependencies
-  and the remaining tuples. By highlighting cells with lower entropy, we effectively
-  visualize redundancies in the data. We present an initial prototype implementation
-  and demonstrate that a straightforward approach is insufficient for handling practical
-  problem sizes. To address this limitation, we propose several optimizations, which
-  we prove to be correct. Additionally, we present a Monte Carlo approximation technique
-  with a known error, enabling computationally tractable computations. Using a real-world
-  dataset of modest size, we illustrate the potential of our visualization technique.
-  Our vision is to support domain experts with data profiling and data cleaning tasks,
-  akin to the functionality of a plaque test at the dentist's.
+- computational complexity
+description: asdfqwe
 execute:
   echo: false
 format:
@@ -28,29 +13,7 @@ params:
   author_1:
     name: Xiao Mao
     url: null
-  code_url: ''
-  overview: Inspired by the visualization of dental plaque at the dentist's office,
-    this article proposes a novel visualization technique for identifying redundancies
-    in relational data. Our approach builds upon an established information-theoretic
-    framework that, despite being well-principled, remains unexplored in practical
-    applications. In this framework, we calculate the information content (or entropy)
-    of each cell in a relation instance, given a set of functional dependencies. The
-    entropy value represents the likelihood of inferring the cell's value based on
-    the dependencies and the remaining tuples. By highlighting cells with lower entropy,
-    we effectively visualize redundancies in the data. We present an initial prototype
-    implementation and demonstrate that a straightforward approach is insufficient
-    for handling practical problem sizes. To address this limitation, we propose several
-    optimizations, which we prove to be correct. Additionally, we present a Monte
-    Carlo approximation technique with a known error, enabling computationally tractable
-    computations. Using a real-world dataset of modest size, we illustrate the potential
-    of our visualization technique. Our vision is to support domain experts with data
-    profiling and data cleaning tasks, akin to the functionality of a plaque test
-    at the dentist's.
-  pdf_url: ''
-  poster_url: ''
-  scholar_url: ''
-  slides_url: ''
-  supplement_url: ''
+  overview: asdfqwe
 title: 'Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time'
 
 ---
@@ -61,7 +24,7 @@ title: 'Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update
 ``` 
 
 ## Tldr 
-Inspired by the visualization of dental plaque at the dentist's office, this article proposes a novel visualization technique for identifying redundancies in relational data. Our approach builds upon an established information-theoretic framework that, despite being well-principled, remains unexplored in practical applications. In this framework, we calculate the information content (or entropy) of each cell in a relation instance, given a set of functional dependencies. The entropy value represents the likelihood of inferring the cell's value based on the dependencies and the remaining tuples. By highlighting cells with lower entropy, we effectively visualize redundancies in the data. We present an initial prototype implementation and demonstrate that a straightforward approach is insufficient for handling practical problem sizes. To address this limitation, we propose several optimizations, which we prove to be correct. Additionally, we present a Monte Carlo approximation technique with a known error, enabling computationally tractable computations. Using a real-world dataset of modest size, we illustrate the potential of our visualization technique. Our vision is to support domain experts with data profiling and data cleaning tasks, akin to the functionality of a plaque test at the dentist's.
+asdfqwe
 
 ## Paper-authors
 
@@ -84,9 +47,3 @@ Inspired by the visualization of dental plaque at the dentist's office, this art
 ``` 
 
 ## More Resources
-[![](https://img.shields.io/badge/citation-scholar-9cf?style=flat.svg)]({{< meta params.scholar_url >}})
-[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
-[![](https://img.shields.io/badge/supplement-yellowgreen?style=flat)]({{< meta params.supplement_url >}})
-[![](https://img.shields.io/badge/blog-blue?style=flat)]({{< meta params.slides_url >}}
-[![](https://img.shields.io/badge/poster-yellow?style=flat)]({{< meta params.poster_url >}})
-[![](https://img.shields.io/badge/code-blueviolet?style=flat)]({{< meta params.code_url >}})
