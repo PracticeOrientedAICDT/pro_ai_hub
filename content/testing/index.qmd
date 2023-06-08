@@ -1,7 +1,7 @@
 ---
 categories:
 - machine learning
-description: basvbpajdbfpvbaerjgvbawe
+description: asdkjfgvbaepifvbapueirg
 execute:
   echo: false
 format:
@@ -13,7 +13,8 @@ params:
   author_1:
     name: nome aleatorio
     url: null
-  overview: basvbpajdbfpvbaerjgvbawe
+  overview: !!python/name:None.title ''
+  research_area: machine learning
 title: testing
 
 ---
@@ -24,7 +25,7 @@ title: testing
 ``` 
 
 ## Tldr 
-basvbpajdbfpvbaerjgvbawe
+<built-in method title of str object at 0x7f2d219206b0>
 
 ## Paper-authors
 
