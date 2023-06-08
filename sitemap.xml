@@ -2,158 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-06-07T15:02:37.690Z</lastmod>
+    <lastmod>2023-06-08T09:48:00.029Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html</loc>
-    <lastmod>2023-06-07T15:02:40.686Z</lastmod>
+    <lastmod>2023-06-08T09:48:02.773Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/test/index.html</loc>
-    <lastmod>2023-06-07T15:02:41.562Z</lastmod>
+    <lastmod>2023-06-08T09:48:03.513Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html</loc>
-    <lastmod>2023-06-07T15:02:42.923Z</lastmod>
+    <lastmod>2023-06-08T09:48:04.429Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-06-07T15:02:45.415Z</lastmod>
+    <lastmod>2023-06-08T09:48:06.585Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-06-07T15:02:45.779Z</lastmod>
+    <lastmod>2023-06-08T09:48:06.925Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-06-07T15:02:46.687Z</lastmod>
+    <lastmod>2023-06-08T09:48:07.617Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-06-07T15:02:47.567Z</lastmod>
+    <lastmod>2023-06-08T09:48:08.477Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.html</loc>
-    <lastmod>2023-06-07T15:02:49.127Z</lastmod>
+    <lastmod>2023-06-08T09:48:09.701Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.html</loc>
-    <lastmod>2023-06-07T15:02:50.223Z</lastmod>
+    <lastmod>2023-06-08T09:48:10.605Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.html</loc>
-    <lastmod>2023-06-07T15:02:51.455Z</lastmod>
+    <lastmod>2023-06-08T09:48:11.709Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.html</loc>
-    <lastmod>2023-06-07T15:02:52.715Z</lastmod>
+    <lastmod>2023-06-08T09:48:12.753Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/production-networks-resilience-cascading-failures-power-laws-and-optimal-interventions/index.html</loc>
-    <lastmod>2023-06-07T15:02:54.155Z</lastmod>
+    <lastmod>2023-06-08T09:48:14.001Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html</loc>
-    <lastmod>2023-06-07T15:02:55.063Z</lastmod>
+    <lastmod>2023-06-08T09:48:14.841Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/re3dial-retrieve-reorganize-and-rescale-dialogue-corpus-for-long-turn-open-domain-dialogue-pre-training/index.html</loc>
-    <lastmod>2023-06-07T15:02:56.491Z</lastmod>
+    <lastmod>2023-06-08T09:48:15.994Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/asdf/index.html</loc>
-    <lastmod>2023-06-07T15:02:57.651Z</lastmod>
+    <lastmod>2023-06-08T09:48:17.050Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.html</loc>
-    <lastmod>2023-06-07T15:02:58.783Z</lastmod>
+    <lastmod>2023-06-08T09:48:18.070Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.html</loc>
-    <lastmod>2023-06-07T15:03:00.212Z</lastmod>
+    <lastmod>2023-06-08T09:48:19.358Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/discreteness-of-asymptotic-tensor-ranks/index.html</loc>
-    <lastmod>2023-06-07T15:03:02.024Z</lastmod>
+    <lastmod>2023-06-08T09:48:20.518Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html</loc>
-    <lastmod>2023-06-07T15:03:03.532Z</lastmod>
+    <lastmod>2023-06-08T09:48:21.710Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.html</loc>
-    <lastmod>2023-06-07T15:03:04.912Z</lastmod>
+    <lastmod>2023-06-08T09:48:22.942Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.html</loc>
-    <lastmod>2023-06-07T15:03:06.296Z</lastmod>
+    <lastmod>2023-06-08T09:48:24.034Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/sparse-convolution-for-approximate-sparse-instance/index.html</loc>
-    <lastmod>2023-06-07T15:03:07.696Z</lastmod>
+    <lastmod>2023-06-08T09:48:25.210Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.html</loc>
-    <lastmod>2023-06-07T15:03:08.804Z</lastmod>
+    <lastmod>2023-06-08T09:48:26.054Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.html</loc>
-    <lastmod>2023-06-07T15:03:10.088Z</lastmod>
+    <lastmod>2023-06-08T09:48:27.058Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html</loc>
-    <lastmod>2023-06-07T15:03:11.292Z</lastmod>
+    <lastmod>2023-06-08T09:48:28.038Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/gpt-self-supervision-for-a-better-data-annotator/index.html</loc>
+    <lastmod>2023-06-08T09:48:29.310Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/fast-partitioned-learned-bloom-filter/index.html</loc>
-    <lastmod>2023-06-07T15:03:12.764Z</lastmod>
+    <lastmod>2023-06-08T09:48:30.470Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-survey-of-large-language-models/index.html</loc>
-    <lastmod>2023-06-07T15:03:13.968Z</lastmod>
+    <lastmod>2023-06-08T09:48:31.534Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/hyper-distance-oracles-in-hypergraphs/index.html</loc>
-    <lastmod>2023-06-07T15:03:15.740Z</lastmod>
+    <lastmod>2023-06-08T09:48:32.710Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/interaction-measures-partition-lattices-and-kernel-tests-for-high-order-interactions/index.html</loc>
-    <lastmod>2023-06-07T15:03:17.020Z</lastmod>
+    <lastmod>2023-06-08T09:48:33.810Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/semantic-space-grounded-weighted-decoding-for-multi-attribute-controllable-dialogue-generation/index.html</loc>
-    <lastmod>2023-06-07T15:03:18.489Z</lastmod>
+    <lastmod>2023-06-08T09:48:34.910Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/learning-language-specific-layers-for-multilingual-machine-translation/index.html</loc>
-    <lastmod>2023-06-07T15:03:19.861Z</lastmod>
+    <lastmod>2023-06-08T09:48:35.970Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/test/index.html</loc>
-    <lastmod>2023-06-07T15:03:21.085Z</lastmod>
+    <lastmod>2023-06-08T09:48:37.930Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-plaque-test-for-redundancies-in-relational-data/index.html</loc>
-    <lastmod>2023-06-07T15:03:22.493Z</lastmod>
+    <lastmod>2023-06-08T09:48:39.046Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/seeding-with-differentially-private-network-information/index.html</loc>
-    <lastmod>2023-06-07T15:03:23.893Z</lastmod>
+    <lastmod>2023-06-08T09:48:40.346Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.html</loc>
-    <lastmod>2023-06-07T15:03:25.045Z</lastmod>
+    <lastmod>2023-06-08T09:48:41.274Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/constrained-causal-bayesian-optimization/index.html</loc>
-    <lastmod>2023-06-07T15:03:26.269Z</lastmod>
+    <lastmod>2023-06-08T09:48:42.306Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/control4d-dynamic-portrait-editing-by-learning-4d-gan-from-2d-diffusion-based-editor/index.html</loc>
-    <lastmod>2023-06-07T15:03:27.541Z</lastmod>
+    <lastmod>2023-06-08T09:48:43.406Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/can-you-solve-closest-string-faster-than-exhaustive-search/index.html</loc>
-    <lastmod>2023-06-07T15:03:28.945Z</lastmod>
+    <lastmod>2023-06-08T09:48:44.666Z</lastmod>
   </url>
 </urlset>
