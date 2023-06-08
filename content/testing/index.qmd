@@ -13,7 +13,7 @@ params:
   author_1:
     name: nome aleatorio
     url: null
-  overview: !!python/name:None.title ''
+  overview: asdasfdasdasdas
   research_area: machine learning
 title: testing
 
@@ -25,7 +25,7 @@ title: testing
 ``` 
 
 ## Tldr 
-<built-in method title of str object at 0x7fcd11b60630>
+asdasfdasdasdas
 
 ## Paper-authors
 
