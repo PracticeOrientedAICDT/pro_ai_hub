@@ -1,0 +1,73 @@
+---
+categories: databases
+description: In database design, Composite Keys are used to uniquely identify records
+  andprevent data duplication. However, they require more memory and storage spacethan
+  single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative
+  that can overcome some of these limitations, but they can alsointroduce new disadvantages.
+  To address these challenges, a new type of keycalled a Reversible Numeric Composite
+  Key (RNCK) has been developed. RNCK is asingle number that encodes multiple data
+  attributes, and can be decoded back tothe original values. This makes it possible
+  to achieve the benefits of bothComposite Keys and Surrogate Keys, while overcoming
+  some of their limitations.RNCK has been shown to improve query performance and reduce
+  memory and storagerequirements. It can be used in relational databases, large static
+  datasets,and key-value caching systems. RNCK has been successfully used in productionsystems
+  for several years.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Asuni_N/0/1/0/all/0/1
+    name: Asuni, Nicola
+  overview: In database design, Composite Keys are used to uniquely identify records
+    andprevent data duplication. However, they require more memory and storage spacethan
+    single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative
+    that can overcome some of these limitations, but they can alsointroduce new disadvantages.
+    To address these challenges, a new type of keycalled a Reversible Numeric Composite
+    Key (RNCK) has been developed. RNCK is asingle number that encodes multiple data
+    attributes, and can be decoded back tothe original values. This makes it possible
+    to achieve the benefits of bothComposite Keys and Surrogate Keys, while overcoming
+    some of their limitations.RNCK has been shown to improve query performance and
+    reduce memory and storagerequirements. It can be used in relational databases,
+    large static datasets,and key-value caching systems. RNCK has been successfully
+    used in productionsystems for several years.
+  pdf_url: http://arxiv.org/pdf/2306.04353
+  research_area: databases
+title: Reversible Numeric Composite Key (RNCK)
+
+---
+```{ojs} 
+
+ names = ["Nicola Asuni"] 
+
+``` 
+
+## Tldr 
+In database design, Composite Keys are used to uniquely identify records andprevent data duplication. However, they require more memory and storage spacethan single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative that can overcome some of these limitations, but they can alsointroduce new disadvantages. To address these challenges, a new type of keycalled a Reversible Numeric Composite Key (RNCK) has been developed. RNCK is asingle number that encodes multiple data attributes, and can be decoded back tothe original values. This makes it possible to achieve the benefits of bothComposite Keys and Surrogate Keys, while overcoming some of their limitations.RNCK has been shown to improve query performance and reduce memory and storagerequirements. It can be used in relational databases, large static datasets,and key-value caching systems. RNCK has been successfully used in productionsystems for several years.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
