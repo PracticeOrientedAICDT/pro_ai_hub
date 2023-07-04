@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Vision-and-Language Navigation (VLN) requires the agent to follow languageinstructions to navigate through 3D environments. One main challenge in VLN isthe limited availability of photorealistic training environments, which makesit hard to generalize to new and unseen environments. To address this problem,we propose PanoGen, a generation method that can potentially create an infinitenumber of diverse panoramic environments conditioned on text. Specifically, wecollect room descriptions by captioning the room images in existingMatterport3D environments, and leverage a state-of-the-art text-to-imagediffusion model to generate the new panoramic environments. We use recursiveoutpainting over the generated images to create consistent 360-degree panoramaviews. Our new panoramic environments share similar semantic information withthe original environments by conditioning on text descriptions, which ensuresthe co-occurrence of objects in the panorama follows human intuition, andcreates enough diversity in room appearance and layout with image outpainting.Lastly, we explore two ways of utilizing PanoGen in VLN pre-training andfine-tuning. We generate instructions for paths in our PanoGen environmentswith a speaker built on a pre-trained vision-and-language model for VLNpre-training, and augment the visual observation with our panoramicenvironments during agents’ fine-tuning to avoid overfitting to seenenvironments. Empirically, learning with our PanoGen environments achieves thenew state-of-the-art on the Room-to-Room, Room-for-Room, and CVDN datasets.Pre-training with our PanoGen speaker data is especially effective for CVDN,which has under-specified instructions and needs commonsense knowledge. Lastly,we show that the agent can benefit from training with more generated panoramicenvironments, suggesting promising results for scaling up the PanoGenenvironments.">
+<meta name="description" content="The backpropagation algorithm has experienced remarkable success in traininglarge-scale artificial neural networks, however, its biological-plausibility isdisputed, and it remains an open question whether the brain employs supervisedlearning mechanisms akin to it. Here, we propose correlative informationmaximization between layer activations as an alternative normative approach todescribe the signal propagation in biological neural networks in both forwardand backward directions. This new framework addresses many concerns about thebiological-plausibility of conventional artificial neural networks and thebackpropagation algorithm. The coordinate descent-based optimization of thecorresponding objective, combined with the mean square error loss function forfitting labeled supervision data, gives rise to a neural network structure thatemulates a more biologically realistic network of multi-compartment pyramidalneurons with dendritic processing and lateral inhibitory neurons. Furthermore,our approach provides a natural resolution to the weight symmetry problembetween forward and backward signal propagation paths, a significant critiqueagainst the plausibility of the conventional backpropagation algorithm. This isachieved by leveraging two alternative, yet equivalent forms of the correlativemutual information objective. These alternatives intrinsically lead to forwardand backward prediction networks without weight symmetry issues, providing acompelling solution to this long-standing challenge.">
 
-<title>PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation</title>
+<title>Correlative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,8 +92,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 <script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
@@ -139,13 +138,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation</h1>
+      <h1 class="title">Correlative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry</h1>
                   <div>
         <div class="description">
-          Vision-and-Language Navigation (VLN) requires the agent to follow languageinstructions to navigate through 3D environments. One main challenge in VLN isthe limited availability of photorealistic training environments, which makesit hard to generalize to new and unseen environments. To address this problem,we propose PanoGen, a generation method that can potentially create an infinitenumber of diverse panoramic environments conditioned on text. Specifically, wecollect room descriptions by captioning the room images in existingMatterport3D environments, and leverage a state-of-the-art text-to-imagediffusion model to generate the new panoramic environments. We use recursiveoutpainting over the generated images to create consistent 360-degree panoramaviews. Our new panoramic environments share similar semantic information withthe original environments by conditioning on text descriptions, which ensuresthe co-occurrence of objects in the panorama follows human intuition, andcreates enough diversity in room appearance and layout with image outpainting.Lastly, we explore two ways of utilizing PanoGen in VLN pre-training andfine-tuning. We generate instructions for paths in our PanoGen environmentswith a speaker built on a pre-trained vision-and-language model for VLNpre-training, and augment the visual observation with our panoramicenvironments during agents’ fine-tuning to avoid overfitting to seenenvironments. Empirically, learning with our PanoGen environments achieves thenew state-of-the-art on the Room-to-Room, Room-for-Room, and CVDN datasets.Pre-training with our PanoGen speaker data is especially effective for CVDN,which has under-specified instructions and needs commonsense knowledge. Lastly,we show that the agent can benefit from training with more generated panoramicenvironments, suggesting promising results for scaling up the PanoGenenvironments.
+          The backpropagation algorithm has experienced remarkable success in traininglarge-scale artificial neural networks, however, its biological-plausibility isdisputed, and it remains an open question whether the brain employs supervisedlearning mechanisms akin to it. Here, we propose correlative informationmaximization between layer activations as an alternative normative approach todescribe the signal propagation in biological neural networks in both forwardand backward directions. This new framework addresses many concerns about thebiological-plausibility of conventional artificial neural networks and thebackpropagation algorithm. The coordinate descent-based optimization of thecorresponding objective, combined with the mean square error loss function forfitting labeled supervision data, gives rise to a neural network structure thatemulates a more biologically realistic network of multi-compartment pyramidalneurons with dendritic processing and lateral inhibitory neurons. Furthermore,our approach provides a natural resolution to the weight symmetry problembetween forward and backward signal propagation paths, a significant critiqueagainst the plausibility of the conventional backpropagation algorithm. This isachieved by leveraging two alternative, yet equivalent forms of the correlativemutual information objective. These alternatives intrinsically lead to forwardand backward prediction networks without weight symmetry issues, providing acompelling solution to this long-standing challenge.
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">neural and evolutionary computing</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -178,7 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="65" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 64;"><span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> [<span class="st">"Jialu Li"</span><span class="op">,</span><span class="st">"Mohit Bansal"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="63" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 62;"><span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> [<span class="st">"Bariscan Bozkurt"</span><span class="op">,</span><span class="st">"Cengiz Pehlevan"</span><span class="op">,</span><span class="st">"Alper T Erdogan"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="declaration">
 
@@ -187,12 +189,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
-<p>Vision-and-Language Navigation (VLN) requires the agent to follow languageinstructions to navigate through 3D environments. One main challenge in VLN isthe limited availability of photorealistic training environments, which makesit hard to generalize to new and unseen environments. To address this problem,we propose PanoGen, a generation method that can potentially create an infinitenumber of diverse panoramic environments conditioned on text. Specifically, wecollect room descriptions by captioning the room images in existingMatterport3D environments, and leverage a state-of-the-art text-to-imagediffusion model to generate the new panoramic environments. We use recursiveoutpainting over the generated images to create consistent 360-degree panoramaviews. Our new panoramic environments share similar semantic information withthe original environments by conditioning on text descriptions, which ensuresthe co-occurrence of objects in the panorama follows human intuition, andcreates enough diversity in room appearance and layout with image outpainting.Lastly, we explore two ways of utilizing PanoGen in VLN pre-training andfine-tuning. We generate instructions for paths in our PanoGen environmentswith a speaker built on a pre-trained vision-and-language model for VLNpre-training, and augment the visual observation with our panoramicenvironments during agents’ fine-tuning to avoid overfitting to seenenvironments. Empirically, learning with our PanoGen environments achieves thenew state-of-the-art on the Room-to-Room, Room-for-Room, and CVDN datasets.Pre-training with our PanoGen speaker data is especially effective for CVDN,which has under-specified instructions and needs commonsense knowledge. Lastly,we show that the agent can benefit from training with more generated panoramicenvironments, suggesting promising results for scaling up the PanoGenenvironments.</p>
+<p>The backpropagation algorithm has experienced remarkable success in traininglarge-scale artificial neural networks, however, its biological-plausibility isdisputed, and it remains an open question whether the brain employs supervisedlearning mechanisms akin to it. Here, we propose correlative informationmaximization between layer activations as an alternative normative approach todescribe the signal propagation in biological neural networks in both forwardand backward directions. This new framework addresses many concerns about thebiological-plausibility of conventional artificial neural networks and thebackpropagation algorithm. The coordinate descent-based optimization of thecorresponding objective, combined with the mean square error loss function forfitting labeled supervision data, gives rise to a neural network structure thatemulates a more biologically realistic network of multi-compartment pyramidalneurons with dendritic processing and lateral inhibitory neurons. Furthermore,our approach provides a natural resolution to the weight symmetry problembetween forward and backward signal propagation paths, a significant critiqueagainst the plausibility of the conventional backpropagation algorithm. This isachieved by leveraging two alternative, yet equivalent forms of the correlativemutual information objective. These alternatives intrinsically lead to forwardand backward prediction networks without weight symmetry issues, providing acompelling solution to this long-standing challenge.</p>
 </section>
 <section id="paper-authors" class="level2">
 <h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="76" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 75;"><span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>names<span class="op">.</span><span class="fu">map</span>(name <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;&lt;a href="../../posts_by_author.html?name=</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">" &gt;</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/li&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="74" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 73;"><span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>names<span class="op">.</span><span class="fu">map</span>(name <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;&lt;a href="../../posts_by_author.html?name=</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">" &gt;</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/li&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-2" data-nodetype="expression">
 
@@ -200,7 +202,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="82" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 81;"><span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>htl <span class="op">=</span> <span class="pp">require</span>(<span class="st">"htl@0.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="80" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 79;"><span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>htl <span class="op">=</span> <span class="pp">require</span>(<span class="st">"htl@0.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-3" data-nodetype="declaration">
 
@@ -208,7 +210,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="88" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 87;"><span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>html <span class="op">=</span> htl<span class="op">.</span><span class="at">html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="86" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 85;"><span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>html <span class="op">=</span> htl<span class="op">.</span><span class="at">html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-4" data-nodetype="declaration">
 
@@ -220,7 +222,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="http://arxiv.org/pdf/2305.19195"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
+<p><a href="http://arxiv.org/pdf/2306.04810"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 
@@ -229,11 +231,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n names = [\"Jialu Li\",\"Mohit Bansal\"] \n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\n html`<ul>${names.map(name => html`<li><a href=\"../../posts_by_author.html?name=${name}\" >${name}</a></li>`)}</ul>` \n\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\n htl = require(\"htl@0.2\") \n\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\n html = htl.html \n\n"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n names = [\"Bariscan Bozkurt\",\"Cengiz Pehlevan\",\"Alper T Erdogan\"] \n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\n html`<ul>${names.map(name => html`<li><a href=\"../../posts_by_author.html?name=${name}\" >${name}</a></li>`)}</ul>` \n\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\n htl = require(\"htl@0.2\") \n\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\n html = htl.html \n\n"}]}
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../../content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation";
+window._ojs.paths.runtimeToDoc = "../../content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry";
 window._ojs.paths.runtimeToRoot = "../..";
 window._ojs.paths.docToRoot = "../..";
 window._ojs.selfContained = false;
