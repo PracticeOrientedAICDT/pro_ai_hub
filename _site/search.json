@@ -60,14 +60,14 @@
     "href": "blog.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "test\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Reversible Numeric Composite Key (RNCK)\n\n\n\n\n\n\n\ndatabases\n\n\n\n\nIn database design, Composite Keys are used to uniquely identify records andprevent data duplication. However, they require more memory and storage spacethan single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nEduChain: A Blockchain-based Education Data Management System\n\n\n\n\n\n\n\ncryptography and security\n\n\n\n\nThe predominant centralized paradigm in educational data management currentlysuffers from several critical issues such as vulnerability to malicioustampering, a high prevalence of diploma counterfeiting, and the onerous cost ofcertificate…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCorrelative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry\n\n\n\n\n\n\n\nneural and evolutionary computing\n\n\n\n\nThe backpropagation algorithm has experienced remarkable success in traininglarge-scale artificial neural networks, however, its biological-plausibility isdisputed, and it remains an open question whether the brain employs supervisedlearning…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "content/reversible-numeric-composite-key-rnck/index.html",
@@ -180,5 +180,12 @@
     "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nFacilisis volutpat est velit egestas dui. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Tellus cras adipiscing enim eu turpis. Sed nisi lacus sed viverra tellus in hac habitasse. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Dui faucibus in ornare quam viverra. Viverra orci sagittis eu volutpat. Tincidunt tortor aliquam nulla facilisi cras fermentum. Nisl vel pretium lectus quam id. Consectetur a erat nam at lectus urna duis. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Sagittis id consectetur purus ut. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa. Volutpat sed cras ornare arcu dui.\nConvallis tellus id interdum velit laoreet id donec ultrices. Enim eu turpis egestas pretium aenean. Tincidunt ornare massa eget egestas. Tempus quam pellentesque nec nam aliquam sem. Est placerat in egestas erat imperdiet. Libero nunc consequat interdum varius sit amet mattis vulputate. Et tortor consequat id porta nibh venenatis cras sed. Quam pellentesque nec nam aliquam. Eget nulla facilisi etiam dignissim diam quis. Id faucibus nisl tincidunt eget. Ut aliquam purus sit amet. Amet risus nullam eget felis.\nViverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc lobortis mattis aliquam. Semper quis lectus nulla at volutpat diam. Suspendisse interdum consectetur libero id faucibus nisl. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Est lorem ipsum dolor sit. Congue quisque egestas diam in arcu cursus euismod. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Aenean sed adipiscing diam donec adipiscing tristique risus. Praesent semper feugiat nibh sed. Neque egestas congue quisque egestas diam in arcu."
+  },
+  {
+    "objectID": "posts/test/index.html",
+    "href": "posts/test/index.html",
+    "title": "test",
+    "section": "",
+    "text": "asdf123"
   }
 ]

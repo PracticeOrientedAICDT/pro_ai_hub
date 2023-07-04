@@ -7,6 +7,5 @@ format:
     toc: true
 text: asdf123
 title: test
-
 ---
 asdf123

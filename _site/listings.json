@@ -2,16 +2,11 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-      "/posts/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html"
+      "/posts/test/index.html"
     ]
   },
   {
     "listing": "/index.html",
-    "items": [
-      "/content/reversible-numeric-composite-key-rnck/index.html",
-      "/content/educhain-a-blockchain-based-education-data-management-system/index.html",
-      "/content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html"
-    ]
+    "items": []
   }
 ]

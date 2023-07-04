@@ -181,5 +181,11 @@
   },
   "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.qmd": {
     "index.html": "a5fee307"
+  },
+  "content/gpt-self-supervision-for-a-better-data-annotator/index.qmd": {
+    "index.html": "5d1b2c71"
+  },
+  "posts/test/index.qmd": {
+    "index.html": "9351dcd9"
   }
 }
