@@ -1,12 +1,14 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/test/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/content/trainable-transformer-in-transformer/index.html"
     ]
   }
 ]
