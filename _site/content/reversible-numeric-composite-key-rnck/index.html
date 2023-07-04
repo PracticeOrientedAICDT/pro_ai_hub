@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts.">
+<meta name="description" content="In database design, Composite Keys are used to uniquely identify records andprevent data duplication. However, they require more memory and storage spacethan single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative that can overcome some of these limitations, but they can alsointroduce new disadvantages. To address these challenges, a new type of keycalled a Reversible Numeric Composite Key (RNCK) has been developed. RNCK is asingle number that encodes multiple data attributes, and can be decoded back tothe original values. This makes it possible to achieve the benefits of bothComposite Keys and Surrogate Keys, while overcoming some of their limitations.RNCK has been shown to improve query performance and reduce memory and storagerequirements. It can be used in relational databases, large static datasets,and key-value caching systems. RNCK has been successfully used in productionsystems for several years.">
 
-<title>Natural Language Processing of Aviation Occurrence Reports for Safety Management</title>
+<title>Reversible Numeric Composite Key (RNCK)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,8 +18,42 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -61,6 +95,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -72,28 +108,28 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -102,13 +138,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Natural Language Processing of Aviation Occurrence Reports for Safety Management</h1>
+      <h1 class="title">Reversible Numeric Composite Key (RNCK)</h1>
                   <div>
         <div class="description">
-          Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts.
+          In database design, Composite Keys are used to uniquely identify records andprevent data duplication. However, they require more memory and storage spacethan single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative that can overcome some of these limitations, but they can alsointroduce new disadvantages. To address these challenges, a new type of keycalled a Reversible Numeric Composite Key (RNCK) has been developed. RNCK is asingle number that encodes multiple data attributes, and can be decoded back tothe original values. This makes it possible to achieve the benefits of bothComposite Keys and Surrogate Keys, while overcoming some of their limitations.RNCK has been shown to improve query performance and reduce memory and storagerequirements. It can be used in relational databases, large static datasets,and key-value caching systems. RNCK has been successfully used in productionsystems for several years.
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">databases</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -140,25 +179,50 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="43" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 42;"><span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> [<span class="st">"Nicola Asuni"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
-<p>Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts.</p>
+<p>In database design, Composite Keys are used to uniquely identify records andprevent data duplication. However, they require more memory and storage spacethan single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative that can overcome some of these limitations, but they can alsointroduce new disadvantages. To address these challenges, a new type of keycalled a Reversible Numeric Composite Key (RNCK) has been developed. RNCK is asingle number that encodes multiple data attributes, and can be decoded back tothe original values. This makes it possible to achieve the benefits of bothComposite Keys and Surrogate Keys, while overcoming some of their limitations.RNCK has been shown to improve query performance and reduce memory and storagerequirements. It can be used in relational databases, large static datasets,and key-value caching systems. RNCK has been successfully used in productionsystems for several years.</p>
 </section>
 <section id="paper-authors" class="level2">
 <h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
-<ul>
-<li><a href="?meta:params.author_1.url">Jonk, Patrick</a></li>
-<li><a href="?meta:params.author_2.url">de Vries, Vincent</a></li>
-<li><a href="?meta:params.author_3.url">Wever, Rombout</a></li>
-<li><a href="?meta:params.author_4.url">Sidiropoulos, Georgios</a></li>
-<li><a href="?meta:params.author_5.url">Kanoulas, Evangelos</a></li>
-</ul>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="54" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 53;"><span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>names<span class="op">.</span><span class="fu">map</span>(name <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;&lt;a href="../../posts_by_author.html?name=</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">" &gt;</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/li&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="60" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 59;"><span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>htl <span class="op">=</span> <span class="pp">require</span>(<span class="st">"htl@0.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="66" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 65;"><span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>html <span class="op">=</span> htl<span class="op">.</span><span class="at">html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
 </section>
 <section id="more-resources" class="level2">
 <h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="http://arxiv.org/pdf/2301.05663"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
+<p><a href="http://arxiv.org/pdf/2306.04353"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 
@@ -166,6 +230,17 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n names = [\"Nicola Asuni\"] \n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\n html`<ul>${names.map(name => html`<li><a href=\"../../posts_by_author.html?name=${name}\" >${name}</a></li>`)}</ul>` \n\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\n htl = require(\"htl@0.2\") \n\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\n html = htl.html \n\n"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../content/reversible-numeric-composite-key-rnck";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -308,9 +383,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -375,6 +464,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

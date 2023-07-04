@@ -64,5 +64,122 @@
   },
   "content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.qmd": {
     "index.html": "e38fc9da"
+  },
+  "content/design-and-analysis-of-index-codes-for-3-group-noma-in-vehicular-adhoc-networks/index.qmd": {
+    "index.html": "9faebc7b"
+  },
+  "content/index.qmd": {
+    "index.html": "4816607e"
+  },
+  "content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.qmd": {
+    "index.html": "24a3a8b2"
+  },
+  "content/model-tuning-via-prompts-makes-nlp-models-adversarially-robust/index.qmd": {
+    "index.html": "258b447b"
+  },
+  "content/rethinking-the-role-of-token-retrieval-in-multi-vector-retrieval/index.qmd": {
+    "index.html": "7444c700"
+  },
+  "content/a-survey-of-large-language-models/index.qmd": {
+    "index.html": "15df9040"
+  },
+  "content/learning-semantic-text-similarity-to-rank-hypernyms-of-financial-terms/index.qmd": {
+    "index.html": "24638307"
+  },
+  "author_listing.qmd": {
+    "author_listing.html": "c877b161"
+  },
+  "posts_by_author.qmd": {
+    "posts_by_author.html": "a5eda5f6"
+  },
+  "content/characterizing-political-bias-in-automatic-summaries-a-case-study-of-trump-and-biden/index.qmd": {
+    "index.html": "9393e82c"
+  },
+  "content/visual-chain-of-thought-bridging-logical-gaps-with-multimodal-infillings/index.qmd": {
+    "index.html": "69ce69bc"
+  },
+  "content/2x-faster-language-model-pre-training-via-masked-structural-growth/index.qmd": {
+    "index.html": "cfc6ec00"
+  },
+  "content/what-changes-when-you-randomly-choose-bpe-merge-operations-not-much/index.qmd": {
+    "index.html": "f21bb2d1"
+  },
+  "content/towards-weakly-supervised-hate-speech-classification-across-datasets/index.qmd": {
+    "index.html": "bbc6a1d1"
+  },
+  "content/learning-language-specific-layers-for-multilingual-machine-translation/index.qmd": {
+    "index.html": "80556419"
+  },
+  "content/semantic-space-grounded-weighted-decoding-for-multi-attribute-controllable-dialogue-generation/index.qmd": {
+    "index.html": "f933796c"
+  },
+  "content/asdf/index.qmd": {
+    "index.html": "9c97d4d6"
+  },
+  "content/sentence-embedding-leaks-more-information-than-you-expect-generative-embedding-inversion-attack-to-recover-the-whole-sentence/index.qmd": {
+    "index.html": "1bcba048"
+  },
+  "content/re3dial-retrieve-reorganize-and-rescale-dialogue-corpus-for-long-turn-open-domain-dialogue-pre-training/index.qmd": {
+    "index.html": "99260e0b"
+  },
+  "content/can-you-solve-closest-string-faster-than-exhaustive-search/index.qmd": {
+    "index.html": "113c6920"
+  },
+  "content/using-weighted-matching-to-solve-2-approvalveto-control-and-bribery/index.qmd": {
+    "index.html": "2aad4f62"
+  },
+  "content/a-unified-approach-for-maximizing-continuous-dr-submodular-functions/index.qmd": {
+    "index.html": "402f4ace"
+  },
+  "content/seeding-with-differentially-private-network-information/index.qmd": {
+    "index.html": "e4865470"
+  },
+  "content/production-networks-resilience-cascading-failures-power-laws-and-optimal-interventions/index.qmd": {
+    "index.html": "253bf399"
+  },
+  "content/panogen-text-conditioned-panoramic-environment-generation-for-vision-and-language-navigation/index.qmd": {
+    "index.html": "4533a9e9"
+  },
+  "content/control4d-dynamic-portrait-editing-by-learning-4d-gan-from-2d-diffusion-based-editor/index.qmd": {
+    "index.html": "0e6d49bc"
+  },
+  "content/constrained-causal-bayesian-optimization/index.qmd": {
+    "index.html": "cda6b830"
+  },
+  "content/interaction-measures-partition-lattices-and-kernel-tests-for-high-order-interactions/index.qmd": {
+    "index.html": "00592e56"
+  },
+  "content/hyper-distance-oracles-in-hypergraphs/index.qmd": {
+    "index.html": "21b55816"
+  },
+  "content/fast-partitioned-learned-bloom-filter/index.qmd": {
+    "index.html": "8d448fca"
+  },
+  "content/sparse-convolution-for-approximate-sparse-instance/index.qmd": {
+    "index.html": "8551cb31"
+  },
+  "content/discreteness-of-asymptotic-tensor-ranks/index.qmd": {
+    "index.html": "0736d5e3"
+  },
+  "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.qmd": {
+    "index.html": "65c0a844"
+  },
+  "content/a-plaque-test-for-redundancies-in-relational-data/index.qmd": {
+    "index.html": "e759839b"
+  },
+  "content/blockchain-technology-in-higher-education-ecosystem-unraveling-the-good-bad-and-ugly/index.qmd": {
+    "index.html": "8c009e77"
+  },
+  "content/educhain-a-blockchain-based-education-data-management-system/index.qmd": {
+    "index.html": "4db93180"
+  },
+  "content/testing/index.qmd": {
+    "index.html": "dfdda0cd"
+  },
+  "content/reversible-numeric-composite-key-rnck/index.qmd": {
+    "index.html": "a536b918"
+  },
+  "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.qmd": {
+    "index.html": "a5fee307"
   }
 }

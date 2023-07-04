@@ -1,0 +1,100 @@
+---
+title: "Interactive Content Repository"
+execute:
+  echo: false
+---
+
+
+
+```{ojs}
+    name = {
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        });
+        const name = params.name 
+        return name 
+    }
+    
+```
+
+```{ojs}
+   html`<h1>${name}</h1>`
+```
+
+```{ojs}
+
+data = FileAttachment("input.csv").csv({ typed: true })
+
+newData = data.filter(function (item) {
+  return item.authors.includes(name)
+});
+```
+
+```{ojs}
+
+link = {
+    
+    var idx = newData[0].authors.split(",").indexOf(name) 
+    
+    var link = ''
+    console.log(newData[0].authors_link)
+    if(newData[0].authors_link ){
+
+        link = newData[0].authors_link.split(",")[idx]
+    }else{
+        link = ''
+    }
+
+    return link
+
+}
+
+text = {
+    
+    var idx = newData[0].authors.split(",").indexOf(name) 
+    
+    var text =  ''
+    if(newData[0].authors_link !== 'NONE'){
+        console.log(newData[0].authors_link.split(",")[idx])
+        text  = 'Arxiv link'
+    }else{
+        
+        text = ''
+    }
+
+    return text
+
+}
+
+html`<a href=${link}>${text}</a>`
+
+```
+
+
+
+```{ojs}
+
+Inputs.table(newData.map(d => ({publication_set: [[d.publication,d.publication_url]], ...d})), {
+        sort: "start",
+        reverse: true, 
+        format: {
+            publication_set: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[1]} >${link[0]}</a> `)}`,
+            research_area: item =>  htl.html`<a href='/#category=${item}' >${item}</a>`
+        },  
+        layout: "fixed",      
+        width: {
+            publication_set: 1200,
+        },
+        columns:[
+            "publication_set",
+            "research_area"
+        ],  
+        header: {
+            publication_set: "Publication",
+            research_area: "Research Area"
+        },
+        align: {
+            publication_set: "center",        
+        }
+    })
+```

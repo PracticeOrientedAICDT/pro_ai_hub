@@ -60,180 +60,96 @@
     "href": "blog.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Precision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "Natural Language Processing of Aviation Occurrence Reports for Safety Management\n\n\n\n\n\nOccurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA two-level Item Response Theory model to evaluate speech synthesis and recognition\n\n\n\n\n\n\n\nitem response theory\n\n\n\n\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nParameter-free shape optimization: various shape updates for engineering applications\n\n\n\n\n\n\n\ncalibration\n\n\n\n\nIn the last decade, parameter-free approaches to shape optimization problems have matured to a state where they provide a versatile tool for complex engineering applications. However, sensitivity distributions obtained from shape derivatives in…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPrecision-Recall-Gain Curves: PR Analysis Done Right\n\n\n\n\n\n\n\nF-Score\n\n\nPrecision-Recall\n\n\nROC\n\n\n\n\nDon’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBeta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers\n\n\n\n\n\n\n\nCalibration\n\n\n\n\nFor optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Reversible Numeric Composite Key (RNCK)\n\n\n\n\n\n\n\ndatabases\n\n\n\n\nIn database design, Composite Keys are used to uniquely identify records andprevent data duplication. However, they require more memory and storage spacethan single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nEduChain: A Blockchain-based Education Data Management System\n\n\n\n\n\n\n\ncryptography and security\n\n\n\n\nThe predominant centralized paradigm in educational data management currentlysuffers from several critical issues such as vulnerability to malicioustampering, a high prevalence of diploma counterfeiting, and the onerous cost ofcertificate…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCorrelative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry\n\n\n\n\n\n\n\nneural and evolutionary computing\n\n\n\n\nThe backpropagation algorithm has experienced remarkable success in traininglarge-scale artificial neural networks, however, its biological-plausibility isdisputed, and it remains an open question whether the brain employs supervisedlearning…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html",
-    "href": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html",
-    "title": "Natural Language Processing of Aviation Occurrence Reports for Safety Management",
+    "objectID": "content/reversible-numeric-composite-key-rnck/index.html",
+    "href": "content/reversible-numeric-composite-key-rnck/index.html",
+    "title": "Reversible Numeric Composite Key (RNCK)",
     "section": "",
-    "text": "Occurrence reporting is a commonly used method in safety management systemsto obtain insight in the prevalence of hazards and accident scenarios. Insupport of safety data analysis, reports are often categorized according to ataxonomy. However, the processing of the reports can require significant effortfrom safety analysts and a common problem is interrater variability in labelingprocesses. Also, in some cases, reports are not processed according to ataxonomy, or the taxonomy does not fully cover the contents of the documents.This paper explores various Natural Language Processing (NLP) methods tosupport the analysis of aviation safety occurrence reports. In particular, theproblems studied are the automatic labeling of reports using a classificationmodel, extracting the latent topics in a collection of texts using a topicmodel and the automatic generation of probable cause texts. Experimentalresults showed that (i) under the right conditions the labeling of occurrencereports can be effectively automated with a transformer-based classifier, (ii)topic modeling can be useful for finding the topics present in a collection ofreports, and (iii) using a summarization model can be a promising direction forgenerating probable cause texts."
+    "text": "names = [\"Nicola Asuni\"]"
   },
   {
-    "objectID": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#paper-authors",
-    "href": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#paper-authors",
-    "title": "Natural Language Processing of Aviation Occurrence Reports for Safety Management",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nJonk, Patrick\nde Vries, Vincent\nWever, Rombout\nSidiropoulos, Georgios\nKanoulas, Evangelos"
-  },
-  {
-    "objectID": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#more-resources",
-    "href": "content/natural-language-processing-of-aviation-occurrence-reports-for-safety-management/index.html#more-resources",
-    "title": "Natural Language Processing of Aviation Occurrence Reports for Safety Management",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
-    "section": "",
-    "text": "Automatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences."
-  },
-  {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#paper-authors",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#paper-authors",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nTelmo M. Silva Filho\nChaina S. Oliveira\nRicardo Bastos C. Prudêncio"
-  },
-  {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#tldr-1",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#tldr-1",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "objectID": "content/reversible-numeric-composite-key-rnck/index.html#tldr",
+    "href": "content/reversible-numeric-composite-key-rnck/index.html#tldr",
+    "title": "Reversible Numeric Composite Key (RNCK)",
     "section": "Tldr",
-    "text": "Tldr\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences."
+    "text": "Tldr\nIn database design, Composite Keys are used to uniquely identify records andprevent data duplication. However, they require more memory and storage spacethan single keys, and can make queries more CPU-intensive. Surrogate Keys arean alternative that can overcome some of these limitations, but they can alsointroduce new disadvantages. To address these challenges, a new type of keycalled a Reversible Numeric Composite Key (RNCK) has been developed. RNCK is asingle number that encodes multiple data attributes, and can be decoded back tothe original values. This makes it possible to achieve the benefits of bothComposite Keys and Surrogate Keys, while overcoming some of their limitations.RNCK has been shown to improve query performance and reduce memory and storagerequirements. It can be used in relational databases, large static datasets,and key-value caching systems. RNCK has been successfully used in productionsystems for several years."
   },
   {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#paper-authors-1",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#paper-authors-1",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "objectID": "content/reversible-numeric-composite-key-rnck/index.html#paper-authors",
+    "href": "content/reversible-numeric-composite-key-rnck/index.html#paper-authors",
+    "title": "Reversible Numeric Composite Key (RNCK)",
     "section": "Paper-authors",
-    "text": "Paper-authors\n\nTelmo M. Silva Filho\nChaina S. Oliveira\nRicardo Bastos C. Prudêncio"
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources-1",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources-1",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "objectID": "content/reversible-numeric-composite-key-rnck/index.html#more-resources",
+    "href": "content/reversible-numeric-composite-key-rnck/index.html#more-resources",
+    "title": "Reversible Numeric Composite Key (RNCK)",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#tldr-2",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#tldr-2",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "objectID": "content/educhain-a-blockchain-based-education-data-management-system/index.html",
+    "href": "content/educhain-a-blockchain-based-education-data-management-system/index.html",
+    "title": "EduChain: A Blockchain-based Education Data Management System",
+    "section": "",
+    "text": "names = [\"Yihan Liu\",\"Ke Li\",\"Zihao Huang\",\"Bowen Li\",\"Guiyan Wang\",\"Wei Cai\"]"
+  },
+  {
+    "objectID": "content/educhain-a-blockchain-based-education-data-management-system/index.html#tldr",
+    "href": "content/educhain-a-blockchain-based-education-data-management-system/index.html#tldr",
+    "title": "EduChain: A Blockchain-based Education Data Management System",
     "section": "Tldr",
-    "text": "Tldr\nAutomatic speech recognition (ASR) systems should be tested ideally using diverse speech test data. A promising alternative to produce such test data is to synthesize speeches from diverse sentences and speakers. However, despite the great amount of test data that can be produced, not all speeches are equally relevant. This paper proposes a two-level Item Response Theory (IRT) model to simultaneously evaluate ASR systems, speakers and sentences."
+    "text": "Tldr\nThe predominant centralized paradigm in educational data management currentlysuffers from several critical issues such as vulnerability to malicioustampering, a high prevalence of diploma counterfeiting, and the onerous cost ofcertificate authentication. Decentralized blockchain technology, with itscutting-edge capabilities, presents a viable solution to these pervasiveproblems. In this paper, we illuminate the inherent limitations of existingcentralized systems and introduce EduChain, a novel heterogeneousblockchain-based system for managing educational data. EduChain uniquelyharnesses the strengths of both private and consortium blockchains, offering anunprecedented level of security and efficiency. In addition, we propose arobust mechanism for performing database consistency checks and error tracing.This is achieved through the implementation of a secondary consensus, employingthe pt-table-checksum tool. This approach effectively addresses the prevalentissue of database mismatches. Our system demonstrates superior performance inkey areas such as information verification, error traceback, and data security,thereby significantly improving the integrity and trustworthiness ofeducational data management. Through EduChain, we offer a powerful solution forfuture advancements in secure and efficient educational data management."
   },
   {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#paper-authors-2",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#paper-authors-2",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "objectID": "content/educhain-a-blockchain-based-education-data-management-system/index.html#paper-authors",
+    "href": "content/educhain-a-blockchain-based-education-data-management-system/index.html#paper-authors",
+    "title": "EduChain: A Blockchain-based Education Data Management System",
     "section": "Paper-authors",
-    "text": "Paper-authors\n\nTelmo M. Silva Filho\nChaina S. Oliveira\nRicardo Bastos C. Prudêncio"
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources-2",
-    "href": "content/a-two-level-item-response-theory-model-to-evaluate-speech-synthesis-and-recognition/index.html#more-resources-2",
-    "title": "A two-level Item Response Theory model to evaluate speech synthesis and recognition",
+    "objectID": "content/educhain-a-blockchain-based-education-data-management-system/index.html#more-resources",
+    "href": "content/educhain-a-blockchain-based-education-data-management-system/index.html#more-resources",
+    "title": "EduChain: A Blockchain-based Education Data Management System",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html",
-    "href": "content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html",
-    "title": "Parameter-free shape optimization: various shape updates for engineering applications",
+    "objectID": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html",
+    "href": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html",
+    "title": "Correlative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry",
     "section": "",
-    "text": "In the last decade, parameter-free approaches to shape optimization problems have matured to a state where they provide a versatile tool for complex engineering applications. However, sensitivity distributions obtained from shape derivatives in this context cannot be directly used as a shape update in gradient-based optimization strategies. Instead, an auxiliary problem has to be solved to obtain a gradient from the sensitivity. While several choices for these auxiliary problems were investigated mathematically, the complexity of the concepts behind their derivation has often prevented their application in engineering. This work aims at an explanation of several approaches to compute shape updates from an engineering perspective. We introduce the corresponding auxiliary problems in a formal way and compare the choices by means of numerical examples. To this end, a test case and exemplary applications from computational fluid dynamics are considered."
+    "text": "names = [\"Bariscan Bozkurt\",\"Cengiz Pehlevan\",\"Alper T Erdogan\"]"
   },
   {
-    "objectID": "content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html#paper-authors",
-    "href": "content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html#paper-authors",
-    "title": "Parameter-free shape optimization: various shape updates for engineering applications",
+    "objectID": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html#tldr",
+    "href": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html#tldr",
+    "title": "Correlative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry",
+    "section": "Tldr",
+    "text": "Tldr\nThe backpropagation algorithm has experienced remarkable success in traininglarge-scale artificial neural networks, however, its biological-plausibility isdisputed, and it remains an open question whether the brain employs supervisedlearning mechanisms akin to it. Here, we propose correlative informationmaximization between layer activations as an alternative normative approach todescribe the signal propagation in biological neural networks in both forwardand backward directions. This new framework addresses many concerns about thebiological-plausibility of conventional artificial neural networks and thebackpropagation algorithm. The coordinate descent-based optimization of thecorresponding objective, combined with the mean square error loss function forfitting labeled supervision data, gives rise to a neural network structure thatemulates a more biologically realistic network of multi-compartment pyramidalneurons with dendritic processing and lateral inhibitory neurons. Furthermore,our approach provides a natural resolution to the weight symmetry problembetween forward and backward signal propagation paths, a significant critiqueagainst the plausibility of the conventional backpropagation algorithm. This isachieved by leveraging two alternative, yet equivalent forms of the correlativemutual information objective. These alternatives intrinsically lead to forwardand backward prediction networks without weight symmetry issues, providing acompelling solution to this long-standing challenge."
+  },
+  {
+    "objectID": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html#paper-authors",
+    "href": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html#paper-authors",
+    "title": "Correlative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry",
     "section": "Paper-authors",
-    "text": "Paper-authors\n\nTelmo M. Silva Filho\nMeelis Kull\nPeter A. Flach"
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html#more-resources",
-    "href": "content/parameter-free-shape-optimization-various-shape-updates-for-engineering-applications/index.html#more-resources",
-    "title": "Parameter-free shape optimization: various shape updates for engineering applications",
-    "section": "More Resources",
-    "text": "More Resources\n   []("
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "",
-    "text": "Don’t use Precision-Recall curves – use PRG curves instead! Selected for spotlight presentation at NIPS’15, has clocked up 200+ citations on Google Scholar in six years, comes with code (Python/R/Matlab), video, poster and slides."
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#image",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Image",
-    "text": "Image"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#paper-authors",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n-Peter A. Flach -Meelis Kull"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#venue",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Venue",
-    "text": "Venue\nNIPS 2015 NIPS 2015"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#video",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "Video",
-    "text": "Video"
-  },
-  {
-    "objectID": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
-    "href": "content/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html#more-resources",
-    "title": "Precision-Recall-Gain Curves: PR Analysis Done Right",
-    "section": "More resources",
-    "text": "More resources"
-  },
-  {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "",
-    "text": "For optimal decision making under variable class distributions and misclassification costs a classifier needs to produce well-calibrated estimates of the posterior probability. Isotonic calibration is a powerful non-parametric method that is however prone to overfitting on smaller datasets; hence a parametric method based on the logistic curve is commonly used. While logistic calibration is designed to correct for a specific kind of distortion where classifiers tend to score on too narrow a scale, we demonstrate experimentally that many classifiers including naive Bayes and Adaboost suffer from the opposite distortion where scores tend too much to the extremes. In such cases logistic calibration can easily yield probability estimates that are worse than the original scores. Moreover, the logistic curve family does not include the identity function, and hence logistic calibration can easily uncalibrate a perfectly calibrated classifier."
-  },
-  {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#paper-authors",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#paper-authors",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nMeelis Kull\nTelmo M. Silva Filho\nPeter A. Flach"
-  },
-  {
-    "objectID": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
-    "href": "content/Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers/index.html#more-resources",
-    "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
+    "objectID": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html#more-resources",
+    "href": "content/correlative-information-maximization-a-biologically-plausible-approach-to-supervised-deep-neural-networks-without-weight-symmetry/index.html#more-resources",
+    "title": "Correlative Information Maximization: A Biologically Plausible Approach to Supervised Deep Neural Networks without Weight Symmetry",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -243,6 +159,13 @@
     "title": "About",
     "section": "",
     "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
+  },
+  {
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
   },
   {
     "objectID": "posts/Precision-Recall-Gain Curves: PR Analysis Done Right/index.html",

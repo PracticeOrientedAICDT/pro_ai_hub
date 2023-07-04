@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="The predominant centralized paradigm in educational data management currentlysuffers from several critical issues such as vulnerability to malicioustampering, a high prevalence of diploma counterfeiting, and the onerous cost ofcertificate authentication. Decentralized blockchain technology, with itscutting-edge capabilities, presents a viable solution to these pervasiveproblems. In this paper, we illuminate the inherent limitations of existingcentralized systems and introduce EduChain, a novel heterogeneousblockchain-based system for managing educational data. EduChain uniquelyharnesses the strengths of both private and consortium blockchains, offering anunprecedented level of security and efficiency. In addition, we propose arobust mechanism for performing database consistency checks and error tracing.This is achieved through the implementation of a secondary consensus, employingthe pt-table-checksum tool. This approach effectively addresses the prevalentissue of database mismatches. Our system demonstrates superior performance inkey areas such as information verification, error traceback, and data security,thereby significantly improving the integrity and trustworthiness ofeducational data management. Through EduChain, we offer a powerful solution forfuture advancements in secure and efficient educational data management.">
 
-<title>Title for your work</title>
+<title>EduChain: A Blockchain-based Education Data Management System</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +21,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="../site_libs/quarto-contrib/videojs/video.min.js"></script>
-<link href="../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,9 +95,11 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -80,15 +115,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html" rel="" target="">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -103,11 +138,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Title for your work</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">category_1</div>
-                <div class="quarto-category">category_2</div>
-                <div class="quarto-category">category_3</div>
+      <h1 class="title">EduChain: A Blockchain-based Education Data Management System</h1>
+                  <div>
+        <div class="description">
+          The predominant centralized paradigm in educational data management currentlysuffers from several critical issues such as vulnerability to malicioustampering, a high prevalence of diploma counterfeiting, and the onerous cost ofcertificate authentication. Decentralized blockchain technology, with itscutting-edge capabilities, presents a viable solution to these pervasiveproblems. In this paper, we illuminate the inherent limitations of existingcentralized systems and introduce EduChain, a novel heterogeneousblockchain-based system for managing educational data. EduChain uniquelyharnesses the strengths of both private and consortium blockchains, offering anunprecedented level of security and efficiency. In addition, we propose arobust mechanism for performing database consistency checks and error tracing.This is achieved through the implementation of a secondary consensus, employingthe pt-table-checksum tool. This approach effectively addresses the prevalentissue of database mismatches. Our system demonstrates superior performance inkey areas such as information verification, error traceback, and data security,thereby significantly improving the integrity and trustworthiness ofeducational data management. Through EduChain, we offer a powerful solution forfuture advancements in secure and efficient educational data management.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">cryptography and security</div>
               </div>
                   </div>
   </div>
@@ -130,12 +168,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">Tldr</a></li>
-  <li><a href="#image" id="toc-image" class="nav-link" data-scroll-target="#image">Image</a></li>
   <li><a href="#paper-authors" id="toc-paper-authors" class="nav-link" data-scroll-target="#paper-authors">Paper-authors</a></li>
-  <li><a href="#venue" id="toc-venue" class="nav-link" data-scroll-target="#venue">Venue</a></li>
-  <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video">Video</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
   <li><a href="#more-resources" id="toc-more-resources" class="nav-link" data-scroll-target="#more-resources">More Resources</a></li>
   </ul>
 </nav>
@@ -146,51 +179,68 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="67" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 66;"><span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> [<span class="st">"Yihan Liu"</span><span class="op">,</span><span class="st">"Ke Li"</span><span class="op">,</span><span class="st">"Zihao Huang"</span><span class="op">,</span><span class="st">"Bowen Li"</span><span class="op">,</span><span class="st">"Guiyan Wang"</span><span class="op">,</span><span class="st">"Wei Cai"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
-<p><a-short-paragraph-describing-your-work></a-short-paragraph-describing-your-work></p>
-</section>
-<section id="image" class="level2">
-<h2 class="anchored" data-anchor-id="image">Image</h2>
-<p><img src="link-for-your-image.png" class="img-fluid"></p>
+<p>The predominant centralized paradigm in educational data management currentlysuffers from several critical issues such as vulnerability to malicioustampering, a high prevalence of diploma counterfeiting, and the onerous cost ofcertificate authentication. Decentralized blockchain technology, with itscutting-edge capabilities, presents a viable solution to these pervasiveproblems. In this paper, we illuminate the inherent limitations of existingcentralized systems and introduce EduChain, a novel heterogeneousblockchain-based system for managing educational data. EduChain uniquelyharnesses the strengths of both private and consortium blockchains, offering anunprecedented level of security and efficiency. In addition, we propose arobust mechanism for performing database consistency checks and error tracing.This is achieved through the implementation of a secondary consensus, employingthe pt-table-checksum tool. This approach effectively addresses the prevalentissue of database mismatches. Our system demonstrates superior performance inkey areas such as information verification, error traceback, and data security,thereby significantly improving the integrity and trustworthiness ofeducational data management. Through EduChain, we offer a powerful solution forfuture advancements in secure and efficient educational data management.</p>
 </section>
 <section id="paper-authors" class="level2">
 <h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
-<ul>
-<li><a href="link-for-author-1-page-or-scholar"><author-1-name></author-1-name></a></li>
-<li><a href="link-for-author-2-page-or-scholar"><author-2-name></author-2-name></a></li>
-</ul>
-</section>
-<section id="venue" class="level2">
-<h2 class="anchored" data-anchor-id="venue">Venue</h2>
-<ul>
-<li><a href="link-for-venue"><venue-name></venue-name></a></li>
-</ul>
-</section>
-<section id="video" class="level2">
-<h2 class="anchored" data-anchor-id="video">Video</h2>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src=""></video></div>
-</section>
-<section id="slides" class="level2">
-<h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p><a href="link-for-slides">here</a></p>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">Code</h2>
-<p><a href="link-for-repo">Here</a></p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="78" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 77;"><span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>names<span class="op">.</span><span class="fu">map</span>(name <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;&lt;a href="../../posts_by_author.html?name=</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">" &gt;</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/li&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="84" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 83;"><span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>htl <span class="op">=</span> <span class="pp">require</span>(<span class="st">"htl@0.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="90" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 89;"><span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>html <span class="op">=</span> htl<span class="op">.</span><span class="at">html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
 </section>
 <section id="more-resources" class="level2">
 <h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
-<p><a href="link-for-pdf">PDF</a></p>
-<p><a href="link-for-poster">Poster</a></p>
-<p><a href="<link-for-supplement.">Supplement</a></p>
-<p><a href="link-for-scholar">Scholar</a></p>
-<p><a href="../../posts/<name-of-related-blog-post>/">Blog Post</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://arxiv.org/pdf/2306.00553"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 
 
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n names = [\"Yihan Liu\",\"Ke Li\",\"Zihao Huang\",\"Bowen Li\",\"Guiyan Wang\",\"Wei Cai\"] \n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\n html`<ul>${names.map(name => html`<li><a href=\"../../posts_by_author.html?name=${name}\" >${name}</a></li>`)}</ul>` \n\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\n htl = require(\"htl@0.2\") \n\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\n html = htl.html \n\n"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../content/educhain-a-blockchain-based-education-data-management-system";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -542,7 +592,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <script src="https://giscus.app/client.js" data-repo="DelmiroDaladier/icr" data-repo-id="R_kgDOIajQkw" data-category="General" data-category-id="DIC_kwDOIajQk84CSkWk" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
-<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
