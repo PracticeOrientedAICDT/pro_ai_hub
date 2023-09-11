@@ -189,7 +189,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>newData <span class="op">=</span> data<span class="op">.</span><span class="fu">filter</span>(<span class="kw">function</span> (item) {</span>
 <span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> item<span class="op">.</span><span class="at">authors</span><span class="op">.</span><span class="fu">includes</span>(name)</span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>data[<span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-3-1" data-nodetype="declaration">
@@ -204,43 +205,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-3-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="35" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 34;"><span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>link <span class="op">=</span> {</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> idx <span class="op">=</span> newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)<span class="op">.</span><span class="fu">indexOf</span>(name) </span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> link <span class="op">=</span> <span class="st">''</span></span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span>)</span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span> ){</span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>        link <span class="op">=</span> newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)[idx]</span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>    }<span class="cf">else</span>{</span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>        link <span class="op">=</span> <span class="st">''</span></span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> link</span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> {</span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> idx <span class="op">=</span> newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)<span class="op">.</span><span class="fu">indexOf</span>(name) </span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> text <span class="op">=</span>  <span class="st">''</span></span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span> <span class="op">!==</span> <span class="st">'NONE'</span>){</span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)[idx])</span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>        text  <span class="op">=</span> <span class="st">'Arxiv link'</span></span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>    }<span class="cf">else</span>{</span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>        text <span class="op">=</span> <span class="st">''</span></span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> text</span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;a href=</span><span class="sc">${</span>link<span class="sc">}</span><span class="vs">&gt;</span><span class="sc">${</span>text<span class="sc">}</span><span class="vs">&lt;/a&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="36" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 35;"><span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>link <span class="op">=</span> {</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> idx <span class="op">=</span> newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)<span class="op">.</span><span class="fu">indexOf</span>(name) </span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> link <span class="op">=</span> <span class="st">''</span></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span>)</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span> ){</span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>        link <span class="op">=</span> newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)[idx]</span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>    }<span class="cf">else</span>{</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>        link <span class="op">=</span> <span class="st">''</span></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> link</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> {</span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> idx <span class="op">=</span> newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)<span class="op">.</span><span class="fu">indexOf</span>(name) </span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> text <span class="op">=</span>  <span class="st">''</span></span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span> <span class="op">!==</span> <span class="st">'NONE'</span>){</span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(newData[<span class="dv">0</span>]<span class="op">.</span><span class="at">authors_link</span><span class="op">.</span><span class="fu">split</span>(<span class="st">","</span>)[idx])</span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>        text  <span class="op">=</span> <span class="st">'Arxiv link'</span></span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>    }<span class="cf">else</span>{</span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>        text <span class="op">=</span> <span class="st">''</span></span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> text</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;a href=</span><span class="sc">${</span>link<span class="sc">}</span><span class="vs">&gt;</span><span class="sc">${</span>text<span class="sc">}</span><span class="vs">&lt;/a&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-4-1" data-nodetype="declaration">
@@ -264,29 +272,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="75" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 74;"><span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(newData<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> ({<span class="dt">publication_set</span><span class="op">:</span> [[d<span class="op">.</span><span class="at">publication</span><span class="op">,</span>d<span class="op">.</span><span class="at">publication_url</span>]]<span class="op">,</span> <span class="op">...</span>d}))<span class="op">,</span> {</span>
-<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a>        <span class="dt">sort</span><span class="op">:</span> <span class="st">"start"</span><span class="op">,</span></span>
-<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a>        <span class="dt">reverse</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span> </span>
-<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a>        <span class="dt">format</span><span class="op">:</span> {</span>
-<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> links <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`</span><span class="sc">${</span>links<span class="op">.</span><span class="fu">map</span>((link<span class="op">,</span> i) <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;a href=</span><span class="sc">${</span>link[<span class="dv">1</span>]<span class="sc">}</span><span class="vs"> &gt;</span><span class="sc">${</span>link[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/a&gt; `</span>)<span class="sc">}</span><span class="vs">`</span><span class="op">,</span></span>
-<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a>            <span class="dt">research_area</span><span class="op">:</span> item <span class="kw">=&gt;</span>  htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;a href='/#category=</span><span class="sc">${</span>item<span class="sc">}</span><span class="vs">' &gt;</span><span class="sc">${</span>item<span class="sc">}</span><span class="vs">&lt;/a&gt;`</span></span>
-<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a>        }<span class="op">,</span>  </span>
-<span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a>        <span class="dt">layout</span><span class="op">:</span> <span class="st">"fixed"</span><span class="op">,</span>      </span>
-<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>        <span class="dt">width</span><span class="op">:</span> {</span>
-<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> <span class="dv">1200</span><span class="op">,</span></span>
-<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a>        }<span class="op">,</span></span>
-<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>        <span class="dt">columns</span><span class="op">:</span>[</span>
-<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>            <span class="st">"publication_set"</span><span class="op">,</span></span>
-<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a>            <span class="st">"research_area"</span></span>
-<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a>        ]<span class="op">,</span>  </span>
-<span id="cb5-90"><a href="#cb5-90" aria-hidden="true" tabindex="-1"></a>        <span class="dt">header</span><span class="op">:</span> {</span>
-<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> <span class="st">"Publication"</span><span class="op">,</span></span>
-<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a>            <span class="dt">research_area</span><span class="op">:</span> <span class="st">"Research Area"</span></span>
-<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a>        }<span class="op">,</span></span>
-<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a>        <span class="dt">align</span><span class="op">:</span> {</span>
-<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> <span class="st">"center"</span><span class="op">,</span>        </span>
-<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a>        }</span>
-<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a>    })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="76" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 75;"><span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(newData<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> ({<span class="dt">publication_set</span><span class="op">:</span> [[d<span class="op">.</span><span class="at">publication</span><span class="op">,</span>d<span class="op">.</span><span class="at">publication_url</span>]]<span class="op">,</span> <span class="op">...</span>d}))<span class="op">,</span> {</span>
+<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a>        <span class="dt">sort</span><span class="op">:</span> <span class="st">"start"</span><span class="op">,</span></span>
+<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a>        <span class="dt">reverse</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span> </span>
+<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a>        <span class="dt">format</span><span class="op">:</span> {</span>
+<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> links <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`</span><span class="sc">${</span>links<span class="op">.</span><span class="fu">map</span>((link<span class="op">,</span> i) <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;a href=</span><span class="sc">${</span>link[<span class="dv">1</span>]<span class="sc">}</span><span class="vs"> &gt;</span><span class="sc">${</span>link[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/a&gt; `</span>)<span class="sc">}</span><span class="vs">`</span><span class="op">,</span></span>
+<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a>            <span class="dt">research_area</span><span class="op">:</span> item <span class="kw">=&gt;</span>  htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;a href='/#category=</span><span class="sc">${</span>item<span class="sc">}</span><span class="vs">' &gt;</span><span class="sc">${</span>item<span class="sc">}</span><span class="vs">&lt;/a&gt;`</span></span>
+<span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a>        }<span class="op">,</span>  </span>
+<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>        <span class="dt">layout</span><span class="op">:</span> <span class="st">"fixed"</span><span class="op">,</span>      </span>
+<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>        <span class="dt">width</span><span class="op">:</span> {</span>
+<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> <span class="dv">1200</span><span class="op">,</span></span>
+<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>        }<span class="op">,</span></span>
+<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>        <span class="dt">columns</span><span class="op">:</span>[</span>
+<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a>            <span class="st">"publication_set"</span><span class="op">,</span></span>
+<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a>            <span class="st">"research_area"</span></span>
+<span id="cb5-90"><a href="#cb5-90" aria-hidden="true" tabindex="-1"></a>        ]<span class="op">,</span>  </span>
+<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a>        <span class="dt">header</span><span class="op">:</span> {</span>
+<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> <span class="st">"Publication"</span><span class="op">,</span></span>
+<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a>            <span class="dt">research_area</span><span class="op">:</span> <span class="st">"Research Area"</span></span>
+<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a>        }<span class="op">,</span></span>
+<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a>        <span class="dt">align</span><span class="op">:</span> {</span>
+<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a>            <span class="dt">publication_set</span><span class="op">:</span> <span class="st">"center"</span><span class="op">,</span>        </span>
+<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a>    })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-5" data-nodetype="expression">
 
@@ -299,7 +307,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"    name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) => searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n    \n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"   html`<h1>${name}</h1>`\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`<a href=${link}>${text}</a>`\n\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"\nInputs.table(newData.map(d => ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[1]} >${link[0]}</a> `)}`,\n            research_area: item =>  htl.html`<a href='/#category=${item}' >${item}</a>`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })\n"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"    name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) => searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n    \n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"   html`<h1>${name}</h1>`\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\ndata[1]\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`<a href=${link}>${text}</a>`\n\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"\nInputs.table(newData.map(d => ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[1]} >${link[0]}</a> `)}`,\n            research_area: item =>  htl.html`<a href='/#category=${item}' >${item}</a>`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })\n"}]}
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

@@ -187,5 +187,20 @@
   },
   "posts/test/index.qmd": {
     "index.html": "9351dcd9"
+  },
+  "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.qmd": {
+    "index.html": "7ac5e4fa"
+  },
+  "content/beyond-static-datasets-a-deep-interaction-approach-to-llm-evaluation/index.qmd": {
+    "index.html": "520be0eb"
+  },
+  "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.qmd": {
+    "index.html": "30050910"
+  },
+  "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.qmd": {
+    "index.html": "4a231236"
+  },
+  "posts/testing-blog-post/index.qmd": {
+    "index.html": "8cb1ae2a"
   }
 }

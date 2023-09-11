@@ -1,0 +1,11 @@
+{
+  "hash": "79ce031526dbde880b8df8140c79afa0",
+  "result": {
+    "markdown": "---\ncategories:\n- computer vision and pattern recognition\nformat:\n  html:\n    df-print: paged\n    toc: true\ntext: \"```{python}\\r\\n#| echo: true\\r\\n\\r\\nimport matplotlib.pyplot as plt\\r\\nplt.plot([1,2,3,4])\\r\\\n  \\nplt.show()\\r\\n```\"\ntitle: Testing blog post\n\n---\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nplt.plot([1,2,3,4])\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=571 height=411}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
