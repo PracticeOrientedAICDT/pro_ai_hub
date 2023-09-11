@@ -13,6 +13,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/the-very-first-blogpost/index.html",
       "/posts/test/index.html"
     ]
   }
