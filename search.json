@@ -14,25 +14,32 @@
     "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4])\nplt.show()"
   },
   {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
+    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html",
+    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html",
+    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+    "text": "names = [\"Yangyi Chen\",\"Karan Sikka\",\"Michael Cogswell\",\"Heng Ji\",\"Ajay Divakaran\"]"
   },
   {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#tldr",
+    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#tldr",
+    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
+    "section": "Tldr",
+    "text": "Tldr\nVision-language models (VLMs) have recently demonstrated strong efficacy asvisual assistants that can parse natural queries about the visual content andgenerate human-like outputs. In this work, we explore the ability of thesemodels to demonstrate human-like reasoning based on the perceived information.To address a crucial concern regarding the extent to which their reasoningcapabilities are fully consistent and grounded, we also measure the reasoningconsistency of these models. We achieve this by proposing a chain-of-thought(CoT) based consistency measure. However, such an evaluation requires abenchmark that encompasses both high-level inference and detailed reasoningchains, which is costly. We tackle this challenge by proposing aLLM-Human-in-the-Loop pipeline, which notably reduces cost while simultaneouslyensuring the generation of a high-quality dataset. Based on this pipeline andthe existing coarse-grained annotated dataset, we build the CURE benchmark tomeasure both the zero-shot reasoning performance and consistency of VLMs. Weevaluate existing state-of-the-art VLMs, and find that even the best-performingmodel is unable to demonstrate strong visual reasoning capabilities andconsistency, indicating that substantial efforts are required to enable VLMs toperform visual reasoning as systematically and consistently as humans. As anearly step, we propose a two-stage training framework aimed at improving boththe reasoning performance and consistency of VLMs. The first stage involvesemploying supervised fine-tuning of VLMs using step-by-step reasoning samplesautomatically generated by LLMs. In the second stage, we further augment thetraining process by incorporating feedback provided by LLMs to producereasoning chains that are highly consistent and grounded. We empiricallyhighlight the effectiveness of our framework in both reasoning performance andconsistency."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nVision-language models (VLMs) have recently demonstrated strong efficacy asvisual assistants that can parse natural queries about the visual content andgenerate human-like outputs. In this work, we explore the ability of thesemodels to demonstrate…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#paper-authors",
+    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#paper-authors",
+    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#more-resources",
+    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#more-resources",
+    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
+    "section": "More Resources",
+    "text": "More Resources"
   },
   {
     "objectID": "templates/template_for_content.html#image",
@@ -84,30 +91,51 @@
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
   {
-    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html",
-    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html",
-    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive Content Repository",
     "section": "",
-    "text": "names = [\"Yangyi Chen\",\"Karan Sikka\",\"Michael Cogswell\",\"Heng Ji\",\"Ajay Divakaran\"]"
+    "text": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nVision-language models (VLMs) have recently demonstrated strong efficacy asvisual assistants that can parse natural queries about the visual content andgenerate human-like outputs. In this work, we explore the ability of thesemodels to demonstrate…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCSPRD: A Financial Policy Retrieval Dataset for Chinese Stock Market\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nIn recent years, great advances in pre-trained language models (PLMs) havesparked considerable research focus and achieved promising performance on theapproach of dense passage retrieval, which aims at retrieving relative passagesfrom massive…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#tldr",
-    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#tldr",
-    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html",
+    "href": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html",
+    "title": "CSPRD: A Financial Policy Retrieval Dataset for Chinese Stock Market",
+    "section": "",
+    "text": "names = [\"Jinyuan Wang\",\"Hai Zhao\",\"Zhong Wang\",\"Zeyang Zhu\",\"Jinhao Xie\",\"Yong Yu\",\"Yongjian Fei\",\"Yue Huang\",\"Dawei Cheng\"]"
+  },
+  {
+    "objectID": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html#tldr",
+    "href": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html#tldr",
+    "title": "CSPRD: A Financial Policy Retrieval Dataset for Chinese Stock Market",
     "section": "Tldr",
-    "text": "Tldr\nVision-language models (VLMs) have recently demonstrated strong efficacy asvisual assistants that can parse natural queries about the visual content andgenerate human-like outputs. In this work, we explore the ability of thesemodels to demonstrate human-like reasoning based on the perceived information.To address a crucial concern regarding the extent to which their reasoningcapabilities are fully consistent and grounded, we also measure the reasoningconsistency of these models. We achieve this by proposing a chain-of-thought(CoT) based consistency measure. However, such an evaluation requires abenchmark that encompasses both high-level inference and detailed reasoningchains, which is costly. We tackle this challenge by proposing aLLM-Human-in-the-Loop pipeline, which notably reduces cost while simultaneouslyensuring the generation of a high-quality dataset. Based on this pipeline andthe existing coarse-grained annotated dataset, we build the CURE benchmark tomeasure both the zero-shot reasoning performance and consistency of VLMs. Weevaluate existing state-of-the-art VLMs, and find that even the best-performingmodel is unable to demonstrate strong visual reasoning capabilities andconsistency, indicating that substantial efforts are required to enable VLMs toperform visual reasoning as systematically and consistently as humans. As anearly step, we propose a two-stage training framework aimed at improving boththe reasoning performance and consistency of VLMs. The first stage involvesemploying supervised fine-tuning of VLMs using step-by-step reasoning samplesautomatically generated by LLMs. In the second stage, we further augment thetraining process by incorporating feedback provided by LLMs to producereasoning chains that are highly consistent and grounded. We empiricallyhighlight the effectiveness of our framework in both reasoning performance andconsistency."
+    "text": "Tldr\nIn recent years, great advances in pre-trained language models (PLMs) havesparked considerable research focus and achieved promising performance on theapproach of dense passage retrieval, which aims at retrieving relative passagesfrom massive corpus with given questions. However, most of existing datasetsmainly benchmark the models with factoid queries of general commonsense, whilespecialised fields such as finance and economics remain unexplored due to thedeficiency of large-scale and high-quality datasets with expert annotations. Inthis work, we propose a new task, policy retrieval, by introducing the ChineseStock Policy Retrieval Dataset (CSPRD), which provides 700+ prospectus passageslabeled by experienced experts with relevant articles from 10k+ entries in ourcollected Chinese policy corpus. Experiments on lexical, embedding andfine-tuned bi-encoder models show the effectiveness of our proposed CSPRD yetalso suggests ample potential for improvement. Our best performing baselineachieves 56.1% MRR@10, 28.5% NDCG@10, 37.5% Recall@10 and 80.6% Precision@10 ondev set."
   },
   {
-    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#paper-authors",
-    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#paper-authors",
-    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
+    "objectID": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html#paper-authors",
+    "href": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html#paper-authors",
+    "title": "CSPRD: A Financial Policy Retrieval Dataset for Chinese Stock Market",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#more-resources",
-    "href": "content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html#more-resources",
-    "title": "Measuring and Improving Chain-of-Thought Reasoning in Vision-Language Models",
+    "objectID": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html#more-resources",
+    "href": "content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html#more-resources",
+    "title": "CSPRD: A Financial Policy Retrieval Dataset for Chinese Stock Market",
     "section": "More Resources",
     "text": "More Resources"
   },
