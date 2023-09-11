@@ -1,7 +1,9 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html"
+    ]
   },
   {
     "listing": "/blog.html",
