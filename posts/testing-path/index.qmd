@@ -1,0 +1,13 @@
+---
+categories:
+- computer vision and pattern recognition
+format:
+  html:
+    df-print: paged
+    toc: true
+text: "## Path \r\ntesting posts."
+title: Testing path
+
+---
+## Path 
+testing posts.
