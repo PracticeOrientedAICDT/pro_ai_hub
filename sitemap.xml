@@ -2,78 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-09-11T10:58:48.518Z</lastmod>
+    <lastmod>2023-09-11T13:09:43.841Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/testing-path/index.html</loc>
-    <lastmod>2023-09-11T10:58:47.542Z</lastmod>
+    <lastmod>2023-09-11T13:09:42.517Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/my-blogpost/index.html</loc>
-    <lastmod>2023-09-11T10:58:46.150Z</lastmod>
+    <lastmod>2023-09-11T13:09:40.781Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts/more-testing/index.html</loc>
-    <lastmod>2023-09-11T10:58:44.742Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/newsletter-3/index.html</loc>
+    <lastmod>2023-09-11T13:09:39.013Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/blog-post-using-code/index.html</loc>
+    <lastmod>2023-09-11T13:09:33.769Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/the-very-first-blogpost/index.html</loc>
-    <lastmod>2023-09-11T10:58:43.482Z</lastmod>
+    <lastmod>2023-09-11T13:09:26.084Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/trainable-transformer-in-transformer/index.html</loc>
-    <lastmod>2023-09-11T10:58:41.974Z</lastmod>
+    <lastmod>2023-09-11T13:09:23.868Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html</loc>
-    <lastmod>2023-09-11T10:58:39.778Z</lastmod>
+    <lastmod>2023-09-11T13:09:21.064Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html</loc>
-    <lastmod>2023-09-11T10:58:37.690Z</lastmod>
+    <lastmod>2023-09-11T13:09:18.208Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-09-11T10:58:35.762Z</lastmod>
+    <lastmod>2023-09-11T13:09:15.900Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-09-11T10:58:32.102Z</lastmod>
+    <lastmod>2023-09-11T13:09:12.732Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-09-11T10:58:34.990Z</lastmod>
+    <lastmod>2023-09-11T13:09:15.044Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-09-11T10:58:36.562Z</lastmod>
+    <lastmod>2023-09-11T13:09:16.792Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html</loc>
-    <lastmod>2023-09-11T10:58:38.838Z</lastmod>
+    <lastmod>2023-09-11T13:09:19.748Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html</loc>
-    <lastmod>2023-09-11T10:58:40.826Z</lastmod>
+    <lastmod>2023-09-11T13:09:22.496Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/12314124124312312312341243513451245/index.html</loc>
-    <lastmod>2023-09-11T10:58:42.882Z</lastmod>
+    <lastmod>2023-09-11T13:09:25.156Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/test/index.html</loc>
-    <lastmod>2023-09-11T10:58:44.114Z</lastmod>
+    <lastmod>2023-09-11T13:09:26.868Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/more-testing/index.html</loc>
+    <lastmod>2023-09-11T13:09:34.693Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/the-very-second-blogpost/index.html</loc>
-    <lastmod>2023-09-11T10:58:45.482Z</lastmod>
+    <lastmod>2023-09-11T13:09:39.849Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/my-blogpost-madkdown/index.html</loc>
-    <lastmod>2023-09-11T10:58:46.810Z</lastmod>
+    <lastmod>2023-09-11T13:09:41.637Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-09-11T10:58:48.194Z</lastmod>
+    <lastmod>2023-09-11T13:09:43.437Z</lastmod>
   </url>
 </urlset>

@@ -28,11 +28,18 @@
     "text": "This is my a blog entry."
   },
   {
-    "objectID": "posts/more-testing/index.html",
-    "href": "posts/more-testing/index.html",
-    "title": "More testing",
+    "objectID": "posts/newsletter-3/index.html",
+    "href": "posts/newsletter-3/index.html",
+    "title": "Newsletter #3",
     "section": "",
-    "text": "Testing"
+    "text": "Test python code\n\nimport matplotlib.pyplot as plt\nplt.plot([1,2,3,4])\nplt.show()"
+  },
+  {
+    "objectID": "posts/blog-post-using-code/index.html",
+    "href": "posts/blog-post-using-code/index.html",
+    "title": "Blog post using code",
+    "section": "",
+    "text": "Code\n\nprint(\"Hello world!\")\n\nHello world!"
   },
   {
     "objectID": "posts/the-very-first-blogpost/index.html",
@@ -287,6 +294,13 @@
     "text": "asdf123"
   },
   {
+    "objectID": "posts/more-testing/index.html",
+    "href": "posts/more-testing/index.html",
+    "title": "More testing",
+    "section": "",
+    "text": "Testing"
+  },
+  {
     "objectID": "posts/the-very-second-blogpost/index.html",
     "href": "posts/the-very-second-blogpost/index.html",
     "title": "The very second blogpost",
@@ -305,6 +319,6 @@
     "href": "blog.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "The very first blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMore testing\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe very second blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost Madkdown\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting path\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "The very first blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog post using code\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMore testing\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNewsletter #3\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe very second blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost Madkdown\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting path\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
