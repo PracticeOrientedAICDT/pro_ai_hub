@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-09-11T09:53:55.325Z</lastmod>
+    <lastmod>2023-09-11T09:58:56.346Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts/test/index.html</loc>
-    <lastmod>2023-09-11T09:53:54.585Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/12314124124312312312341243513451245/index.html</loc>
-    <lastmod>2023-09-11T09:53:53.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html</loc>
-    <lastmod>2023-09-11T09:53:51.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html</loc>
-    <lastmod>2023-09-11T09:53:49.021Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-09-11T09:53:46.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-09-11T09:53:45.205Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-09-11T09:53:43.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-09-11T09:53:45.845Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html</loc>
-    <lastmod>2023-09-11T09:53:47.781Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html</loc>
-    <lastmod>2023-09-11T09:53:49.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/trainable-transformer-in-transformer/index.html</loc>
-    <lastmod>2023-09-11T09:53:52.125Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/the-very-second-blogpost/index.html</loc>
+    <lastmod>2023-09-11T09:58:55.598Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/the-very-first-blogpost/index.html</loc>
-    <lastmod>2023-09-11T09:53:53.909Z</lastmod>
+    <lastmod>2023-09-11T09:58:54.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/trainable-transformer-in-transformer/index.html</loc>
+    <lastmod>2023-09-11T09:58:52.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html</loc>
+    <lastmod>2023-09-11T09:58:49.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html</loc>
+    <lastmod>2023-09-11T09:58:47.378Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
+    <lastmod>2023-09-11T09:58:45.246Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-09-11T09:58:41.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
+    <lastmod>2023-09-11T09:58:44.458Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2023-09-11T09:58:45.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html</loc>
+    <lastmod>2023-09-11T09:58:48.538Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html</loc>
+    <lastmod>2023-09-11T09:58:50.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/12314124124312312312341243513451245/index.html</loc>
+    <lastmod>2023-09-11T09:58:53.010Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/test/index.html</loc>
+    <lastmod>2023-09-11T09:58:54.882Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-09-11T09:53:55.005Z</lastmod>
+    <lastmod>2023-09-11T09:58:56.050Z</lastmod>
   </url>
 </urlset>
