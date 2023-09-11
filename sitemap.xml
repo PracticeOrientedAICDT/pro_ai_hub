@@ -2,46 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-09-11T15:24:44.044Z</lastmod>
+    <lastmod>2023-09-11T15:47:48.609Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/testing-blog-post/index.html</loc>
-    <lastmod>2023-09-11T15:24:43.296Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html</loc>
-    <lastmod>2023-09-11T15:24:35.420Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html</loc>
-    <lastmod>2023-09-11T15:24:32.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-09-11T15:24:30.836Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-09-11T15:24:26.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-09-11T15:24:30.076Z</lastmod>
+    <lastmod>2023-09-11T15:47:47.917Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-09-11T15:24:31.632Z</lastmod>
+    <lastmod>2023-09-11T15:47:44.969Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/beyond-static-datasets-a-deep-interaction-approach-to-llm-evaluation/index.html</loc>
-    <lastmod>2023-09-11T15:24:34.032Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
+    <lastmod>2023-09-11T15:47:43.293Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html</loc>
-    <lastmod>2023-09-11T15:24:36.540Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-09-11T15:47:40.285Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
+    <lastmod>2023-09-11T15:47:44.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html</loc>
+    <lastmod>2023-09-11T15:47:46.165Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-09-11T15:24:43.696Z</lastmod>
+    <lastmod>2023-09-11T15:47:48.309Z</lastmod>
   </url>
 </urlset>
