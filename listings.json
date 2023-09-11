@@ -1,27 +1,10 @@
 [
   {
     "listing": "/index.html",
-    "items": [
-      "/content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html",
-      "/content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html",
-      "/content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html",
-      "/content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html",
-      "/content/trainable-transformer-in-transformer/index.html",
-      "/content/12314124124312312312341243513451245/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/blog.html",
-    "items": [
-      "/posts/the-very-first-blogpost/index.html",
-      "/posts/test/index.html",
-      "/posts/blog-post-using-code/index.html",
-      "/posts/more-testing/index.html",
-      "/posts/newsletter-3/index.html",
-      "/posts/the-very-second-blogpost/index.html",
-      "/posts/my-blogpost/index.html",
-      "/posts/my-blogpost-madkdown/index.html",
-      "/posts/testing-path/index.html"
-    ]
+    "items": []
   }
 ]
