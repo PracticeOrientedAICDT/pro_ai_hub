@@ -1,0 +1,12 @@
+---
+categories:
+- computer vision and pattern recognition
+format:
+  html:
+    df-print: paged
+    toc: true
+text: Testing
+title: More testing
+
+---
+Testing
