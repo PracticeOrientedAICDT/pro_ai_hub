@@ -1,0 +1,81 @@
+---
+categories: computation and language
+description: Large Language Models (LLMs) have made progress in various real-world
+  tasks,which stimulates requirements for the evaluation of LLMs. Existing LLMevaluation
+  methods are mainly supervised signal-based which depends on staticdatasets and cannot
+  evaluate the ability of LLMs in dynamic real-worldscenarios where deep interaction
+  widely exists. Other LLM evaluation methodsare human-based which are costly and
+  time-consuming and are incapable oflarge-scale evaluation of LLMs. To address the
+  issues above, we propose a novelDeep Interaction-based LLM-evaluation framework.
+  In our proposed framework,LLMs' performances in real-world domains can be evaluated
+  from their deepinteraction with other LLMs in elaborately designed evaluation tasks.Furthermore,
+  our proposed framework is a general evaluation method that can beapplied to a host
+  of real-world tasks such as machine translation and codegeneration. We demonstrate
+  the effectiveness of our proposed method throughextensive experiments on four elaborately
+  designed evaluation tasks.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Li_J/0/1/0/all/0/1
+    name: Li, Jiatong
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Li_R/0/1/0/all/0/1
+    name: Li, Rui
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Liu_Q/0/1/0/all/0/1
+    name: Liu, Qi
+  overview: Large Language Models (LLMs) have made progress in various real-world
+    tasks,which stimulates requirements for the evaluation of LLMs. Existing LLMevaluation
+    methods are mainly supervised signal-based which depends on staticdatasets and
+    cannot evaluate the ability of LLMs in dynamic real-worldscenarios where deep
+    interaction widely exists. Other LLM evaluation methodsare human-based which are
+    costly and time-consuming and are incapable oflarge-scale evaluation of LLMs.
+    To address the issues above, we propose a novelDeep Interaction-based LLM-evaluation
+    framework. In our proposed framework,LLMs' performances in real-world domains
+    can be evaluated from their deepinteraction with other LLMs in elaborately designed
+    evaluation tasks.Furthermore, our proposed framework is a general evaluation method
+    that can beapplied to a host of real-world tasks such as machine translation and
+    codegeneration. We demonstrate the effectiveness of our proposed method throughextensive
+    experiments on four elaborately designed evaluation tasks.
+  pdf_url: http://arxiv.org/pdf/2309.04369
+  research_area: computation and language
+title: 'Beyond Static Datasets: A Deep Interaction Approach to LLM Evaluation'
+
+---
+```{ojs} 
+
+ names = ["Jiatong Li","Rui Li","Qi Liu"] 
+
+``` 
+
+## Tldr 
+Large Language Models (LLMs) have made progress in various real-world tasks,which stimulates requirements for the evaluation of LLMs. Existing LLMevaluation methods are mainly supervised signal-based which depends on staticdatasets and cannot evaluate the ability of LLMs in dynamic real-worldscenarios where deep interaction widely exists. Other LLM evaluation methodsare human-based which are costly and time-consuming and are incapable oflarge-scale evaluation of LLMs. To address the issues above, we propose a novelDeep Interaction-based LLM-evaluation framework. In our proposed framework,LLMs' performances in real-world domains can be evaluated from their deepinteraction with other LLMs in elaborately designed evaluation tasks.Furthermore, our proposed framework is a general evaluation method that can beapplied to a host of real-world tasks such as machine translation and codegeneration. We demonstrate the effectiveness of our proposed method throughextensive experiments on four elaborately designed evaluation tasks.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
