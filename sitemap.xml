@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-09-11T14:16:00.313Z</lastmod>
+    <lastmod>2023-09-11T15:07:35.548Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/testing-blog-post/index.html</loc>
-    <lastmod>2023-09-11T14:15:59.333Z</lastmod>
+    <lastmod>2023-09-11T15:07:34.699Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/measuring-and-improving-chain-of-thought-reasoning-in-vision-language-models/index.html</loc>
-    <lastmod>2023-09-11T14:15:48.685Z</lastmod>
+    <lastmod>2023-09-11T15:07:25.639Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-09-11T14:15:45.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-09-11T14:15:43.801Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-09-11T14:15:40.413Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html</loc>
+    <lastmod>2023-09-11T15:07:23.019Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-09-11T14:15:44.673Z</lastmod>
+    <lastmod>2023-09-11T15:07:20.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-09-11T15:07:16.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
+    <lastmod>2023-09-11T15:07:19.871Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2023-09-11T15:07:21.559Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/beyond-static-datasets-a-deep-interaction-approach-to-llm-evaluation/index.html</loc>
-    <lastmod>2023-09-11T14:15:47.205Z</lastmod>
+    <lastmod>2023-09-11T15:07:24.247Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/csprd-a-financial-policy-retrieval-dataset-for-chinese-stock-market/index.html</loc>
-    <lastmod>2023-09-11T14:15:49.969Z</lastmod>
+    <lastmod>2023-09-11T15:07:27.283Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-09-11T14:15:59.893Z</lastmod>
+    <lastmod>2023-09-11T15:07:35.144Z</lastmod>
   </url>
 </urlset>
