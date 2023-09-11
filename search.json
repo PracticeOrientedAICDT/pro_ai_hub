@@ -28,116 +28,102 @@
     "text": "This is my a blog entry."
   },
   {
-    "objectID": "posts/test/index.html",
-    "href": "posts/test/index.html",
-    "title": "test",
+    "objectID": "posts/more-testing/index.html",
+    "href": "posts/more-testing/index.html",
+    "title": "More testing",
     "section": "",
-    "text": "asdf123"
+    "text": "Testing"
   },
   {
-    "objectID": "content/12314124124312312312341243513451245/index.html",
-    "href": "content/12314124124312312312341243513451245/index.html",
-    "title": "12314124124312312312341243513451245",
+    "objectID": "posts/the-very-first-blogpost/index.html",
+    "href": "posts/the-very-first-blogpost/index.html",
+    "title": "The very first blogpost",
+    "section": "",
+    "text": "This is my first blog entry."
+  },
+  {
+    "objectID": "content/trainable-transformer-in-transformer/index.html",
+    "href": "content/trainable-transformer-in-transformer/index.html",
+    "title": "Trainable Transformer in Transformer",
+    "section": "",
+    "text": "names = [\"Abhishek Panigrahi\",\"Sadhika Malladi\",\"Mengzhou Xia\",\"Sanjeev Arora\"]"
+  },
+  {
+    "objectID": "content/trainable-transformer-in-transformer/index.html#tldr",
+    "href": "content/trainable-transformer-in-transformer/index.html#tldr",
+    "title": "Trainable Transformer in Transformer",
+    "section": "Tldr",
+    "text": "Tldr\nRecent works attribute the capability of in-context learning (ICL) in largepre-trained language models to implicitly simulating and fine-tuning aninternal model (e.g., linear or 2-layer MLP) during inference. However, suchconstructions require large memory overhead, which makes simulation of moresophisticated internal models intractable. In this work, we propose anefficient construction, Transformer in Transformer (in short, TinT), thatallows a transformer to simulate and fine-tune complex models internally duringinference (e.g., pre-trained language models). In particular, we introduceinnovative approximation techniques that allow a TinT model with less than 2billion parameters to simulate and fine-tune a 125 million parametertransformer model within a single forward pass. TinT accommodates many commontransformer variants and its design ideas also improve the efficiency of pastinstantiations of simple models inside transformers. We conduct end-to-endexperiments to validate the internal fine-tuning procedure of TinT on variouslanguage modeling and downstream tasks. For example, even with a limitedone-step budget, we observe TinT for a OPT-125M model improves performance by4-16% absolute on average compared to OPT-125M. These findings suggest thatlarge pre-trained language models are capable of performing intricatesubroutines. To facilitate further work, a modular and extensible codebase forTinT is included."
+  },
+  {
+    "objectID": "content/trainable-transformer-in-transformer/index.html#paper-authors",
+    "href": "content/trainable-transformer-in-transformer/index.html#paper-authors",
+    "title": "Trainable Transformer in Transformer",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/trainable-transformer-in-transformer/index.html#more-resources",
+    "href": "content/trainable-transformer-in-transformer/index.html#more-resources",
+    "title": "Trainable Transformer in Transformer",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html",
+    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html",
+    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
     "section": "",
     "text": "names = [\"Yihan Liu\"]"
   },
   {
-    "objectID": "content/12314124124312312312341243513451245/index.html#tldr",
-    "href": "content/12314124124312312312341243513451245/index.html#tldr",
-    "title": "12314124124312312312341243513451245",
+    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#tldr",
+    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#tldr",
+    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
     "section": "Tldr",
-    "text": "Tldr\nasdf123"
+    "text": "Tldr\nqqwesdas"
   },
   {
-    "objectID": "content/12314124124312312312341243513451245/index.html#paper-authors",
-    "href": "content/12314124124312312312341243513451245/index.html#paper-authors",
-    "title": "12314124124312312312341243513451245",
+    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#paper-authors",
+    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#paper-authors",
+    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/12314124124312312312341243513451245/index.html#more-resources",
-    "href": "content/12314124124312312312341243513451245/index.html#more-resources",
-    "title": "12314124124312312312341243513451245",
+    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#more-resources",
+    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#more-resources",
+    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html",
-    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html",
-    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html",
+    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html",
+    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
     "section": "",
-    "text": "names = [\"Abdul Karim Gizzini\",\"Yahia Medjahdi\",\"Ali J. Ghandour\",\"Laurent Clavier\"]"
+    "text": "names = [\"Peter Flach\",\"Kacper Sokol\"]"
   },
   {
-    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#tldr",
-    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#tldr",
-    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#tldr",
+    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#tldr",
+    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
     "section": "Tldr",
-    "text": "Tldr\nResearch into 6G networks has been initiated to support a variety of critical artificial intelligence (AI) assisted applications such as autonomous driving. In such applications, AI-based decisions should be performed in a real-time manner. These decisions include resource allocation, localization, channel estimation, etc. Considering the black-box nature of existing AI-based models, it is highly challenging to understand and trust the decision-making behavior of such models. Therefore, explaining the logic behind those models through explainable AI (XAI) techniques is essential for their employment in critical applications. This manuscript proposes a novel XAI-based channel estimation (XAI-CHEST) scheme that provides detailed reasonable interpretability of the deep learning (DL) models that are employed in doubly-selective channel estimation. The aim of the proposed XAI-CHEST scheme is to identify the relevant model inputs by inducing high noise on the irrelevant ones. As a result, the behavior of the studied DL-based channel estimators can be further analyzed and evaluated based on the generated interpretations. Simulation results show that the proposed XAI-CHEST scheme provides valid interpretations of the DL-based channel estimators for different scenarios."
+    "text": "Tldr\n“Simply Logical – Intelligent Reasoning by Example” by Peter Flach was firstpublished by John Wiley in 1994. It could be purchased as book-only or with a3.5 inch diskette containing the SWI-Prolog programmes printed in the book (forvarious operating systems). In 2007 the copyright reverted back to the authorat which point the book and programmes were made freely available online; theprint version is no longer distributed through John Wiley publishers. In 2015,as a pilot, we ported most of the original book into an online, interactivewebsite using SWI-Prolog’s SWISH platform. Since then, we launched the SimplyLogical open source organisation committed to maintaining a suite of freelyavailable interactive online educational resources about ArtificialIntelligence and Logic Programming with Prolog. With the advent of neweducational technologies we were inspired to rebuild the book from the groundup using the Jupyter Book platform enhanced with a collection of bespokeplugins that implement, among other things, interactive SWI-Prolog code blocksthat can be executed directly in a web browser. This new version is moremodular, easier to maintain, and can be split into custom teaching modules, inaddition to being modern-looking, visually appealing, and compatible with arange of (mobile) devices of varying screen sizes."
   },
   {
-    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#paper-authors",
-    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#paper-authors",
-    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#paper-authors",
+    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#paper-authors",
+    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#more-resources",
-    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#more-resources",
-    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#more-resources",
+    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#more-resources",
+    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
     "section": "More Resources",
     "text": "More Resources"
-  },
-  {
-    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html",
-    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html",
-    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
-    "section": "",
-    "text": "names = [\"Ruiyun Xu\",\"Yue Feng\",\"Hailiang Chen\"]"
-  },
-  {
-    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#tldr",
-    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#tldr",
-    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
-    "section": "Tldr",
-    "text": "Tldr\nThe advent of ChatGPT, a large language model-powered chatbot, has promptedquestions about its potential implications for traditional search engines. Inthis study, we investigate the differences in user behavior when employingsearch engines and chatbot tools for information-seeking tasks. We carry out arandomized online experiment, dividing participants into two groups: one usinga ChatGPT-like tool and the other using a Google Search-like tool. Our findingsreveal that the ChatGPT group consistently spends less time on all tasks, withno significant difference in overall task performance between the groups.Notably, ChatGPT levels user search performance across different educationlevels and excels in answering straightforward questions and providing generalsolutions but falls short in fact-checking tasks. Users perceive ChatGPT’sresponses as having higher information quality compared to Google Search,despite displaying a similar level of trust in both tools. Furthermore,participants using ChatGPT report significantly better user experiences interms of usefulness, enjoyment, and satisfaction, while perceived ease of useremains comparable between the two tools. However, ChatGPT may also lead tooverreliance and generate or replicate misinformation, yielding inconsistentresults. Our study offers valuable insights for search engine management andhighlights opportunities for integrating chatbot technologies into searchengine designs."
-  },
-  {
-    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#paper-authors",
-    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#paper-authors",
-    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#more-resources",
-    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#more-resources",
-    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
-  },
-  {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\n“Simply Logical – Intelligent Reasoning by Example” by Peter Flach was firstpublished by John Wiley in 1994. It could be purchased as book-only or with a3.5 inch diskette containing the SWI-Prolog programmes printed in the book (forvarious…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nChatGPT vs. Google: A Comparative Study of Search Performance and User Experience\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe advent of ChatGPT, a large language model-powered chatbot, has promptedquestions about its potential implications for traditional search engines. Inthis study, we investigate the differences in user behavior when employingsearch engines and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nqqwesdas\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTowards Explainable AI for Channel Estimation in Wireless Communications\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nResearch into 6G networks has been initiated to support a variety of critical artificial intelligence (AI) assisted applications such as autonomous driving. In such applications, AI-based decisions should be performed in a real-time manner. These…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTrainable Transformer in Transformer\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nRecent works attribute the capability of in-context learning (ICL) in largepre-trained language models to implicitly simulating and fine-tuning aninternal model (e.g., linear or 2-layer MLP) during inference. However, suchconstructions require…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n12314124124312312312341243513451245\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdf123\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "templates/template_for_content.html#image",
@@ -189,95 +175,116 @@
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
   {
-    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html",
-    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html",
-    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive Content Repository",
     "section": "",
-    "text": "names = [\"Peter Flach\",\"Kacper Sokol\"]"
+    "text": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\n“Simply Logical – Intelligent Reasoning by Example” by Peter Flach was firstpublished by John Wiley in 1994. It could be purchased as book-only or with a3.5 inch diskette containing the SWI-Prolog programmes printed in the book (forvarious…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nChatGPT vs. Google: A Comparative Study of Search Performance and User Experience\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe advent of ChatGPT, a large language model-powered chatbot, has promptedquestions about its potential implications for traditional search engines. Inthis study, we investigate the differences in user behavior when employingsearch engines and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nqqwesdas\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTowards Explainable AI for Channel Estimation in Wireless Communications\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nResearch into 6G networks has been initiated to support a variety of critical artificial intelligence (AI) assisted applications such as autonomous driving. In such applications, AI-based decisions should be performed in a real-time manner. These…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTrainable Transformer in Transformer\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nRecent works attribute the capability of in-context learning (ICL) in largepre-trained language models to implicitly simulating and fine-tuning aninternal model (e.g., linear or 2-layer MLP) during inference. However, suchconstructions require…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n12314124124312312312341243513451245\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdf123\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#tldr",
-    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#tldr",
-    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html",
+    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html",
+    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
+    "section": "",
+    "text": "names = [\"Ruiyun Xu\",\"Yue Feng\",\"Hailiang Chen\"]"
+  },
+  {
+    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#tldr",
+    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#tldr",
+    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
     "section": "Tldr",
-    "text": "Tldr\n“Simply Logical – Intelligent Reasoning by Example” by Peter Flach was firstpublished by John Wiley in 1994. It could be purchased as book-only or with a3.5 inch diskette containing the SWI-Prolog programmes printed in the book (forvarious operating systems). In 2007 the copyright reverted back to the authorat which point the book and programmes were made freely available online; theprint version is no longer distributed through John Wiley publishers. In 2015,as a pilot, we ported most of the original book into an online, interactivewebsite using SWI-Prolog’s SWISH platform. Since then, we launched the SimplyLogical open source organisation committed to maintaining a suite of freelyavailable interactive online educational resources about ArtificialIntelligence and Logic Programming with Prolog. With the advent of neweducational technologies we were inspired to rebuild the book from the groundup using the Jupyter Book platform enhanced with a collection of bespokeplugins that implement, among other things, interactive SWI-Prolog code blocksthat can be executed directly in a web browser. This new version is moremodular, easier to maintain, and can be split into custom teaching modules, inaddition to being modern-looking, visually appealing, and compatible with arange of (mobile) devices of varying screen sizes."
+    "text": "Tldr\nThe advent of ChatGPT, a large language model-powered chatbot, has promptedquestions about its potential implications for traditional search engines. Inthis study, we investigate the differences in user behavior when employingsearch engines and chatbot tools for information-seeking tasks. We carry out arandomized online experiment, dividing participants into two groups: one usinga ChatGPT-like tool and the other using a Google Search-like tool. Our findingsreveal that the ChatGPT group consistently spends less time on all tasks, withno significant difference in overall task performance between the groups.Notably, ChatGPT levels user search performance across different educationlevels and excels in answering straightforward questions and providing generalsolutions but falls short in fact-checking tasks. Users perceive ChatGPT’sresponses as having higher information quality compared to Google Search,despite displaying a similar level of trust in both tools. Furthermore,participants using ChatGPT report significantly better user experiences interms of usefulness, enjoyment, and satisfaction, while perceived ease of useremains comparable between the two tools. However, ChatGPT may also lead tooverreliance and generate or replicate misinformation, yielding inconsistentresults. Our study offers valuable insights for search engine management andhighlights opportunities for integrating chatbot technologies into searchengine designs."
   },
   {
-    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#paper-authors",
-    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#paper-authors",
-    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
+    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#paper-authors",
+    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#paper-authors",
+    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#more-resources",
-    "href": "content/simply-logical-intelligent-reasoning-by-example-fully-interactive-online-edition/index.html#more-resources",
-    "title": "Simply Logical – Intelligent Reasoning by Example (Fully Interactive Online Edition)",
+    "objectID": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#more-resources",
+    "href": "content/chatgpt-vs-google-a-comparative-study-of-search-performance-and-user-experience/index.html#more-resources",
+    "title": "ChatGPT vs. Google: A Comparative Study of Search Performance and User Experience",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html",
-    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html",
-    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
+    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html",
+    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html",
+    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "section": "",
+    "text": "names = [\"Abdul Karim Gizzini\",\"Yahia Medjahdi\",\"Ali J. Ghandour\",\"Laurent Clavier\"]"
+  },
+  {
+    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#tldr",
+    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#tldr",
+    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "section": "Tldr",
+    "text": "Tldr\nResearch into 6G networks has been initiated to support a variety of critical artificial intelligence (AI) assisted applications such as autonomous driving. In such applications, AI-based decisions should be performed in a real-time manner. These decisions include resource allocation, localization, channel estimation, etc. Considering the black-box nature of existing AI-based models, it is highly challenging to understand and trust the decision-making behavior of such models. Therefore, explaining the logic behind those models through explainable AI (XAI) techniques is essential for their employment in critical applications. This manuscript proposes a novel XAI-based channel estimation (XAI-CHEST) scheme that provides detailed reasonable interpretability of the deep learning (DL) models that are employed in doubly-selective channel estimation. The aim of the proposed XAI-CHEST scheme is to identify the relevant model inputs by inducing high noise on the irrelevant ones. As a result, the behavior of the studied DL-based channel estimators can be further analyzed and evaluated based on the generated interpretations. Simulation results show that the proposed XAI-CHEST scheme provides valid interpretations of the DL-based channel estimators for different scenarios."
+  },
+  {
+    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#paper-authors",
+    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#paper-authors",
+    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#more-resources",
+    "href": "content/towards-explainable-ai-for-channel-estimation-in-wireless-communications/index.html#more-resources",
+    "title": "Towards Explainable AI for Channel Estimation in Wireless Communications",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/12314124124312312312341243513451245/index.html",
+    "href": "content/12314124124312312312341243513451245/index.html",
+    "title": "12314124124312312312341243513451245",
     "section": "",
     "text": "names = [\"Yihan Liu\"]"
   },
   {
-    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#tldr",
-    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#tldr",
-    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
+    "objectID": "content/12314124124312312312341243513451245/index.html#tldr",
+    "href": "content/12314124124312312312341243513451245/index.html#tldr",
+    "title": "12314124124312312312341243513451245",
     "section": "Tldr",
-    "text": "Tldr\nqqwesdas"
+    "text": "Tldr\nasdf123"
   },
   {
-    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#paper-authors",
-    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#paper-authors",
-    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
+    "objectID": "content/12314124124312312312341243513451245/index.html#paper-authors",
+    "href": "content/12314124124312312312341243513451245/index.html#paper-authors",
+    "title": "12314124124312312312341243513451245",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#more-resources",
-    "href": "content/fully-dynamic-all-pairs-shortest-paths-likely-optimal-worst-case-update-time/index.html#more-resources",
-    "title": "Fully-Dynamic All-Pairs Shortest Paths: Likely Optimal Worst-Case Update Time",
+    "objectID": "content/12314124124312312312341243513451245/index.html#more-resources",
+    "href": "content/12314124124312312312341243513451245/index.html#more-resources",
+    "title": "12314124124312312312341243513451245",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/trainable-transformer-in-transformer/index.html",
-    "href": "content/trainable-transformer-in-transformer/index.html",
-    "title": "Trainable Transformer in Transformer",
+    "objectID": "posts/test/index.html",
+    "href": "posts/test/index.html",
+    "title": "test",
     "section": "",
-    "text": "names = [\"Abhishek Panigrahi\",\"Sadhika Malladi\",\"Mengzhou Xia\",\"Sanjeev Arora\"]"
-  },
-  {
-    "objectID": "content/trainable-transformer-in-transformer/index.html#tldr",
-    "href": "content/trainable-transformer-in-transformer/index.html#tldr",
-    "title": "Trainable Transformer in Transformer",
-    "section": "Tldr",
-    "text": "Tldr\nRecent works attribute the capability of in-context learning (ICL) in largepre-trained language models to implicitly simulating and fine-tuning aninternal model (e.g., linear or 2-layer MLP) during inference. However, suchconstructions require large memory overhead, which makes simulation of moresophisticated internal models intractable. In this work, we propose anefficient construction, Transformer in Transformer (in short, TinT), thatallows a transformer to simulate and fine-tune complex models internally duringinference (e.g., pre-trained language models). In particular, we introduceinnovative approximation techniques that allow a TinT model with less than 2billion parameters to simulate and fine-tune a 125 million parametertransformer model within a single forward pass. TinT accommodates many commontransformer variants and its design ideas also improve the efficiency of pastinstantiations of simple models inside transformers. We conduct end-to-endexperiments to validate the internal fine-tuning procedure of TinT on variouslanguage modeling and downstream tasks. For example, even with a limitedone-step budget, we observe TinT for a OPT-125M model improves performance by4-16% absolute on average compared to OPT-125M. These findings suggest thatlarge pre-trained language models are capable of performing intricatesubroutines. To facilitate further work, a modular and extensible codebase forTinT is included."
-  },
-  {
-    "objectID": "content/trainable-transformer-in-transformer/index.html#paper-authors",
-    "href": "content/trainable-transformer-in-transformer/index.html#paper-authors",
-    "title": "Trainable Transformer in Transformer",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/trainable-transformer-in-transformer/index.html#more-resources",
-    "href": "content/trainable-transformer-in-transformer/index.html#more-resources",
-    "title": "Trainable Transformer in Transformer",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "posts/the-very-first-blogpost/index.html",
-    "href": "posts/the-very-first-blogpost/index.html",
-    "title": "The very first blogpost",
-    "section": "",
-    "text": "This is my first blog entry."
+    "text": "asdf123"
   },
   {
     "objectID": "posts/the-very-second-blogpost/index.html",
@@ -298,6 +305,6 @@
     "href": "blog.html",
     "title": "Interactive Content Repository",
     "section": "",
-    "text": "The very first blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe very second blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost Madkdown\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting path\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "The very first blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest\n\n\n\n\n\n\n\nNatural Language Processing\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMore testing\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe very second blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMy blogpost Madkdown\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting path\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
