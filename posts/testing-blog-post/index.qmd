@@ -1,0 +1,19 @@
+---
+categories:
+- computer vision and pattern recognition
+format:
+  html:
+    df-print: paged
+    toc: true
+text: "```{python}\r\n#| echo: true\r\n\r\nimport matplotlib.pyplot as plt\r\nplt.plot([1,2,3,4])\r\
+  \nplt.show()\r\n```"
+title: Testing blog post
+
+---
+```{python}
+#| echo: true
+
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4])
+plt.show()
+```
