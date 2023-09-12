@@ -1,0 +1,73 @@
+---
+categories: computational complexity
+description: We study the approximability of computing the partition functions oftwo-state
+  spin systems. The problem is parameterized by a $2\times 2$ symmetricmatrix. Previous
+  results on this problem were restricted either to the casewhere the matrix has non-negative
+  entries, or to the case where the diagonalentries are equal, i.e. Ising models.
+  In this paper, we study thegeneralization to arbitrary $2\times 2$ interaction matrices
+  with real entries.We show that in some regions of the parameter space, it's \#P-hard
+  to evendetermine the sign of the partition function, while in other regions there
+  arefully polynomial approximation schemes for the partition function. Our resultsreveal
+  several new computational phase transitions.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Fei_Y/0/1/0/all/0/1
+    name: Fei, Yumou
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Goldberg_L/0/1/0/all/0/1
+    name: Goldberg, Leslie Ann
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Lu_P/0/1/0/all/0/1
+    name: Lu, Pinyan
+  overview: We study the approximability of computing the partition functions oftwo-state
+    spin systems. The problem is parameterized by a $2\times 2$ symmetricmatrix. Previous
+    results on this problem were restricted either to the casewhere the matrix has
+    non-negative entries, or to the case where the diagonalentries are equal, i.e.
+    Ising models. In this paper, we study thegeneralization to arbitrary $2\times
+    2$ interaction matrices with real entries.We show that in some regions of the
+    parameter space, it's \#P-hard to evendetermine the sign of the partition function,
+    while in other regions there arefully polynomial approximation schemes for the
+    partition function. Our resultsreveal several new computational phase transitions.
+  pdf_url: http://arxiv.org/pdf/2309.04735
+  research_area: computational complexity
+title: Two-State Spin Systems with Negative Interactions
+
+---
+```{ojs} 
+
+ names = ["Yumou Fei","Leslie Ann Goldberg","Pinyan Lu"] 
+
+``` 
+
+## Tldr 
+We study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a $2\times 2$ symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has non-negative entries, or to the case where the diagonalentries are equal, i.e. Ising models. In this paper, we study thegeneralization to arbitrary $2\times 2$ interaction matrices with real entries.We show that in some regions of the parameter space, it's \#P-hard to evendetermine the sign of the partition function, while in other regions there arefully polynomial approximation schemes for the partition function. Our resultsreveal several new computational phase transitions.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
