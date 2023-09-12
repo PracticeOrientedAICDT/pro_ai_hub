@@ -28,7 +28,6 @@ data = FileAttachment("input.csv").csv({ typed: true })
 newData = data.filter(function (item) {
   return item.authors.includes(name)
 });
-data[1]
 ```
 
 ```{ojs}
