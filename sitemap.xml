@@ -2,110 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-09-18T19:53:14.179Z</lastmod>
+    <lastmod>2023-09-18T21:41:28.945Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-09-18T19:53:12.507Z</lastmod>
+    <lastmod>2023-09-18T21:41:27.285Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/testing-blog-post/index.html</loc>
-    <lastmod>2023-09-18T19:53:11.123Z</lastmod>
+    <lastmod>2023-09-18T21:41:25.921Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/lorem-ipsum/index.html</loc>
-    <lastmod>2023-09-18T19:53:08.003Z</lastmod>
+    <lastmod>2023-09-18T21:41:23.120Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/blog-post/index.html</loc>
-    <lastmod>2023-09-18T19:53:06.366Z</lastmod>
+    <lastmod>2023-09-18T21:41:21.548Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/new-user-blog-postf/index.html</loc>
-    <lastmod>2023-09-18T19:53:04.782Z</lastmod>
+    <lastmod>2023-09-18T21:41:20.080Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/testing/index.html</loc>
-    <lastmod>2023-09-18T19:53:03.162Z</lastmod>
+    <lastmod>2023-09-18T21:41:18.532Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-09-18T19:53:01.646Z</lastmod>
+    <lastmod>2023-09-18T21:41:16.868Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/learning-by-self-explaining/index.html</loc>
-    <lastmod>2023-09-18T19:52:59.186Z</lastmod>
+    <lastmod>2023-09-18T21:41:14.408Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html</loc>
-    <lastmod>2023-09-18T19:52:56.502Z</lastmod>
+    <lastmod>2023-09-18T21:41:11.828Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/testing-the-submission/index.html</loc>
-    <lastmod>2023-09-18T19:52:53.850Z</lastmod>
+    <lastmod>2023-09-18T21:41:08.815Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/uncloneable-quantum-advice/index.html</loc>
-    <lastmod>2023-09-18T19:52:51.425Z</lastmod>
+    <lastmod>2023-09-18T21:41:06.427Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/quantitative-and-qualitative-evaluation-of-reinforcement-learning-policies-for-autonomous-vehicles/index.html</loc>
-    <lastmod>2023-09-18T19:52:48.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-09-18T19:52:45.325Z</lastmod>
+    <lastmod>2023-09-18T21:41:03.875Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/testing-this-app/index.html</loc>
-    <lastmod>2023-09-18T19:52:47.425Z</lastmod>
+    <lastmod>2023-09-18T21:41:01.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-09-18T21:40:58.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/regular-post-3/index.html</loc>
+    <lastmod>2023-09-18T21:41:02.587Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/regular-post/index.html</loc>
-    <lastmod>2023-09-18T19:52:50.033Z</lastmod>
+    <lastmod>2023-09-18T21:41:05.099Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/once-more/index.html</loc>
-    <lastmod>2023-09-18T19:52:52.657Z</lastmod>
+    <lastmod>2023-09-18T21:41:07.595Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html</loc>
-    <lastmod>2023-09-18T19:52:55.142Z</lastmod>
+    <lastmod>2023-09-18T21:41:10.095Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html</loc>
-    <lastmod>2023-09-18T19:52:57.826Z</lastmod>
+    <lastmod>2023-09-18T21:41:13.144Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/two-state-spin-systems-with-negative-interactions/index.html</loc>
-    <lastmod>2023-09-18T19:53:00.478Z</lastmod>
+    <lastmod>2023-09-18T21:41:15.700Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/blog-post-2/index.html</loc>
-    <lastmod>2023-09-18T19:53:02.474Z</lastmod>
+    <lastmod>2023-09-18T21:41:17.752Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/new-user-blog-post/index.html</loc>
-    <lastmod>2023-09-18T19:53:03.906Z</lastmod>
+    <lastmod>2023-09-18T21:41:19.280Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/blogpost-example/index.html</loc>
-    <lastmod>2023-09-18T19:53:05.622Z</lastmod>
+    <lastmod>2023-09-18T21:41:20.856Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/another-blog-post/index.html</loc>
-    <lastmod>2023-09-18T19:53:07.187Z</lastmod>
+    <lastmod>2023-09-18T21:41:22.332Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/this-id-as-blog-entry/index.html</loc>
-    <lastmod>2023-09-18T19:53:08.719Z</lastmod>
+    <lastmod>2023-09-18T21:41:23.908Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-09-18T19:53:11.527Z</lastmod>
+    <lastmod>2023-09-18T21:41:26.337Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-09-18T19:53:13.303Z</lastmod>
+    <lastmod>2023-09-18T21:41:28.117Z</lastmod>
   </url>
 </urlset>
