@@ -1,12 +1,12 @@
 ---
 categories:
-- machine learning
+- blog post
 format:
   html:
     df-print: paged
     toc: true
-text: asdf
-title: Another blog post.
+text: another blog post
+title: another blog post
 
 ---
-asdf
+another blog post
