@@ -1,5 +1,5 @@
 ---
-title: "Interactive Content Repository"
+title: "IAI Hub"
 listing:
   id: content_listings
   contents: content
