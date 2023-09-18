@@ -1,0 +1,12 @@
+---
+categories:
+- machine learning
+format:
+  html:
+    df-print: paged
+    toc: true
+text: New User blog post
+title: New User blog post
+
+---
+New User blog post
