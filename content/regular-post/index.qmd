@@ -1,0 +1,71 @@
+---
+categories:
+- machine learning
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim
+  libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum
+  id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus
+  mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis.
+  Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac
+  neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet.
+  Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur
+  tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum
+  hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In
+  eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Daladier Sampaio
+    url: null
+  author_2:
+    name: New User
+    url: null
+  overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim
+    libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum
+    id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus
+    mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis.
+    Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec
+    ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla
+    aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer
+    efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit
+    vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit
+    eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi.
+  research_area: machine learning
+title: Regular Post
+
+---
+```{ojs} 
+
+ names = ["Daladier Sampaio","New User"] 
+
+``` 
+
+## Tldr 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
