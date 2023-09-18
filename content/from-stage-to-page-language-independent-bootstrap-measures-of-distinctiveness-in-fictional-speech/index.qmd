@@ -1,0 +1,107 @@
+---
+categories: computation and language
+description: 'Stylometry is mostly applied to authorial style. Recently, researchers
+  havebegun investigating the style of characters, finding that the variation remainswithin
+  authorial bounds. We address the stylistic distinctiveness of charactersin drama.
+  Our primary contribution is methodological; we introduce and evaluatetwo non-parametric
+  methods to produce a summary statistic for characterdistinctiveness that can be
+  usefully applied and compared across languages andtimes. Our first method is based
+  on bootstrap distances between 3-gramprobability distributions, the second (reminiscent
+  of ''unmasking'' techniques)on word keyness curves. Both methods are validated and
+  explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse
+  3301characters drawn from 2324 works, covering five centuries and four languages(French,
+  German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram
+  method is statistically more powerful but the word keynessmethod offers rich interpretability.
+  Both methods are able to capturephonological differences such as accent or dialect,
+  as well as broaddifferences in topic and lexical richness. Based on exploratory
+  analysis, wefind that smaller characters tend to be more distinctive, and that women
+  arecross-linguistically more distinctive than men, with this latter findingcarefully
+  interrogated using multiple regression. This greater distinctivenessstems from a
+  historical tendency for female characters to be restricted to an''internal narrative
+  domain'' covering mainly direct discourse andfamily/romantic themes. It is hoped
+  that direct, comparable statisticalmeasures will form a basis for more sophisticated
+  future studies, and advancesin theory.'
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Sela_A/0/1/0/all/0/1
+    name: "\u0160e\u013Ca, Artjoms"
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Nagy_B/0/1/0/all/0/1
+    name: Nagy, Ben
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Byszuk_J/0/1/0/all/0/1
+    name: Byszuk, Joanna
+  author_4:
+    link: https://arxiv.org/find/cs/1/au:+Hernandez_Lorenzo_L/0/1/0/all/0/1
+    name: "Hern\xE1ndez-Lorenzo, Laura"
+  author_5:
+    link: https://arxiv.org/find/cs/1/au:+Szemes_B/0/1/0/all/0/1
+    name: Szemes, Botond
+  author_6:
+    link: https://arxiv.org/find/cs/1/au:+Eder_M/0/1/0/all/0/1
+    name: Eder, Maciej
+  overview: 'Stylometry is mostly applied to authorial style. Recently, researchers
+    havebegun investigating the style of characters, finding that the variation remainswithin
+    authorial bounds. We address the stylistic distinctiveness of charactersin drama.
+    Our primary contribution is methodological; we introduce and evaluatetwo non-parametric
+    methods to produce a summary statistic for characterdistinctiveness that can be
+    usefully applied and compared across languages andtimes. Our first method is based
+    on bootstrap distances between 3-gramprobability distributions, the second (reminiscent
+    of ''unmasking'' techniques)on word keyness curves. Both methods are validated
+    and explored by applyingthem to a reasonably large corpus (a subset of DraCor):
+    we analyse 3301characters drawn from 2324 works, covering five centuries and four
+    languages(French, German, Russian, and the works of Shakespeare). Both methods
+    appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod
+    offers rich interpretability. Both methods are able to capturephonological differences
+    such as accent or dialect, as well as broaddifferences in topic and lexical richness.
+    Based on exploratory analysis, wefind that smaller characters tend to be more
+    distinctive, and that women arecross-linguistically more distinctive than men,
+    with this latter findingcarefully interrogated using multiple regression. This
+    greater distinctivenessstems from a historical tendency for female characters
+    to be restricted to an''internal narrative domain'' covering mainly direct discourse
+    andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures
+    will form a basis for more sophisticated future studies, and advancesin theory.'
+  pdf_url: http://arxiv.org/pdf/2301.05659
+  research_area: computation and language
+title: 'From stage to page: language independent bootstrap measures of distinctiveness
+  in fictional speech'
+
+---
+```{ojs} 
+
+ names = ["Artjoms Šeļa","Ben Nagy","Joanna Byszuk","Laura Hernández-Lorenzo","Botond Szemes","Maciej Eder"] 
+
+``` 
+
+## Tldr 
+Stylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our primary contribution is methodological; we introduce and evaluatetwo non-parametric methods to produce a summary statistic for characterdistinctiveness that can be usefully applied and compared across languages andtimes. Our first method is based on bootstrap distances between 3-gramprobability distributions, the second (reminiscent of 'unmasking' techniques)on word keyness curves. Both methods are validated and explored by applyingthem to a reasonably large corpus (a subset of DraCor): we analyse 3301characters drawn from 2324 works, covering five centuries and four languages(French, German, Russian, and the works of Shakespeare). Both methods appearuseful; the 3-gram method is statistically more powerful but the word keynessmethod offers rich interpretability. Both methods are able to capturephonological differences such as accent or dialect, as well as broaddifferences in topic and lexical richness. Based on exploratory analysis, wefind that smaller characters tend to be more distinctive, and that women arecross-linguistically more distinctive than men, with this latter findingcarefully interrogated using multiple regression. This greater distinctivenessstems from a historical tendency for female characters to be restricted to an'internal narrative domain' covering mainly direct discourse andfamily/romantic themes. It is hoped that direct, comparable statisticalmeasures will form a basis for more sophisticated future studies, and advancesin theory.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
