@@ -1,17 +1,16 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
-      "/content/two-state-spin-systems-with-negative-interactions/index.html",
-      "/content/uncloneable-quantum-advice/index.html"
+      "/posts/testing-blog-post/index.html"
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/this-id-as-blog-entry/index.html",
-      "/posts/testing-blog-post/index.html"
+      "/content/uncloneable-quantum-advice/index.html",
+      "/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
+      "/content/two-state-spin-systems-with-negative-interactions/index.html"
     ]
   }
 ]
