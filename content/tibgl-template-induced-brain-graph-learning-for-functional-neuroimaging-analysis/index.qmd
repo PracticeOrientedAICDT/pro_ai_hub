@@ -1,0 +1,107 @@
+---
+categories: artificial intelligence
+description: In recent years, functional magnetic resonance imaging has emerged as
+  apowerful tool for investigating the human brain's functional connectivitynetworks.
+  Related studies demonstrate that functional connectivity networks inthe human brain
+  can help to improve the efficiency of diagnosing neurologicaldisorders. However,
+  there still exist two challenges that limit the progress offunctional neuroimaging.
+  Firstly, there exists an abundance of noise andredundant information in functional
+  connectivity data, resulting in poorperformance. Secondly, existing brain network
+  models have tended to prioritizeeither classification performance or the interpretation
+  of neurosciencefindings behind the learned models. To deal with these challenges,
+  this paperproposes a novel brain graph learning framework called Template-induced
+  BrainGraph Learning (TiBGL), which has both discriminative and interpretableabilities.
+  Motivated by the related medical findings on functionalconnectivites, TiBGL proposes
+  template-induced brain graph learning to extracttemplate brain graphs for all groups.
+  The template graph can be regarded as anaugmentation process on brain networks that
+  removes noise information andhighlights important connectivity patterns. To simultaneously
+  support the tasksof discrimination and interpretation, TiBGL further develops template-inducedconvolutional
+  neural network and template-induced brain interpretationanalysis. Especially, the
+  former fuses rich information from brain graphs andtemplate brain graphs for brain
+  disorder tasks, and the latter can provideinsightful connectivity patterns related
+  to brain disorders based on templatebrain graphs. Experimental results on three
+  real-world datasets show that theproposed TiBGL can achieve superior performance
+  compared with ninestate-of-the-art methods and keep coherent with neuroscience findings
+  in recentliteratures.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Meng_X/0/1/0/all/0/1
+    name: Meng, Xiangzhu
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Wei_W/0/1/0/all/0/1
+    name: Wei, Wei
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Liu_Q/0/1/0/all/0/1
+    name: Liu, Qiang
+  author_4:
+    link: https://arxiv.org/find/cs/1/au:+Wu_S/0/1/0/all/0/1
+    name: Wu, Shu
+  author_5:
+    link: https://arxiv.org/find/cs/1/au:+Wang_L/0/1/0/all/0/1
+    name: Wang, Liang
+  overview: In recent years, functional magnetic resonance imaging has emerged as
+    apowerful tool for investigating the human brain's functional connectivitynetworks.
+    Related studies demonstrate that functional connectivity networks inthe human
+    brain can help to improve the efficiency of diagnosing neurologicaldisorders.
+    However, there still exist two challenges that limit the progress offunctional
+    neuroimaging. Firstly, there exists an abundance of noise andredundant information
+    in functional connectivity data, resulting in poorperformance. Secondly, existing
+    brain network models have tended to prioritizeeither classification performance
+    or the interpretation of neurosciencefindings behind the learned models. To deal
+    with these challenges, this paperproposes a novel brain graph learning framework
+    called Template-induced BrainGraph Learning (TiBGL), which has both discriminative
+    and interpretableabilities. Motivated by the related medical findings on functionalconnectivites,
+    TiBGL proposes template-induced brain graph learning to extracttemplate brain
+    graphs for all groups. The template graph can be regarded as anaugmentation process
+    on brain networks that removes noise information andhighlights important connectivity
+    patterns. To simultaneously support the tasksof discrimination and interpretation,
+    TiBGL further develops template-inducedconvolutional neural network and template-induced
+    brain interpretationanalysis. Especially, the former fuses rich information from
+    brain graphs andtemplate brain graphs for brain disorder tasks, and the latter
+    can provideinsightful connectivity patterns related to brain disorders based on
+    templatebrain graphs. Experimental results on three real-world datasets show that
+    theproposed TiBGL can achieve superior performance compared with ninestate-of-the-art
+    methods and keep coherent with neuroscience findings in recentliteratures.
+  pdf_url: http://arxiv.org/pdf/2309.07947
+  research_area: artificial intelligence
+title: 'TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis'
+
+---
+```{ojs} 
+
+ names = ["Xiangzhu Meng","Wei Wei","Qiang Liu","Shu Wu","Liang Wang"] 
+
+``` 
+
+## Tldr 
+In recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain's functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help to improve the efficiency of diagnosing neurologicaldisorders. However, there still exist two challenges that limit the progress offunctional neuroimaging. Firstly, there exists an abundance of noise andredundant information in functional connectivity data, resulting in poorperformance. Secondly, existing brain network models have tended to prioritizeeither classification performance or the interpretation of neurosciencefindings behind the learned models. To deal with these challenges, this paperproposes a novel brain graph learning framework called Template-induced BrainGraph Learning (TiBGL), which has both discriminative and interpretableabilities. Motivated by the related medical findings on functionalconnectivites, TiBGL proposes template-induced brain graph learning to extracttemplate brain graphs for all groups. The template graph can be regarded as anaugmentation process on brain networks that removes noise information andhighlights important connectivity patterns. To simultaneously support the tasksof discrimination and interpretation, TiBGL further develops template-inducedconvolutional neural network and template-induced brain interpretationanalysis. Especially, the former fuses rich information from brain graphs andtemplate brain graphs for brain disorder tasks, and the latter can provideinsightful connectivity patterns related to brain disorders based on templatebrain graphs. Experimental results on three real-world datasets show that theproposed TiBGL can achieve superior performance compared with ninestate-of-the-art methods and keep coherent with neuroscience findings in recentliteratures.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
