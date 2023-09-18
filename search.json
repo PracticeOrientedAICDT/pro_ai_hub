@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "This id as blog entry.\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting blog post\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Blog post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThis id as blog entry.\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting blog post\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/testing-blog-post/index.html",
@@ -21,74 +21,39 @@
     "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4])\nplt.show()"
   },
   {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
+    "objectID": "posts/blog-post/index.html",
+    "href": "posts/blog-post/index.html",
+    "title": "Blog post",
     "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+    "text": "asdaf"
   },
   {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "",
-    "text": "names = [\"Patrícia Pereira\",\"Rui Ribeiro\",\"Helena Moniz\",\"Luisa Coheur\",\"Joao Paulo Carvalho\"]"
+    "text": "names = [\"Yumou Fei\",\"Leslie Ann Goldberg\",\"Pinyan Lu\"]"
   },
   {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "Tldr",
-    "text": "Tldr\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models deliver state-of-the-art results in several NaturalLanguage Processing tasks, namely Emotion Recognition in Conversations (ERC),but suffer from the lack of interpretability and explainability. In this paper,we propose to combine the two approaches to perform ERC, as a means to obtainsimpler and more interpretable Large Language Models-based classifiers. Wepropose to feed the utterances and their previous conversational turns to apre-trained RoBERTa, obtaining contextual embedding utterance representations,that are then supplied to an adapted Fuzzy Fingerprint classification module.We validate our approach on the widely used DailyDialog ERC benchmark dataset,in which we obtain state-of-the-art level results using a much lighter model."
+    "text": "Tldr\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has non-negative entries, or to the case where the diagonalentries are equal, i.e. Ising models. In this paper, we study thegeneralization to arbitrary \\(2\\times 2\\) interaction matrices with real entries.We show that in some regions of the parameter space, it’s #P-hard to evendetermine the sign of the partition function, while in other regions there arefully polynomial approximation schemes for the partition function. Our resultsreveal several new computational phase transitions."
   },
   {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "More Resources",
     "text": "More Resources"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html",
-    "href": "content/testing-this-app/index.html",
-    "title": "Testing this app",
-    "section": "",
-    "text": "names = [\"Yihan Liu\",\"Zihao Huang\"]"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html#tldr",
-    "href": "content/testing-this-app/index.html#tldr",
-    "title": "Testing this app",
-    "section": "Tldr",
-    "text": "Tldr\nlorem ipsum"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html#paper-authors",
-    "href": "content/testing-this-app/index.html#paper-authors",
-    "title": "Testing this app",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html#more-resources",
-    "href": "content/testing-this-app/index.html#more-resources",
-    "title": "Testing this app",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "Testing this app\n\n\n\n\n\n\n\nnlp\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nUncloneable Quantum Advice\n\n\n\n\n\n\n\nquantum physics\n\n\n\n\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTwo-State Spin Systems with Negative Interactions\n\n\n\n\n\n\n\ncomputational complexity\n\n\n\n\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/uncloneable-quantum-advice/index.html",
@@ -119,32 +84,74 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IAI Hub",
     "section": "",
-    "text": "names = [\"Yumou Fei\",\"Leslie Ann Goldberg\",\"Pinyan Lu\"]"
+    "text": "Testing this app\n\n\n\n\n\n\n\nnlp\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nUncloneable Quantum Advice\n\n\n\n\n\n\n\nquantum physics\n\n\n\n\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTwo-State Spin Systems with Negative Interactions\n\n\n\n\n\n\n\ncomputational complexity\n\n\n\n\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "content/testing-this-app/index.html",
+    "href": "content/testing-this-app/index.html",
+    "title": "Testing this app",
+    "section": "",
+    "text": "names = [\"Yihan Liu\",\"Zihao Huang\"]"
+  },
+  {
+    "objectID": "content/testing-this-app/index.html#tldr",
+    "href": "content/testing-this-app/index.html#tldr",
+    "title": "Testing this app",
     "section": "Tldr",
-    "text": "Tldr\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has non-negative entries, or to the case where the diagonalentries are equal, i.e. Ising models. In this paper, we study thegeneralization to arbitrary \\(2\\times 2\\) interaction matrices with real entries.We show that in some regions of the parameter space, it’s #P-hard to evendetermine the sign of the partition function, while in other regions there arefully polynomial approximation schemes for the partition function. Our resultsreveal several new computational phase transitions."
+    "text": "Tldr\nlorem ipsum"
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "content/testing-this-app/index.html#paper-authors",
+    "href": "content/testing-this-app/index.html#paper-authors",
+    "title": "Testing this app",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "content/testing-this-app/index.html#more-resources",
+    "href": "content/testing-this-app/index.html#more-resources",
+    "title": "Testing this app",
     "section": "More Resources",
     "text": "More Resources"
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "",
+    "text": "names = [\"Patrícia Pereira\",\"Rui Ribeiro\",\"Helena Moniz\",\"Luisa Coheur\",\"Joao Paulo Carvalho\"]"
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "Tldr",
+    "text": "Tldr\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models deliver state-of-the-art results in several NaturalLanguage Processing tasks, namely Emotion Recognition in Conversations (ERC),but suffer from the lack of interpretability and explainability. In this paper,we propose to combine the two approaches to perform ERC, as a means to obtainsimpler and more interpretable Large Language Models-based classifiers. Wepropose to feed the utterances and their previous conversational turns to apre-trained RoBERTa, obtaining contextual embedding utterance representations,that are then supplied to an adapted Fuzzy Fingerprint classification module.We validate our approach on the widely used DailyDialog ERC benchmark dataset,in which we obtain state-of-the-art level results using a much lighter model."
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
   },
   {
     "objectID": "about.html",
