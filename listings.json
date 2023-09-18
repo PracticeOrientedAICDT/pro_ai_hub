@@ -4,6 +4,7 @@
     "items": [
       "/posts/blog-post-2/index.html",
       "/posts/blog-post/index.html",
+      "/posts/another-blog-post/index.html",
       "/posts/this-id-as-blog-entry/index.html",
       "/posts/testing-blog-post/index.html"
     ]
