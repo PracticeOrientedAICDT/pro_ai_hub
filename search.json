@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Blog post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntesting\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNew User blog post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNew User blog postf\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nanother blog post\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThis id as blog entry.\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting blog post\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Blog post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntesting\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNew User blog post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNew User blog postf\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlogpost Example\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nanother blog post\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThis id as blog entry.\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting blog post\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/testing-blog-post/index.html",
@@ -28,142 +28,58 @@
     "text": "another blog post"
   },
   {
-    "objectID": "posts/new-user-blog-postf/index.html",
-    "href": "posts/new-user-blog-postf/index.html",
-    "title": "New User blog postf",
+    "objectID": "posts/blogpost-example/index.html",
+    "href": "posts/blogpost-example/index.html",
+    "title": "Blogpost Example",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "posts/blogpost-example/index.html#mardown-header",
+    "href": "posts/blogpost-example/index.html#mardown-header",
+    "title": "Blogpost Example",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "posts/new-user-blog-post/index.html",
+    "href": "posts/new-user-blog-post/index.html",
+    "title": "New User blog post",
     "section": "",
     "text": "New User blog post"
   },
   {
-    "objectID": "posts/testing/index.html",
-    "href": "posts/testing/index.html",
-    "title": "testing",
+    "objectID": "posts/blog-post-2/index.html",
+    "href": "posts/blog-post-2/index.html",
+    "title": "Blog post 2",
     "section": "",
-    "text": "loren ipsum"
+    "text": "asdaf"
   },
   {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+    "text": "names = [\"Yumou Fei\",\"Leslie Ann Goldberg\",\"Pinyan Lu\"]"
   },
   {
-    "objectID": "content/learning-by-self-explaining/index.html",
-    "href": "content/learning-by-self-explaining/index.html",
-    "title": "Learning by Self-Explaining",
-    "section": "",
-    "text": "names = [\"Wolfgang Stammer\",\"Felix Friedrich\",\"David Steinmann\",\"Hikaru Shindo\",\"Kristian Kersting\"]"
-  },
-  {
-    "objectID": "content/learning-by-self-explaining/index.html#tldr",
-    "href": "content/learning-by-self-explaining/index.html#tldr",
-    "title": "Learning by Self-Explaining",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "Tldr",
-    "text": "Tldr\nArtificial intelligence (AI) research has a long track record of drawinginspirations from findings from biology, in particular human intelligence. Incontrast to current AI research that mainly treats explanations as a means formodel inspection, a somewhat neglected finding from human psychology is thebenefit of self-explaining in an agents’ learning process. Motivated by this,we introduce a novel learning paradigm, termed Learning by Self-Explaining(LSX). The underlying idea is that a learning module (learner) performs a basetask, e.g. image classification, and provides explanations to its decisions. Aninternal critic module next evaluates the quality of these explanations giventhe original task. Finally, the learner is refined with the critic’s feedbackand the loop is repeated as required. The intuition behind this is that anexplanation is considered “good” if the critic can perform the same task giventhe respective explanation. Despite many implementation possibilities thestructure of any LSX instantiation can be taxonomized based on four learningmodules which we identify as: Fit, Explain, Reflect and Revise. In our work, weprovide distinct instantiations of LSX for two different learner models, eachillustrating different choices for the various LSX components. We broadlyevaluate these on several datasets and show that Learning by Self-Explainingnot only boosts the generalization abilities of AI models, particularly insmall-data regimes, but also aids in mitigating the influence of confoundingfactors, as well as leading to more task specific and faithful modelexplanations. Overall, our results provide experimental evidence of thepotential of self-explaining within the learning phase of an AI model."
+    "text": "Tldr\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has non-negative entries, or to the case where the diagonalentries are equal, i.e. Ising models. In this paper, we study thegeneralization to arbitrary \\(2\\times 2\\) interaction matrices with real entries.We show that in some regions of the parameter space, it’s #P-hard to evendetermine the sign of the partition function, while in other regions there arefully polynomial approximation schemes for the partition function. Our resultsreveal several new computational phase transitions."
   },
   {
-    "objectID": "content/learning-by-self-explaining/index.html#paper-authors",
-    "href": "content/learning-by-self-explaining/index.html#paper-authors",
-    "title": "Learning by Self-Explaining",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/learning-by-self-explaining/index.html#more-resources",
-    "href": "content/learning-by-self-explaining/index.html#more-resources",
-    "title": "Learning by Self-Explaining",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
-    "section": "",
-    "text": "names = [\"Patrícia Pereira\",\"Rui Ribeiro\",\"Helena Moniz\",\"Luisa Coheur\",\"Joao Paulo Carvalho\"]"
-  },
-  {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
-    "section": "Tldr",
-    "text": "Tldr\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models deliver state-of-the-art results in several NaturalLanguage Processing tasks, namely Emotion Recognition in Conversations (ERC),but suffer from the lack of interpretability and explainability. In this paper,we propose to combine the two approaches to perform ERC, as a means to obtainsimpler and more interpretable Large Language Models-based classifiers. Wepropose to feed the utterances and their previous conversational turns to apre-trained RoBERTa, obtaining contextual embedding utterance representations,that are then supplied to an adapted Fuzzy Fingerprint classification module.We validate our approach on the widely used DailyDialog ERC benchmark dataset,in which we obtain state-of-the-art level results using a much lighter model."
-  },
-  {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
-    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
-    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html",
-    "href": "content/testing-this-app/index.html",
-    "title": "Testing this app",
-    "section": "",
-    "text": "names = [\"Yihan Liu\",\"Zihao Huang\"]"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html#tldr",
-    "href": "content/testing-this-app/index.html#tldr",
-    "title": "Testing this app",
-    "section": "Tldr",
-    "text": "Tldr\nlorem ipsum"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html#paper-authors",
-    "href": "content/testing-this-app/index.html#paper-authors",
-    "title": "Testing this app",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/testing-this-app/index.html#more-resources",
-    "href": "content/testing-this-app/index.html#more-resources",
-    "title": "Testing this app",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "Testing this app\n\n\n\n\n\n\n\nnlp\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nUncloneable Quantum Advice\n\n\n\n\n\n\n\nquantum physics\n\n\n\n\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning by Self-Explaining\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence (AI) research has a long track record of drawinginspirations from findings from biology, in particular human intelligence. Incontrast to current AI research that mainly treats explanations as a means formodel inspection, a…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTwo-State Spin Systems with Negative Interactions\n\n\n\n\n\n\n\ncomputational complexity\n\n\n\n\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has…\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/uncloneable-quantum-advice/index.html",
-    "href": "content/uncloneable-quantum-advice/index.html",
-    "title": "Uncloneable Quantum Advice",
-    "section": "",
-    "text": "names = [\"Anne Broadbent\",\"Martti Karvonen\",\"Sébastien Lord\"]"
-  },
-  {
-    "objectID": "content/uncloneable-quantum-advice/index.html#tldr",
-    "href": "content/uncloneable-quantum-advice/index.html#tldr",
-    "title": "Uncloneable Quantum Advice",
-    "section": "Tldr",
-    "text": "Tldr\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but that is natively unkeyed: quantum advice. Remarkably, this isan application of the no-cloning principle in a context where the quantumstates of interest are not chosen by a random process. We show theunconditional existence of promise problems admitting uncloneable quantumadvice, and the existence of languages with uncloneable advice, assuming thefeasibility of quantum copy-protecting certain functions. Along the way, wenote that state complexity classes, introduced by Rosenthal and Yuen (ITCS2022) - which concern the computational difficulty of synthesizing sequences ofquantum states - can be naturally generalized to obtain state cloningcomplexity classes. We make initial observations on these classes, notablyobtaining a result analogous to the existence of undecidable problems.Our proof technique establishes the existence of ingenerable sequences offinite bit strings - essentially meaning that they cannot be generated by anyuniform circuit family. We then prove a generic result showing that thedifficulty of accomplishing a computational task on uniformly random inputsimplies its difficulty on any fixed, ingenerable sequence. We use this resultto derandomize quantum cryptographic games that relate to cloning, and thenincorporate a result of Kundu and Tan (arXiv 2022) to obtain uncloneableadvice. Applying this two-step process to a monogamy-of-entanglement gameyields a promise problem with uncloneable advice, and applying it to thequantum copy-protection of pseudorandom functions with super-logarithmic outputlengths yields a language with uncloneable advice."
-  },
-  {
-    "objectID": "content/uncloneable-quantum-advice/index.html#paper-authors",
-    "href": "content/uncloneable-quantum-advice/index.html#paper-authors",
-    "title": "Uncloneable Quantum Advice",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/uncloneable-quantum-advice/index.html#more-resources",
-    "href": "content/uncloneable-quantum-advice/index.html#more-resources",
-    "title": "Uncloneable Quantum Advice",
+    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
+    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
+    "title": "Two-State Spin Systems with Negative Interactions",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -196,44 +112,142 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "content/uncloneable-quantum-advice/index.html",
+    "href": "content/uncloneable-quantum-advice/index.html",
+    "title": "Uncloneable Quantum Advice",
     "section": "",
-    "text": "names = [\"Yumou Fei\",\"Leslie Ann Goldberg\",\"Pinyan Lu\"]"
+    "text": "names = [\"Anne Broadbent\",\"Martti Karvonen\",\"Sébastien Lord\"]"
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#tldr",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "content/uncloneable-quantum-advice/index.html#tldr",
+    "href": "content/uncloneable-quantum-advice/index.html#tldr",
+    "title": "Uncloneable Quantum Advice",
     "section": "Tldr",
-    "text": "Tldr\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has non-negative entries, or to the case where the diagonalentries are equal, i.e. Ising models. In this paper, we study thegeneralization to arbitrary \\(2\\times 2\\) interaction matrices with real entries.We show that in some regions of the parameter space, it’s #P-hard to evendetermine the sign of the partition function, while in other regions there arefully polynomial approximation schemes for the partition function. Our resultsreveal several new computational phase transitions."
+    "text": "Tldr\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but that is natively unkeyed: quantum advice. Remarkably, this isan application of the no-cloning principle in a context where the quantumstates of interest are not chosen by a random process. We show theunconditional existence of promise problems admitting uncloneable quantumadvice, and the existence of languages with uncloneable advice, assuming thefeasibility of quantum copy-protecting certain functions. Along the way, wenote that state complexity classes, introduced by Rosenthal and Yuen (ITCS2022) - which concern the computational difficulty of synthesizing sequences ofquantum states - can be naturally generalized to obtain state cloningcomplexity classes. We make initial observations on these classes, notablyobtaining a result analogous to the existence of undecidable problems.Our proof technique establishes the existence of ingenerable sequences offinite bit strings - essentially meaning that they cannot be generated by anyuniform circuit family. We then prove a generic result showing that thedifficulty of accomplishing a computational task on uniformly random inputsimplies its difficulty on any fixed, ingenerable sequence. We use this resultto derandomize quantum cryptographic games that relate to cloning, and thenincorporate a result of Kundu and Tan (arXiv 2022) to obtain uncloneableadvice. Applying this two-step process to a monogamy-of-entanglement gameyields a promise problem with uncloneable advice, and applying it to thequantum copy-protection of pseudorandom functions with super-logarithmic outputlengths yields a language with uncloneable advice."
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#paper-authors",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "content/uncloneable-quantum-advice/index.html#paper-authors",
+    "href": "content/uncloneable-quantum-advice/index.html#paper-authors",
+    "title": "Uncloneable Quantum Advice",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
-    "href": "content/two-state-spin-systems-with-negative-interactions/index.html#more-resources",
-    "title": "Two-State Spin Systems with Negative Interactions",
+    "objectID": "content/uncloneable-quantum-advice/index.html#more-resources",
+    "href": "content/uncloneable-quantum-advice/index.html#more-resources",
+    "title": "Uncloneable Quantum Advice",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "posts/blog-post-2/index.html",
-    "href": "posts/blog-post-2/index.html",
-    "title": "Blog post 2",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IAI Hub",
     "section": "",
-    "text": "asdaf"
+    "text": "Testing this app\n\n\n\n\n\n\n\nnlp\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nUncloneable Quantum Advice\n\n\n\n\n\n\n\nquantum physics\n\n\n\n\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning by Self-Explaining\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence (AI) research has a long track record of drawinginspirations from findings from biology, in particular human intelligence. Incontrast to current AI research that mainly treats explanations as a means formodel inspection, a…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTwo-State Spin Systems with Negative Interactions\n\n\n\n\n\n\n\ncomputational complexity\n\n\n\n\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/new-user-blog-post/index.html",
-    "href": "posts/new-user-blog-post/index.html",
-    "title": "New User blog post",
+    "objectID": "content/testing-this-app/index.html",
+    "href": "content/testing-this-app/index.html",
+    "title": "Testing this app",
+    "section": "",
+    "text": "names = [\"Yihan Liu\",\"Zihao Huang\"]"
+  },
+  {
+    "objectID": "content/testing-this-app/index.html#tldr",
+    "href": "content/testing-this-app/index.html#tldr",
+    "title": "Testing this app",
+    "section": "Tldr",
+    "text": "Tldr\nlorem ipsum"
+  },
+  {
+    "objectID": "content/testing-this-app/index.html#paper-authors",
+    "href": "content/testing-this-app/index.html#paper-authors",
+    "title": "Testing this app",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/testing-this-app/index.html#more-resources",
+    "href": "content/testing-this-app/index.html#more-resources",
+    "title": "Testing this app",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "",
+    "text": "names = [\"Patrícia Pereira\",\"Rui Ribeiro\",\"Helena Moniz\",\"Luisa Coheur\",\"Joao Paulo Carvalho\"]"
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#tldr",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "Tldr",
+    "text": "Tldr\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models deliver state-of-the-art results in several NaturalLanguage Processing tasks, namely Emotion Recognition in Conversations (ERC),but suffer from the lack of interpretability and explainability. In this paper,we propose to combine the two approaches to perform ERC, as a means to obtainsimpler and more interpretable Large Language Models-based classifiers. Wepropose to feed the utterances and their previous conversational turns to apre-trained RoBERTa, obtaining contextual embedding utterance representations,that are then supplied to an adapted Fuzzy Fingerprint classification module.We validate our approach on the widely used DailyDialog ERC benchmark dataset,in which we obtain state-of-the-art level results using a much lighter model."
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#paper-authors",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
+    "href": "content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html#more-resources",
+    "title": "Fuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/learning-by-self-explaining/index.html",
+    "href": "content/learning-by-self-explaining/index.html",
+    "title": "Learning by Self-Explaining",
+    "section": "",
+    "text": "names = [\"Wolfgang Stammer\",\"Felix Friedrich\",\"David Steinmann\",\"Hikaru Shindo\",\"Kristian Kersting\"]"
+  },
+  {
+    "objectID": "content/learning-by-self-explaining/index.html#tldr",
+    "href": "content/learning-by-self-explaining/index.html#tldr",
+    "title": "Learning by Self-Explaining",
+    "section": "Tldr",
+    "text": "Tldr\nArtificial intelligence (AI) research has a long track record of drawinginspirations from findings from biology, in particular human intelligence. Incontrast to current AI research that mainly treats explanations as a means formodel inspection, a somewhat neglected finding from human psychology is thebenefit of self-explaining in an agents’ learning process. Motivated by this,we introduce a novel learning paradigm, termed Learning by Self-Explaining(LSX). The underlying idea is that a learning module (learner) performs a basetask, e.g. image classification, and provides explanations to its decisions. Aninternal critic module next evaluates the quality of these explanations giventhe original task. Finally, the learner is refined with the critic’s feedbackand the loop is repeated as required. The intuition behind this is that anexplanation is considered “good” if the critic can perform the same task giventhe respective explanation. Despite many implementation possibilities thestructure of any LSX instantiation can be taxonomized based on four learningmodules which we identify as: Fit, Explain, Reflect and Revise. In our work, weprovide distinct instantiations of LSX for two different learner models, eachillustrating different choices for the various LSX components. We broadlyevaluate these on several datasets and show that Learning by Self-Explainingnot only boosts the generalization abilities of AI models, particularly insmall-data regimes, but also aids in mitigating the influence of confoundingfactors, as well as leading to more task specific and faithful modelexplanations. Overall, our results provide experimental evidence of thepotential of self-explaining within the learning phase of an AI model."
+  },
+  {
+    "objectID": "content/learning-by-self-explaining/index.html#paper-authors",
+    "href": "content/learning-by-self-explaining/index.html#paper-authors",
+    "title": "Learning by Self-Explaining",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/learning-by-self-explaining/index.html#more-resources",
+    "href": "content/learning-by-self-explaining/index.html#more-resources",
+    "title": "Learning by Self-Explaining",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+  },
+  {
+    "objectID": "posts/testing/index.html",
+    "href": "posts/testing/index.html",
+    "title": "testing",
+    "section": "",
+    "text": "loren ipsum"
+  },
+  {
+    "objectID": "posts/new-user-blog-postf/index.html",
+    "href": "posts/new-user-blog-postf/index.html",
+    "title": "New User blog postf",
     "section": "",
     "text": "New User blog post"
   },
