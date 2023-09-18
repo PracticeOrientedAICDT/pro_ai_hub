@@ -2,7 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/this-id-as-blog-entry/index.html"
+      "/posts/this-id-as-blog-entry/index.html",
+      "/posts/testing-blog-post/index.html"
     ]
   },
   {
