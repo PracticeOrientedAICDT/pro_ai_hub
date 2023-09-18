@@ -1,0 +1,12 @@
+---
+categories:
+- machine learning
+format:
+  html:
+    df-print: paged
+    toc: true
+text: asdf
+title: Another blog post.
+
+---
+asdf
