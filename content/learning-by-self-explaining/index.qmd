@@ -1,0 +1,104 @@
+---
+categories: artificial intelligence
+description: 'Artificial intelligence (AI) research has a long track record of drawinginspirations
+  from findings from biology, in particular human intelligence. Incontrast to current
+  AI research that mainly treats explanations as a means formodel inspection, a somewhat
+  neglected finding from human psychology is thebenefit of self-explaining in an agents''
+  learning process. Motivated by this,we introduce a novel learning paradigm, termed
+  Learning by Self-Explaining(LSX). The underlying idea is that a learning module
+  (learner) performs a basetask, e.g. image classification, and provides explanations
+  to its decisions. Aninternal critic module next evaluates the quality of these explanations
+  giventhe original task. Finally, the learner is refined with the critic''s feedbackand
+  the loop is repeated as required. The intuition behind this is that anexplanation
+  is considered "good" if the critic can perform the same task giventhe respective
+  explanation. Despite many implementation possibilities thestructure of any LSX instantiation
+  can be taxonomized based on four learningmodules which we identify as: Fit, Explain,
+  Reflect and Revise. In our work, weprovide distinct instantiations of LSX for two
+  different learner models, eachillustrating different choices for the various LSX
+  components. We broadlyevaluate these on several datasets and show that Learning
+  by Self-Explainingnot only boosts the generalization abilities of AI models, particularly
+  insmall-data regimes, but also aids in mitigating the influence of confoundingfactors,
+  as well as leading to more task specific and faithful modelexplanations. Overall,
+  our results provide experimental evidence of thepotential of self-explaining within
+  the learning phase of an AI model.'
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Stammer_W/0/1/0/all/0/1
+    name: Stammer, Wolfgang
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Friedrich_F/0/1/0/all/0/1
+    name: Friedrich, Felix
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Steinmann_D/0/1/0/all/0/1
+    name: Steinmann, David
+  author_4:
+    link: https://arxiv.org/find/cs/1/au:+Shindo_H/0/1/0/all/0/1
+    name: Shindo, Hikaru
+  author_5:
+    link: https://arxiv.org/find/cs/1/au:+Kersting_K/0/1/0/all/0/1
+    name: Kersting, Kristian
+  overview: 'Artificial intelligence (AI) research has a long track record of drawinginspirations
+    from findings from biology, in particular human intelligence. Incontrast to current
+    AI research that mainly treats explanations as a means formodel inspection, a
+    somewhat neglected finding from human psychology is thebenefit of self-explaining
+    in an agents'' learning process. Motivated by this,we introduce a novel learning
+    paradigm, termed Learning by Self-Explaining(LSX). The underlying idea is that
+    a learning module (learner) performs a basetask, e.g. image classification, and
+    provides explanations to its decisions. Aninternal critic module next evaluates
+    the quality of these explanations giventhe original task. Finally, the learner
+    is refined with the critic''s feedbackand the loop is repeated as required. The
+    intuition behind this is that anexplanation is considered "good" if the critic
+    can perform the same task giventhe respective explanation. Despite many implementation
+    possibilities thestructure of any LSX instantiation can be taxonomized based on
+    four learningmodules which we identify as: Fit, Explain, Reflect and Revise. In
+    our work, weprovide distinct instantiations of LSX for two different learner models,
+    eachillustrating different choices for the various LSX components. We broadlyevaluate
+    these on several datasets and show that Learning by Self-Explainingnot only boosts
+    the generalization abilities of AI models, particularly insmall-data regimes,
+    but also aids in mitigating the influence of confoundingfactors, as well as leading
+    to more task specific and faithful modelexplanations. Overall, our results provide
+    experimental evidence of thepotential of self-explaining within the learning phase
+    of an AI model.'
+  pdf_url: http://arxiv.org/pdf/2309.08395
+  research_area: artificial intelligence
+title: Learning by Self-Explaining
+
+---
+```{ojs} 
+
+ names = ["Wolfgang Stammer","Felix Friedrich","David Steinmann","Hikaru Shindo","Kristian Kersting"] 
+
+``` 
+
+## Tldr 
+Artificial intelligence (AI) research has a long track record of drawinginspirations from findings from biology, in particular human intelligence. Incontrast to current AI research that mainly treats explanations as a means formodel inspection, a somewhat neglected finding from human psychology is thebenefit of self-explaining in an agents' learning process. Motivated by this,we introduce a novel learning paradigm, termed Learning by Self-Explaining(LSX). The underlying idea is that a learning module (learner) performs a basetask, e.g. image classification, and provides explanations to its decisions. Aninternal critic module next evaluates the quality of these explanations giventhe original task. Finally, the learner is refined with the critic's feedbackand the loop is repeated as required. The intuition behind this is that anexplanation is considered "good" if the critic can perform the same task giventhe respective explanation. Despite many implementation possibilities thestructure of any LSX instantiation can be taxonomized based on four learningmodules which we identify as: Fit, Explain, Reflect and Revise. In our work, weprovide distinct instantiations of LSX for two different learner models, eachillustrating different choices for the various LSX components. We broadlyevaluate these on several datasets and show that Learning by Self-Explainingnot only boosts the generalization abilities of AI models, particularly insmall-data regimes, but also aids in mitigating the influence of confoundingfactors, as well as leading to more task specific and faithful modelexplanations. Overall, our results provide experimental evidence of thepotential of self-explaining within the learning phase of an AI model.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
