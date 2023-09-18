@@ -1,0 +1,12 @@
+---
+categories:
+- blog post
+format:
+  html:
+    df-print: paged
+    toc: true
+text: loren ipsum
+title: testing
+
+---
+loren ipsum
