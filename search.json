@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Blog post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntesting\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNew User blog post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNew User blog postf\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlogpost Example\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog post\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nanother blog post\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nnew update\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLorem ipsum\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThis id as blog entry.\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting blog post\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Blogpost Example\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nnew update\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLorem ipsum\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThis id as blog entry.\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting blog post\n\n\n\n\n\n\n\ncomputer vision and pattern recognition\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/testing-blog-post/index.html",
@@ -28,13 +28,6 @@
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
   },
   {
-    "objectID": "posts/another-blog-post/index.html",
-    "href": "posts/another-blog-post/index.html",
-    "title": "another blog post",
-    "section": "",
-    "text": "another blog post"
-  },
-  {
     "objectID": "posts/blogpost-example/index.html",
     "href": "posts/blogpost-example/index.html",
     "title": "Blogpost Example",
@@ -47,20 +40,6 @@
     "title": "Blogpost Example",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-  },
-  {
-    "objectID": "posts/new-user-blog-post/index.html",
-    "href": "posts/new-user-blog-post/index.html",
-    "title": "New User blog post",
-    "section": "",
-    "text": "New User blog post"
-  },
-  {
-    "objectID": "posts/blog-post-2/index.html",
-    "href": "posts/blog-post-2/index.html",
-    "title": "Blog post 2",
-    "section": "",
-    "text": "asdaf"
   },
   {
     "objectID": "content/two-state-spin-systems-with-negative-interactions/index.html",
@@ -467,27 +446,6 @@
     "title": "Interactive Content Repository",
     "section": "",
     "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
-  },
-  {
-    "objectID": "posts/testing/index.html",
-    "href": "posts/testing/index.html",
-    "title": "testing",
-    "section": "",
-    "text": "loren ipsum"
-  },
-  {
-    "objectID": "posts/new-user-blog-postf/index.html",
-    "href": "posts/new-user-blog-postf/index.html",
-    "title": "New User blog postf",
-    "section": "",
-    "text": "New User blog post"
-  },
-  {
-    "objectID": "posts/blog-post/index.html",
-    "href": "posts/blog-post/index.html",
-    "title": "Blog post",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
   },
   {
     "objectID": "posts/new-update/index.html",
