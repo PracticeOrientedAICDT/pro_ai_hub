@@ -1,13 +1,7 @@
 [
   {
     "listing": "/blog.html",
-    "items": [
-      "/posts/blogpost-example/index.html",
-      "/posts/new-update/index.html",
-      "/posts/lorem-ipsum/index.html",
-      "/posts/this-id-as-blog-entry/index.html",
-      "/posts/testing-blog-post/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/index.html",
