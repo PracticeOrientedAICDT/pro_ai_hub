@@ -1,0 +1,75 @@
+---
+categories: astrophysics of galaxies
+description: We propose that the ultralight dark matter (ULDM) model, in which dark
+  matterparticles have a tiny mass of $m=O(10^{-22})eV$, has characteristic scales
+  forphysical quantities of observed galaxies such as mass, size, acceleration, massflux,
+  and angular momentum from quantum mechanics. The typical angular momentumper dark
+  matter particle is $\hbar$ and the typical physical quantities arefunctions of specific
+  angular momentum $\hbar/m$ and average background densityof the particles. If we
+  use the Compton wavelength instead for the lengthscale, we can obtain bounds for
+  these physical quantities. For example, thereis an upper bound for acceleration
+  of ULDM dominated objects, $a_c={c^3m}/{\hbar}$. We suggest that the physical scales
+  of galaxies depend on the timeof their formation and that these characteristic scales
+  are related to somemysteries of observed galaxies. Future observations from the
+  James Webb SpaceTelescope and NANOgrav can provide evidences for the presence and
+  evolution ofthese scales.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/astro-ph/1/au:+Lee_J/0/1/0/all/0/1
+    name: Lee, Jae-Weon
+  overview: We propose that the ultralight dark matter (ULDM) model, in which dark
+    matterparticles have a tiny mass of $m=O(10^{-22})eV$, has characteristic scales
+    forphysical quantities of observed galaxies such as mass, size, acceleration,
+    massflux, and angular momentum from quantum mechanics. The typical angular momentumper
+    dark matter particle is $\hbar$ and the typical physical quantities arefunctions
+    of specific angular momentum $\hbar/m$ and average background densityof the particles.
+    If we use the Compton wavelength instead for the lengthscale, we can obtain bounds
+    for these physical quantities. For example, thereis an upper bound for acceleration
+    of ULDM dominated objects, $a_c={c^3m}/{\hbar}$. We suggest that the physical
+    scales of galaxies depend on the timeof their formation and that these characteristic
+    scales are related to somemysteries of observed galaxies. Future observations
+    from the James Webb SpaceTelescope and NANOgrav can provide evidences for the
+    presence and evolution ofthese scales.
+  pdf_url: http://arxiv.org/pdf/2310.01442
+  research_area: astrophysics of galaxies
+title: Quantum Scales of Galaxies from Ultralight Dark Matter
+
+---
+```{ojs} 
+
+ names = ["Jae-Weon Lee"] 
+
+``` 
+
+## Tldr 
+We propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of $m=O(10^{-22})eV$, has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and angular momentum from quantum mechanics. The typical angular momentumper dark matter particle is $\hbar$ and the typical physical quantities arefunctions of specific angular momentum $\hbar/m$ and average background densityof the particles. If we use the Compton wavelength instead for the lengthscale, we can obtain bounds for these physical quantities. For example, thereis an upper bound for acceleration of ULDM dominated objects, $a_c={c^3m}/{\hbar}$. We suggest that the physical scales of galaxies depend on the timeof their formation and that these characteristic scales are related to somemysteries of observed galaxies. Future observations from the James Webb SpaceTelescope and NANOgrav can provide evidences for the presence and evolution ofthese scales.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
