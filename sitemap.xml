@@ -2,86 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-10-04T10:13:56.235Z</lastmod>
+    <lastmod>2023-10-04T14:56:13.335Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-10-04T10:13:54.503Z</lastmod>
+    <lastmod>2023-10-04T14:56:11.787Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/quantitative-and-qualitative-evaluation-of-reinforcement-learning-policies-for-autonomous-vehicles/index.html</loc>
-    <lastmod>2023-10-04T10:13:51.567Z</lastmod>
+    <lastmod>2023-10-04T14:56:08.975Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html</loc>
-    <lastmod>2023-10-04T10:13:49.019Z</lastmod>
+    <lastmod>2023-10-04T14:56:06.459Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/two-state-spin-systems-with-negative-interactions/index.html</loc>
-    <lastmod>2023-10-04T10:13:46.779Z</lastmod>
+    <lastmod>2023-10-04T14:56:04.235Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/testing-the-submission/index.html</loc>
-    <lastmod>2023-10-04T10:13:44.535Z</lastmod>
+    <lastmod>2023-10-04T14:56:01.639Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/uncloneable-quantum-advice/index.html</loc>
-    <lastmod>2023-10-04T10:13:42.335Z</lastmod>
+    <lastmod>2023-10-04T14:55:59.431Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/compositional-foundation-models-for-hierarchical-planning/index.html</loc>
-    <lastmod>2023-10-04T10:13:38.815Z</lastmod>
+    <lastmod>2023-10-04T14:55:57.071Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/once-more/index.html</loc>
-    <lastmod>2023-10-04T10:13:36.367Z</lastmod>
+    <lastmod>2023-10-04T14:55:54.543Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-10-04T10:13:33.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-10-04T10:13:31.407Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html</loc>
+    <lastmod>2023-10-04T14:55:52.383Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-10-04T10:13:33.163Z</lastmod>
+    <lastmod>2023-10-04T14:55:50.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
+    <lastmod>2023-10-04T14:55:47.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
+    <lastmod>2023-10-04T14:55:51.355Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/regular-post/index.html</loc>
-    <lastmod>2023-10-04T10:13:35.235Z</lastmod>
+    <lastmod>2023-10-04T14:55:53.503Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/learning-by-self-explaining/index.html</loc>
-    <lastmod>2023-10-04T10:13:37.595Z</lastmod>
+    <lastmod>2023-10-04T14:55:55.815Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html</loc>
-    <lastmod>2023-10-04T10:13:40.127Z</lastmod>
+    <lastmod>2023-10-04T14:55:58.195Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/regular-post-3/index.html</loc>
-    <lastmod>2023-10-04T10:13:43.431Z</lastmod>
+    <lastmod>2023-10-04T14:56:00.503Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/testing-this-app/index.html</loc>
-    <lastmod>2023-10-04T10:13:45.615Z</lastmod>
+    <lastmod>2023-10-04T14:56:02.979Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-plaque-test-for-redundancies-in-relational-data-2/index.html</loc>
-    <lastmod>2023-10-04T10:13:47.787Z</lastmod>
+    <lastmod>2023-10-04T14:56:05.215Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html</loc>
-    <lastmod>2023-10-04T10:13:50.363Z</lastmod>
+    <lastmod>2023-10-04T14:56:07.651Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html</loc>
-    <lastmod>2023-10-04T10:13:52.863Z</lastmod>
+    <lastmod>2023-10-04T14:56:10.267Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-10-04T10:13:55.903Z</lastmod>
+    <lastmod>2023-10-04T14:56:13.019Z</lastmod>
   </url>
 </urlset>
