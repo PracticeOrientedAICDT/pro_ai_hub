@@ -1,0 +1,94 @@
+---
+categories: cryptography and security
+description: For Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks
+  are generally considered as the most competitive attack vector.Unfortunately, the
+  complexity of Gr\"obner basis algorithms is only understoodfor special cases, and
+  it is needless to say that these cases do not apply tomost cryptographic polynomial
+  systems. Therefore, cryptographers have to resortto experiments, extrapolations
+  and hypotheses to assess the security of theirdesigns. One established measure to
+  quantify the complexity of linearalgebra-based Gr\"obner basis algorithms is the
+  so-called solving degree.Caminata \& Gorla revealed that under a certain genericity
+  condition on apolynomial system the solving degree is always upper bounded by theCastelnuovo-Mumford
+  regularity and henceforth by the Macaulay bound, which onlytakes the degrees and
+  number of variables of the input polynomials intoaccount. In this paper we extend
+  their framework to iterated polynomialsystems, the standard polynomial model for
+  symmetric ciphers and hashfunctions. In particular, we prove solving degree bounds
+  for various attacks onMiMC, Feistel-MiMC, Feistel-MiMC-Hash, Hades and GMiMC. Our
+  bounds fall in linewith the hypothesized complexity of Gr\"obner basis attacks on
+  these designs,and to the best of our knowledge this is the first time that a mathematicalproof
+  for these complexities is provided.Moreover, by studying polynomials with degree
+  falls we can prove lower boundson the Castelnuovo-Mumford regularity for attacks
+  on MiMC, Feistel-MiMC andFeistel-MiMC-Hash provided that only a few solutions of
+  the correspondingiterated polynomial system originate from the base field. Hence,regularity-based
+  solving degree estimations can never surpass a certainthreshold, a desirable property
+  for cryptographic polynomial systems.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Steiner_M/0/1/0/all/0/1
+    name: Steiner, Matthias Johann
+  overview: For Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks
+    are generally considered as the most competitive attack vector.Unfortunately,
+    the complexity of Gr\"obner basis algorithms is only understoodfor special cases,
+    and it is needless to say that these cases do not apply tomost cryptographic polynomial
+    systems. Therefore, cryptographers have to resortto experiments, extrapolations
+    and hypotheses to assess the security of theirdesigns. One established measure
+    to quantify the complexity of linearalgebra-based Gr\"obner basis algorithms is
+    the so-called solving degree.Caminata \& Gorla revealed that under a certain genericity
+    condition on apolynomial system the solving degree is always upper bounded by
+    theCastelnuovo-Mumford regularity and henceforth by the Macaulay bound, which
+    onlytakes the degrees and number of variables of the input polynomials intoaccount.
+    In this paper we extend their framework to iterated polynomialsystems, the standard
+    polynomial model for symmetric ciphers and hashfunctions. In particular, we prove
+    solving degree bounds for various attacks onMiMC, Feistel-MiMC, Feistel-MiMC-Hash,
+    Hades and GMiMC. Our bounds fall in linewith the hypothesized complexity of Gr\"obner
+    basis attacks on these designs,and to the best of our knowledge this is the first
+    time that a mathematicalproof for these complexities is provided.Moreover, by
+    studying polynomials with degree falls we can prove lower boundson the Castelnuovo-Mumford
+    regularity for attacks on MiMC, Feistel-MiMC andFeistel-MiMC-Hash provided that
+    only a few solutions of the correspondingiterated polynomial system originate
+    from the base field. Hence,regularity-based solving degree estimations can never
+    surpass a certainthreshold, a desirable property for cryptographic polynomial
+    systems.
+  pdf_url: http://arxiv.org/pdf/2310.03637
+  research_area: cryptography and security
+title: Solving Degree Bounds For Iterated Polynomial Systems
+
+---
+```{ojs} 
+
+ names = ["Matthias Johann Steiner"] 
+
+``` 
+
+## Tldr 
+For Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks are generally considered as the most competitive attack vector.Unfortunately, the complexity of Gr\"obner basis algorithms is only understoodfor special cases, and it is needless to say that these cases do not apply tomost cryptographic polynomial systems. Therefore, cryptographers have to resortto experiments, extrapolations and hypotheses to assess the security of theirdesigns. One established measure to quantify the complexity of linearalgebra-based Gr\"obner basis algorithms is the so-called solving degree.Caminata \& Gorla revealed that under a certain genericity condition on apolynomial system the solving degree is always upper bounded by theCastelnuovo-Mumford regularity and henceforth by the Macaulay bound, which onlytakes the degrees and number of variables of the input polynomials intoaccount. In this paper we extend their framework to iterated polynomialsystems, the standard polynomial model for symmetric ciphers and hashfunctions. In particular, we prove solving degree bounds for various attacks onMiMC, Feistel-MiMC, Feistel-MiMC-Hash, Hades and GMiMC. Our bounds fall in linewith the hypothesized complexity of Gr\"obner basis attacks on these designs,and to the best of our knowledge this is the first time that a mathematicalproof for these complexities is provided.Moreover, by studying polynomials with degree falls we can prove lower boundson the Castelnuovo-Mumford regularity for attacks on MiMC, Feistel-MiMC andFeistel-MiMC-Hash provided that only a few solutions of the correspondingiterated polynomial system originate from the base field. Hence,regularity-based solving degree estimations can never surpass a certainthreshold, a desirable property for cryptographic polynomial systems.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
