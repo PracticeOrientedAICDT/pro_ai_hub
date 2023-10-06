@@ -1,0 +1,50 @@
+---
+categories:
+- artificial intelligence
+description: asdasfasfas
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: Daladier Sampaio
+    url: null
+  overview: asdasfasfas
+  research_area: artificial intelligence
+title: An Awesome Blog post 2
+
+---
+```{ojs} 
+
+ names = ["Daladier Sampaio"] 
+
+``` 
+
+## Tldr 
+asdasfasfas
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
