@@ -1,32 +1,32 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
       "/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
       "/content/trying-to-post-a-new-content/index.html",
-      "/content/regular-post/index.html",
-      "/content/once-more/index.html",
-      "/content/learning-by-self-explaining/index.html",
-      "/content/compositional-foundation-models-for-hierarchical-planning/index.html",
-      "/content/improving-stability-in-simultaneous-speech-translation-a-revision-controllable-decoding-approach/index.html",
-      "/content/fuzzy-fingerprinting-transformer-language-models-for-emotion-recognition-in-conversations/index.html",
-      "/content/uncloneable-quantum-advice/index.html",
-      "/content/regular-post-3/index.html",
-      "/content/testing-the-submission/index.html",
-      "/content/testing-this-app/index.html",
-      "/content/two-state-spin-systems-with-negative-interactions/index.html",
-      "/content/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-      "/content/from-stage-to-page-language-independent-bootstrap-measures-of-distinctiveness-in-fictional-speech/index.html",
       "/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-      "/content/quantitative-and-qualitative-evaluation-of-reinforcement-learning-policies-for-autonomous-vehicles/index.html",
       "/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html"
+    ]
+  },
+  {
+    "listing": "/researchers.html",
+    "items": [
+      "/researchers/daladier-sampaio/index.html",
+      "/researchers/test-user/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
+      "/posts/an-awesome-blog-post-11/index.html",
+      "/posts/an-awesome-blog-post/index.html",
+      "/posts/an-awesome-blog-post-119/index.html",
+      "/posts/an-awesome-blog-post-onociandsca/index.html",
+      "/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
+      "/posts/an-awesome-blog-post-2/index.html",
+      "/posts/blog-post/index.html"
     ]
   }
 ]
