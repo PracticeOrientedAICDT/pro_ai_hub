@@ -7,165 +7,39 @@
     "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
   },
   {
-    "objectID": "posts/an-awesome-blog-post-2/index.html",
-    "href": "posts/an-awesome-blog-post-2/index.html",
-    "title": "An Awesome Blog post 2",
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
   },
   {
-    "objectID": "posts/an-awesome-blog-post-onociandsca/index.html",
-    "href": "posts/an-awesome-blog-post-onociandsca/index.html",
-    "title": "An Awesome Blog post onociandsca",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
+    "text": "names = [\"Jae-Weon Lee\"]"
   },
   {
-    "objectID": "posts/an-awesome-blog-post/index.html",
-    "href": "posts/an-awesome-blog-post/index.html",
-    "title": "An Awesome Blog post",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "Solving Degree Bounds For Iterated Polynomial Systems\n\n\n\n\n\n\n\ncryptography and security\n\n\n\n\nFor Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks are generally considered as the most competitive attack vector.Unfortunately, the complexity of Gr\"obner basis algorithms is only understoodfor special cases, and it is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post 2\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nasdasfasfas\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntrying to post a new content\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\ntest\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum Scales of Galaxies from Ultralight Dark Matter\n\n\n\n\n\n\n\nastrophysics of galaxies\n\n\n\n\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help…\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
-    "section": "",
-    "text": "names = [\"Xiangzhu Meng\",\"Wei Wei\",\"Qiang Liu\",\"Shu Wu\",\"Liang Wang\"]"
-  },
-  {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "Tldr",
-    "text": "Tldr\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help to improve the efficiency of diagnosing neurologicaldisorders. However, there still exist two challenges that limit the progress offunctional neuroimaging. Firstly, there exists an abundance of noise andredundant information in functional connectivity data, resulting in poorperformance. Secondly, existing brain network models have tended to prioritizeeither classification performance or the interpretation of neurosciencefindings behind the learned models. To deal with these challenges, this paperproposes a novel brain graph learning framework called Template-induced BrainGraph Learning (TiBGL), which has both discriminative and interpretableabilities. Motivated by the related medical findings on functionalconnectivites, TiBGL proposes template-induced brain graph learning to extracttemplate brain graphs for all groups. The template graph can be regarded as anaugmentation process on brain networks that removes noise information andhighlights important connectivity patterns. To simultaneously support the tasksof discrimination and interpretation, TiBGL further develops template-inducedconvolutional neural network and template-induced brain interpretationanalysis. Especially, the former fuses rich information from brain graphs andtemplate brain graphs for brain disorder tasks, and the latter can provideinsightful connectivity patterns related to brain disorders based on templatebrain graphs. Experimental results on three real-world datasets show that theproposed TiBGL can achieve superior performance compared with ninestate-of-the-art methods and keep coherent with neuroscience findings in recentliteratures."
+    "text": "Tldr\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and angular momentum from quantum mechanics. The typical angular momentumper dark matter particle is \\(\\hbar\\) and the typical physical quantities arefunctions of specific angular momentum \\(\\hbar/m\\) and average background densityof the particles. If we use the Compton wavelength instead for the lengthscale, we can obtain bounds for these physical quantities. For example, thereis an upper bound for acceleration of ULDM dominated objects, \\(a_c={c^3m}/{\\hbar}\\). We suggest that the physical scales of galaxies depend on the timeof their formation and that these characteristic scales are related to somemysteries of observed galaxies. Future observations from the James Webb SpaceTelescope and NANOgrav can provide evidences for the presence and evolution ofthese scales."
   },
   {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "More Resources",
     "text": "More Resources"
-  },
-  {
-    "objectID": "content/trying-to-post-a-new-content/index.html",
-    "href": "content/trying-to-post-a-new-content/index.html",
-    "title": "trying to post a new content",
-    "section": "",
-    "text": "names = [\"Matthias Johann Steiner\"]"
-  },
-  {
-    "objectID": "content/trying-to-post-a-new-content/index.html#tldr",
-    "href": "content/trying-to-post-a-new-content/index.html#tldr",
-    "title": "trying to post a new content",
-    "section": "Tldr",
-    "text": "Tldr\ntest"
-  },
-  {
-    "objectID": "content/trying-to-post-a-new-content/index.html#paper-authors",
-    "href": "content/trying-to-post-a-new-content/index.html#paper-authors",
-    "title": "trying to post a new content",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/trying-to-post-a-new-content/index.html#more-resources",
-    "href": "content/trying-to-post-a-new-content/index.html#more-resources",
-    "title": "trying to post a new content",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
-    "title": "An Awesome Blog post 2",
-    "section": "",
-    "text": "names = [\"Daladier Sampaio\"]"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#tldr",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#tldr",
-    "title": "An Awesome Blog post 2",
-    "section": "Tldr",
-    "text": "Tldr\nasdasfasfas"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#paper-authors",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#paper-authors",
-    "title": "An Awesome Blog post 2",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#more-resources",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#more-resources",
-    "title": "An Awesome Blog post 2",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "researchers.html",
-    "href": "researchers.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "Daladier Sampaio\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest user\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
-  },
-  {
-    "objectID": "researchers/test-user/index.html",
-    "href": "researchers/test-user/index.html",
-    "title": "test user",
-    "section": "",
-    "text": "test user short bio"
-  },
-  {
-    "objectID": "researchers/test-user/index.html#bio",
-    "href": "researchers/test-user/index.html#bio",
-    "title": "test user",
-    "section": "",
-    "text": "test user short bio"
-  },
-  {
-    "objectID": "researchers/daladier-sampaio/index.html",
-    "href": "researchers/daladier-sampaio/index.html",
-    "title": "Daladier Sampaio",
-    "section": "",
-    "text": "I have a degree in Computer Engineering from Univasf and a master’s degree from Federal University of Pernambuco (UFPE) in Machine Leaning, specifically studying Recommendation Systems using histogram-based user and item profiles. Besides this, I am also interested in Natural Language Processing (NLP), Deep Learning, Information Retrieval and Statistics in general. In my earlier position, I handled designing and implementing speech to text applications using deep learning (transformers) and NLP techniques to extract information from audios and their respective transcriptions. In addition, in my previous positions I handled designing and implementing ETL cloud pipelines (AWS), using hypothesis tests to assess data quality and implementing microservices, using python. I also worked on building the search engine for a large Brazilian e-commerce, where I worked directly with language processing, learning to rank, hypothesis testing, outlier detection, feature selection, parallel processing, data visualization applications."
-  },
-  {
-    "objectID": "researchers/daladier-sampaio/index.html#bio",
-    "href": "researchers/daladier-sampaio/index.html#bio",
-    "title": "Daladier Sampaio",
-    "section": "",
-    "text": "I have a degree in Computer Engineering from Univasf and a master’s degree from Federal University of Pernambuco (UFPE) in Machine Leaning, specifically studying Recommendation Systems using histogram-based user and item profiles. Besides this, I am also interested in Natural Language Processing (NLP), Deep Learning, Information Retrieval and Statistics in general. In my earlier position, I handled designing and implementing speech to text applications using deep learning (transformers) and NLP techniques to extract information from audios and their respective transcriptions. In addition, in my previous positions I handled designing and implementing ETL cloud pipelines (AWS), using hypothesis tests to assess data quality and implementing microservices, using python. I also worked on building the search engine for a large Brazilian e-commerce, where I worked directly with language processing, learning to rank, hypothesis testing, outlier detection, feature selection, parallel processing, data visualization applications."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "A Plaque Test for Redundancies in Relational Data 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdcasdcsd\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post 11\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post 119\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post onociandsca\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Plaque Test for Redundancies in Relational Data 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdcasdcsd\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post 2\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlog post\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "templates/template_for_content.html#image",
@@ -217,143 +91,73 @@
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "IAI Hub",
     "section": "",
-    "text": "names = [\"Matthias Johann Steiner\"]"
+    "text": "No matching items"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#tldr",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#tldr",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "objectID": "researchers/daladier-sampaio/index.html",
+    "href": "researchers/daladier-sampaio/index.html",
+    "title": "Daladier Sampaio",
+    "section": "",
+    "text": "I have a degree in Computer Engineering from Univasf and a master’s degree from Federal University of Pernambuco (UFPE) in Machine Leaning, specifically studying Recommendation Systems using histogram-based user and item profiles. Besides this, I am also interested in Natural Language Processing (NLP), Deep Learning, Information Retrieval and Statistics in general. In my earlier position, I handled designing and implementing speech to text applications using deep learning (transformers) and NLP techniques to extract information from audios and their respective transcriptions. In addition, in my previous positions I handled designing and implementing ETL cloud pipelines (AWS), using hypothesis tests to assess data quality and implementing microservices, using python. I also worked on building the search engine for a large Brazilian e-commerce, where I worked directly with language processing, learning to rank, hypothesis testing, outlier detection, feature selection, parallel processing, data visualization applications."
+  },
+  {
+    "objectID": "researchers/daladier-sampaio/index.html#bio",
+    "href": "researchers/daladier-sampaio/index.html#bio",
+    "title": "Daladier Sampaio",
+    "section": "",
+    "text": "I have a degree in Computer Engineering from Univasf and a master’s degree from Federal University of Pernambuco (UFPE) in Machine Leaning, specifically studying Recommendation Systems using histogram-based user and item profiles. Besides this, I am also interested in Natural Language Processing (NLP), Deep Learning, Information Retrieval and Statistics in general. In my earlier position, I handled designing and implementing speech to text applications using deep learning (transformers) and NLP techniques to extract information from audios and their respective transcriptions. In addition, in my previous positions I handled designing and implementing ETL cloud pipelines (AWS), using hypothesis tests to assess data quality and implementing microservices, using python. I also worked on building the search engine for a large Brazilian e-commerce, where I worked directly with language processing, learning to rank, hypothesis testing, outlier detection, feature selection, parallel processing, data visualization applications."
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "researchers.html",
+    "href": "researchers.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "Daladier Sampaio\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "section": "",
+    "text": "names = [\"Xiangzhu Meng\",\"Wei Wei\",\"Qiang Liu\",\"Shu Wu\",\"Liang Wang\"]"
+  },
+  {
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
     "section": "Tldr",
-    "text": "Tldr\nFor Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks are generally considered as the most competitive attack vector.Unfortunately, the complexity of Gr\"obner basis algorithms is only understoodfor special cases, and it is needless to say that these cases do not apply tomost cryptographic polynomial systems. Therefore, cryptographers have to resortto experiments, extrapolations and hypotheses to assess the security of theirdesigns. One established measure to quantify the complexity of linearalgebra-based Gr\"obner basis algorithms is the so-called solving degree.Caminata & Gorla revealed that under a certain genericity condition on apolynomial system the solving degree is always upper bounded by theCastelnuovo-Mumford regularity and henceforth by the Macaulay bound, which onlytakes the degrees and number of variables of the input polynomials intoaccount. In this paper we extend their framework to iterated polynomialsystems, the standard polynomial model for symmetric ciphers and hashfunctions. In particular, we prove solving degree bounds for various attacks onMiMC, Feistel-MiMC, Feistel-MiMC-Hash, Hades and GMiMC. Our bounds fall in linewith the hypothesized complexity of Gr\"obner basis attacks on these designs,and to the best of our knowledge this is the first time that a mathematicalproof for these complexities is provided.Moreover, by studying polynomials with degree falls we can prove lower boundson the Castelnuovo-Mumford regularity for attacks on MiMC, Feistel-MiMC andFeistel-MiMC-Hash provided that only a few solutions of the correspondingiterated polynomial system originate from the base field. Hence,regularity-based solving degree estimations can never surpass a certainthreshold, a desirable property for cryptographic polynomial systems."
+    "text": "Tldr\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help to improve the efficiency of diagnosing neurologicaldisorders. However, there still exist two challenges that limit the progress offunctional neuroimaging. Firstly, there exists an abundance of noise andredundant information in functional connectivity data, resulting in poorperformance. Secondly, existing brain network models have tended to prioritizeeither classification performance or the interpretation of neurosciencefindings behind the learned models. To deal with these challenges, this paperproposes a novel brain graph learning framework called Template-induced BrainGraph Learning (TiBGL), which has both discriminative and interpretableabilities. Motivated by the related medical findings on functionalconnectivites, TiBGL proposes template-induced brain graph learning to extracttemplate brain graphs for all groups. The template graph can be regarded as anaugmentation process on brain networks that removes noise information andhighlights important connectivity patterns. To simultaneously support the tasksof discrimination and interpretation, TiBGL further develops template-inducedconvolutional neural network and template-induced brain interpretationanalysis. Especially, the former fuses rich information from brain graphs andtemplate brain graphs for brain disorder tasks, and the latter can provideinsightful connectivity patterns related to brain disorders based on templatebrain graphs. Experimental results on three real-world datasets show that theproposed TiBGL can achieve superior performance compared with ninestate-of-the-art methods and keep coherent with neuroscience findings in recentliteratures."
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#paper-authors",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#paper-authors",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#more-resources",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#more-resources",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IAI Hub",
     "section": "",
-    "text": "names = [\"New User\"]"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
-    "section": "Tldr",
-    "text": "Tldr\nasdcasdcsd"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
-    "section": "",
-    "text": "names = [\"Jae-Weon Lee\"]"
-  },
-  {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
-    "section": "Tldr",
-    "text": "Tldr\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and angular momentum from quantum mechanics. The typical angular momentumper dark matter particle is \\(\\hbar\\) and the typical physical quantities arefunctions of specific angular momentum \\(\\hbar/m\\) and average background densityof the particles. If we use the Compton wavelength instead for the lengthscale, we can obtain bounds for these physical quantities. For example, thereis an upper bound for acceleration of ULDM dominated objects, \\(a_c={c^3m}/{\\hbar}\\). We suggest that the physical scales of galaxies depend on the timeof their formation and that these characteristic scales are related to somemysteries of observed galaxies. Future observations from the James Webb SpaceTelescope and NANOgrav can provide evidences for the presence and evolution ofthese scales."
-  },
-  {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
-  },
-  {
-    "objectID": "posts/an-awesome-blog-post-11/index.html",
-    "href": "posts/an-awesome-blog-post-11/index.html",
-    "title": "An Awesome Blog post 11",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
-  },
-  {
-    "objectID": "posts/an-awesome-blog-post-119/index.html",
-    "href": "posts/an-awesome-blog-post-119/index.html",
-    "title": "An Awesome Blog post 119",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
-  },
-  {
-    "objectID": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-    "href": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
-    "section": "",
-    "text": "names = [\"New User\"]"
-  },
-  {
-    "objectID": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
-    "href": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
-    "section": "Tldr",
-    "text": "Tldr\nasdcasdcsd"
-  },
-  {
-    "objectID": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
-    "href": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
-    "href": "posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "posts/blog-post/index.html",
-    "href": "posts/blog-post/index.html",
-    "title": "Blog post",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id dolor vestibulum cursus. Nulla sed purus sit amet tellus feugiat iaculis. Phasellus at lacus id dolor fermentum ultrices. Vivamus quis urna ipsum. Donec ac neque vel nulla dignissim condimentum. Curabitur in lorem sed metus fringilla aliquet. Vivamus ac erat in odio tristique tincidunt a sit amet augue. Integer efficitur tristique lorem, id malesuada quam bibendum eget. Sed congue, velit vel vestibulum hendrerit, lectus velit efficitur justo, non malesuada odio velit eget sapien. In eu velit a tellus vehicula faucibus eget in dolor. Nulla facilisi."
+    "text": "Quantum Scales of Galaxies from Ultralight Dark Matter\n\n\n\n\n\n\n\nastrophysics of galaxies\n\n\n\n\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help…\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]

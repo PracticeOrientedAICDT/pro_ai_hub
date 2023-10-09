@@ -1,32 +1,19 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
-      "/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
-      "/content/trying-to-post-a-new-content/index.html",
-      "/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-      "/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html"
-    ]
+    "listing": "/blog.html",
+    "items": []
   },
   {
     "listing": "/researchers.html",
     "items": [
-      "/researchers/daladier-sampaio/index.html",
-      "/researchers/test-user/index.html"
+      "/researchers/daladier-sampaio/index.html"
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-      "/posts/an-awesome-blog-post-11/index.html",
-      "/posts/an-awesome-blog-post/index.html",
-      "/posts/an-awesome-blog-post-119/index.html",
-      "/posts/an-awesome-blog-post-onociandsca/index.html",
-      "/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-      "/posts/an-awesome-blog-post-2/index.html",
-      "/posts/blog-post/index.html"
+      "/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
+      "/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html"
     ]
   }
 ]
