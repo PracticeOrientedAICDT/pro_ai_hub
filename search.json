@@ -238,32 +238,74 @@
     "text": "More Resources"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
-    "title": "An Awesome Blog post 2",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
+    "title": "A Plaque Test for Redundancies in Relational Data 2",
     "section": "",
-    "text": "names = [\"Daladier Sampaio\"]"
+    "text": "names = [\"New User\"]"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#tldr",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#tldr",
-    "title": "An Awesome Blog post 2",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
+    "title": "A Plaque Test for Redundancies in Relational Data 2",
     "section": "Tldr",
-    "text": "Tldr\nasdasfasfas"
+    "text": "Tldr\nasdcasdcsd"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#paper-authors",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#paper-authors",
-    "title": "An Awesome Blog post 2",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
+    "title": "A Plaque Test for Redundancies in Relational Data 2",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#more-resources",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#more-resources",
-    "title": "An Awesome Blog post 2",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
+    "title": "A Plaque Test for Redundancies in Relational Data 2",
     "section": "More Resources",
     "text": "More Resources"
+  },
+  {
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
+    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "section": "",
+    "text": "names = [\"Matthias Johann Steiner\"]"
+  },
+  {
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#tldr",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#tldr",
+    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "section": "Tldr",
+    "text": "Tldr\nFor Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks are generally considered as the most competitive attack vector.Unfortunately, the complexity of Gr\"obner basis algorithms is only understoodfor special cases, and it is needless to say that these cases do not apply tomost cryptographic polynomial systems. Therefore, cryptographers have to resortto experiments, extrapolations and hypotheses to assess the security of theirdesigns. One established measure to quantify the complexity of linearalgebra-based Gr\"obner basis algorithms is the so-called solving degree.Caminata & Gorla revealed that under a certain genericity condition on apolynomial system the solving degree is always upper bounded by theCastelnuovo-Mumford regularity and henceforth by the Macaulay bound, which onlytakes the degrees and number of variables of the input polynomials intoaccount. In this paper we extend their framework to iterated polynomialsystems, the standard polynomial model for symmetric ciphers and hashfunctions. In particular, we prove solving degree bounds for various attacks onMiMC, Feistel-MiMC, Feistel-MiMC-Hash, Hades and GMiMC. Our bounds fall in linewith the hypothesized complexity of Gr\"obner basis attacks on these designs,and to the best of our knowledge this is the first time that a mathematicalproof for these complexities is provided.Moreover, by studying polynomials with degree falls we can prove lower boundson the Castelnuovo-Mumford regularity for attacks on MiMC, Feistel-MiMC andFeistel-MiMC-Hash provided that only a few solutions of the correspondingiterated polynomial system originate from the base field. Hence,regularity-based solving degree estimations can never surpass a certainthreshold, a desirable property for cryptographic polynomial systems."
+  },
+  {
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#paper-authors",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#paper-authors",
+    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#more-resources",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#more-resources",
+    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "A Plaque Test for Redundancies in Relational Data 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdcasdcsd\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "templates/template_for_content.html#image",
@@ -315,72 +357,58 @@
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "IAI Hub",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html",
+    "title": "An Awesome Blog post 2",
     "section": "",
-    "text": "A Plaque Test for Redundancies in Relational Data 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdcasdcsd\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "names = [\"Daladier Sampaio\"]"
   },
   {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
-    "section": "",
-    "text": "names = [\"Matthias Johann Steiner\"]"
-  },
-  {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#tldr",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#tldr",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#tldr",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#tldr",
+    "title": "An Awesome Blog post 2",
     "section": "Tldr",
-    "text": "Tldr\nFor Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks are generally considered as the most competitive attack vector.Unfortunately, the complexity of Gr\"obner basis algorithms is only understoodfor special cases, and it is needless to say that these cases do not apply tomost cryptographic polynomial systems. Therefore, cryptographers have to resortto experiments, extrapolations and hypotheses to assess the security of theirdesigns. One established measure to quantify the complexity of linearalgebra-based Gr\"obner basis algorithms is the so-called solving degree.Caminata & Gorla revealed that under a certain genericity condition on apolynomial system the solving degree is always upper bounded by theCastelnuovo-Mumford regularity and henceforth by the Macaulay bound, which onlytakes the degrees and number of variables of the input polynomials intoaccount. In this paper we extend their framework to iterated polynomialsystems, the standard polynomial model for symmetric ciphers and hashfunctions. In particular, we prove solving degree bounds for various attacks onMiMC, Feistel-MiMC, Feistel-MiMC-Hash, Hades and GMiMC. Our bounds fall in linewith the hypothesized complexity of Gr\"obner basis attacks on these designs,and to the best of our knowledge this is the first time that a mathematicalproof for these complexities is provided.Moreover, by studying polynomials with degree falls we can prove lower boundson the Castelnuovo-Mumford regularity for attacks on MiMC, Feistel-MiMC andFeistel-MiMC-Hash provided that only a few solutions of the correspondingiterated polynomial system originate from the base field. Hence,regularity-based solving degree estimations can never surpass a certainthreshold, a desirable property for cryptographic polynomial systems."
+    "text": "Tldr\nasdasfasfas"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#paper-authors",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#paper-authors",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#paper-authors",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#paper-authors",
+    "title": "An Awesome Blog post 2",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#more-resources",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/solving-degree-bounds-for-iterated-polynomial-systems/index.html#more-resources",
-    "title": "Solving Degree Bounds For Iterated Polynomial Systems",
+    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#more-resources",
+    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/content/an-awesome-blog-post-2/index.html#more-resources",
+    "title": "An Awesome Blog post 2",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
+    "objectID": "content/trying-to-post-a-new-content/index.html",
+    "href": "content/trying-to-post-a-new-content/index.html",
+    "title": "trying to post a new content",
     "section": "",
-    "text": "names = [\"New User\"]"
+    "text": "names = [\"Matthias Johann Steiner\"]"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#tldr",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
+    "objectID": "content/trying-to-post-a-new-content/index.html#tldr",
+    "href": "content/trying-to-post-a-new-content/index.html#tldr",
+    "title": "trying to post a new content",
     "section": "Tldr",
-    "text": "Tldr\nasdcasdcsd"
+    "text": "Tldr\ntest"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#paper-authors",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
+    "objectID": "content/trying-to-post-a-new-content/index.html#paper-authors",
+    "href": "content/trying-to-post-a-new-content/index.html#paper-authors",
+    "title": "trying to post a new content",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
-    "href": "home/ck22122/Documents/icr-quarto/icr_backend/icr_frontend/posts/a-plaque-test-for-redundancies-in-relational-data-2/index.html#more-resources",
-    "title": "A Plaque Test for Redundancies in Relational Data 2",
+    "objectID": "content/trying-to-post-a-new-content/index.html#more-resources",
+    "href": "content/trying-to-post-a-new-content/index.html#more-resources",
+    "title": "trying to post a new content",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -613,6 +641,6 @@
     "href": "index.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Solving Degree Bounds For Iterated Polynomial Systems\n\n\n\n\n\n\n\ncryptography and security\n\n\n\n\nFor Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks are generally considered as the most competitive attack vector.Unfortunately, the complexity of Gr\"obner basis algorithms is only understoodfor special cases, and it is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post 2\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nasdasfasfas\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRegular Post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOnce more\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning by Self-Explaining\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence (AI) research has a long track record of drawinginspirations from findings from biology, in particular human intelligence. Incontrast to current AI research that mainly treats explanations as a means formodel inspection, a…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCompositional Foundation Models for Hierarchical Planning\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nTo make effective decisions in novel environments with long-horizon goals, itis crucial to engage in hierarchical reasoning across spatial and temporalscales. This entails planning abstract subgoal sequences, visually reasoningabout the underlying…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nImproving Stability in Simultaneous Speech Translation: A Revision-Controllable Decoding Approach\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nSimultaneous Speech-to-Text translation serves a critical role in real-timecrosslingual communication. Despite the advancements in recent years,challenges remain in achieving stability in the translation process, a concernprimarily manifested in…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nUncloneable Quantum Advice\n\n\n\n\n\n\n\nquantum physics\n\n\n\n\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRegular Post 3\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting the submission\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting this app\n\n\n\n\n\n\n\nnlp\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTwo-State Spin Systems with Negative Interactions\n\n\n\n\n\n\n\ncomputational complexity\n\n\n\n\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Plaque Test for Redundancies in Relational Data 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdcasdcsd\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum Scales of Galaxies from Ultralight Dark Matter\n\n\n\n\n\n\n\nastrophysics of galaxies\n\n\n\n\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantitative and Qualitative Evaluation of Reinforcement Learning Policies for Autonomous Vehicles\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nOptimizing traffic dynamics in an evolving transportation landscape iscrucial, particularly in scenarios where autonomous vehicles (AVs) with varyinglevels of autonomy coexist with human-driven cars. This paper presents a novelapproach to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Solving Degree Bounds For Iterated Polynomial Systems\n\n\n\n\n\n\n\ncryptography and security\n\n\n\n\nFor Arithmetization-Oriented ciphers and hash functions Gr\"obner basisattacks are generally considered as the most competitive attack vector.Unfortunately, the complexity of Gr\"obner basis algorithms is only understoodfor special cases, and it is…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome Blog post 2\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nasdasfasfas\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntrying to post a new content\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\ntest\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRegular Post\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOnce more\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning by Self-Explaining\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence (AI) research has a long track record of drawinginspirations from findings from biology, in particular human intelligence. Incontrast to current AI research that mainly treats explanations as a means formodel inspection, a…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCompositional Foundation Models for Hierarchical Planning\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nTo make effective decisions in novel environments with long-horizon goals, itis crucial to engage in hierarchical reasoning across spatial and temporalscales. This entails planning abstract subgoal sequences, visually reasoningabout the underlying…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nImproving Stability in Simultaneous Speech Translation: A Revision-Controllable Decoding Approach\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nSimultaneous Speech-to-Text translation serves a critical role in real-timecrosslingual communication. Despite the advancements in recent years,challenges remain in achieving stability in the translation process, a concernprimarily manifested in…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFuzzy Fingerprinting Transformer Language-Models for Emotion Recognition in Conversations\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nFuzzy Fingerprints have been successfully used as an interpretable textclassification technique, but, like most other techniques, have been largelysurpassed in performance by Large Pre-trained Language Models, such as BERT orRoBERTa. These models…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nUncloneable Quantum Advice\n\n\n\n\n\n\n\nquantum physics\n\n\n\n\nThe famous no-cloning principle has been shown recently to enable a number ofuncloneable functionalities. Here we address for the first time unkeyed quantumuncloneablity, via the study of a complexity-theoretic tool that enables acomputation, but…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRegular Post 3\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting the submission\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dignissim libero. Vestibulum id odio sed purus gravida rhoncus ut ac quam. Fusce condimentum id ligula nec aliquam. Aliquam erat volutpat. Proin in sagittis urna. Sed rhoncus mauris id…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting this app\n\n\n\n\n\n\n\nnlp\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTwo-State Spin Systems with Negative Interactions\n\n\n\n\n\n\n\ncomputational complexity\n\n\n\n\nWe study the approximability of computing the partition functions oftwo-state spin systems. The problem is parameterized by a \\(2\\times 2\\) symmetricmatrix. Previous results on this problem were restricted either to the casewhere the matrix has…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Plaque Test for Redundancies in Relational Data 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nasdcasdcsd\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFrom stage to page: language independent bootstrap measures of distinctiveness in fictional speech\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nStylometry is mostly applied to authorial style. Recently, researchers havebegun investigating the style of characters, finding that the variation remainswithin authorial bounds. We address the stylistic distinctiveness of charactersin drama. Our…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum Scales of Galaxies from Ultralight Dark Matter\n\n\n\n\n\n\n\nastrophysics of galaxies\n\n\n\n\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantitative and Qualitative Evaluation of Reinforcement Learning Policies for Autonomous Vehicles\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nOptimizing traffic dynamics in an evolving transportation landscape iscrucial, particularly in scenarios where autonomous vehicles (AVs) with varyinglevels of autonomy coexist with human-driven cars. This paper presents a novelapproach to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help…\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
