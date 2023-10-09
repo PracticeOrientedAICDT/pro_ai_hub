@@ -1,0 +1,14 @@
+---
+description: ''
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+title: Daladier Sampaio
+---
+
+## Bio 
+I have a degree in Computer Engineering from Univasf and a master's degree from Federal University of Pernambuco (UFPE) in Machine Leaning, specifically studying Recommendation Systems using histogram-based user and item profiles. Besides this, I am also interested in Natural Language Processing (NLP), Deep Learning, Information Retrieval and Statistics in general. In my earlier position, I handled designing and implementing speech to text applications using deep learning (transformers) and NLP techniques to extract information from audios and their respective transcriptions. In addition, in my previous positions I handled designing and implementing ETL cloud pipelines (AWS), using hypothesis tests to assess data quality and implementing microservices, using python. I also worked on building the search engine for a large Brazilian e-commerce, where I worked directly with language processing, learning to rank, hypothesis testing, outlier detection, feature selection, parallel processing, data visualization applications.
