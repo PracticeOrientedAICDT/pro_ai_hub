@@ -1,59 +1,45 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "blog.html",
+    "href": "blog.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Quantum Scales of Galaxies from Ultralight Dark Matter\n\n\n\n\n\n\n\nastrophysics of galaxies\n\n\n\n\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Blog post to be pushed\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "",
-    "text": "names = [\"Xiangzhu Meng\",\"Wei Wei\",\"Qiang Liu\",\"Shu Wu\",\"Liang Wang\"]"
+    "text": "names = [\"Jae-Weon Lee\"]"
   },
   {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "Tldr",
-    "text": "Tldr\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help to improve the efficiency of diagnosing neurologicaldisorders. However, there still exist two challenges that limit the progress offunctional neuroimaging. Firstly, there exists an abundance of noise andredundant information in functional connectivity data, resulting in poorperformance. Secondly, existing brain network models have tended to prioritizeeither classification performance or the interpretation of neurosciencefindings behind the learned models. To deal with these challenges, this paperproposes a novel brain graph learning framework called Template-induced BrainGraph Learning (TiBGL), which has both discriminative and interpretableabilities. Motivated by the related medical findings on functionalconnectivites, TiBGL proposes template-induced brain graph learning to extracttemplate brain graphs for all groups. The template graph can be regarded as anaugmentation process on brain networks that removes noise information andhighlights important connectivity patterns. To simultaneously support the tasksof discrimination and interpretation, TiBGL further develops template-inducedconvolutional neural network and template-induced brain interpretationanalysis. Especially, the former fuses rich information from brain graphs andtemplate brain graphs for brain disorder tasks, and the latter can provideinsightful connectivity patterns related to brain disorders based on templatebrain graphs. Experimental results on three real-world datasets show that theproposed TiBGL can achieve superior performance compared with ninestate-of-the-art methods and keep coherent with neuroscience findings in recentliteratures."
+    "text": "Tldr\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and angular momentum from quantum mechanics. The typical angular momentumper dark matter particle is \\(\\hbar\\) and the typical physical quantities arefunctions of specific angular momentum \\(\\hbar/m\\) and average background densityof the particles. If we use the Compton wavelength instead for the lengthscale, we can obtain bounds for these physical quantities. For example, thereis an upper bound for acceleration of ULDM dominated objects, \\(a_c={c^3m}/{\\hbar}\\). We suggest that the physical scales of galaxies depend on the timeof their formation and that these characteristic scales are related to somemysteries of observed galaxies. Future observations from the James Webb SpaceTelescope and NANOgrav can provide evidences for the presence and evolution ofthese scales."
   },
   {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
-    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
-    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
+    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
+    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "researchers.html",
-    "href": "researchers.html",
-    "title": "IAI Hub",
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
     "section": "",
-    "text": "Daladier Sampaio\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
   },
   {
     "objectID": "researchers/daladier-sampaio/index.html",
@@ -70,11 +56,11 @@
     "text": "I have a degree in Computer Engineering from Univasf and a master’s degree from Federal University of Pernambuco (UFPE) in Machine Leaning, specifically studying Recommendation Systems using histogram-based user and item profiles. Besides this, I am also interested in Natural Language Processing (NLP), Deep Learning, Information Retrieval and Statistics in general. In my earlier position, I handled designing and implementing speech to text applications using deep learning (transformers) and NLP techniques to extract information from audios and their respective transcriptions. In addition, in my previous positions I handled designing and implementing ETL cloud pipelines (AWS), using hypothesis tests to assess data quality and implementing microservices, using python. I also worked on building the search engine for a large Brazilian e-commerce, where I worked directly with language processing, learning to rank, hypothesis testing, outlier detection, feature selection, parallel processing, data visualization applications."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "IAI Hub",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Blog post to be pushed\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
   },
   {
     "objectID": "templates/template_for_content.html#image",
@@ -126,39 +112,11 @@
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
   {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
     "section": "",
-    "text": "names = [\"Jae-Weon Lee\"]"
-  },
-  {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#tldr",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
-    "section": "Tldr",
-    "text": "Tldr\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and angular momentum from quantum mechanics. The typical angular momentumper dark matter particle is \\(\\hbar\\) and the typical physical quantities arefunctions of specific angular momentum \\(\\hbar/m\\) and average background densityof the particles. If we use the Compton wavelength instead for the lengthscale, we can obtain bounds for these physical quantities. For example, thereis an upper bound for acceleration of ULDM dominated objects, \\(a_c={c^3m}/{\\hbar}\\). We suggest that the physical scales of galaxies depend on the timeof their formation and that these characteristic scales are related to somemysteries of observed galaxies. Future observations from the James Webb SpaceTelescope and NANOgrav can provide evidences for the presence and evolution ofthese scales."
-  },
-  {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#paper-authors",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
-    "href": "content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html#more-resources",
-    "title": "Quantum Scales of Galaxies from Ultralight Dark Matter",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
   },
   {
     "objectID": "posts/blog-post-to-be-pushed/index.html",
@@ -166,5 +124,75 @@
     "title": "Blog post to be pushed",
     "section": "",
     "text": "Lorem Ipsum"
+  },
+  {
+    "objectID": "researchers.html",
+    "href": "researchers.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "Daladier Sampaio\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "DHOT-GM: Robust Graph Matching Using A Differentiable Hierarchical Optimal Transport Framework\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nGraph matching is one of the most significant graph analytic tasks inpractice, which aims to find the node correspondence across different graphs.Most existing approaches rely on adjacency matrices or node embeddings whenmatching graphs, whose…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum Scales of Galaxies from Ultralight Dark Matter\n\n\n\n\n\n\n\nastrophysics of galaxies\n\n\n\n\nWe propose that the ultralight dark matter (ULDM) model, in which dark matterparticles have a tiny mass of \\(m=O(10^{-22})eV\\), has characteristic scales forphysical quantities of observed galaxies such as mass, size, acceleration, massflux, and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help…\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html",
+    "href": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html",
+    "title": "DHOT-GM: Robust Graph Matching Using A Differentiable Hierarchical Optimal Transport Framework",
+    "section": "",
+    "text": "names = [\"Haoran Cheng\",\"Dixin Luo\",\"Hongteng Xu\"]"
+  },
+  {
+    "objectID": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html#tldr",
+    "href": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html#tldr",
+    "title": "DHOT-GM: Robust Graph Matching Using A Differentiable Hierarchical Optimal Transport Framework",
+    "section": "Tldr",
+    "text": "Tldr\nGraph matching is one of the most significant graph analytic tasks inpractice, which aims to find the node correspondence across different graphs.Most existing approaches rely on adjacency matrices or node embeddings whenmatching graphs, whose performances are often sub-optimal because of not fullyleveraging the multi-modal information hidden in graphs, such as nodeattributes, subgraph structures, etc. In this study, we propose a novel andeffective graph matching method based on a differentiable hierarchical optimaltransport (HOT) framework, called DHOT-GM. Essentially, our method representseach graph as a set of relational matrices corresponding to the information ofdifferent modalities. Given two graphs, we enumerate all relational matrixpairs and obtain their matching results, and accordingly, infer the nodecorrespondence by the weighted averaging of the matching results. This methodcan be implemented as computing the HOT distance between the two graphs – eachmatching result is an optimal transport plan associated with theGromov-Wasserstein (GW) distance between two relational matrices, and theweights of all matching results are the elements of an upper-level optimaltransport plan defined on the matrix sets. We propose a bi-level optimizationalgorithm to compute the HOT distance in a differentiable way, making thesignificance of the relational matrices adjustable. Experiments on variousgraph matching tasks demonstrate the superiority and robustness of our methodcompared to state-of-the-art approaches."
+  },
+  {
+    "objectID": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html#paper-authors",
+    "href": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html#paper-authors",
+    "title": "DHOT-GM: Robust Graph Matching Using A Differentiable Hierarchical Optimal Transport Framework",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html#more-resources",
+    "href": "content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html#more-resources",
+    "title": "DHOT-GM: Robust Graph Matching Using A Differentiable Hierarchical Optimal Transport Framework",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "section": "",
+    "text": "names = [\"Xiangzhu Meng\",\"Wei Wei\",\"Qiang Liu\",\"Shu Wu\",\"Liang Wang\"]"
+  },
+  {
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#tldr",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "section": "Tldr",
+    "text": "Tldr\nIn recent years, functional magnetic resonance imaging has emerged as apowerful tool for investigating the human brain’s functional connectivitynetworks. Related studies demonstrate that functional connectivity networks inthe human brain can help to improve the efficiency of diagnosing neurologicaldisorders. However, there still exist two challenges that limit the progress offunctional neuroimaging. Firstly, there exists an abundance of noise andredundant information in functional connectivity data, resulting in poorperformance. Secondly, existing brain network models have tended to prioritizeeither classification performance or the interpretation of neurosciencefindings behind the learned models. To deal with these challenges, this paperproposes a novel brain graph learning framework called Template-induced BrainGraph Learning (TiBGL), which has both discriminative and interpretableabilities. Motivated by the related medical findings on functionalconnectivites, TiBGL proposes template-induced brain graph learning to extracttemplate brain graphs for all groups. The template graph can be regarded as anaugmentation process on brain networks that removes noise information andhighlights important connectivity patterns. To simultaneously support the tasksof discrimination and interpretation, TiBGL further develops template-inducedconvolutional neural network and template-induced brain interpretationanalysis. Especially, the former fuses rich information from brain graphs andtemplate brain graphs for brain disorder tasks, and the latter can provideinsightful connectivity patterns related to brain disorders based on templatebrain graphs. Experimental results on three real-world datasets show that theproposed TiBGL can achieve superior performance compared with ninestate-of-the-art methods and keep coherent with neuroscience findings in recentliteratures."
+  },
+  {
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#paper-authors",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
+    "href": "content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html#more-resources",
+    "title": "TiBGL: Template-induced Brain Graph Learning for Functional Neuroimaging Analysis",
+    "section": "More Resources",
+    "text": "More Resources"
   }
 ]

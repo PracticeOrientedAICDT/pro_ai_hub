@@ -1,9 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-      "/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html"
+      "/posts/blog-post-to-be-pushed/index.html"
     ]
   },
   {
@@ -13,9 +12,11 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/blog-post-to-be-pushed/index.html"
+      "/content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html",
+      "/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
+      "/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html"
     ]
   }
 ]

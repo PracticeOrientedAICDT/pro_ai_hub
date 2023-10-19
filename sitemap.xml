@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-10-10T14:37:24.007Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-10-10T14:37:22.707Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html</loc>
-    <lastmod>2023-10-10T14:37:20.791Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-10-10T14:37:17.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-10-10T14:37:16.523Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/daladier-sampaio/index.html</loc>
-    <lastmod>2023-10-10T14:37:13.271Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-10-10T14:37:15.623Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-10-10T14:37:17.427Z</lastmod>
+    <lastmod>2023-10-19T15:14:47.340Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html</loc>
-    <lastmod>2023-10-10T14:37:19.267Z</lastmod>
+    <lastmod>2023-10-19T15:14:45.700Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-10-10T14:37:22.151Z</lastmod>
+    <lastmod>2023-10-19T15:14:43.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/daladier-sampaio/index.html</loc>
+    <lastmod>2023-10-19T15:14:41.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
+    <lastmod>2023-10-19T15:14:40.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
+    <lastmod>2023-10-19T15:14:39.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2023-10-19T15:14:36.452Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/blog-post-to-be-pushed/index.html</loc>
-    <lastmod>2023-10-10T14:37:23.611Z</lastmod>
+    <lastmod>2023-10-19T15:14:39.788Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
+    <lastmod>2023-10-19T15:14:40.476Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-10-19T15:14:42.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html</loc>
+    <lastmod>2023-10-19T15:14:44.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html</loc>
+    <lastmod>2023-10-19T15:14:46.964Z</lastmod>
   </url>
 </urlset>
