@@ -6,17 +6,18 @@
     ]
   },
   {
-    "listing": "/researchers.html",
-    "items": [
-      "/researchers/daladier-sampaio/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/content/new-post-of-a-paper/index.html",
       "/content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html",
       "/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
       "/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html"
+    ]
+  },
+  {
+    "listing": "/researchers.html",
+    "items": [
+      "/researchers/daladier-sampaio/index.html"
     ]
   }
 ]
