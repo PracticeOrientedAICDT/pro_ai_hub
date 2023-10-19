@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-10-19T15:19:48.778Z</lastmod>
+    <lastmod>2023-10-19T15:23:19.245Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html</loc>
-    <lastmod>2023-10-19T15:19:46.761Z</lastmod>
+    <lastmod>2023-10-19T15:23:17.565Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/new-post-of-a-paper/index.html</loc>
-    <lastmod>2023-10-19T15:19:44.005Z</lastmod>
+    <lastmod>2023-10-19T15:23:15.105Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-10-19T15:19:41.417Z</lastmod>
+    <lastmod>2023-10-19T15:23:13.025Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-10-19T15:19:39.733Z</lastmod>
+    <lastmod>2023-10-19T15:23:11.693Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts/blog-post-to-be-pushed/index.html</loc>
-    <lastmod>2023-10-19T15:19:38.893Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-10-19T15:19:35.317Z</lastmod>
+    <lastmod>2023-10-19T15:23:10.973Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-10-19T15:19:38.025Z</lastmod>
+    <lastmod>2023-10-19T15:23:09.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2023-10-19T15:23:06.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts/hi-there/index.html</loc>
+    <lastmod>2023-10-19T15:23:10.225Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-10-19T15:19:39.281Z</lastmod>
+    <lastmod>2023-10-19T15:23:11.305Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/researchers/daladier-sampaio/index.html</loc>
-    <lastmod>2023-10-19T15:19:40.693Z</lastmod>
+    <lastmod>2023-10-19T15:23:12.421Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-10-19T15:19:42.693Z</lastmod>
+    <lastmod>2023-10-19T15:23:14.097Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html</loc>
-    <lastmod>2023-10-19T15:19:45.465Z</lastmod>
+    <lastmod>2023-10-19T15:23:16.357Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html</loc>
-    <lastmod>2023-10-19T15:19:48.306Z</lastmod>
+    <lastmod>2023-10-19T15:23:18.809Z</lastmod>
   </url>
 </urlset>
