@@ -1,0 +1,94 @@
+---
+categories: artificial intelligence
+description: Graph matching is one of the most significant graph analytic tasks inpractice,
+  which aims to find the node correspondence across different graphs.Most existing
+  approaches rely on adjacency matrices or node embeddings whenmatching graphs, whose
+  performances are often sub-optimal because of not fullyleveraging the multi-modal
+  information hidden in graphs, such as nodeattributes, subgraph structures, etc.
+  In this study, we propose a novel andeffective graph matching method based on a
+  differentiable hierarchical optimaltransport (HOT) framework, called DHOT-GM. Essentially,
+  our method representseach graph as a set of relational matrices corresponding to
+  the information ofdifferent modalities. Given two graphs, we enumerate all relational
+  matrixpairs and obtain their matching results, and accordingly, infer the nodecorrespondence
+  by the weighted averaging of the matching results. This methodcan be implemented
+  as computing the HOT distance between the two graphs -- eachmatching result is an
+  optimal transport plan associated with theGromov-Wasserstein (GW) distance between
+  two relational matrices, and theweights of all matching results are the elements
+  of an upper-level optimaltransport plan defined on the matrix sets. We propose a
+  bi-level optimizationalgorithm to compute the HOT distance in a differentiable way,
+  making thesignificance of the relational matrices adjustable. Experiments on variousgraph
+  matching tasks demonstrate the superiority and robustness of our methodcompared
+  to state-of-the-art approaches.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Cheng_H/0/1/0/all/0/1
+    name: Cheng, Haoran
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Luo_D/0/1/0/all/0/1
+    name: Luo, Dixin
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Xu_H/0/1/0/all/0/1
+    name: Xu, Hongteng
+  overview: Graph matching is one of the most significant graph analytic tasks inpractice,
+    which aims to find the node correspondence across different graphs.Most existing
+    approaches rely on adjacency matrices or node embeddings whenmatching graphs,
+    whose performances are often sub-optimal because of not fullyleveraging the multi-modal
+    information hidden in graphs, such as nodeattributes, subgraph structures, etc.
+    In this study, we propose a novel andeffective graph matching method based on
+    a differentiable hierarchical optimaltransport (HOT) framework, called DHOT-GM.
+    Essentially, our method representseach graph as a set of relational matrices corresponding
+    to the information ofdifferent modalities. Given two graphs, we enumerate all
+    relational matrixpairs and obtain their matching results, and accordingly, infer
+    the nodecorrespondence by the weighted averaging of the matching results. This
+    methodcan be implemented as computing the HOT distance between the two graphs
+    -- eachmatching result is an optimal transport plan associated with theGromov-Wasserstein
+    (GW) distance between two relational matrices, and theweights of all matching
+    results are the elements of an upper-level optimaltransport plan defined on the
+    matrix sets. We propose a bi-level optimizationalgorithm to compute the HOT distance
+    in a differentiable way, making thesignificance of the relational matrices adjustable.
+    Experiments on variousgraph matching tasks demonstrate the superiority and robustness
+    of our methodcompared to state-of-the-art approaches.
+  pdf_url: http://arxiv.org/pdf/2310.12081
+  research_area: artificial intelligence
+title: 'DHOT-GM: Robust Graph Matching Using A Differentiable Hierarchical Optimal
+  Transport Framework'
+
+---
+```{ojs} 
+
+ names = ["Haoran Cheng","Dixin Luo","Hongteng Xu"] 
+
+``` 
+
+## Tldr 
+Graph matching is one of the most significant graph analytic tasks inpractice, which aims to find the node correspondence across different graphs.Most existing approaches rely on adjacency matrices or node embeddings whenmatching graphs, whose performances are often sub-optimal because of not fullyleveraging the multi-modal information hidden in graphs, such as nodeattributes, subgraph structures, etc. In this study, we propose a novel andeffective graph matching method based on a differentiable hierarchical optimaltransport (HOT) framework, called DHOT-GM. Essentially, our method representseach graph as a set of relational matrices corresponding to the information ofdifferent modalities. Given two graphs, we enumerate all relational matrixpairs and obtain their matching results, and accordingly, infer the nodecorrespondence by the weighted averaging of the matching results. This methodcan be implemented as computing the HOT distance between the two graphs -- eachmatching result is an optimal transport plan associated with theGromov-Wasserstein (GW) distance between two relational matrices, and theweights of all matching results are the elements of an upper-level optimaltransport plan defined on the matrix sets. We propose a bi-level optimizationalgorithm to compute the HOT distance in a differentiable way, making thesignificance of the relational matrices adjustable. Experiments on variousgraph matching tasks demonstrate the superiority and robustness of our methodcompared to state-of-the-art approaches.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
