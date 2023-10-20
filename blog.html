@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="blog post">blog post <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -170,62 +170,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="blog post" data-listing-file-modified-sort="1697728929292" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/hi-there/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/hi-there/index.html">
-<h3 class="no-anchor listing-title">
-Hi There
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog post'); return false;">
-blog post
-</div>
-</div>
-<a href="./posts/hi-there/index.html">
-<div class="listing-description">
-This is my new blog post
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/hi-there/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="blog post" data-listing-file-modified-sort="1697728929292" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/blog-post-to-be-pushed/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/blog-post-to-be-pushed/index.html">
-<h3 class="no-anchor listing-title">
-Blog post to be pushed
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog post'); return false;">
-blog post
-</div>
-</div>
-<a href="./posts/blog-post-to-be-pushed/index.html">
-<div class="listing-description">
-Lorem Ipsum
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/blog-post-to-be-pushed/index.html"> </a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

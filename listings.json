@@ -1,19 +1,11 @@
 [
   {
     "listing": "/blog.html",
-    "items": [
-      "/posts/hi-there/index.html",
-      "/posts/blog-post-to-be-pushed/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/index.html",
-    "items": [
-      "/content/new-post-of-a-paper/index.html",
-      "/content/dhot-gm-robust-graph-matching-using-a-differentiable-hierarchical-optimal-transport-framework/index.html",
-      "/content/quantum-scales-of-galaxies-from-ultralight-dark-matter/index.html",
-      "/content/tibgl-template-induced-brain-graph-learning-for-functional-neuroimaging-analysis/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/researchers.html",
