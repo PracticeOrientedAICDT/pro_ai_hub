@@ -5,7 +5,9 @@
   },
   {
     "listing": "/researchers.html",
-    "items": []
+    "items": [
+      "/researchers/delmiro-neto/index.html"
+    ]
   },
   {
     "listing": "/index.html",
