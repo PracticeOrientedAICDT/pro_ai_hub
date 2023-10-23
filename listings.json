@@ -5,7 +5,9 @@
   },
   {
     "listing": "/researchers.html",
-    "items": []
+    "items": [
+      "/researchers/delmiro-sampaio/index.html"
+    ]
   },
   {
     "listing": "/index.html",

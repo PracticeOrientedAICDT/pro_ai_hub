@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-10-20T22:11:36.756Z</lastmod>
+    <lastmod>2023-10-23T14:16:33.410Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-10-20T22:11:35.160Z</lastmod>
+    <lastmod>2023-10-23T14:16:31.734Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-10-20T22:11:33.464Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-10-20T22:11:32.764Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-10-20T22:11:30.260Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/delmiro-sampaio/index.html</loc>
+    <lastmod>2023-10-23T14:16:30.238Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-10-20T22:11:33.112Z</lastmod>
+    <lastmod>2023-10-23T14:16:29.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2023-10-23T14:16:26.282Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
+    <lastmod>2023-10-23T14:16:28.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
+    <lastmod>2023-10-23T14:16:29.506Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-10-20T22:11:33.896Z</lastmod>
+    <lastmod>2023-10-23T14:16:30.646Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html</loc>
-    <lastmod>2023-10-20T22:11:36.404Z</lastmod>
+    <lastmod>2023-10-23T14:16:33.070Z</lastmod>
   </url>
 </urlset>
