@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
     "listing": "/researchers.html",
     "items": [
       "/researchers/roussel-desmond-nzoyem/index.html"
@@ -14,5 +10,9 @@
     "items": [
       "/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
   }
 ]
