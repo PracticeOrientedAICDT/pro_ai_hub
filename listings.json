@@ -5,7 +5,9 @@
   },
   {
     "listing": "/researchers.html",
-    "items": []
+    "items": [
+      "/researchers/roussel-desmond-nzoyem/index.html"
+    ]
   },
   {
     "listing": "/index.html",
