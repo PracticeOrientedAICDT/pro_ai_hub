@@ -1,9 +1,7 @@
 [
   {
-    "listing": "/researchers.html",
-    "items": [
-      "/researchers/roussel-desmond-nzoyem/index.html"
-    ]
+    "listing": "/blog.html",
+    "items": []
   },
   {
     "listing": "/index.html",
@@ -12,7 +10,10 @@
     ]
   },
   {
-    "listing": "/blog.html",
-    "items": []
+    "listing": "/researchers.html",
+    "items": [
+      "/researchers/tony-fang/index.html",
+      "/researchers/roussel-desmond-nzoyem/index.html"
+    ]
   }
 ]
