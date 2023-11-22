@@ -17,7 +17,9 @@ website:
       - text: "Blog"
         file: blog.html
       - text: "Researchers"
-        file: researchers.qmd  
+        file: researchers.qmd 
+      - text: "Newsletter"
+        file: newsletter.qmd  
       - about.qmd 
 
 title-block-banner: true      
