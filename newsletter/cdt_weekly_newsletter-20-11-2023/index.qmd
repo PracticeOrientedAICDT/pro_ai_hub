@@ -1,0 +1,11 @@
+---
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+title: Newsletter Issue - 20-11-2023
+
+---
+<h2>CDT Weekly Newsletter</h2><br><ul><li>New  Announcement</li><li>Another Announcement</li></ul><p>Welcome to this week's issue of the newsletter.</p><br><br><b>New  Announcement</b><br>Lorem ipsum.<br><br><b>Another Announcement</b><br>Lorem ipsum.<br><br><h2>Forthcoming Calendar of Events</h2><br><br>
