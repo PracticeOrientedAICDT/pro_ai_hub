@@ -20,6 +20,8 @@ website:
         file: researchers.qmd 
       - text: "Newsletter"
         file: newsletter.qmd  
+      - text: "Events"
+        file: event_calendar.qmd
       - about.qmd 
 
 title-block-banner: true      

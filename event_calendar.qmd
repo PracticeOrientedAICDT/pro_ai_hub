@@ -1,0 +1,55 @@
+---
+comments: false
+page-layout: full
+title: Event Calendar
+title-block-banner: true
+code-fold: true
+execute:
+  echo: false
+
+---
+
+```{ojs}
+data = FileAttachment("input_events.csv").csv({ typed: true })
+today = new Date()
+
+newData = data.filter(function (item) {
+  return item.start_date > today
+});
+```
+
+```{ojs}
+Inputs.table(newData.map(d => ({Name: [[d.link,d.name]], ...d})), {
+  sort: "start",
+  reverse: true,
+  columns:[
+    "venue_name",
+    "location",
+    "start_date",
+    "end_date"
+  ],  
+  format: {
+    Name: links => htl.html`${links.map((link, i) => htl.html`<a href=${link[0]} target=_blank>${link[1]}</a> `)}`
+  },
+  layout: "auto",
+  header: {
+    venue_name: "Conference Name",
+    location: "Location",
+    start_date: "Start Date",
+    end_date: "End Date"
+  },
+  width: {
+    Name: 300,
+    location: 300,
+    start_date: 300,
+    end_date: 300
+  },
+  align: {
+    Name: "center",
+    location: "center",
+    start_date: "center",
+    end_date: "center"
+  }
+})
+
+```
