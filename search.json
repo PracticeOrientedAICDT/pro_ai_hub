@@ -98,11 +98,25 @@
     "text": "system test\n\n\n\n\n\n\n\ncomputer vision\n\n\n\n\nHopefully it works\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
-    "href": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
-    "title": "Newsletter Issue - 20-11-2023",
+    "objectID": "event_calendar.html",
+    "href": "event_calendar.html",
+    "title": "Event Calendar",
     "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nNew Announcement\n\n\nAnother Announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nNew AnnouncementLorem ipsum.Another AnnouncementLorem ipsum.\n\nForthcoming Calendar of Events"
+    "text": "Code\ndata = FileAttachment(\"input_events.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
+  },
+  {
+    "objectID": "researchers/tony-fang/index.html",
+    "href": "researchers/tony-fang/index.html",
+    "title": "Tony Fang",
+    "section": "",
+    "text": "This is for testing the system that Daladier built"
+  },
+  {
+    "objectID": "researchers/tony-fang/index.html#bio",
+    "href": "researchers/tony-fang/index.html#bio",
+    "title": "Tony Fang",
+    "section": "",
+    "text": "This is for testing the system that Daladier built"
   },
   {
     "objectID": "researchers/roussel-desmond-nzoyem/index.html",
@@ -119,18 +133,11 @@
     "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
   },
   {
-    "objectID": "researchers/tony-fang/index.html",
-    "href": "researchers/tony-fang/index.html",
-    "title": "Tony Fang",
+    "objectID": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
+    "href": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
+    "title": "Newsletter Issue - 20-11-2023",
     "section": "",
-    "text": "This is for testing the system that Daladier built"
-  },
-  {
-    "objectID": "researchers/tony-fang/index.html#bio",
-    "href": "researchers/tony-fang/index.html#bio",
-    "title": "Tony Fang",
-    "section": "",
-    "text": "This is for testing the system that Daladier built"
+    "text": "CDT Weekly Newsletter\n\n\n\n\nNew Announcement\n\n\nAnother Announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nNew AnnouncementLorem ipsum.Another AnnouncementLorem ipsum.\n\nForthcoming Calendar of Events"
   },
   {
     "objectID": "posts_by_author.html",
