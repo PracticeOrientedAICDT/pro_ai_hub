@@ -1,0 +1,84 @@
+---
+categories: artificial intelligence
+description: Applying large language models (LLMs) to power systems presents a promisingavenue
+  for enhancing decision-making and operational efficiency. However, thisaction may
+  also incur potential security threats, which have not been fullyrecognized so far.
+  To this end, this letter analyzes potential threats incurredby applying LLMs to
+  power systems, emphasizing the need for urgent research anddevelopment of countermeasures.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Ruan_J/0/1/0/all/0/1
+    name: Ruan, Jiaqi
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Liang_G/0/1/0/all/0/1
+    name: Liang, Gaoqi
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Zhao_H/0/1/0/all/0/1
+    name: Zhao, Huan
+  author_4:
+    link: https://arxiv.org/find/cs/1/au:+Liu_G/0/1/0/all/0/1
+    name: Liu, Guolong
+  author_5:
+    link: https://arxiv.org/find/cs/1/au:+Qiu_J/0/1/0/all/0/1
+    name: Qiu, Jing
+  author_6:
+    link: https://arxiv.org/find/cs/1/au:+Zhao_J/0/1/0/all/0/1
+    name: Zhao, Junhua
+  author_7:
+    link: https://arxiv.org/find/cs/1/au:+Xu_Z/0/1/0/all/0/1
+    name: Xu, Zhao
+  author_8:
+    link: https://arxiv.org/find/cs/1/au:+Wen_F/0/1/0/all/0/1
+    name: Wen, Fushuan
+  author_9:
+    link: https://arxiv.org/find/cs/1/au:+Dong_Z/0/1/0/all/0/1
+    name: Dong, Zhao Yang
+  overview: Applying large language models (LLMs) to power systems presents a promisingavenue
+    for enhancing decision-making and operational efficiency. However, thisaction
+    may also incur potential security threats, which have not been fullyrecognized
+    so far. To this end, this letter analyzes potential threats incurredby applying
+    LLMs to power systems, emphasizing the need for urgent research anddevelopment
+    of countermeasures.
+  pdf_url: http://arxiv.org/pdf/2311.13361
+  research_area: artificial intelligence
+title: 'Applying Large Language Models to Power Systems: Potential Security Threats'
+
+---
+```{ojs} 
+
+ names = ["Jiaqi Ruan","Gaoqi Liang","Huan Zhao","Guolong Liu","Jing Qiu","Junhua Zhao","Zhao Xu","Fushuan Wen","Zhao Yang Dong"] 
+
+``` 
+
+## Tldr 
+Applying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far. To this end, this letter analyzes potential threats incurredby applying LLMs to power systems, emphasizing the need for urgent research anddevelopment of countermeasures.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})

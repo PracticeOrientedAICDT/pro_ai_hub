@@ -1,0 +1,67 @@
+---
+categories: artificial intelligence
+description: This study looks at how generative artificial intelligence (AI) canrevolutionize
+  marketing, product development, and research. It discusses thelatest developments
+  in the field, easy-to-use resources, and moral and socialhazards. In addition to
+  addressing mitigating techniques for issues likeprejudice and disinformation, the
+  debate emphasizes the significance ofresponsible development through continual stakeholder
+  communication and ethicalprinciples.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Shaikh_S/0/1/0/all/0/1
+    name: Shaikh, Saad
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+bendre_R/0/1/0/all/0/1
+    name: bendre, Rajat
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Mhaske_S/0/1/0/all/0/1
+    name: Mhaske, Sakshi
+  overview: This study looks at how generative artificial intelligence (AI) canrevolutionize
+    marketing, product development, and research. It discusses thelatest developments
+    in the field, easy-to-use resources, and moral and socialhazards. In addition
+    to addressing mitigating techniques for issues likeprejudice and disinformation,
+    the debate emphasizes the significance ofresponsible development through continual
+    stakeholder communication and ethicalprinciples.
+  pdf_url: http://arxiv.org/pdf/2311.13262
+  research_area: artificial intelligence
+title: 'The Rise of Creative Machines: Exploring the Impact of Generative AI'
+
+---
+```{ojs} 
+
+ names = ["Saad Shaikh","Rajat bendre","Sakshi Mhaske"] 
+
+``` 
+
+## Tldr 
+This study looks at how generative artificial intelligence (AI) canrevolutionize marketing, product development, and research. It discusses thelatest developments in the field, easy-to-use resources, and moral and socialhazards. In addition to addressing mitigating techniques for issues likeprejudice and disinformation, the debate emphasizes the significance ofresponsible development through continual stakeholder communication and ethicalprinciples.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})

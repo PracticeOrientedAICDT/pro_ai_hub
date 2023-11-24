@@ -1,0 +1,102 @@
+---
+categories: artificial intelligence
+description: While the application of Artificial Intelligence in Finance has a longtradition,
+  its potential in Entrepreneurship has been intensively explored onlyrecently. In
+  this context, Entrepreneurial Finance is a particularly fertileground for future
+  Artificial Intelligence proliferation. To support the latter,the study provides
+  a bibliometric review of Artificial Intelligenceapplications in (1) entrepreneurial
+  finance literature, and (2) corporatefinance literature with implications for Entrepreneurship.
+  Rigorous search andscreening procedures of the scientific database Web of Science
+  Core Collectionresulted in the identification of 1890 relevant journal articles
+  subjected toanalysis. The bibliometric analysis gives a rich insight into the knowledgefield's
+  conceptual, intellectual, and social structure, indicating nascent andunderdeveloped
+  research directions. As far as we were able to identify, this isthe first study
+  to map and bibliometrically analyze the academic fieldconcerning the relationship
+  between Artificial Intelligence, Entrepreneurship,and Finance, and the first review
+  that deals with Artificial Intelligencemethods in Entrepreneurship. According to
+  the results, Artificial NeuralNetwork, Deep Neural Network and Support Vector Machine
+  are highly representedin almost all identified topic niches. At the same time, applying
+  TopicModeling, Fuzzy Neural Network and Growing Hierarchical Self-organizing Map
+  isquite rare. As an element of the research, and before final remarks, thearticle
+  deals as well with a discussion of certain gaps in the relationshipbetween Computer
+  Science and Economics. These gaps do represent problems in theapplication of Artificial
+  Intelligence in Economic Science. As a way to atleast in part remedy this situation,
+  the foundational paradigm and the bespokedemonstration of the Monte Carlo randomized
+  algorithm are presented.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Kudelic_R/0/1/0/all/0/1
+    name: "Kudeli\u0107, Robert"
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Smaguc_T/0/1/0/all/0/1
+    name: "\u0160maguc, Tamara"
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Robinson_S/0/1/0/all/0/1
+    name: Robinson, Sherry
+  overview: While the application of Artificial Intelligence in Finance has a longtradition,
+    its potential in Entrepreneurship has been intensively explored onlyrecently.
+    In this context, Entrepreneurial Finance is a particularly fertileground for future
+    Artificial Intelligence proliferation. To support the latter,the study provides
+    a bibliometric review of Artificial Intelligenceapplications in (1) entrepreneurial
+    finance literature, and (2) corporatefinance literature with implications for
+    Entrepreneurship. Rigorous search andscreening procedures of the scientific database
+    Web of Science Core Collectionresulted in the identification of 1890 relevant
+    journal articles subjected toanalysis. The bibliometric analysis gives a rich
+    insight into the knowledgefield's conceptual, intellectual, and social structure,
+    indicating nascent andunderdeveloped research directions. As far as we were able
+    to identify, this isthe first study to map and bibliometrically analyze the academic
+    fieldconcerning the relationship between Artificial Intelligence, Entrepreneurship,and
+    Finance, and the first review that deals with Artificial Intelligencemethods in
+    Entrepreneurship. According to the results, Artificial NeuralNetwork, Deep Neural
+    Network and Support Vector Machine are highly representedin almost all identified
+    topic niches. At the same time, applying TopicModeling, Fuzzy Neural Network and
+    Growing Hierarchical Self-organizing Map isquite rare. As an element of the research,
+    and before final remarks, thearticle deals as well with a discussion of certain
+    gaps in the relationshipbetween Computer Science and Economics. These gaps do
+    represent problems in theapplication of Artificial Intelligence in Economic Science.
+    As a way to atleast in part remedy this situation, the foundational paradigm and
+    the bespokedemonstration of the Monte Carlo randomized algorithm are presented.
+  pdf_url: http://arxiv.org/pdf/2311.13213
+  research_area: artificial intelligence
+title: 'Artificial Intelligence in the Service of Entrepreneurial Finance: Knowledge
+  Structure and the Foundational Algorithmic Paradigm'
+
+---
+```{ojs} 
+
+ names = ["Robert Kudelić","Tamara Šmaguc","Sherry Robinson"] 
+
+``` 
+
+## Tldr 
+While the application of Artificial Intelligence in Finance has a longtradition, its potential in Entrepreneurship has been intensively explored onlyrecently. In this context, Entrepreneurial Finance is a particularly fertileground for future Artificial Intelligence proliferation. To support the latter,the study provides a bibliometric review of Artificial Intelligenceapplications in (1) entrepreneurial finance literature, and (2) corporatefinance literature with implications for Entrepreneurship. Rigorous search andscreening procedures of the scientific database Web of Science Core Collectionresulted in the identification of 1890 relevant journal articles subjected toanalysis. The bibliometric analysis gives a rich insight into the knowledgefield's conceptual, intellectual, and social structure, indicating nascent andunderdeveloped research directions. As far as we were able to identify, this isthe first study to map and bibliometrically analyze the academic fieldconcerning the relationship between Artificial Intelligence, Entrepreneurship,and Finance, and the first review that deals with Artificial Intelligencemethods in Entrepreneurship. According to the results, Artificial NeuralNetwork, Deep Neural Network and Support Vector Machine are highly representedin almost all identified topic niches. At the same time, applying TopicModeling, Fuzzy Neural Network and Growing Hierarchical Self-organizing Map isquite rare. As an element of the research, and before final remarks, thearticle deals as well with a discussion of certain gaps in the relationshipbetween Computer Science and Economics. These gaps do represent problems in theapplication of Artificial Intelligence in Economic Science. As a way to atleast in part remedy this situation, the foundational paradigm and the bespokedemonstration of the Monte Carlo randomized algorithm are presented.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
