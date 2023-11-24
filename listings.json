@@ -7,18 +7,9 @@
     ]
   },
   {
-    "listing": "/newsletter.html",
-    "items": [
-      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/content/algorithmic-transparency-and-manipulation/index.html",
       "/content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html",
       "/content/an-awesome-post-2/index.html",
       "/content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
@@ -30,6 +21,16 @@
       "/content/testing-post-submission-2/index.html",
       "/content/quantum-learning-and-essential-cognition-under-the-traction-of-meta-characteristics-in-an-open-world/index.html",
       "/content/on-the-calibration-of-large-language-models-and-alignment/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
+    "listing": "/newsletter.html",
+    "items": [
+      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
     ]
   }
 ]

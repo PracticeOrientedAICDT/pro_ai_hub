@@ -2,94 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-11-24T14:13:54.077Z</lastmod>
+    <lastmod>2023-11-24T14:18:35.773Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-11-24T14:13:52.677Z</lastmod>
+    <lastmod>2023-11-24T14:18:34.249Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/quantum-learning-and-essential-cognition-under-the-traction-of-meta-characteristics-in-an-open-world/index.html</loc>
-    <lastmod>2023-11-24T14:13:51.365Z</lastmod>
+    <lastmod>2023-11-24T14:18:32.921Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html</loc>
-    <lastmod>2023-11-24T14:13:49.425Z</lastmod>
+    <lastmod>2023-11-24T14:18:30.841Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/generation-of-explanations-for-logic-reasoning/index.html</loc>
-    <lastmod>2023-11-24T14:13:47.357Z</lastmod>
+    <lastmod>2023-11-24T14:18:28.769Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html</loc>
-    <lastmod>2023-11-24T14:13:45.305Z</lastmod>
+    <lastmod>2023-11-24T14:18:26.741Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/an-awesome-post-2/index.html</loc>
-    <lastmod>2023-11-24T14:13:43.133Z</lastmod>
+    <lastmod>2023-11-24T14:18:24.665Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
-    <lastmod>2023-11-24T14:13:41.213Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-11-24T14:13:40.629Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-11-24T14:13:39.517Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
-    <lastmod>2023-11-24T14:13:38.133Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
-    <lastmod>2023-11-24T14:13:36.041Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
-    <lastmod>2023-11-24T14:13:37.337Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
-    <lastmod>2023-11-24T14:13:38.645Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-11-24T14:13:40.361Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/content/algorithmic-transparency-and-manipulation/index.html</loc>
+    <lastmod>2023-11-24T14:18:22.605Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-11-24T14:13:40.917Z</lastmod>
+    <lastmod>2023-11-24T14:18:21.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-11-24T14:18:20.809Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
+    <lastmod>2023-11-24T14:18:18.869Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
+    <lastmod>2023-11-24T14:18:17.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
+    <lastmod>2023-11-24T14:18:16.305Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
+    <lastmod>2023-11-24T14:18:18.393Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
+    <lastmod>2023-11-24T14:18:19.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
+    <lastmod>2023-11-24T14:18:21.073Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
+    <lastmod>2023-11-24T14:18:21.641Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html</loc>
-    <lastmod>2023-11-24T14:13:42.241Z</lastmod>
+    <lastmod>2023-11-24T14:18:23.693Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/applying-large-language-models-to-power-systems-potential-security-threats/index.html</loc>
-    <lastmod>2023-11-24T14:13:44.285Z</lastmod>
+    <lastmod>2023-11-24T14:18:25.673Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/manual_push/index.html</loc>
-    <lastmod>2023-11-24T14:13:46.165Z</lastmod>
+    <lastmod>2023-11-24T14:18:27.717Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html</loc>
-    <lastmod>2023-11-24T14:13:48.261Z</lastmod>
+    <lastmod>2023-11-24T14:18:29.777Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/testing-post-submission-2/index.html</loc>
-    <lastmod>2023-11-24T14:13:50.285Z</lastmod>
+    <lastmod>2023-11-24T14:18:31.801Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/on-the-calibration-of-large-language-models-and-alignment/index.html</loc>
-    <lastmod>2023-11-24T14:13:52.357Z</lastmod>
+    <lastmod>2023-11-24T14:18:33.941Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-11-24T14:13:53.385Z</lastmod>
+    <lastmod>2023-11-24T14:18:35.033Z</lastmod>
   </url>
 </urlset>
