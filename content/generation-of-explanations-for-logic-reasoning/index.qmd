@@ -1,0 +1,92 @@
+---
+categories: artificial intelligence
+description: This thesis delves into a fortiori arguments in deductive reasoning,underscoring
+  their relevance in various domains such as law, philosophy, andartificial intelligence.
+  The research is centred on employing GPT-3.5-turbo toautomate the analysis of these
+  arguments, with a focus on understandingintricate reasoning processes, generating
+  clear and coherent explanations, andcreating novel arguments. The methodology encompasses
+  a series of tasksincluding detailed reasoning, interpretation, and the augmentation
+  of afortiori arguments. It involves meticulously identifying these arguments indiverse
+  contexts, differentiating comparative elements, and categorizing thembased on their
+  logical structure.Extensive experiments reveals the challenges encountered by GPT-3.5-turbo
+  inaccurately detecting and classifying a fortiori arguments. Nevertheless, themodel
+  demonstrates a performance that rivals specialized models, particularlyin extracting
+  key components and interpreting underlying properties. Theintegration of external
+  information into the model's processing significantlyelevates the quality of the
+  generated explanations. Additionally, the modelexhibits a noteworthy capability
+  in augmenting arguments, thus contributing tothe enrichment of the data set.Despite
+  facing certain limitations, this thesis makes significantcontributions to the fields
+  of artificial intelligence and logical reasoning.It introduces novel methodologies,
+  establishes a rigorous evaluation framework,and provides deep insights that set
+  the stage for future advancements inautomated logical reasoning. The findings and
+  methodologies presented hereinnot only underscore the potential of AI in complex
+  reasoning tasks but alsohighlight areas for future research and development.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Pu_Y/0/1/0/all/0/1
+    name: Pu, Yanyi
+  overview: This thesis delves into a fortiori arguments in deductive reasoning,underscoring
+    their relevance in various domains such as law, philosophy, andartificial intelligence.
+    The research is centred on employing GPT-3.5-turbo toautomate the analysis of
+    these arguments, with a focus on understandingintricate reasoning processes, generating
+    clear and coherent explanations, andcreating novel arguments. The methodology
+    encompasses a series of tasksincluding detailed reasoning, interpretation, and
+    the augmentation of afortiori arguments. It involves meticulously identifying
+    these arguments indiverse contexts, differentiating comparative elements, and
+    categorizing thembased on their logical structure.Extensive experiments reveals
+    the challenges encountered by GPT-3.5-turbo inaccurately detecting and classifying
+    a fortiori arguments. Nevertheless, themodel demonstrates a performance that rivals
+    specialized models, particularlyin extracting key components and interpreting
+    underlying properties. Theintegration of external information into the model's
+    processing significantlyelevates the quality of the generated explanations. Additionally,
+    the modelexhibits a noteworthy capability in augmenting arguments, thus contributing
+    tothe enrichment of the data set.Despite facing certain limitations, this thesis
+    makes significantcontributions to the fields of artificial intelligence and logical
+    reasoning.It introduces novel methodologies, establishes a rigorous evaluation
+    framework,and provides deep insights that set the stage for future advancements
+    inautomated logical reasoning. The findings and methodologies presented hereinnot
+    only underscore the potential of AI in complex reasoning tasks but alsohighlight
+    areas for future research and development.
+  pdf_url: http://arxiv.org/pdf/2311.13455
+  research_area: artificial intelligence
+title: Generation of Explanations for Logic Reasoning
+
+---
+```{ojs} 
+
+ names = ["Yanyi Pu"] 
+
+``` 
+
+## Tldr 
+This thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of these arguments, with a focus on understandingintricate reasoning processes, generating clear and coherent explanations, andcreating novel arguments. The methodology encompasses a series of tasksincluding detailed reasoning, interpretation, and the augmentation of afortiori arguments. It involves meticulously identifying these arguments indiverse contexts, differentiating comparative elements, and categorizing thembased on their logical structure.Extensive experiments reveals the challenges encountered by GPT-3.5-turbo inaccurately detecting and classifying a fortiori arguments. Nevertheless, themodel demonstrates a performance that rivals specialized models, particularlyin extracting key components and interpreting underlying properties. Theintegration of external information into the model's processing significantlyelevates the quality of the generated explanations. Additionally, the modelexhibits a noteworthy capability in augmenting arguments, thus contributing tothe enrichment of the data set.Despite facing certain limitations, this thesis makes significantcontributions to the fields of artificial intelligence and logical reasoning.It introduces novel methodologies, establishes a rigorous evaluation framework,and provides deep insights that set the stage for future advancements inautomated logical reasoning. The findings and methodologies presented hereinnot only underscore the potential of AI in complex reasoning tasks but alsohighlight areas for future research and development.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
