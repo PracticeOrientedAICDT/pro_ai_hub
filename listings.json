@@ -7,16 +7,6 @@
     ]
   },
   {
-    "listing": "/newsletter.html",
-    "items": [
-      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/content/algorithmic-transparency-and-manipulation/index.html",
@@ -24,7 +14,6 @@
       "/content/an-awesome-post-2/index.html",
       "/content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
       "/content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
-      "/content/manual_push/index.html",
       "/content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html",
       "/content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html",
       "/content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html",
@@ -36,6 +25,16 @@
       "/content/multimodal-large-language-models-a-survey/index.html",
       "/content/quantum-learning-and-essential-cognition-under-the-traction-of-meta-characteristics-in-an-open-world/index.html",
       "/content/on-the-calibration-of-large-language-models-and-alignment/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
+    "listing": "/newsletter.html",
+    "items": [
+      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
     ]
   }
 ]
