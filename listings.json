@@ -7,6 +7,16 @@
     ]
   },
   {
+    "listing": "/newsletter.html",
+    "items": [
+      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html",
@@ -18,17 +28,8 @@
       "/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
       "/content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html",
       "/content/testing-post-submission-2/index.html",
+      "/content/quantum-learning-and-essential-cognition-under-the-traction-of-meta-characteristics-in-an-open-world/index.html",
       "/content/on-the-calibration-of-large-language-models-and-alignment/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
-    "listing": "/newsletter.html",
-    "items": [
-      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
     ]
   }
 ]
