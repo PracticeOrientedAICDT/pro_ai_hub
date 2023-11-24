@@ -7,6 +7,16 @@
     ]
   },
   {
+    "listing": "/newsletter.html",
+    "items": [
+      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/content/algorithmic-transparency-and-manipulation/index.html",
@@ -26,17 +36,8 @@
       "/content/multimodal-large-language-models-a-survey/index.html",
       "/content/quantum-learning-and-essential-cognition-under-the-traction-of-meta-characteristics-in-an-open-world/index.html",
       "/content/large-language-models-in-education-vision-and-opportunities/index.html",
+      "/content/building-the-future-of-responsible-ai-a-pattern-oriented-reference-architecture-for-designing-large-language-model-based-agents/index.html",
       "/content/on-the-calibration-of-large-language-models-and-alignment/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
-    "listing": "/newsletter.html",
-    "items": [
-      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
     ]
   }
 ]
