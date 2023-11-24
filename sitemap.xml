@@ -2,74 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-11-24T10:46:07.241Z</lastmod>
+    <lastmod>2023-11-24T11:56:33.329Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-11-24T10:46:05.729Z</lastmod>
+    <lastmod>2023-11-24T11:56:32.001Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/testing-post-submission-2/index.html</loc>
-    <lastmod>2023-11-24T10:46:04.413Z</lastmod>
+    <lastmod>2023-11-24T11:56:30.713Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/system-test/index.html</loc>
-    <lastmod>2023-11-24T10:46:02.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/an-awesome-post-2/index.html</loc>
-    <lastmod>2023-11-24T10:46:00.833Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-11-24T10:45:59.725Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-11-24T10:45:59.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
-    <lastmod>2023-11-24T10:45:57.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
-    <lastmod>2023-11-24T10:45:56.301Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
-    <lastmod>2023-11-24T10:45:55.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
-    <lastmod>2023-11-24T10:45:57.149Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-11-24T10:45:58.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-11-24T10:45:59.441Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
-    <lastmod>2023-11-24T10:46:00.009Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/content/generation-of-explanations-for-logic-reasoning/index.html</loc>
+    <lastmod>2023-11-24T11:56:28.721Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/manual_push/index.html</loc>
-    <lastmod>2023-11-24T10:46:01.701Z</lastmod>
+    <lastmod>2023-11-24T11:56:26.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/an-awesome-post-2/index.html</loc>
+    <lastmod>2023-11-24T11:56:24.909Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
+    <lastmod>2023-11-24T11:56:23.061Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
+    <lastmod>2023-11-24T11:56:22.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
+    <lastmod>2023-11-24T11:56:21.493Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
+    <lastmod>2023-11-24T11:56:20.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
+    <lastmod>2023-11-24T11:56:18.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
+    <lastmod>2023-11-24T11:56:19.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
+    <lastmod>2023-11-24T11:56:20.565Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-11-24T11:56:22.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
+    <lastmod>2023-11-24T11:56:22.777Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html</loc>
+    <lastmod>2023-11-24T11:56:24.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html</loc>
+    <lastmod>2023-11-24T11:56:25.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/system-test/index.html</loc>
+    <lastmod>2023-11-24T11:56:27.669Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html</loc>
-    <lastmod>2023-11-24T10:46:03.561Z</lastmod>
+    <lastmod>2023-11-24T11:56:29.801Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/on-the-calibration-of-large-language-models-and-alignment/index.html</loc>
-    <lastmod>2023-11-24T10:46:05.425Z</lastmod>
+    <lastmod>2023-11-24T11:56:31.697Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-11-24T10:46:06.549Z</lastmod>
+    <lastmod>2023-11-24T11:56:32.717Z</lastmod>
   </url>
 </urlset>

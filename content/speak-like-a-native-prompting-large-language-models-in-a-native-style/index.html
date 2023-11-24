@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Existing work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In current studies, the few-shot examples of CoT aregenerally handcrafted by humans. However, how the text style of in-contextexamples influence the outputs of LLMs still remains under-explored. This paperpresents a novel and effective approach, named , to improvethe reasoning capability of LLMs by aligning the in-context examples with thenative style of LLMs. ``Native’’ refers to the inherent characteristic style ofLLMs which can be probed by original zero-shot scenarios. AlignCoT isorthogonal to other prompt engineering methods, making it easy to combine withstate-of-the-art techniques to further improve the LLMs’ performance. Weconduct extensive and comprehensive experiments on several benchmarks. Theempirical results demonstrate that our AlignCoTsignificantly improvesperformance over the carefully handcrafted in-context examples. For instance,with GPT-3.5-turbo, we observed a +2.5% improvement on GSM8K. Furthermore, ourAlignCoT consistently improve the performance when combined with otherstate-of-the-art prompt engineering methods. The source code and dataset willbe available at.">
 
-<title>IAI Hub</title>
+<title>Speak Like a Native: Prompting Large Language Models in a Native Style</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +21,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,40 +96,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-content_listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-content_listings'] = new List('listing-content_listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -112,27 +116,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./researchers.html" rel="" target="">
+    <a class="nav-link" href="../../researchers.html" rel="" target="">
  <span class="menu-text">Researchers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./newsletter.html" rel="" target="">
+    <a class="nav-link" href="../../newsletter.html" rel="" target="">
  <span class="menu-text">Newsletter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./event_calendar.html" rel="" target="">
+    <a class="nav-link" href="../../event_calendar.html" rel="" target="">
  <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -146,9 +150,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">IAI Hub</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Speak Like a Native: Prompting Large Language Models in a Native Style</h1>
+                  <div>
+        <div class="description">
+          Existing work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In current studies, the few-shot examples of CoT aregenerally handcrafted by humans. However, how the text style of in-contextexamples influence the outputs of LLMs still remains under-explored. This paperpresents a novel and effective approach, named , to improvethe reasoning capability of LLMs by aligning the in-context examples with thenative style of LLMs. ``Native’’ refers to the inherent characteristic style ofLLMs which can be probed by original zero-shot scenarios. AlignCoT isorthogonal to other prompt engineering methods, making it easy to combine withstate-of-the-art techniques to further improve the LLMs’ performance. Weconduct extensive and comprehensive experiments on several benchmarks. Theempirical results demonstrate that our AlignCoTsignificantly improvesperformance over the carefully handcrafted in-context examples. For instance,with GPT-3.5-turbo, we observed a +2.5% improvement on GSM8K. Furthermore, ourAlignCoT consistently improve the performance when combined with otherstate-of-the-art prompt engineering methods. The source code and dataset willbe available at.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">artificial intelligence</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -160,281 +172,88 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="artificial intelligence">artificial intelligence <span class="quarto-category-count">(3)</span></div><div class="category" data-category="computation and language">computation and language <span class="quarto-category-count">(1)</span></div><div class="category" data-category="computer vision">computer vision <span class="quarto-category-count">(2)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">Tldr</a></li>
+  <li><a href="#paper-authors" id="toc-paper-authors" class="nav-link" data-scroll-target="#paper-authors">Paper-authors</a></li>
+  <li><a href="#more-resources" id="toc-more-resources" class="nav-link" data-scroll-target="#more-resources">More Resources</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-content_listings">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="artificial intelligence" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html">
-<h3 class="no-anchor listing-title">
-Speak Like a Native: Prompting Large Language Models in a Native Style
-</h3>
-<div class="listing-subtitle">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="70" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 69;"><span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> [<span class="st">"Zhicheng Yang"</span><span class="op">,</span><span class="st">"Yiwei Wang"</span><span class="op">,</span><span class="st">"Yinya Huang"</span><span class="op">,</span><span class="st">"Jing Xiong"</span><span class="op">,</span><span class="st">"Xiaodan Liang"</span><span class="op">,</span><span class="st">"Jing Tang"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('artificial intelligence'); return false;">
-artificial intelligence
 </div>
 </div>
-<a href="./content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html">
-<div class="listing-description">
-<p>Existing work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="machine learning" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/an-awesome-post-2/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/an-awesome-post-2/index.html">
-<h3 class="no-anchor listing-title">
-An Awesome post 2
-</h3>
-<div class="listing-subtitle">
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">Tldr</h2>
+<p>Existing work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In current studies, the few-shot examples of CoT aregenerally handcrafted by humans. However, how the text style of in-contextexamples influence the outputs of LLMs still remains under-explored. This paperpresents a novel and effective approach, named , to improvethe reasoning capability of LLMs by aligning the in-context examples with thenative style of LLMs. ``Native’’ refers to the inherent characteristic style ofLLMs which can be probed by original zero-shot scenarios. AlignCoT isorthogonal to other prompt engineering methods, making it easy to combine withstate-of-the-art techniques to further improve the LLMs’ performance. Weconduct extensive and comprehensive experiments on several benchmarks. Theempirical results demonstrate that our AlignCoTsignificantly improvesperformance over the carefully handcrafted in-context examples. For instance,with GPT-3.5-turbo, we observed a +2.5% improvement on GSM8K. Furthermore, ourAlignCoT consistently improve the performance when combined with otherstate-of-the-art prompt engineering methods. The source code and dataset willbe available at.</p>
+</section>
+<section id="paper-authors" class="level2">
+<h2 class="anchored" data-anchor-id="paper-authors">Paper-authors</h2>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="81" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 80;"><span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>names<span class="op">.</span><span class="fu">map</span>(name <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;&lt;a href="../../posts_by_author.html?name=</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">" &gt;</span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;/li&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
 </div>
 </div>
-<a href="./content/an-awesome-post-2/index.html">
-<div class="listing-description">
-<p>lorem ipsum</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/an-awesome-post-2/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="artificial intelligence" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html">
-<h3 class="no-anchor listing-title">
-Deriving Comprehensible Theories from Probabilistic Circuits
-</h3>
-<div class="listing-subtitle">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="87" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 86;"><span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a>htl <span class="op">=</span> <span class="pp">require</span>(<span class="st">"htl@0.2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('artificial intelligence'); return false;">
-artificial intelligence
 </div>
 </div>
-<a href="./content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html">
-<div class="listing-description">
-<p>The field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="computer vision" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/manual_push/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/manual_push/index.html">
-<h3 class="no-anchor listing-title">
-Manual Push
-</h3>
-<div class="listing-subtitle">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="93" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 92;"><span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>html <span class="op">=</span> htl<span class="op">.</span><span class="at">html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('computer vision'); return false;">
-computer vision
 </div>
 </div>
-<a href="./content/manual_push/index.html">
-<div class="listing-description">
-<p>Hopefully it works</p>
+</section>
+<section id="more-resources" class="level2">
+<h2 class="anchored" data-anchor-id="more-resources">More Resources</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://arxiv.org/pdf/2311.13538"><img src="https://img.shields.io/badge/PDF-green?style=flat.png" class="img-fluid figure-img"></a></p>
+</figure>
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/manual_push/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="computer vision" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/system-test/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/system-test/index.html">
-<h3 class="no-anchor listing-title">
-system test
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('computer vision'); return false;">
-computer vision
-</div>
-</div>
-<a href="./content/system-test/index.html">
-<div class="listing-description">
-<p>Hopefully it works</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/system-test/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="artificial intelligence" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./content/generation-of-explanations-for-logic-reasoning/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/generation-of-explanations-for-logic-reasoning/index.html">
-<h3 class="no-anchor listing-title">
-Generation of Explanations for Logic Reasoning
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('artificial intelligence'); return false;">
-artificial intelligence
-</div>
-</div>
-<a href="./content/generation-of-explanations-for-logic-reasoning/index.html">
-<div class="listing-description">
-<p>This thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/generation-of-explanations-for-logic-reasoning/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="machine learning" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html">
-<h3 class="no-anchor listing-title">
-A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints
-</h3>
-<div class="listing-subtitle">
+</section>
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-</div>
-<a href="./content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html">
-<div class="listing-description">
-<p>The field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="machine learning" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/testing-post-submission-2/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/testing-post-submission-2/index.html">
-<h3 class="no-anchor listing-title">
-Testing Post Submission 2
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-</div>
-<a href="./content/testing-post-submission-2/index.html">
-<div class="listing-description">
-<p>lorem ipsum</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/testing-post-submission-2/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="computation and language" data-listing-file-modified-sort="1700826941262" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./content/on-the-calibration-of-large-language-models-and-alignment/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./content/on-the-calibration-of-large-language-models-and-alignment/index.html">
-<h3 class="no-anchor listing-title">
-On the Calibration of Large Language Models and Alignment
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('computation and language'); return false;">
-computation and language
-</div>
-</div>
-<a href="./content/on-the-calibration-of-large-language-models-and-alignment/index.html">
-<div class="listing-description">
-<p>As large language models attract increasing attention and find widespreadapplication, concurrent challenges of reliability also arise at the same time.Confidence calibration, an effective analysis method for gauging thereliability of deep models…</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./content/on-the-calibration-of-large-language-models-and-alignment/index.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n names = [\"Zhicheng Yang\",\"Yiwei Wang\",\"Yinya Huang\",\"Jing Xiong\",\"Xiaodan Liang\",\"Jing Tang\"] \n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\n html`<ul>${names.map(name => html`<li><a href=\"../../posts_by_author.html?name=${name}\" >${name}</a></li>`)}</ul>` \n\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\n htl = require(\"htl@0.2\") \n\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\n html = htl.html \n\n"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../content/speak-like-a-native-prompting-large-language-models-in-a-native-style";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -782,6 +601,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://giscus.app/client.js" data-repo="DelmiroDaladier/icr" data-repo-id="R_kgDOIajQkw" data-category="General" data-category-id="DIC_kwDOIajQk84CSkWk" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 

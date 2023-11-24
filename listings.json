@@ -7,14 +7,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/newsletter.html",
     "items": [
-      "/content/an-awesome-post-2/index.html",
-      "/content/manual_push/index.html",
-      "/content/system-test/index.html",
-      "/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-      "/content/testing-post-submission-2/index.html",
-      "/content/on-the-calibration-of-large-language-models-and-alignment/index.html"
+      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
     ]
   },
   {
@@ -22,9 +17,17 @@
     "items": []
   },
   {
-    "listing": "/newsletter.html",
+    "listing": "/index.html",
     "items": [
-      "/newsletter/cdt_weekly_newsletter-20-11-2023/index.html"
+      "/content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html",
+      "/content/an-awesome-post-2/index.html",
+      "/content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
+      "/content/manual_push/index.html",
+      "/content/system-test/index.html",
+      "/content/generation-of-explanations-for-logic-reasoning/index.html",
+      "/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
+      "/content/testing-post-submission-2/index.html",
+      "/content/on-the-calibration-of-large-language-models-and-alignment/index.html"
     ]
   }
 ]
