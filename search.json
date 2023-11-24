@@ -84,86 +84,114 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/testing-post-submission-2/index.html",
-    "href": "content/testing-post-submission-2/index.html",
-    "title": "Testing Post Submission 2",
+    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html",
+    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html",
+    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
     "section": "",
-    "text": "names = [\"Artjoms Šeļa\",\"Laura Hernández-Lorenzo\"]"
+    "text": "names = [\"Saad Shaikh\",\"Rajat bendre\",\"Sakshi Mhaske\"]"
   },
   {
-    "objectID": "content/testing-post-submission-2/index.html#tldr",
-    "href": "content/testing-post-submission-2/index.html#tldr",
-    "title": "Testing Post Submission 2",
+    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#tldr",
+    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#tldr",
+    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
     "section": "Tldr",
-    "text": "Tldr\nlorem ipsum"
+    "text": "Tldr\nThis study looks at how generative artificial intelligence (AI) canrevolutionize marketing, product development, and research. It discusses thelatest developments in the field, easy-to-use resources, and moral and socialhazards. In addition to addressing mitigating techniques for issues likeprejudice and disinformation, the debate emphasizes the significance ofresponsible development through continual stakeholder communication and ethicalprinciples."
   },
   {
-    "objectID": "content/testing-post-submission-2/index.html#paper-authors",
-    "href": "content/testing-post-submission-2/index.html#paper-authors",
-    "title": "Testing Post Submission 2",
+    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#paper-authors",
+    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#paper-authors",
+    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/testing-post-submission-2/index.html#more-resources",
-    "href": "content/testing-post-submission-2/index.html#more-resources",
-    "title": "Testing Post Submission 2",
+    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#more-resources",
+    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#more-resources",
+    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
     "section": "",
-    "text": "names = [\"Roussel Desmond Nzoyem\",\"David A. W. Barton\",\"Tom Deakin\"]"
+    "text": "names = [\"Zihao Zhou\",\"Bin Hu\",\"Pu Zhang\",\"Chenyang Zhao\",\"Bin Liu\"]"
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#tldr",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#tldr",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
     "section": "Tldr",
-    "text": "Tldr\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural Networks (PINNs) and Differentiable Programming (DP)are to be contrasted with established numerical schemes like Direct-AdjointLooping (DAL). We present a comprehensive comparison of DAL, PINN, and DP usinga general-purpose mesh-free differentiable PDE solver based on Radial BasisFunctions. Under Laplace and Navier-Stokes equations, we found DP to beextremely effective as it produces the most accurate gradients; thriving evenwhen DAL fails and PINNs struggle. Additionally, we provide a detailedbenchmark highlighting the limited conditions under which any of those methodscan be efficiently used. Our work provides a guide to Optimal Controlpractitioners and connects them further to the Deep Learning community."
+    "text": "Tldr\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to their lack of specialization in solving specific targetproblems. Moreover, the deployment of such LLM-based agents is both costly andtime-consuming in practical scenarios. In this paper, we introduce a novelframework that addresses these challenges by training a smaller scalespecialized student agent using instructions from an LLM-based teacher agent.By leveraging guided actions provided by the teachers, the prior knowledge ofthe LLM is distilled into the local student model. Consequently, the studentagent can be trained with significantly less data. Furthermore, subsequenttraining with environment feedback empowers the student agents to surpass thecapabilities of their teachers. We conducted experiments on three challengingMiniGrid environments to evaluate the effectiveness of our framework. Theresults demonstrate that our approach enhances sample efficiency and achievessuperior performance compared to baseline methods."
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#paper-authors",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#paper-authors",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#more-resources",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#more-resources",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html",
-    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html",
-    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html",
+    "title": "Generation of Explanations for Logic Reasoning",
     "section": "",
-    "text": "names = [\"Mosab S. M. Farea\",\"zhe chen\"]"
+    "text": "names = [\"Yanyi Pu\"]"
   },
   {
-    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#tldr",
-    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#tldr",
-    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
+    "title": "Generation of Explanations for Logic Reasoning",
     "section": "Tldr",
-    "text": "Tldr\nBreast cancer is a serious disease that inflicts millions of people eachyear, and the number of cases is increasing. Early detection is the best way toreduce the impact of the disease. Researchers have developed many techniques todetect breast cancer, including the use of histopathology images in CADsystems. This research proposes a technique that combine already fully trainedmodel using adaptive average ensemble, this is different from the literaturewhich uses average ensemble before training and the average ensemble is trainedsimultaneously. Our approach is different because it used adaptive averageensemble after training which has increased the performance of evaluationmetrics. It averages the outputs of every trained model, and every model willhave weight according to its accuracy. The accuracy in the adaptive weightedensemble model has achieved 98% where the accuracy has increased by 1 percentwhich is better than the best participating model in the ensemble which was97%. Also, it decreased the numbers of false positive and false negative andenhanced the performance metrics."
+    "text": "Tldr\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of these arguments, with a focus on understandingintricate reasoning processes, generating clear and coherent explanations, andcreating novel arguments. The methodology encompasses a series of tasksincluding detailed reasoning, interpretation, and the augmentation of afortiori arguments. It involves meticulously identifying these arguments indiverse contexts, differentiating comparative elements, and categorizing thembased on their logical structure.Extensive experiments reveals the challenges encountered by GPT-3.5-turbo inaccurately detecting and classifying a fortiori arguments. Nevertheless, themodel demonstrates a performance that rivals specialized models, particularlyin extracting key components and interpreting underlying properties. Theintegration of external information into the model’s processing significantlyelevates the quality of the generated explanations. Additionally, the modelexhibits a noteworthy capability in augmenting arguments, thus contributing tothe enrichment of the data set.Despite facing certain limitations, this thesis makes significantcontributions to the fields of artificial intelligence and logical reasoning.It introduces novel methodologies, establishes a rigorous evaluation framework,and provides deep insights that set the stage for future advancements inautomated logical reasoning. The findings and methodologies presented hereinnot only underscore the potential of AI in complex reasoning tasks but alsohighlight areas for future research and development."
   },
   {
-    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#paper-authors",
-    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#paper-authors",
-    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
+    "title": "Generation of Explanations for Logic Reasoning",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#more-resources",
-    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#more-resources",
-    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
+    "title": "Generation of Explanations for Logic Reasoning",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html",
+    "href": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html",
+    "title": "Cracking the Code of Negative Transfer: A Cooperative Game Theoretic Approach for Cross-Domain Sequential Recommendation",
+    "section": "",
+    "text": "names = [\"Chung Park\",\"Taesan Kim\",\"Taekyoon Choi\",\"Junui Hong\",\"Yelim Yu\",\"Mincheol Cho\",\"Kyunam Lee\",\"Sungil Ryu\",\"Hyungjun Yoon\",\"Minsung Choi\",\"Jaegul Choo\"]"
+  },
+  {
+    "objectID": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html#tldr",
+    "href": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html#tldr",
+    "title": "Cracking the Code of Negative Transfer: A Cooperative Game Theoretic Approach for Cross-Domain Sequential Recommendation",
+    "section": "Tldr",
+    "text": "Tldr\nThis paper investigates Cross-Domain Sequential Recommendation (CDSR), apromising method that uses information from multiple domains (more than three)to generate accurate and diverse recommendations, and takes into account thesequential nature of user interactions. The effectiveness of these systemsoften depends on the complex interplay among the multiple domains. In thisdynamic landscape, the problem of negative transfer arises, where heterogeneousknowledge between dissimilar domains leads to performance degradation due todifferences in user preferences across these domains. As a remedy, we propose anew CDSR framework that addresses the problem of negative transfer by assessingthe extent of negative transfer from one domain to another and adaptivelyassigning low weight values to the corresponding prediction losses. To thisend, the amount of negative transfer is estimated by measuring the marginalcontribution of each domain to model performance based on a cooperative gametheory. In addition, a hierarchical contrastive learning approach thatincorporates information from the sequence of coarse-level categories into thatof fine-level categories (e.g., item level) when implementing contrastivelearning was developed to mitigate negative transfer. Despite the potentiallylow relevance between domains at the fine-level, there may be higher relevanceat the category level due to its generalised and broader preferences. We showthat our model is superior to prior works in terms of model performance on tworeal-world datasets across ten different domains."
+  },
+  {
+    "objectID": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html#paper-authors",
+    "href": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html#paper-authors",
+    "title": "Cracking the Code of Negative Transfer: A Cooperative Game Theoretic Approach for Cross-Domain Sequential Recommendation",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html#more-resources",
+    "href": "content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html#more-resources",
+    "title": "Cracking the Code of Negative Transfer: A Cooperative Game Theoretic Approach for Cross-Domain Sequential Recommendation",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -319,7 +347,7 @@
     "href": "index.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Algorithmic Transparency and Manipulation\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nA series of recent papers raises worries about the manipulative potential ofalgorithmic transparency. But while the concern is apt and relevant, it isbased on a fraught understanding of manipulation. Therefore, this paper drawsattention to the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSpeak Like a Native: Prompting Large Language Models in a Native Style\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nApplying Large Language Models to Power Systems: Potential Security Threats\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far.…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDeriving Comprehensible Theories from Probabilistic Circuits\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nManual Push\n\n\n\n\n\n\n\ncomputer vision\n\n\n\n\nHopefully it works\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nArtificial Intelligence in the Service of Entrepreneurial Finance: Knowledge Structure and the Foundational Algorithmic Paradigm\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nWhile the application of Artificial Intelligence in Finance has a longtradition, its potential in Entrepreneurship has been intensively explored onlyrecently. In this context, Entrepreneurial Finance is a particularly fertileground for future…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBreast Cancer classification by adaptive weighted average ensemble of previously trained models\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nBreast cancer is a serious disease that inflicts millions of people eachyear, and the number of cases is increasing. Early detection is the best way toreduce the impact of the disease. Researchers have developed many techniques todetect breast…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeneration of Explanations for Logic Reasoning\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLarge Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting Post Submission 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe Rise of Creative Machines: Exploring the Impact of Generative AI\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis study looks at how generative artificial intelligence (AI) canrevolutionize marketing, product development, and research. It discusses thelatest developments in the field, easy-to-use resources, and moral and socialhazards. In addition to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum learning and essential cognition under the traction of meta-characteristics in an open world\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence has made significant progress in the Close Worldproblem, being able to accurately recognize old knowledge through training andclassification. However, AI faces significant challenges in the Open Worldproblem, as it involves…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOn the Calibration of Large Language Models and Alignment\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nAs large language models attract increasing attention and find widespreadapplication, concurrent challenges of reliability also arise at the same time.Confidence calibration, an effective analysis method for gauging thereliability of deep models…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Algorithmic Transparency and Manipulation\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nA series of recent papers raises worries about the manipulative potential ofalgorithmic transparency. But while the concern is apt and relevant, it isbased on a fraught understanding of manipulation. Therefore, this paper drawsattention to the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSpeak Like a Native: Prompting Large Language Models in a Native Style\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nApplying Large Language Models to Power Systems: Potential Security Threats\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far.…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDeriving Comprehensible Theories from Probabilistic Circuits\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nManual Push\n\n\n\n\n\n\n\ncomputer vision\n\n\n\n\nHopefully it works\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nArtificial Intelligence in the Service of Entrepreneurial Finance: Knowledge Structure and the Foundational Algorithmic Paradigm\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nWhile the application of Artificial Intelligence in Finance has a longtradition, its potential in Entrepreneurship has been intensively explored onlyrecently. In this context, Entrepreneurial Finance is a particularly fertileground for future…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCracking the Code of Negative Transfer: A Cooperative Game Theoretic Approach for Cross-Domain Sequential Recommendation\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis paper investigates Cross-Domain Sequential Recommendation (CDSR), apromising method that uses information from multiple domains (more than three)to generate accurate and diverse recommendations, and takes into account thesequential nature of…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBreast Cancer classification by adaptive weighted average ensemble of previously trained models\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nBreast cancer is a serious disease that inflicts millions of people eachyear, and the number of cases is increasing. Early detection is the best way toreduce the impact of the disease. Researchers have developed many techniques todetect breast…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeneration of Explanations for Logic Reasoning\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLarge Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting Post Submission 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe Rise of Creative Machines: Exploring the Impact of Generative AI\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis study looks at how generative artificial intelligence (AI) canrevolutionize marketing, product development, and research. It discusses thelatest developments in the field, easy-to-use resources, and moral and socialhazards. In addition to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMultimodal Large Language Models: A Survey\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe exploration of multimodal language models integrates multiple data types,such as images, text, language, audio, and other heterogeneity. While thelatest large language models excel in text-based tasks, they often struggle tounderstand and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum learning and essential cognition under the traction of meta-characteristics in an open world\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence has made significant progress in the Close Worldproblem, being able to accurately recognize old knowledge through training andclassification. However, AI faces significant challenges in the Open Worldproblem, as it involves…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOn the Calibration of Large Language Models and Alignment\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nAs large language models attract increasing attention and find widespreadapplication, concurrent challenges of reliability also arise at the same time.Confidence calibration, an effective analysis method for gauging thereliability of deep models…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -441,86 +469,114 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html",
+    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html",
+    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
     "section": "",
-    "text": "names = [\"Yanyi Pu\"]"
+    "text": "names = [\"Mosab S. M. Farea\",\"zhe chen\"]"
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#tldr",
+    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#tldr",
+    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
     "section": "Tldr",
-    "text": "Tldr\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of these arguments, with a focus on understandingintricate reasoning processes, generating clear and coherent explanations, andcreating novel arguments. The methodology encompasses a series of tasksincluding detailed reasoning, interpretation, and the augmentation of afortiori arguments. It involves meticulously identifying these arguments indiverse contexts, differentiating comparative elements, and categorizing thembased on their logical structure.Extensive experiments reveals the challenges encountered by GPT-3.5-turbo inaccurately detecting and classifying a fortiori arguments. Nevertheless, themodel demonstrates a performance that rivals specialized models, particularlyin extracting key components and interpreting underlying properties. Theintegration of external information into the model’s processing significantlyelevates the quality of the generated explanations. Additionally, the modelexhibits a noteworthy capability in augmenting arguments, thus contributing tothe enrichment of the data set.Despite facing certain limitations, this thesis makes significantcontributions to the fields of artificial intelligence and logical reasoning.It introduces novel methodologies, establishes a rigorous evaluation framework,and provides deep insights that set the stage for future advancements inautomated logical reasoning. The findings and methodologies presented hereinnot only underscore the potential of AI in complex reasoning tasks but alsohighlight areas for future research and development."
+    "text": "Tldr\nBreast cancer is a serious disease that inflicts millions of people eachyear, and the number of cases is increasing. Early detection is the best way toreduce the impact of the disease. Researchers have developed many techniques todetect breast cancer, including the use of histopathology images in CADsystems. This research proposes a technique that combine already fully trainedmodel using adaptive average ensemble, this is different from the literaturewhich uses average ensemble before training and the average ensemble is trainedsimultaneously. Our approach is different because it used adaptive averageensemble after training which has increased the performance of evaluationmetrics. It averages the outputs of every trained model, and every model willhave weight according to its accuracy. The accuracy in the adaptive weightedensemble model has achieved 98% where the accuracy has increased by 1 percentwhich is better than the best participating model in the ensemble which was97%. Also, it decreased the numbers of false positive and false negative andenhanced the performance metrics."
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#paper-authors",
+    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#paper-authors",
+    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#more-resources",
+    "href": "content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html#more-resources",
+    "title": "Breast Cancer classification by adaptive weighted average ensemble of previously trained models",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html",
-    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html",
-    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "",
-    "text": "names = [\"Zihao Zhou\",\"Bin Hu\",\"Pu Zhang\",\"Chenyang Zhao\",\"Bin Liu\"]"
+    "text": "names = [\"Roussel Desmond Nzoyem\",\"David A. W. Barton\",\"Tom Deakin\"]"
   },
   {
-    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#tldr",
-    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#tldr",
-    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "Tldr",
-    "text": "Tldr\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to their lack of specialization in solving specific targetproblems. Moreover, the deployment of such LLM-based agents is both costly andtime-consuming in practical scenarios. In this paper, we introduce a novelframework that addresses these challenges by training a smaller scalespecialized student agent using instructions from an LLM-based teacher agent.By leveraging guided actions provided by the teachers, the prior knowledge ofthe LLM is distilled into the local student model. Consequently, the studentagent can be trained with significantly less data. Furthermore, subsequenttraining with environment feedback empowers the student agents to surpass thecapabilities of their teachers. We conducted experiments on three challengingMiniGrid environments to evaluate the effectiveness of our framework. Theresults demonstrate that our approach enhances sample efficiency and achievessuperior performance compared to baseline methods."
+    "text": "Tldr\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural Networks (PINNs) and Differentiable Programming (DP)are to be contrasted with established numerical schemes like Direct-AdjointLooping (DAL). We present a comprehensive comparison of DAL, PINN, and DP usinga general-purpose mesh-free differentiable PDE solver based on Radial BasisFunctions. Under Laplace and Navier-Stokes equations, we found DP to beextremely effective as it produces the most accurate gradients; thriving evenwhen DAL fails and PINNs struggle. Additionally, we provide a detailedbenchmark highlighting the limited conditions under which any of those methodscan be efficiently used. Our work provides a guide to Optimal Controlpractitioners and connects them further to the Deep Learning community."
   },
   {
-    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#paper-authors",
-    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#paper-authors",
-    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#more-resources",
-    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#more-resources",
-    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html",
-    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html",
-    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
+    "objectID": "content/testing-post-submission-2/index.html",
+    "href": "content/testing-post-submission-2/index.html",
+    "title": "Testing Post Submission 2",
     "section": "",
-    "text": "names = [\"Saad Shaikh\",\"Rajat bendre\",\"Sakshi Mhaske\"]"
+    "text": "names = [\"Artjoms Šeļa\",\"Laura Hernández-Lorenzo\"]"
   },
   {
-    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#tldr",
-    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#tldr",
-    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
+    "objectID": "content/testing-post-submission-2/index.html#tldr",
+    "href": "content/testing-post-submission-2/index.html#tldr",
+    "title": "Testing Post Submission 2",
     "section": "Tldr",
-    "text": "Tldr\nThis study looks at how generative artificial intelligence (AI) canrevolutionize marketing, product development, and research. It discusses thelatest developments in the field, easy-to-use resources, and moral and socialhazards. In addition to addressing mitigating techniques for issues likeprejudice and disinformation, the debate emphasizes the significance ofresponsible development through continual stakeholder communication and ethicalprinciples."
+    "text": "Tldr\nlorem ipsum"
   },
   {
-    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#paper-authors",
-    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#paper-authors",
-    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
+    "objectID": "content/testing-post-submission-2/index.html#paper-authors",
+    "href": "content/testing-post-submission-2/index.html#paper-authors",
+    "title": "Testing Post Submission 2",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#more-resources",
-    "href": "content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html#more-resources",
-    "title": "The Rise of Creative Machines: Exploring the Impact of Generative AI",
+    "objectID": "content/testing-post-submission-2/index.html#more-resources",
+    "href": "content/testing-post-submission-2/index.html#more-resources",
+    "title": "Testing Post Submission 2",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/multimodal-large-language-models-a-survey/index.html",
+    "href": "content/multimodal-large-language-models-a-survey/index.html",
+    "title": "Multimodal Large Language Models: A Survey",
+    "section": "",
+    "text": "names = [\"Jiayang Wu\",\"Wensheng Gan\",\"Zefeng Chen\",\"Shicheng Wan\",\"Philip S. Yu\"]"
+  },
+  {
+    "objectID": "content/multimodal-large-language-models-a-survey/index.html#tldr",
+    "href": "content/multimodal-large-language-models-a-survey/index.html#tldr",
+    "title": "Multimodal Large Language Models: A Survey",
+    "section": "Tldr",
+    "text": "Tldr\nThe exploration of multimodal language models integrates multiple data types,such as images, text, language, audio, and other heterogeneity. While thelatest large language models excel in text-based tasks, they often struggle tounderstand and process other data types. Multimodal models address thislimitation by combining various modalities, enabling a more comprehensiveunderstanding of diverse data. This paper begins by defining the concept ofmultimodal and examining the historical development of multimodal algorithms.Furthermore, we introduce a range of multimodal products, focusing on theefforts of major technology companies. A practical guide is provided, offeringinsights into the technical aspects of multimodal models. Moreover, we presenta compilation of the latest algorithms and commonly used datasets, providingresearchers with valuable resources for experimentation and evaluation. Lastly,we explore the applications of multimodal models and discuss the challengesassociated with their development. By addressing these aspects, this paper aimsto facilitate a deeper understanding of multimodal models and their potentialin various domains."
+  },
+  {
+    "objectID": "content/multimodal-large-language-models-a-survey/index.html#paper-authors",
+    "href": "content/multimodal-large-language-models-a-survey/index.html#paper-authors",
+    "title": "Multimodal Large Language Models: A Survey",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/multimodal-large-language-models-a-survey/index.html#more-resources",
+    "href": "content/multimodal-large-language-models-a-survey/index.html#more-resources",
+    "title": "Multimodal Large Language Models: A Survey",
     "section": "More Resources",
     "text": "More Resources"
   },
