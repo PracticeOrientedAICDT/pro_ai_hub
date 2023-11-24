@@ -84,58 +84,86 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "",
-    "text": "names = [\"Yanyi Pu\"]"
+    "text": "names = [\"Roussel Desmond Nzoyem\",\"David A. W. Barton\",\"Tom Deakin\"]"
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "Tldr",
-    "text": "Tldr\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of these arguments, with a focus on understandingintricate reasoning processes, generating clear and coherent explanations, andcreating novel arguments. The methodology encompasses a series of tasksincluding detailed reasoning, interpretation, and the augmentation of afortiori arguments. It involves meticulously identifying these arguments indiverse contexts, differentiating comparative elements, and categorizing thembased on their logical structure.Extensive experiments reveals the challenges encountered by GPT-3.5-turbo inaccurately detecting and classifying a fortiori arguments. Nevertheless, themodel demonstrates a performance that rivals specialized models, particularlyin extracting key components and interpreting underlying properties. Theintegration of external information into the model’s processing significantlyelevates the quality of the generated explanations. Additionally, the modelexhibits a noteworthy capability in augmenting arguments, thus contributing tothe enrichment of the data set.Despite facing certain limitations, this thesis makes significantcontributions to the fields of artificial intelligence and logical reasoning.It introduces novel methodologies, establishes a rigorous evaluation framework,and provides deep insights that set the stage for future advancements inautomated logical reasoning. The findings and methodologies presented hereinnot only underscore the potential of AI in complex reasoning tasks but alsohighlight areas for future research and development."
+    "text": "Tldr\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural Networks (PINNs) and Differentiable Programming (DP)are to be contrasted with established numerical schemes like Direct-AdjointLooping (DAL). We present a comprehensive comparison of DAL, PINN, and DP usinga general-purpose mesh-free differentiable PDE solver based on Radial BasisFunctions. Under Laplace and Navier-Stokes equations, we found DP to beextremely effective as it produces the most accurate gradients; thriving evenwhen DAL fails and PINNs struggle. Additionally, we provide a detailedbenchmark highlighting the limited conditions under which any of those methodscan be efficiently used. Our work provides a guide to Optimal Controlpractitioners and connects them further to the Deep Learning community."
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
-    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
-    "title": "Generation of Explanations for Logic Reasoning",
+    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
+    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/manual_push/index.html",
+    "href": "content/manual_push/index.html",
+    "title": "Manual Push",
     "section": "",
-    "text": "names = [\"Sieben Bocklandt\",\"Wannes Meert\",\"Koen Vanderstraeten\",\"Wouter Pijpops\",\"Kurt Jaspers\"]"
+    "text": "names = [\"Tony Fang\"]"
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/manual_push/index.html#tldr",
+    "href": "content/manual_push/index.html#tldr",
+    "title": "Manual Push",
     "section": "Tldr",
-    "text": "Tldr\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and unified framework for tractable probabilistic models that supportefficient computation of various probabilistic queries. Probabilistic circuitsguarantee inference that is polynomial in the size of the circuit. In thispaper, we improve the explainability of probabilistic circuits by computing acomprehensible, readable logical theory that covers the high-density regionsgenerated by a PC. To achieve this, pruning approaches based on generativesignificance are used in a new method called PUTPUT (Probabilistic circuitUnderstanding Through Pruning Underlying logical Theories). The method isapplied to a real world use case where music playlists are automaticallygenerated and expressed as readable (database) queries. Evaluation shows thatthis approach can effectively produce a comprehensible logical theory thatdescribes the high-density regions of a PC and outperforms state of the artmethods when exploring the performance-comprehensibility trade-off."
+    "text": "Tldr\nHopefully it works"
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/manual_push/index.html#paper-authors",
+    "href": "content/manual_push/index.html#paper-authors",
+    "title": "Manual Push",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/manual_push/index.html#more-resources",
+    "href": "content/manual_push/index.html#more-resources",
+    "title": "Manual Push",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "section": "",
+    "text": "names = [\"Jiaqi Ruan\",\"Gaoqi Liang\",\"Huan Zhao\",\"Guolong Liu\",\"Jing Qiu\",\"Junhua Zhao\",\"Zhao Xu\",\"Fushuan Wen\",\"Zhao Yang Dong\"]"
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#tldr",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#tldr",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "section": "Tldr",
+    "text": "Tldr\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far. To this end, this letter analyzes potential threats incurredby applying LLMs to power systems, emphasizing the need for urgent research anddevelopment of countermeasures."
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#paper-authors",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#paper-authors",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#more-resources",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#more-resources",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -179,7 +207,7 @@
     "href": "index.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Speak Like a Native: Prompting Large Language Models in a Native Style\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDeriving Comprehensible Theories from Probabilistic Circuits\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nManual Push\n\n\n\n\n\n\n\ncomputer vision\n\n\n\n\nHopefully it works\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeneration of Explanations for Logic Reasoning\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting Post Submission 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOn the Calibration of Large Language Models and Alignment\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nAs large language models attract increasing attention and find widespreadapplication, concurrent challenges of reliability also arise at the same time.Confidence calibration, an effective analysis method for gauging thereliability of deep models…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Speak Like a Native: Prompting Large Language Models in a Native Style\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nApplying Large Language Models to Power Systems: Potential Security Threats\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far.…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDeriving Comprehensible Theories from Probabilistic Circuits\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nManual Push\n\n\n\n\n\n\n\ncomputer vision\n\n\n\n\nHopefully it works\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeneration of Explanations for Logic Reasoning\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLarge Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting Post Submission 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOn the Calibration of Large Language Models and Alignment\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nAs large language models attract increasing attention and find widespreadapplication, concurrent challenges of reliability also arise at the same time.Confidence calibration, an effective analysis method for gauging thereliability of deep models…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "event_calendar.html",
@@ -273,58 +301,86 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/manual_push/index.html",
-    "href": "content/manual_push/index.html",
-    "title": "Manual Push",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "",
-    "text": "names = [\"Tony Fang\"]"
+    "text": "names = [\"Sieben Bocklandt\",\"Wannes Meert\",\"Koen Vanderstraeten\",\"Wouter Pijpops\",\"Kurt Jaspers\"]"
   },
   {
-    "objectID": "content/manual_push/index.html#tldr",
-    "href": "content/manual_push/index.html#tldr",
-    "title": "Manual Push",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "Tldr",
-    "text": "Tldr\nHopefully it works"
+    "text": "Tldr\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and unified framework for tractable probabilistic models that supportefficient computation of various probabilistic queries. Probabilistic circuitsguarantee inference that is polynomial in the size of the circuit. In thispaper, we improve the explainability of probabilistic circuits by computing acomprehensible, readable logical theory that covers the high-density regionsgenerated by a PC. To achieve this, pruning approaches based on generativesignificance are used in a new method called PUTPUT (Probabilistic circuitUnderstanding Through Pruning Underlying logical Theories). The method isapplied to a real world use case where music playlists are automaticallygenerated and expressed as readable (database) queries. Evaluation shows thatthis approach can effectively produce a comprehensible logical theory thatdescribes the high-density regions of a PC and outperforms state of the artmethods when exploring the performance-comprehensibility trade-off."
   },
   {
-    "objectID": "content/manual_push/index.html#paper-authors",
-    "href": "content/manual_push/index.html#paper-authors",
-    "title": "Manual Push",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/manual_push/index.html#more-resources",
-    "href": "content/manual_push/index.html#more-resources",
-    "title": "Manual Push",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html",
+    "title": "Generation of Explanations for Logic Reasoning",
     "section": "",
-    "text": "names = [\"Roussel Desmond Nzoyem\",\"David A. W. Barton\",\"Tom Deakin\"]"
+    "text": "names = [\"Yanyi Pu\"]"
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#tldr",
+    "title": "Generation of Explanations for Logic Reasoning",
     "section": "Tldr",
-    "text": "Tldr\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural Networks (PINNs) and Differentiable Programming (DP)are to be contrasted with established numerical schemes like Direct-AdjointLooping (DAL). We present a comprehensive comparison of DAL, PINN, and DP usinga general-purpose mesh-free differentiable PDE solver based on Radial BasisFunctions. Under Laplace and Navier-Stokes equations, we found DP to beextremely effective as it produces the most accurate gradients; thriving evenwhen DAL fails and PINNs struggle. Additionally, we provide a detailedbenchmark highlighting the limited conditions under which any of those methodscan be efficiently used. Our work provides a guide to Optimal Controlpractitioners and connects them further to the Deep Learning community."
+    "text": "Tldr\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of these arguments, with a focus on understandingintricate reasoning processes, generating clear and coherent explanations, andcreating novel arguments. The methodology encompasses a series of tasksincluding detailed reasoning, interpretation, and the augmentation of afortiori arguments. It involves meticulously identifying these arguments indiverse contexts, differentiating comparative elements, and categorizing thembased on their logical structure.Extensive experiments reveals the challenges encountered by GPT-3.5-turbo inaccurately detecting and classifying a fortiori arguments. Nevertheless, themodel demonstrates a performance that rivals specialized models, particularlyin extracting key components and interpreting underlying properties. Theintegration of external information into the model’s processing significantlyelevates the quality of the generated explanations. Additionally, the modelexhibits a noteworthy capability in augmenting arguments, thus contributing tothe enrichment of the data set.Despite facing certain limitations, this thesis makes significantcontributions to the fields of artificial intelligence and logical reasoning.It introduces novel methodologies, establishes a rigorous evaluation framework,and provides deep insights that set the stage for future advancements inautomated logical reasoning. The findings and methodologies presented hereinnot only underscore the potential of AI in complex reasoning tasks but alsohighlight areas for future research and development."
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#paper-authors",
+    "title": "Generation of Explanations for Logic Reasoning",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "objectID": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
+    "href": "content/generation-of-explanations-for-logic-reasoning/index.html#more-resources",
+    "title": "Generation of Explanations for Logic Reasoning",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
+    "section": "",
+    "text": "names = [\"Zihao Zhou\",\"Bin Hu\",\"Pu Zhang\",\"Chenyang Zhao\",\"Bin Liu\"]"
+  },
+  {
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#tldr",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#tldr",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
+    "section": "Tldr",
+    "text": "Tldr\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to their lack of specialization in solving specific targetproblems. Moreover, the deployment of such LLM-based agents is both costly andtime-consuming in practical scenarios. In this paper, we introduce a novelframework that addresses these challenges by training a smaller scalespecialized student agent using instructions from an LLM-based teacher agent.By leveraging guided actions provided by the teachers, the prior knowledge ofthe LLM is distilled into the local student model. Consequently, the studentagent can be trained with significantly less data. Furthermore, subsequenttraining with environment feedback empowers the student agents to surpass thecapabilities of their teachers. We conducted experiments on three challengingMiniGrid environments to evaluate the effectiveness of our framework. Theresults demonstrate that our approach enhances sample efficiency and achievessuperior performance compared to baseline methods."
+  },
+  {
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#paper-authors",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#paper-authors",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#more-resources",
+    "href": "content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html#more-resources",
+    "title": "Large Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents",
     "section": "More Resources",
     "text": "More Resources"
   },
