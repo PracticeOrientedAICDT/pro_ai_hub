@@ -140,191 +140,58 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/manual_push/index.html",
-    "href": "content/manual_push/index.html",
-    "title": "Manual Push",
+    "objectID": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html",
+    "href": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html",
+    "title": "Artificial Intelligence in the Service of Entrepreneurial Finance: Knowledge Structure and the Foundational Algorithmic Paradigm",
     "section": "",
-    "text": "names = [\"Tony Fang\"]"
+    "text": "names = [\"Robert Kudelić\",\"Tamara Šmaguc\",\"Sherry Robinson\"]"
   },
   {
-    "objectID": "content/manual_push/index.html#tldr",
-    "href": "content/manual_push/index.html#tldr",
-    "title": "Manual Push",
+    "objectID": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html#tldr",
+    "href": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html#tldr",
+    "title": "Artificial Intelligence in the Service of Entrepreneurial Finance: Knowledge Structure and the Foundational Algorithmic Paradigm",
     "section": "Tldr",
-    "text": "Tldr\nHopefully it works"
+    "text": "Tldr\nWhile the application of Artificial Intelligence in Finance has a longtradition, its potential in Entrepreneurship has been intensively explored onlyrecently. In this context, Entrepreneurial Finance is a particularly fertileground for future Artificial Intelligence proliferation. To support the latter,the study provides a bibliometric review of Artificial Intelligenceapplications in (1) entrepreneurial finance literature, and (2) corporatefinance literature with implications for Entrepreneurship. Rigorous search andscreening procedures of the scientific database Web of Science Core Collectionresulted in the identification of 1890 relevant journal articles subjected toanalysis. The bibliometric analysis gives a rich insight into the knowledgefield’s conceptual, intellectual, and social structure, indicating nascent andunderdeveloped research directions. As far as we were able to identify, this isthe first study to map and bibliometrically analyze the academic fieldconcerning the relationship between Artificial Intelligence, Entrepreneurship,and Finance, and the first review that deals with Artificial Intelligencemethods in Entrepreneurship. According to the results, Artificial NeuralNetwork, Deep Neural Network and Support Vector Machine are highly representedin almost all identified topic niches. At the same time, applying TopicModeling, Fuzzy Neural Network and Growing Hierarchical Self-organizing Map isquite rare. As an element of the research, and before final remarks, thearticle deals as well with a discussion of certain gaps in the relationshipbetween Computer Science and Economics. These gaps do represent problems in theapplication of Artificial Intelligence in Economic Science. As a way to atleast in part remedy this situation, the foundational paradigm and the bespokedemonstration of the Monte Carlo randomized algorithm are presented."
   },
   {
-    "objectID": "content/manual_push/index.html#paper-authors",
-    "href": "content/manual_push/index.html#paper-authors",
-    "title": "Manual Push",
+    "objectID": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html#paper-authors",
+    "href": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html#paper-authors",
+    "title": "Artificial Intelligence in the Service of Entrepreneurial Finance: Knowledge Structure and the Foundational Algorithmic Paradigm",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/manual_push/index.html#more-resources",
-    "href": "content/manual_push/index.html#more-resources",
-    "title": "Manual Push",
+    "objectID": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html#more-resources",
+    "href": "content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html#more-resources",
+    "title": "Artificial Intelligence in the Service of Entrepreneurial Finance: Knowledge Structure and the Foundational Algorithmic Paradigm",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
-    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
-    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "",
-    "text": "names = [\"Jiaqi Ruan\",\"Gaoqi Liang\",\"Huan Zhao\",\"Guolong Liu\",\"Jing Qiu\",\"Junhua Zhao\",\"Zhao Xu\",\"Fushuan Wen\",\"Zhao Yang Dong\"]"
+    "text": "names = [\"Sieben Bocklandt\",\"Wannes Meert\",\"Koen Vanderstraeten\",\"Wouter Pijpops\",\"Kurt Jaspers\"]"
   },
   {
-    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#tldr",
-    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#tldr",
-    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "Tldr",
-    "text": "Tldr\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far. To this end, this letter analyzes potential threats incurredby applying LLMs to power systems, emphasizing the need for urgent research anddevelopment of countermeasures."
+    "text": "Tldr\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and unified framework for tractable probabilistic models that supportefficient computation of various probabilistic queries. Probabilistic circuitsguarantee inference that is polynomial in the size of the circuit. In thispaper, we improve the explainability of probabilistic circuits by computing acomprehensible, readable logical theory that covers the high-density regionsgenerated by a PC. To achieve this, pruning approaches based on generativesignificance are used in a new method called PUTPUT (Probabilistic circuitUnderstanding Through Pruning Underlying logical Theories). The method isapplied to a real world use case where music playlists are automaticallygenerated and expressed as readable (database) queries. Evaluation shows thatthis approach can effectively produce a comprehensible logical theory thatdescribes the high-density regions of a PC and outperforms state of the artmethods when exploring the performance-comprehensibility trade-off."
   },
   {
-    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#paper-authors",
-    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#paper-authors",
-    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#more-resources",
-    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#more-resources",
-    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html",
-    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html",
-    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
-    "section": "",
-    "text": "names = [\"Zhicheng Yang\",\"Yiwei Wang\",\"Yinya Huang\",\"Jing Xiong\",\"Xiaodan Liang\",\"Jing Tang\"]"
-  },
-  {
-    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#tldr",
-    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#tldr",
-    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
-    "section": "Tldr",
-    "text": "Tldr\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In current studies, the few-shot examples of CoT aregenerally handcrafted by humans. However, how the text style of in-contextexamples influence the outputs of LLMs still remains under-explored. This paperpresents a novel and effective approach, named , to improvethe reasoning capability of LLMs by aligning the in-context examples with thenative style of LLMs. ``Native’’ refers to the inherent characteristic style ofLLMs which can be probed by original zero-shot scenarios. AlignCoT isorthogonal to other prompt engineering methods, making it easy to combine withstate-of-the-art techniques to further improve the LLMs’ performance. Weconduct extensive and comprehensive experiments on several benchmarks. Theempirical results demonstrate that our AlignCoTsignificantly improvesperformance over the carefully handcrafted in-context examples. For instance,with GPT-3.5-turbo, we observed a +2.5% improvement on GSM8K. Furthermore, ourAlignCoT consistently improve the performance when combined with otherstate-of-the-art prompt engineering methods. The source code and dataset willbe available at."
-  },
-  {
-    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#paper-authors",
-    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#paper-authors",
-    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#more-resources",
-    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#more-resources",
-    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "newsletter.html",
-    "href": "newsletter.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "Newsletter Issue - 20-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
-  },
-  {
-    "objectID": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
-    "href": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
-    "title": "Newsletter Issue - 20-11-2023",
-    "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nNew Announcement\n\n\nAnother Announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nNew AnnouncementLorem ipsum.Another AnnouncementLorem ipsum.\n\nForthcoming Calendar of Events"
-  },
-  {
-    "objectID": "researchers/roussel-desmond-nzoyem/index.html",
-    "href": "researchers/roussel-desmond-nzoyem/index.html",
-    "title": "Roussel Desmond Nzoyem",
-    "section": "",
-    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
-  },
-  {
-    "objectID": "researchers/roussel-desmond-nzoyem/index.html#bio",
-    "href": "researchers/roussel-desmond-nzoyem/index.html#bio",
-    "title": "Roussel Desmond Nzoyem",
-    "section": "",
-    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
-  },
-  {
-    "objectID": "researchers/tony-fang/index.html",
-    "href": "researchers/tony-fang/index.html",
-    "title": "Tony Fang",
-    "section": "",
-    "text": "This is for testing the system that Daladier built"
-  },
-  {
-    "objectID": "researchers/tony-fang/index.html#bio",
-    "href": "researchers/tony-fang/index.html#bio",
-    "title": "Tony Fang",
-    "section": "",
-    "text": "This is for testing the system that Daladier built"
-  },
-  {
-    "objectID": "event_calendar.html",
-    "href": "event_calendar.html",
-    "title": "Event Calendar",
-    "section": "",
-    "text": "Code\ndata = FileAttachment(\"input_events.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "IAI Hub",
-    "section": "",
-    "text": "Algorithmic Transparency and Manipulation\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nA series of recent papers raises worries about the manipulative potential ofalgorithmic transparency. But while the concern is apt and relevant, it isbased on a fraught understanding of manipulation. Therefore, this paper drawsattention to the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSpeak Like a Native: Prompting Large Language Models in a Native Style\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nApplying Large Language Models to Power Systems: Potential Security Threats\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far.…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDeriving Comprehensible Theories from Probabilistic Circuits\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nManual Push\n\n\n\n\n\n\n\ncomputer vision\n\n\n\n\nHopefully it works\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeneration of Explanations for Logic Reasoning\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLarge Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting Post Submission 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe Rise of Creative Machines: Exploring the Impact of Generative AI\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis study looks at how generative artificial intelligence (AI) canrevolutionize marketing, product development, and research. It discusses thelatest developments in the field, easy-to-use resources, and moral and socialhazards. In addition to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum learning and essential cognition under the traction of meta-characteristics in an open world\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence has made significant progress in the Close Worldproblem, being able to accurately recognize old knowledge through training andclassification. However, AI faces significant challenges in the Open Worldproblem, as it involves…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOn the Calibration of Large Language Models and Alignment\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nAs large language models attract increasing attention and find widespreadapplication, concurrent challenges of reliability also arise at the same time.Confidence calibration, an effective analysis method for gauging thereliability of deep models…\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
-  },
-  {
-    "objectID": "content/algorithmic-transparency-and-manipulation/index.html",
-    "href": "content/algorithmic-transparency-and-manipulation/index.html",
-    "title": "Algorithmic Transparency and Manipulation",
-    "section": "",
-    "text": "names = [\"Michael Klenk\"]"
-  },
-  {
-    "objectID": "content/algorithmic-transparency-and-manipulation/index.html#tldr",
-    "href": "content/algorithmic-transparency-and-manipulation/index.html#tldr",
-    "title": "Algorithmic Transparency and Manipulation",
-    "section": "Tldr",
-    "text": "Tldr\nA series of recent papers raises worries about the manipulative potential ofalgorithmic transparency. But while the concern is apt and relevant, it isbased on a fraught understanding of manipulation. Therefore, this paper drawsattention to the indifference view of manipulation, which explains better thanthe vulnerability view why algorithmic transparency has manipulative potential.The paper also raises pertinent research questions for future studies ofmanipulation in the context of algorithmic transparency."
-  },
-  {
-    "objectID": "content/algorithmic-transparency-and-manipulation/index.html#paper-authors",
-    "href": "content/algorithmic-transparency-and-manipulation/index.html#paper-authors",
-    "title": "Algorithmic Transparency and Manipulation",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/algorithmic-transparency-and-manipulation/index.html#more-resources",
-    "href": "content/algorithmic-transparency-and-manipulation/index.html#more-resources",
-    "title": "Algorithmic Transparency and Manipulation",
+    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
+    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
+    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
     "section": "More Resources",
     "text": "More Resources"
   },
@@ -357,30 +224,191 @@
     "text": "More Resources"
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/algorithmic-transparency-and-manipulation/index.html",
+    "href": "content/algorithmic-transparency-and-manipulation/index.html",
+    "title": "Algorithmic Transparency and Manipulation",
     "section": "",
-    "text": "names = [\"Sieben Bocklandt\",\"Wannes Meert\",\"Koen Vanderstraeten\",\"Wouter Pijpops\",\"Kurt Jaspers\"]"
+    "text": "names = [\"Michael Klenk\"]"
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#tldr",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/algorithmic-transparency-and-manipulation/index.html#tldr",
+    "href": "content/algorithmic-transparency-and-manipulation/index.html#tldr",
+    "title": "Algorithmic Transparency and Manipulation",
     "section": "Tldr",
-    "text": "Tldr\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and unified framework for tractable probabilistic models that supportefficient computation of various probabilistic queries. Probabilistic circuitsguarantee inference that is polynomial in the size of the circuit. In thispaper, we improve the explainability of probabilistic circuits by computing acomprehensible, readable logical theory that covers the high-density regionsgenerated by a PC. To achieve this, pruning approaches based on generativesignificance are used in a new method called PUTPUT (Probabilistic circuitUnderstanding Through Pruning Underlying logical Theories). The method isapplied to a real world use case where music playlists are automaticallygenerated and expressed as readable (database) queries. Evaluation shows thatthis approach can effectively produce a comprehensible logical theory thatdescribes the high-density regions of a PC and outperforms state of the artmethods when exploring the performance-comprehensibility trade-off."
+    "text": "Tldr\nA series of recent papers raises worries about the manipulative potential ofalgorithmic transparency. But while the concern is apt and relevant, it isbased on a fraught understanding of manipulation. Therefore, this paper drawsattention to the indifference view of manipulation, which explains better thanthe vulnerability view why algorithmic transparency has manipulative potential.The paper also raises pertinent research questions for future studies ofmanipulation in the context of algorithmic transparency."
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#paper-authors",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/algorithmic-transparency-and-manipulation/index.html#paper-authors",
+    "href": "content/algorithmic-transparency-and-manipulation/index.html#paper-authors",
+    "title": "Algorithmic Transparency and Manipulation",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
-    "href": "content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html#more-resources",
-    "title": "Deriving Comprehensible Theories from Probabilistic Circuits",
+    "objectID": "content/algorithmic-transparency-and-manipulation/index.html#more-resources",
+    "href": "content/algorithmic-transparency-and-manipulation/index.html#more-resources",
+    "title": "Algorithmic Transparency and Manipulation",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "Algorithmic Transparency and Manipulation\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nA series of recent papers raises worries about the manipulative potential ofalgorithmic transparency. But while the concern is apt and relevant, it isbased on a fraught understanding of manipulation. Therefore, this paper drawsattention to the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSpeak Like a Native: Prompting Large Language Models in a Native Style\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAn Awesome post 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nApplying Large Language Models to Power Systems: Potential Security Threats\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far.…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDeriving Comprehensible Theories from Probabilistic Circuits\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe field of Explainable AI (XAI) is seeking to shed light on the innerworkings of complex AI models and uncover the rationale behind their decisions.One of the models gaining attention are probabilistic circuits (PCs), which area general and…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nManual Push\n\n\n\n\n\n\n\ncomputer vision\n\n\n\n\nHopefully it works\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nArtificial Intelligence in the Service of Entrepreneurial Finance: Knowledge Structure and the Foundational Algorithmic Paradigm\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nWhile the application of Artificial Intelligence in Finance has a longtradition, its potential in Entrepreneurship has been intensively explored onlyrecently. In this context, Entrepreneurial Finance is a particularly fertileground for future…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeneration of Explanations for Logic Reasoning\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis thesis delves into a fortiori arguments in deductive reasoning,underscoring their relevance in various domains such as law, philosophy, andartificial intelligence. The research is centred on employing GPT-3.5-turbo toautomate the analysis of…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLarge Language Model is a Good Policy Teacher for Training Reinforcement Learning Agents\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nRecent studies have shown that Large Language Models (LLMs) can be utilizedfor solving complex sequential decision-making tasks by providing high-levelinstructions. However, LLM-based agents face limitations in real-time dynamicenvironments due to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTesting Post Submission 2\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nlorem ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe Rise of Creative Machines: Exploring the Impact of Generative AI\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis study looks at how generative artificial intelligence (AI) canrevolutionize marketing, product development, and research. It discusses thelatest developments in the field, easy-to-use resources, and moral and socialhazards. In addition to…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuantum learning and essential cognition under the traction of meta-characteristics in an open world\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nArtificial intelligence has made significant progress in the Close Worldproblem, being able to accurately recognize old knowledge through training andclassification. However, AI faces significant challenges in the Open Worldproblem, as it involves…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nOn the Calibration of Large Language Models and Alignment\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nAs large language models attract increasing attention and find widespreadapplication, concurrent challenges of reliability also arise at the same time.Confidence calibration, an effective analysis method for gauging thereliability of deep models…\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "event_calendar.html",
+    "href": "event_calendar.html",
+    "title": "Event Calendar",
+    "section": "",
+    "text": "Code\ndata = FileAttachment(\"input_events.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
+  },
+  {
+    "objectID": "researchers/tony-fang/index.html",
+    "href": "researchers/tony-fang/index.html",
+    "title": "Tony Fang",
+    "section": "",
+    "text": "This is for testing the system that Daladier built"
+  },
+  {
+    "objectID": "researchers/tony-fang/index.html#bio",
+    "href": "researchers/tony-fang/index.html#bio",
+    "title": "Tony Fang",
+    "section": "",
+    "text": "This is for testing the system that Daladier built"
+  },
+  {
+    "objectID": "researchers/roussel-desmond-nzoyem/index.html",
+    "href": "researchers/roussel-desmond-nzoyem/index.html",
+    "title": "Roussel Desmond Nzoyem",
+    "section": "",
+    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
+  },
+  {
+    "objectID": "researchers/roussel-desmond-nzoyem/index.html#bio",
+    "href": "researchers/roussel-desmond-nzoyem/index.html#bio",
+    "title": "Roussel Desmond Nzoyem",
+    "section": "",
+    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
+  },
+  {
+    "objectID": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
+    "href": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
+    "title": "Newsletter Issue - 20-11-2023",
+    "section": "",
+    "text": "CDT Weekly Newsletter\n\n\n\n\nNew Announcement\n\n\nAnother Announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nNew AnnouncementLorem ipsum.Another AnnouncementLorem ipsum.\n\nForthcoming Calendar of Events"
+  },
+  {
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "newsletter.html",
+    "href": "newsletter.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "Newsletter Issue - 20-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html",
+    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html",
+    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
+    "section": "",
+    "text": "names = [\"Zhicheng Yang\",\"Yiwei Wang\",\"Yinya Huang\",\"Jing Xiong\",\"Xiaodan Liang\",\"Jing Tang\"]"
+  },
+  {
+    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#tldr",
+    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#tldr",
+    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
+    "section": "Tldr",
+    "text": "Tldr\nExisting work has found that the prompt engineering heavily influences theperformance of large language models (LLMs). Chain-of-thought (CoT), as apopular prompt engineering technique, prompted LLMs using in-context exampleswith reasoning steps. In current studies, the few-shot examples of CoT aregenerally handcrafted by humans. However, how the text style of in-contextexamples influence the outputs of LLMs still remains under-explored. This paperpresents a novel and effective approach, named , to improvethe reasoning capability of LLMs by aligning the in-context examples with thenative style of LLMs. ``Native’’ refers to the inherent characteristic style ofLLMs which can be probed by original zero-shot scenarios. AlignCoT isorthogonal to other prompt engineering methods, making it easy to combine withstate-of-the-art techniques to further improve the LLMs’ performance. Weconduct extensive and comprehensive experiments on several benchmarks. Theempirical results demonstrate that our AlignCoTsignificantly improvesperformance over the carefully handcrafted in-context examples. For instance,with GPT-3.5-turbo, we observed a +2.5% improvement on GSM8K. Furthermore, ourAlignCoT consistently improve the performance when combined with otherstate-of-the-art prompt engineering methods. The source code and dataset willbe available at."
+  },
+  {
+    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#paper-authors",
+    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#paper-authors",
+    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#more-resources",
+    "href": "content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html#more-resources",
+    "title": "Speak Like a Native: Prompting Large Language Models in a Native Style",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "section": "",
+    "text": "names = [\"Jiaqi Ruan\",\"Gaoqi Liang\",\"Huan Zhao\",\"Guolong Liu\",\"Jing Qiu\",\"Junhua Zhao\",\"Zhao Xu\",\"Fushuan Wen\",\"Zhao Yang Dong\"]"
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#tldr",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#tldr",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "section": "Tldr",
+    "text": "Tldr\nApplying large language models (LLMs) to power systems presents a promisingavenue for enhancing decision-making and operational efficiency. However, thisaction may also incur potential security threats, which have not been fullyrecognized so far. To this end, this letter analyzes potential threats incurredby applying LLMs to power systems, emphasizing the need for urgent research anddevelopment of countermeasures."
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#paper-authors",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#paper-authors",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#more-resources",
+    "href": "content/applying-large-language-models-to-power-systems-potential-security-threats/index.html#more-resources",
+    "title": "Applying Large Language Models to Power Systems: Potential Security Threats",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/manual_push/index.html",
+    "href": "content/manual_push/index.html",
+    "title": "Manual Push",
+    "section": "",
+    "text": "names = [\"Tony Fang\"]"
+  },
+  {
+    "objectID": "content/manual_push/index.html#tldr",
+    "href": "content/manual_push/index.html#tldr",
+    "title": "Manual Push",
+    "section": "Tldr",
+    "text": "Tldr\nHopefully it works"
+  },
+  {
+    "objectID": "content/manual_push/index.html#paper-authors",
+    "href": "content/manual_push/index.html#paper-authors",
+    "title": "Manual Push",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/manual_push/index.html#more-resources",
+    "href": "content/manual_push/index.html#more-resources",
+    "title": "Manual Push",
     "section": "More Resources",
     "text": "More Resources"
   },
