@@ -8,4 +8,4 @@ format:
 title: Newsletter Issue - 24-11-2023
 
 ---
-<h2>CDT Weekly Newsletter</h2><br><ul><li>One more announcement</li></ul><p>Welcome to this week's issue of the newsletter.</p><br><br><b>One more announcement</b><br>Lorem Ipsum<br><br><h2>Forthcoming Calendar of Events</h2><br><br>
+<h2>CDT Weekly Newsletter</h2><br><ul><li>announcement 1</li><li>Announcement 2</li></ul><p>Welcome to this week's issue of the newsletter.</p><br><br><b>announcement 1</b><br>Lorem Ipsum<br><br><b>Announcement 2</b><br>Lorem Ipsum<br><br><h2>Forthcoming Calendar of Events</h2><br><br>
