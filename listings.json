@@ -7,6 +7,16 @@
     ]
   },
   {
+    "listing": "/newsletter.html",
+    "items": [
+      "/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/content/algorithmic-transparency-and-manipulation/index.html",
@@ -16,6 +26,7 @@
       "/content/applying-large-language-models-to-power-systems-potential-security-threats/index.html",
       "/content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html",
       "/content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html",
+      "/content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html",
       "/content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html",
       "/content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html",
       "/content/generation-of-explanations-for-logic-reasoning/index.html",
@@ -29,16 +40,6 @@
       "/content/large-language-models-in-education-vision-and-opportunities/index.html",
       "/content/building-the-future-of-responsible-ai-a-pattern-oriented-reference-architecture-for-designing-large-language-model-based-agents/index.html",
       "/content/on-the-calibration-of-large-language-models-and-alignment/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
-    "listing": "/newsletter.html",
-    "items": [
-      "/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html"
     ]
   }
 ]

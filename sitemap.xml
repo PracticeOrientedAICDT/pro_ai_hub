@@ -2,134 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-11-27T09:50:25.359Z</lastmod>
+    <lastmod>2023-11-27T09:54:41.186Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-11-27T09:50:23.831Z</lastmod>
+    <lastmod>2023-11-27T09:54:39.670Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/building-the-future-of-responsible-ai-a-pattern-oriented-reference-architecture-for-designing-large-language-model-based-agents/index.html</loc>
-    <lastmod>2023-11-27T09:50:22.355Z</lastmod>
+    <lastmod>2023-11-27T09:54:38.330Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/quantum-learning-and-essential-cognition-under-the-traction-of-meta-characteristics-in-an-open-world/index.html</loc>
-    <lastmod>2023-11-27T09:50:20.239Z</lastmod>
+    <lastmod>2023-11-27T09:54:36.094Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/test-process/index.html</loc>
-    <lastmod>2023-11-27T09:50:17.979Z</lastmod>
+    <lastmod>2023-11-27T09:54:33.934Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/testing-post-submission-2/index.html</loc>
-    <lastmod>2023-11-27T09:50:15.327Z</lastmod>
+    <lastmod>2023-11-27T09:54:31.986Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html</loc>
-    <lastmod>2023-11-27T09:50:13.259Z</lastmod>
+    <lastmod>2023-11-27T09:54:29.794Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/breast-cancer-classification-by-adaptive-weighted-average-ensemble-of-previously-trained-models/index.html</loc>
-    <lastmod>2023-11-27T09:50:10.655Z</lastmod>
+    <lastmod>2023-11-27T09:54:27.634Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html</loc>
-    <lastmod>2023-11-27T09:50:08.471Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/applying-large-language-models-to-power-systems-potential-security-threats/index.html</loc>
-    <lastmod>2023-11-27T09:50:05.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html</loc>
-    <lastmod>2023-11-27T09:50:03.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/algorithmic-transparency-and-manipulation/index.html</loc>
-    <lastmod>2023-11-27T09:50:01.539Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-11-27T09:50:00.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html</loc>
-    <lastmod>2023-11-27T09:49:59.539Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-11-27T09:49:57.343Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
-    <lastmod>2023-11-27T09:49:55.835Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
-    <lastmod>2023-11-27T09:49:52.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
-    <lastmod>2023-11-27T09:49:54.183Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
-    <lastmod>2023-11-27T09:49:56.335Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-11-27T09:49:58.699Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-11-27T09:49:59.839Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
-    <lastmod>2023-11-27T09:50:00.387Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/new-post/index.html</loc>
-    <lastmod>2023-11-27T09:50:02.515Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/an-awesome-post-2/index.html</loc>
-    <lastmod>2023-11-27T09:50:04.751Z</lastmod>
+    <loc>https://github.com/DelmiroDaladier/icr/content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html</loc>
+    <lastmod>2023-11-27T09:54:25.478Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/deriving-comprehensible-theories-from-probabilistic-circuits/index.html</loc>
-    <lastmod>2023-11-27T09:50:07.191Z</lastmod>
+    <lastmod>2023-11-27T09:54:23.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/an-awesome-post-2/index.html</loc>
+    <lastmod>2023-11-27T09:54:21.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/new-post/index.html</loc>
+    <lastmod>2023-11-27T09:54:19.038Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
+    <lastmod>2023-11-27T09:54:17.054Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
+    <lastmod>2023-11-27T09:54:16.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-11-27T09:54:15.530Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
+    <lastmod>2023-11-27T09:54:13.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
+    <lastmod>2023-11-27T09:54:11.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
+    <lastmod>2023-11-27T09:54:10.454Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
+    <lastmod>2023-11-27T09:54:12.670Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
+    <lastmod>2023-11-27T09:54:14.098Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html</loc>
+    <lastmod>2023-11-27T09:54:16.190Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
+    <lastmod>2023-11-27T09:54:16.762Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/algorithmic-transparency-and-manipulation/index.html</loc>
+    <lastmod>2023-11-27T09:54:18.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/speak-like-a-native-prompting-large-language-models-in-a-native-style/index.html</loc>
+    <lastmod>2023-11-27T09:54:20.082Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/applying-large-language-models-to-power-systems-potential-security-threats/index.html</loc>
+    <lastmod>2023-11-27T09:54:22.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/content/artificial-intelligence-in-the-service-of-entrepreneurial-finance-knowledge-structure-and-the-foundational-algorithmic-paradigm/index.html</loc>
+    <lastmod>2023-11-27T09:54:24.294Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/cracking-the-code-of-negative-transfer-a-cooperative-game-theoretic-approach-for-cross-domain-sequential-recommendation/index.html</loc>
-    <lastmod>2023-11-27T09:50:09.643Z</lastmod>
+    <lastmod>2023-11-27T09:54:26.606Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/generation-of-explanations-for-logic-reasoning/index.html</loc>
-    <lastmod>2023-11-27T09:50:11.835Z</lastmod>
+    <lastmod>2023-11-27T09:54:28.738Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/large-language-model-is-a-good-policy-teacher-for-training-reinforcement-learning-agents/index.html</loc>
-    <lastmod>2023-11-27T09:50:14.371Z</lastmod>
+    <lastmod>2023-11-27T09:54:30.914Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/the-rise-of-creative-machines-exploring-the-impact-of-generative-ai/index.html</loc>
-    <lastmod>2023-11-27T09:50:16.371Z</lastmod>
+    <lastmod>2023-11-27T09:54:32.982Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/multimodal-large-language-models-a-survey/index.html</loc>
-    <lastmod>2023-11-27T09:50:19.075Z</lastmod>
+    <lastmod>2023-11-27T09:54:34.914Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/large-language-models-in-education-vision-and-opportunities/index.html</loc>
-    <lastmod>2023-11-27T09:50:21.359Z</lastmod>
+    <lastmod>2023-11-27T09:54:37.286Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/content/on-the-calibration-of-large-language-models-and-alignment/index.html</loc>
-    <lastmod>2023-11-27T09:50:23.507Z</lastmod>
+    <lastmod>2023-11-27T09:54:39.334Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-11-27T09:50:24.619Z</lastmod>
+    <lastmod>2023-11-27T09:54:40.454Z</lastmod>
   </url>
 </urlset>
