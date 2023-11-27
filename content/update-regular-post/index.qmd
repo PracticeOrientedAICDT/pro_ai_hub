@@ -1,0 +1,50 @@
+---
+categories:
+- computation and language
+description: Lorem Ipsum
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    name: "Artjoms \u0160e\u013Ca"
+    url: https://arxiv.org/find/cs/1/au:+Sela_A/0/1/0/all/0/1
+  overview: Lorem Ipsum
+  research_area: computation and language
+title: Update regular post
+
+---
+```{ojs} 
+
+ names = ["Artjoms Šeļa"] 
+
+``` 
+
+## Tldr 
+Lorem Ipsum
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
