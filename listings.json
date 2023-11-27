@@ -7,6 +7,12 @@
     ]
   },
   {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/example-post/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/content/update-regular-post/index.html",
@@ -16,10 +22,6 @@
       "/content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html",
       "/content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html"
     ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
   },
   {
     "listing": "/newsletter.html",
