@@ -1,3 +1,4 @@
 id,venue_name,venue_url,venue_ptr_id,location,start_date,end_date,created_at,updated_at
 5,The 2023 Conference on Empirical Methods in Natural Language Processing - EMNLP 2023,https://2023.emnlp.org/,5,Singapore,2023-11-30,2023-12-03,2023-11-27 12:29:03.084114+00:00,2023-11-27 12:29:03.084133+00:00
 7,Ai Stats,https://aistats.org/,7,UK,2023-11-30,2023-12-04,2023-11-27 15:39:35.619058+00:00,2023-11-27 15:39:35.619084+00:00
+8,ACL 2022 |  60th Annual Meeting of the Association for Computational Linguistics | Ireland,https://www.2022.aclweb.org/,8,Ireland,2023-12-10,2023-12-15,2023-11-28 11:39:31.059107+00:00,2023-11-28 11:39:31.059133+00:00
