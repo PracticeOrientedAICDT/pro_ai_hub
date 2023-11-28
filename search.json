@@ -56,90 +56,6 @@
     "text": "Roussel Desmond Nzoyem\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTony Fang\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html",
-    "href": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html",
-    "title": "Electric Vehicles coordination for grid balancing using multi-objective Harris Hawks Optimization",
-    "section": "",
-    "text": "names = [\"Cristina Bianca Pop\",\"Tudor Cioara\",\"Viorica Chifu\",\"Ionut Anghel\",\"Francesco Bellesini\"]"
-  },
-  {
-    "objectID": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html#tldr",
-    "href": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html#tldr",
-    "title": "Electric Vehicles coordination for grid balancing using multi-objective Harris Hawks Optimization",
-    "section": "Tldr",
-    "text": "Tldr\nThe rise of renewables coincides with the shift towards Electrical Vehicles(EVs) posing technical and operational challenges for the energy balance of thelocal grid. Nowadays, the energy grid cannot deal with a spike in EVs usageleading to a need for more coordinated and grid aware EVs charging anddischarging strategies. However, coordinating power flow from multiple EVs intothe grid requires sophisticated algorithms and load-balancing strategies as thecomplexity increases with more control variables and EVs, necessitating largeoptimization and decision search spaces. In this paper, we propose an EVs fleetcoordination model for the day ahead aiming to ensure a reliable energy supplyand maintain a stable local grid, by utilizing EVs to store surplus energy anddischarge it during periods of energy deficit. The optimization problem isaddressed using Harris Hawks Optimization (HHO) considering criteria related toenergy grid balancing, time usage preference, and the location of EV drivers.The EVs schedules, associated with the position of individuals from thepopulation, are adjusted through exploration and exploitation operations, andtheir technical and operational feasibility is ensured, while the rabbitindividual is updated with a non-dominated EV schedule selected per iterationusing a roulette wheel algorithm. The solution is evaluated within theframework of an e-mobility service in Terni city. The results indicate thatcoordinated charging and discharging of EVs not only meet balancing servicerequirements but also align with user preferences with minimal deviations."
-  },
-  {
-    "objectID": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html#paper-authors",
-    "href": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html#paper-authors",
-    "title": "Electric Vehicles coordination for grid balancing using multi-objective Harris Hawks Optimization",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html#more-resources",
-    "href": "content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html#more-resources",
-    "title": "Electric Vehicles coordination for grid balancing using multi-objective Harris Hawks Optimization",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html",
-    "href": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html",
-    "title": "Universal Jailbreak Backdoors from Poisoned Human Feedback",
-    "section": "",
-    "text": "names = [\"Javier Rando\",\"Florian Tramèr\"]"
-  },
-  {
-    "objectID": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html#tldr",
-    "href": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html#tldr",
-    "title": "Universal Jailbreak Backdoors from Poisoned Human Feedback",
-    "section": "Tldr",
-    "text": "Tldr\nReinforcement Learning from Human Feedback (RLHF) is used to align largelanguage models to produce helpful and harmless responses. Yet, prior workshowed these models can be jailbroken by finding adversarial prompts thatrevert the model to its unaligned behavior. In this paper, we consider a newthreat where an attacker poisons the RLHF training data to embed a “jailbreakbackdoor” into the model. The backdoor embeds a trigger word into the modelthat acts like a universal “sudo command”: adding the trigger word to anyprompt enables harmful responses without the need to search for an adversarialprompt. Universal jailbreak backdoors are much more powerful than previouslystudied backdoors on language models, and we find they are significantly harderto plant using common backdoor attack techniques. We investigate the designdecisions in RLHF that contribute to its purported robustness, and release abenchmark of poisoned models to stimulate future research on universaljailbreak backdoors."
-  },
-  {
-    "objectID": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html#paper-authors",
-    "href": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html#paper-authors",
-    "title": "Universal Jailbreak Backdoors from Poisoned Human Feedback",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html#more-resources",
-    "href": "content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html#more-resources",
-    "title": "Universal Jailbreak Backdoors from Poisoned Human Feedback",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/update-regular-post/index.html",
-    "href": "content/update-regular-post/index.html",
-    "title": "Update regular post",
-    "section": "",
-    "text": "names = [\"Artjoms Šeļa\"]"
-  },
-  {
-    "objectID": "content/update-regular-post/index.html#tldr",
-    "href": "content/update-regular-post/index.html#tldr",
-    "title": "Update regular post",
-    "section": "Tldr",
-    "text": "Tldr\nLorem Ipsum"
-  },
-  {
-    "objectID": "content/update-regular-post/index.html#paper-authors",
-    "href": "content/update-regular-post/index.html#paper-authors",
-    "title": "Update regular post",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/update-regular-post/index.html#more-resources",
-    "href": "content/update-regular-post/index.html#more-resources",
-    "title": "Update regular post",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
     "objectID": "posts/example-post/index.html",
     "href": "posts/example-post/index.html",
     "title": "Example post",
@@ -214,7 +130,7 @@
     "href": "index.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Update regular post\n\n\n\n\n\n\n\ncomputation and language\n\n\n\n\nLorem Ipsum\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRAISE – Radiology AI Safety, an End-to-end lifecycle approach\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe integration of AI into radiology introduces opportunities for improvedclinical care provision and efficiency but it demands a meticulous approach tomitigate potential risks as with any other new technology. Beginning withrigorous pre-deployment…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nUniversal Jailbreak Backdoors from Poisoned Human Feedback\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nReinforcement Learning from Human Feedback (RLHF) is used to align largelanguage models to produce helpful and harmless responses. Yet, prior workshowed these models can be jailbroken by finding adversarial prompts thatrevert the model to its…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nA Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n\n\n\n\n\n\n\nmachine learning\n\n\n\n\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nElectric Vehicles coordination for grid balancing using multi-objective Harris Hawks Optimization\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThe rise of renewables coincides with the shift towards Electrical Vehicles(EVs) posing technical and operational challenges for the energy balance of thelocal grid. Nowadays, the energy grid cannot deal with a spike in EVs usageleading to a need…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nHow to ensure a safe control strategy? Towards a SRL for urban transit autonomous operation\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nDeep reinforcement learning has gradually shown its latent decision-makingability in urban rail transit autonomous operation. However, sincereinforcement learning can not neither guarantee safety during learning norexecution, this is still one of…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "newsletter_issues/cdt_weekly_newsletter-27-11-2023/index.html",
@@ -236,90 +152,6 @@
     "title": "IAI Hub",
     "section": "",
     "text": "Newsletter Issue - 24-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNewsletter Issue - 27-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html",
-    "href": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html",
-    "title": "RAISE – Radiology AI Safety, an End-to-end lifecycle approach",
-    "section": "",
-    "text": "names = [\"M. Jorge Cardoso\",\"Julia Moosbauer\",\"Tessa S. Cook\",\"B. Selnur Erdal\",\"Brad Genereaux\",\"Vikash Gupta\",\"Bennett A. Landman\",\"Tiarna Lee\",\"Parashkev Nachev\",\"Elanchezhian Somasundaram\",\"Ronald M. Summers\",\"Khaled Younis\",\"Sebastien Ourselin\",\"Franz MJ Pfister\"]"
-  },
-  {
-    "objectID": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html#tldr",
-    "href": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html#tldr",
-    "title": "RAISE – Radiology AI Safety, an End-to-end lifecycle approach",
-    "section": "Tldr",
-    "text": "Tldr\nThe integration of AI into radiology introduces opportunities for improvedclinical care provision and efficiency but it demands a meticulous approach tomitigate potential risks as with any other new technology. Beginning withrigorous pre-deployment evaluation and validation, the focus should be onensuring models meet the highest standards of safety, effectiveness andefficacy for their intended applications. Input and output guardrailsimplemented during production usage act as an additional layer of protection,identifying and addressing individual failures as they occur. Continuouspost-deployment monitoring allows for tracking population-level performance(data drift), fairness, and value delivery over time. Scheduling reviews ofpost-deployment model performance and educating radiologists about newalgorithmic-driven findings is critical for AI to be effective in clinicalpractice. Recognizing that no single AI solution can provide absolute assuranceeven when limited to its intended use, the synergistic application of qualityassurance at multiple levels - regulatory, clinical, technical, and ethical -is emphasized. Collaborative efforts between stakeholders spanning healthcaresystems, industry, academia, and government are imperative to address themultifaceted challenges involved. Trust in AI is an earned privilege,contingent on a broad set of goals, among them transparently demonstrating thatthe AI adheres to the same rigorous safety, effectiveness and efficacystandards as other established medical technologies. By doing so, developerscan instil confidence among providers and patients alike, enabling theresponsible scaling of AI and the realization of its potential benefits. Theroadmap presented herein aims to expedite the achievement of deployable,reliable, and safe AI in radiology."
-  },
-  {
-    "objectID": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html#paper-authors",
-    "href": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html#paper-authors",
-    "title": "RAISE – Radiology AI Safety, an End-to-end lifecycle approach",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html#more-resources",
-    "href": "content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html#more-resources",
-    "title": "RAISE – Radiology AI Safety, an End-to-end lifecycle approach",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
-    "section": "",
-    "text": "names = [\"Roussel Desmond Nzoyem\",\"David A. W. Barton\",\"Tom Deakin\"]"
-  },
-  {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#tldr",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
-    "section": "Tldr",
-    "text": "Tldr\nThe field of Optimal Control under Partial Differential Equations (PDE)constraints is rapidly changing under the influence of Deep Learning and theaccompanying automatic differentiation libraries. Novel techniques likePhysics-Informed Neural Networks (PINNs) and Differentiable Programming (DP)are to be contrasted with established numerical schemes like Direct-AdjointLooping (DAL). We present a comprehensive comparison of DAL, PINN, and DP usinga general-purpose mesh-free differentiable PDE solver based on Radial BasisFunctions. Under Laplace and Navier-Stokes equations, we found DP to beextremely effective as it produces the most accurate gradients; thriving evenwhen DAL fails and PINNs struggle. Additionally, we provide a detailedbenchmark highlighting the limited conditions under which any of those methodscan be efficiently used. Our work provides a guide to Optimal Controlpractitioners and connects them further to the Deep Learning community."
-  },
-  {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#paper-authors",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
-    "href": "content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html#more-resources",
-    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html",
-    "href": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html",
-    "title": "How to ensure a safe control strategy? Towards a SRL for urban transit autonomous operation",
-    "section": "",
-    "text": "names = [\"Zicong Zhao\"]"
-  },
-  {
-    "objectID": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html#tldr",
-    "href": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html#tldr",
-    "title": "How to ensure a safe control strategy? Towards a SRL for urban transit autonomous operation",
-    "section": "Tldr",
-    "text": "Tldr\nDeep reinforcement learning has gradually shown its latent decision-makingability in urban rail transit autonomous operation. However, sincereinforcement learning can not neither guarantee safety during learning norexecution, this is still one of the major obstacles to the practicalapplication of reinforcement learning. Given this drawback, reinforcementlearning applied in the safety-critical autonomous operation domain remainschallenging without generating a safe control command sequence that avoidsoverspeed operations. Therefore, a SSA-DRL framework is proposed in this paperfor safe intelligent control of urban rail transit autonomous operation trains.The proposed framework is combined with linear temporal logic, reinforcementlearning and Monte Carlo tree search and consists of four mainly module: apost-posed shielding, a searching tree module, a DRL framework and anadditional actor. Furthermore, the output of the framework can meet speedconstraint, schedule constraint and optimize the operation process. Finally,the proposed SSA-DRL framework for decision-making in urban rail transitautonomous operation is evaluated in sixteen different sections, and itseffectiveness is demonstrated through an ablation experiment and comparisonwith the scheduled operation plan."
-  },
-  {
-    "objectID": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html#paper-authors",
-    "href": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html#paper-authors",
-    "title": "How to ensure a safe control strategy? Towards a SRL for urban transit autonomous operation",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html#more-resources",
-    "href": "content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html#more-resources",
-    "title": "How to ensure a safe control strategy? Towards a SRL for urban transit autonomous operation",
-    "section": "More Resources",
-    "text": "More Resources"
   },
   {
     "objectID": "templates/template_for_blogposts.html",

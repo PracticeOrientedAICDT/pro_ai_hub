@@ -14,14 +14,7 @@
   },
   {
     "listing": "/index.html",
-    "items": [
-      "/content/update-regular-post/index.html",
-      "/content/raise-radiology-ai-safety-an-end-to-end-lifecycle-approach/index.html",
-      "/content/universal-jailbreak-backdoors-from-poisoned-human-feedback/index.html",
-      "/content/a-comparison-of-mesh-free-differentiable-programming-and-data-driven-strategies-for-optimal-control-under-pde-constraints/index.html",
-      "/content/electric-vehicles-coordination-for-grid-balancing-using-multi-objective-harris-hawks-optimization/index.html",
-      "/content/how-to-ensure-a-safe-control-strategy-towards-a-srl-for-urban-transit-autonomous-operation/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/newsletter.html",
