@@ -7,13 +7,11 @@
     ]
   },
   {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/example-post/index.html"
-    ]
+    "listing": "/index.html",
+    "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": []
   },
   {

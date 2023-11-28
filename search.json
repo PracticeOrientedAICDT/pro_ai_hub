@@ -56,53 +56,32 @@
     "text": "Roussel Desmond Nzoyem\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTony Fang\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/example-post/index.html",
-    "href": "posts/example-post/index.html",
-    "title": "Example post",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Lorem Ipsum"
+    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
+    "objectID": "newsletter_issues/cdt_weekly_newsletter-27-11-2023/index.html",
+    "href": "newsletter_issues/cdt_weekly_newsletter-27-11-2023/index.html",
+    "title": "Newsletter Issue - 27-11-2023",
+    "section": "",
+    "text": "CDT Weekly Newsletter\n\n\n\n\nAnnouncement 5\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nAnnouncement 5Lorem Ipsum\n\nForthcoming Calendar of Events"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Example post\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
-    "objectID": "newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
-    "href": "newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
-    "title": "Newsletter Issue - 24-11-2023",
+    "objectID": "event_calendar.html",
+    "href": "event_calendar.html",
+    "title": "Event Calendar",
     "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nannouncement 1\n\n\nAnnouncement 2\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nannouncement 1Lorem IpsumAnnouncement 2Lorem Ipsum\n\nForthcoming Calendar of Events"
-  },
-  {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
-  },
-  {
-    "objectID": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
-    "href": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
-    "title": "Newsletter Issue - 20-11-2023",
-    "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nNew Announcement\n\n\nAnother Announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nNew AnnouncementLorem ipsum.Another AnnouncementLorem ipsum.\n\nForthcoming Calendar of Events"
-  },
-  {
-    "objectID": "researchers/roussel-desmond-nzoyem/index.html",
-    "href": "researchers/roussel-desmond-nzoyem/index.html",
-    "title": "Roussel Desmond Nzoyem",
-    "section": "",
-    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
-  },
-  {
-    "objectID": "researchers/roussel-desmond-nzoyem/index.html#bio",
-    "href": "researchers/roussel-desmond-nzoyem/index.html#bio",
-    "title": "Roussel Desmond Nzoyem",
-    "section": "",
-    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
+    "text": "Code\ndata = FileAttachment(\"input_events.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
   },
   {
     "objectID": "researchers/tony-fang/index.html",
@@ -119,32 +98,46 @@
     "text": "This is for testing the system that Daladier built"
   },
   {
-    "objectID": "event_calendar.html",
-    "href": "event_calendar.html",
-    "title": "Event Calendar",
+    "objectID": "researchers/roussel-desmond-nzoyem/index.html",
+    "href": "researchers/roussel-desmond-nzoyem/index.html",
+    "title": "Roussel Desmond Nzoyem",
     "section": "",
-    "text": "Code\ndata = FileAttachment(\"input_events.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
+    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "researchers/roussel-desmond-nzoyem/index.html#bio",
+    "href": "researchers/roussel-desmond-nzoyem/index.html#bio",
+    "title": "Roussel Desmond Nzoyem",
+    "section": "",
+    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
+  },
+  {
+    "objectID": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
+    "href": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
+    "title": "Newsletter Issue - 20-11-2023",
+    "section": "",
+    "text": "CDT Weekly Newsletter\n\n\n\n\nNew Announcement\n\n\nAnother Announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nNew AnnouncementLorem ipsum.Another AnnouncementLorem ipsum.\n\nForthcoming Calendar of Events"
+  },
+  {
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+  },
+  {
+    "objectID": "newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
+    "href": "newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
+    "title": "Newsletter Issue - 24-11-2023",
+    "section": "",
+    "text": "CDT Weekly Newsletter\n\n\n\n\nannouncement 1\n\n\nAnnouncement 2\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nannouncement 1Lorem IpsumAnnouncement 2Lorem Ipsum\n\nForthcoming Calendar of Events"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
     "title": "IAI Hub",
     "section": "",
     "text": "No matching items"
-  },
-  {
-    "objectID": "newsletter_issues/cdt_weekly_newsletter-27-11-2023/index.html",
-    "href": "newsletter_issues/cdt_weekly_newsletter-27-11-2023/index.html",
-    "title": "Newsletter Issue - 27-11-2023",
-    "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nAnnouncement 5\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nAnnouncement 5Lorem Ipsum\n\nForthcoming Calendar of Events"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
   },
   {
     "objectID": "newsletter.html",
