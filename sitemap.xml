@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-11-28T09:16:03.006Z</lastmod>
+    <lastmod>2023-11-28T11:19:55.266Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-11-28T09:16:01.378Z</lastmod>
+    <lastmod>2023-11-28T11:19:53.782Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-11-28T09:16:00.690Z</lastmod>
+    <lastmod>2023-11-28T11:19:53.102Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-27-11-2023/index.html</loc>
-    <lastmod>2023-11-28T09:16:00.130Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-11-28T09:15:58.358Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
-    <lastmod>2023-11-28T09:15:57.070Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
-    <lastmod>2023-11-28T09:15:55.790Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
-    <lastmod>2023-11-28T09:15:54.394Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
-    <lastmod>2023-11-28T09:15:56.558Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-11-28T09:15:58.078Z</lastmod>
+    <lastmod>2023-11-28T11:19:52.578Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html</loc>
-    <lastmod>2023-11-28T09:15:59.146Z</lastmod>
+    <lastmod>2023-11-28T11:19:50.998Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
+    <lastmod>2023-11-28T11:19:49.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
+    <lastmod>2023-11-28T11:19:47.502Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
+    <lastmod>2023-11-28T11:19:45.490Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/researchers/tony-fang/index.html</loc>
+    <lastmod>2023-11-28T11:19:46.750Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
+    <lastmod>2023-11-28T11:19:47.994Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
+    <lastmod>2023-11-28T11:19:50.222Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html</loc>
+    <lastmod>2023-11-28T11:19:51.798Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-11-28T09:16:00.422Z</lastmod>
+    <lastmod>2023-11-28T11:19:52.834Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
-    <lastmod>2023-11-28T09:16:01.058Z</lastmod>
+    <lastmod>2023-11-28T11:19:53.478Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-11-28T09:16:02.202Z</lastmod>
+    <lastmod>2023-11-28T11:19:54.486Z</lastmod>
   </url>
 </urlset>
