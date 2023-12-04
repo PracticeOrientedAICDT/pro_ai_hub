@@ -1,0 +1,11 @@
+---
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+title: Newsletter Issue - 04-12-2023
+
+---
+<h2>CDT Weekly Newsletter</h2><br><ul><li>Random announcement</li></ul><p>Welcome to this week's issue of the newsletter.</p><br><br><b>Random announcement</b><br>lorem ipsum<br><br><h2>Forthcoming Calendar of Events</h2><br><br>
