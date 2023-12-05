@@ -1,0 +1,90 @@
+---
+categories: artificial intelligence
+description: Large Language Models~(LLMs) drive current AI breakthroughs despite verylittle
+  being known about their internal representations, e.g., how to extract afew informative
+  features to solve various downstream tasks. To provide apractical and principled
+  answer, we propose to characterize LLMs from ageometric perspective. We obtain in
+  closed form (i) the intrinsic dimension inwhich the Multi-Head Attention embeddings
+  are constrained to exist and (ii) thepartition and per-region affine mappings of
+  the per-layer feedforward networks.Our results are informative, do not rely on approximations,
+  and are actionable.First, we show that, motivated by our geometric interpretation,
+  we can bypassLlama$2$'s RLHF by controlling its embedding's intrinsic dimension
+  throughinformed prompt manipulation. Second, we derive $7$ interpretable splinefeatures
+  that can be extracted from any (pre-trained) LLM layer, providing arich abstract
+  representation of their inputs. Those features alone ($224$ forMistral-7B and Llama$2$-7B)
+  are sufficient to help solve toxicity detection,infer the domain of the prompt,
+  and even tackle the Jigsaw challenge, whichaims at characterizing the type of toxicity
+  of various prompts. Our resultsdemonstrate how, even in large-scale regimes, exact
+  theoretical results cananswer practical questions in language models. Code:\url{this
+  https URL}.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Balestriero_R/0/1/0/all/0/1
+    name: Balestriero, Randall
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Cosentino_R/0/1/0/all/0/1
+    name: Cosentino, Romain
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Shekkizhar_S/0/1/0/all/0/1
+    name: Shekkizhar, Sarath
+  overview: Large Language Models~(LLMs) drive current AI breakthroughs despite verylittle
+    being known about their internal representations, e.g., how to extract afew informative
+    features to solve various downstream tasks. To provide apractical and principled
+    answer, we propose to characterize LLMs from ageometric perspective. We obtain
+    in closed form (i) the intrinsic dimension inwhich the Multi-Head Attention embeddings
+    are constrained to exist and (ii) thepartition and per-region affine mappings
+    of the per-layer feedforward networks.Our results are informative, do not rely
+    on approximations, and are actionable.First, we show that, motivated by our geometric
+    interpretation, we can bypassLlama$2$'s RLHF by controlling its embedding's intrinsic
+    dimension throughinformed prompt manipulation. Second, we derive $7$ interpretable
+    splinefeatures that can be extracted from any (pre-trained) LLM layer, providing
+    arich abstract representation of their inputs. Those features alone ($224$ forMistral-7B
+    and Llama$2$-7B) are sufficient to help solve toxicity detection,infer the domain
+    of the prompt, and even tackle the Jigsaw challenge, whichaims at characterizing
+    the type of toxicity of various prompts. Our resultsdemonstrate how, even in large-scale
+    regimes, exact theoretical results cananswer practical questions in language models.
+    Code:\url{this https URL}.
+  pdf_url: http://arxiv.org/pdf/2312.01648
+  research_area: artificial intelligence
+title: Characterizing Large Language Model Geometry Solves Toxicity Detection and
+  Generation
+
+---
+```{ojs} 
+
+ names = ["Randall Balestriero","Romain Cosentino","Sarath Shekkizhar"] 
+
+``` 
+
+## Tldr 
+Large Language Models~(LLMs) drive current AI breakthroughs despite verylittle being known about their internal representations, e.g., how to extract afew informative features to solve various downstream tasks. To provide apractical and principled answer, we propose to characterize LLMs from ageometric perspective. We obtain in closed form (i) the intrinsic dimension inwhich the Multi-Head Attention embeddings are constrained to exist and (ii) thepartition and per-region affine mappings of the per-layer feedforward networks.Our results are informative, do not rely on approximations, and are actionable.First, we show that, motivated by our geometric interpretation, we can bypassLlama$2$'s RLHF by controlling its embedding's intrinsic dimension throughinformed prompt manipulation. Second, we derive $7$ interpretable splinefeatures that can be extracted from any (pre-trained) LLM layer, providing arich abstract representation of their inputs. Those features alone ($224$ forMistral-7B and Llama$2$-7B) are sufficient to help solve toxicity detection,infer the domain of the prompt, and even tackle the Jigsaw challenge, whichaims at characterizing the type of toxicity of various prompts. Our resultsdemonstrate how, even in large-scale regimes, exact theoretical results cananswer practical questions in language models. Code:\url{this https URL}.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
