@@ -6,11 +6,12 @@
     ]
   },
   {
-    "listing": "/newsletter.html",
+    "listing": "/index.html",
     "items": [
-      "/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
-      "/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
-      "/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html"
+      "/content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
+      "/content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
+      "/content/learning-machine-morality-through-experience-and-interaction/index.html",
+      "/content/physics-simulation-capabilities-of-llms/index.html"
     ]
   },
   {
@@ -18,9 +19,11 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/newsletter.html",
     "items": [
-      "/content/physics-simulation-capabilities-of-llms/index.html"
+      "/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
+      "/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
+      "/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html"
     ]
   }
 ]
