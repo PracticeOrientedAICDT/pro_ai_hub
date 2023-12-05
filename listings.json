@@ -6,19 +6,21 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": []
+    "listing": "/newsletter.html",
+    "items": [
+      "/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
+      "/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
+      "/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html"
+    ]
   },
   {
     "listing": "/blog.html",
     "items": []
   },
   {
-    "listing": "/newsletter.html",
+    "listing": "/index.html",
     "items": [
-      "/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
-      "/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
-      "/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html"
+      "/content/physics-simulation-capabilities-of-llms/index.html"
     ]
   }
 ]
