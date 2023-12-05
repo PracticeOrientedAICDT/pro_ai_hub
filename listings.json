@@ -6,24 +6,27 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
-      "/content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
-      "/content/learning-machine-morality-through-experience-and-interaction/index.html",
-      "/content/physics-simulation-capabilities-of-llms/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
     "listing": "/newsletter.html",
     "items": [
       "/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
       "/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
       "/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
+      "/content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
+      "/content/learning-machine-morality-through-experience-and-interaction/index.html",
+      "/content/physics-simulation-capabilities-of-llms/index.html",
+      "/content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/blogpost-example/index.html"
     ]
   }
 ]

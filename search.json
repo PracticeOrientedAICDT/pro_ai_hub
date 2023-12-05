@@ -56,60 +56,67 @@
     "text": "Roussel Desmond Nzoyem\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html",
-    "title": "Learning Machine Morality through Experience and Interaction",
+    "objectID": "content/physics-simulation-capabilities-of-llms/index.html",
+    "href": "content/physics-simulation-capabilities-of-llms/index.html",
+    "title": "Physics simulation capabilities of LLMs",
     "section": "",
-    "text": "names = [\"Elizaveta Tennant\",\"Stephen Hailes\",\"Mirco Musolesi\"]"
+    "text": "names = [\"Mohamad Ali-Dib\",\"Kristen Menou\"]"
   },
   {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#tldr",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#tldr",
-    "title": "Learning Machine Morality through Experience and Interaction",
+    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#tldr",
+    "href": "content/physics-simulation-capabilities-of-llms/index.html#tldr",
+    "title": "Physics simulation capabilities of LLMs",
     "section": "Tldr",
-    "text": "Tldr\nIncreasing interest in ensuring safety of next-generation ArtificialIntelligence (AI) systems calls for novel approaches to embedding morality intoautonomous agents. Traditionally, this has been done by imposing explicittop-down rules or hard constraints on systems, for example by filtering systemoutputs through pre-defined ethical rules. Recently, instead, entirelybottom-up methods for learning implicit preferences from human behavior havebecome increasingly popular, such as those for training and fine-tuning LargeLanguage Models. In this paper, we provide a systematization of existingapproaches to the problem of introducing morality in machines - modeled as acontinuum, and argue that the majority of popular techniques lie at theextremes - either being fully hard-coded, or entirely learned, where noexplicit statement of any moral principle is required. Given the relativestrengths and weaknesses of each type of methodology, we argue that more hybridsolutions are needed to create adaptable and robust, yet more controllable andinterpretable agents.In particular, we present three case studies of recent works which uselearning from experience (i.e., Reinforcement Learning) to explicitly providemoral principles to learning agents - either as intrinsic rewards, morallogical constraints or textual principles for language models. For example,using intrinsic rewards in Social Dilemma games, we demonstrate how it ispossible to represent classical moral frameworks for agents. We also present anoverview of the existing work in this area in order to provide empiricalevidence for the potential of this hybrid approach. We then discuss strategiesfor evaluating the effectiveness of moral learning agents. Finally, we presentopen research questions and implications for the future of AI safety and ethicswhich are emerging from this framework."
+    "text": "Tldr\n[Abridged abstract] Large Language Models (LLMs) can solve someundergraduate-level to graduate-level physics textbook problems and areproficient at coding. Combining these two capabilities could one day enable AIsystems to simulate and predict the physical world.We present an evaluation of state-of-the-art (SOTA) LLMs on PhD-level toresearch-level computational physics problems. We condition LLM generation onthe use of well-documented and widely-used packages to elicit codingcapabilities in the physics and astrophysics domains. We contribute \\(\\sim 50\\)original and challenging problems in celestial mechanics (with REBOUND),stellar physics (with MESA), 1D fluid dynamics (with Dedalus) and non-lineardynamics (with SciPy). Since our problems do not admit unique solutions, weevaluate LLM performance on several soft metrics: counts of lines that containdifferent types of errors (coding, physics, necessity and sufficiency) as wellas a more “educational” Pass-Fail metric focused on capturing the salientphysical ingredients of the problem at hand.As expected, today’s SOTA LLM (GPT4) zero-shot fails most of our problems,although about 40% of the solutions could plausibly get a passing grade. About\\(70-90 \\%\\) of the code lines produced are necessary, sufficient and correct(coding & physics). Physics and coding errors are the most common, with someunnecessary or insufficient lines. We observe significant variations acrossproblem class and difficulty. We identify several failure modes of GPT4 in thecomputational physics domain.Our reconnaissance work provides a snapshot of current computationalcapabilities in classical physics and points to obvious improvement targets ifAI systems are ever to reach a basic level of autonomy in physics simulationcapabilities."
   },
   {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#paper-authors",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#paper-authors",
-    "title": "Learning Machine Morality through Experience and Interaction",
+    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#paper-authors",
+    "href": "content/physics-simulation-capabilities-of-llms/index.html#paper-authors",
+    "title": "Physics simulation capabilities of LLMs",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#more-resources",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#more-resources",
-    "title": "Learning Machine Morality through Experience and Interaction",
+    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#more-resources",
+    "href": "content/physics-simulation-capabilities-of-llms/index.html#more-resources",
+    "title": "Physics simulation capabilities of LLMs",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
+    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
+    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
+    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
     "section": "",
-    "text": "names = [\"Haochen Zhang\",\"Yuyang Dong\",\"Chuan Xiao\",\"Masafumi Oyamada\"]"
+    "text": "names = [\"Francesca Cairoli\",\"Luca Bortolussi\",\"Nicola Paoletti\"]"
   },
   {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#tldr",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#tldr",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
+    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#tldr",
+    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#tldr",
+    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
     "section": "Tldr",
-    "text": "Tldr\nIn this paper, we present Jellyfish, an open-source LLM as a universal tasksolver for DP. Built on the Llama 2 13B model, Jellyfish is instruction-tunedwith the datasets of several typical DP tasks including error detection, dataimputation, schema matching, and entity matching, and delivers generalizabilityto other tasks. Remarkably, Jellyfish can operate on a local, single, andlow-priced GPU with its 13 billion parameters, ensuring data security andenabling further tuning. Its proficiency in understanding natural languageallows users to manually craft instructions for DP tasks. Unlike many existingmethods that heavily rely on prior knowledge, Jellyfish acquires domainknowledge during its tuning process and integrates optional knowledge injectionduring inference. A distinctive feature of Jellyfish is its interpreter, whichelucidates its output decisions. To construct Jellyfish, we develop a series ofpre-tuning and DP-tuning techniques. Jellyfish is equipped with an instanceserializer, which automatically translates raw data into model prompts, and aknowledge injector, which optionally introduces task- and dataset-specificknowledge to enhance DP performance. Our evaluation of Jellyfish, using a rangeof real datasets, shows its competitiveness compared to state-of-the-artmethods and its strong generalizability to unseen tasks. Jellyfish’sperformance rivals that of GPT series models, and its interpreter offersenhanced reasoning capabilities compared to GPT-3.5. Furthermore, ourevaluation highlights the effectiveness of the techniques employed inconstructing Jellyfish. Our model is available at Hugging Face:this https URL ."
+    "text": "Tldr\nThis tutorial focuses on efficient methods to predictive monitoring (PM), theproblem of detecting at runtime future violations of a given requirement fromthe current state of a system. While performing model checking at runtime wouldoffer a precise solution to the PM problem, it is generally computationallyexpensive. To address this scalability issue, several lightweight approachesbased on machine learning have recently been proposed. These approaches work bylearning an approximate yet efficient surrogate (deep learning) model of theexpensive model checker. A key challenge remains to ensure reliablepredictions, especially in safety-critical applications. We review our recentwork on predictive monitoring, one of the first to propose learning-basedapproximations for CPS verification of temporal logic specifications and thefirst in this context to apply conformal prediction (CP) for rigorousuncertainty quantification. These CP-based uncertainty estimators offerstatistical guarantees regarding the generalization error of the learningmodel, and they can be used to determine unreliable predictions that should berejected. In this tutorial, we present a general and comprehensive frameworksummarizing our approach to the predictive monitoring of CPSs, examining indetail several variants determined by three main dimensions: system dynamics(deterministic, non-deterministic, stochastic), state observability, andsemantics of requirements’ satisfaction (Boolean or quantitative)."
   },
   {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#paper-authors",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#paper-authors",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
+    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#paper-authors",
+    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#paper-authors",
+    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#more-resources",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#more-resources",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
+    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#more-resources",
+    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#more-resources",
+    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
     "section": "More Resources",
     "text": "More Resources"
+  },
+  {
+    "objectID": "newsletter.html",
+    "href": "newsletter.html",
+    "title": "IAI Hub",
+    "section": "",
+    "text": "Newsletter Issue - 24-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNewsletter Issue - 04-12-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNewsletter Issue - 28-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -172,7 +179,7 @@
     "href": "index.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Jellyfish: A Large Language Model for Data Preprocessing\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn this paper, we present Jellyfish, an open-source LLM as a universal tasksolver for DP. Built on the Llama 2 13B model, Jellyfish is instruction-tunedwith the datasets of several typical DP tasks including error detection, dataimputation, schema…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis tutorial focuses on efficient methods to predictive monitoring (PM), theproblem of detecting at runtime future violations of a given requirement fromthe current state of a system. While performing model checking at runtime wouldoffer a precise…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Machine Morality through Experience and Interaction\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIncreasing interest in ensuring safety of next-generation ArtificialIntelligence (AI) systems calls for novel approaches to embedding morality intoautonomous agents. Traditionally, this has been done by imposing explicittop-down rules or hard…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPhysics simulation capabilities of LLMs\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\n[Abridged abstract] Large Language Models (LLMs) can solve someundergraduate-level to graduate-level physics textbook problems and areproficient at coding. Combining these two capabilities could one day enable AIsystems to simulate and predict the…\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Jellyfish: A Large Language Model for Data Preprocessing\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIn this paper, we present Jellyfish, an open-source LLM as a universal tasksolver for DP. Built on the Llama 2 13B model, Jellyfish is instruction-tunedwith the datasets of several typical DP tasks including error detection, dataimputation, schema…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nThis tutorial focuses on efficient methods to predictive monitoring (PM), theproblem of detecting at runtime future violations of a given requirement fromthe current state of a system. While performing model checking at runtime wouldoffer a precise…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLearning Machine Morality through Experience and Interaction\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nIncreasing interest in ensuring safety of next-generation ArtificialIntelligence (AI) systems calls for novel approaches to embedding morality intoautonomous agents. Traditionally, this has been done by imposing explicittop-down rules or hard…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPhysics simulation capabilities of LLMs\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\n[Abridged abstract] Large Language Models (LLMs) can solve someundergraduate-level to graduate-level physics textbook problems and areproficient at coding. Combining these two capabilities could one day enable AIsystems to simulate and predict the…\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCharacterizing Large Language Model Geometry Solves Toxicity Detection and Generation\n\n\n\n\n\n\n\nartificial intelligence\n\n\n\n\nLarge Language Models~(LLMs) drive current AI breakthroughs despite verylittle being known about their internal representations, e.g., how to extract afew informative features to solve various downstream tasks. To provide apractical and principled…\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
@@ -186,68 +193,96 @@
     "href": "blog.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "No matching items"
+    "text": "Blogpost Example\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "newsletter.html",
-    "href": "newsletter.html",
-    "title": "IAI Hub",
+    "objectID": "posts/blogpost-example/index.html",
+    "href": "posts/blogpost-example/index.html",
+    "title": "Blogpost Example",
     "section": "",
-    "text": "Newsletter Issue - 24-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNewsletter Issue - 04-12-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNewsletter Issue - 28-11-2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
+    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
+    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
+    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
     "section": "",
-    "text": "names = [\"Francesca Cairoli\",\"Luca Bortolussi\",\"Nicola Paoletti\"]"
+    "text": "names = [\"Haochen Zhang\",\"Yuyang Dong\",\"Chuan Xiao\",\"Masafumi Oyamada\"]"
   },
   {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#tldr",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#tldr",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
+    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#tldr",
+    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#tldr",
+    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
     "section": "Tldr",
-    "text": "Tldr\nThis tutorial focuses on efficient methods to predictive monitoring (PM), theproblem of detecting at runtime future violations of a given requirement fromthe current state of a system. While performing model checking at runtime wouldoffer a precise solution to the PM problem, it is generally computationallyexpensive. To address this scalability issue, several lightweight approachesbased on machine learning have recently been proposed. These approaches work bylearning an approximate yet efficient surrogate (deep learning) model of theexpensive model checker. A key challenge remains to ensure reliablepredictions, especially in safety-critical applications. We review our recentwork on predictive monitoring, one of the first to propose learning-basedapproximations for CPS verification of temporal logic specifications and thefirst in this context to apply conformal prediction (CP) for rigorousuncertainty quantification. These CP-based uncertainty estimators offerstatistical guarantees regarding the generalization error of the learningmodel, and they can be used to determine unreliable predictions that should berejected. In this tutorial, we present a general and comprehensive frameworksummarizing our approach to the predictive monitoring of CPSs, examining indetail several variants determined by three main dimensions: system dynamics(deterministic, non-deterministic, stochastic), state observability, andsemantics of requirements’ satisfaction (Boolean or quantitative)."
+    "text": "Tldr\nIn this paper, we present Jellyfish, an open-source LLM as a universal tasksolver for DP. Built on the Llama 2 13B model, Jellyfish is instruction-tunedwith the datasets of several typical DP tasks including error detection, dataimputation, schema matching, and entity matching, and delivers generalizabilityto other tasks. Remarkably, Jellyfish can operate on a local, single, andlow-priced GPU with its 13 billion parameters, ensuring data security andenabling further tuning. Its proficiency in understanding natural languageallows users to manually craft instructions for DP tasks. Unlike many existingmethods that heavily rely on prior knowledge, Jellyfish acquires domainknowledge during its tuning process and integrates optional knowledge injectionduring inference. A distinctive feature of Jellyfish is its interpreter, whichelucidates its output decisions. To construct Jellyfish, we develop a series ofpre-tuning and DP-tuning techniques. Jellyfish is equipped with an instanceserializer, which automatically translates raw data into model prompts, and aknowledge injector, which optionally introduces task- and dataset-specificknowledge to enhance DP performance. Our evaluation of Jellyfish, using a rangeof real datasets, shows its competitiveness compared to state-of-the-artmethods and its strong generalizability to unseen tasks. Jellyfish’sperformance rivals that of GPT series models, and its interpreter offersenhanced reasoning capabilities compared to GPT-3.5. Furthermore, ourevaluation highlights the effectiveness of the techniques employed inconstructing Jellyfish. Our model is available at Hugging Face:this https URL ."
   },
   {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#paper-authors",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#paper-authors",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
+    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#paper-authors",
+    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#paper-authors",
+    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#more-resources",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#more-resources",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
+    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#more-resources",
+    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#more-resources",
+    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
     "section": "More Resources",
     "text": "More Resources"
   },
   {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html",
-    "title": "Physics simulation capabilities of LLMs",
+    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html",
+    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html",
+    "title": "Learning Machine Morality through Experience and Interaction",
     "section": "",
-    "text": "names = [\"Mohamad Ali-Dib\",\"Kristen Menou\"]"
+    "text": "names = [\"Elizaveta Tennant\",\"Stephen Hailes\",\"Mirco Musolesi\"]"
   },
   {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#tldr",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html#tldr",
-    "title": "Physics simulation capabilities of LLMs",
+    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#tldr",
+    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#tldr",
+    "title": "Learning Machine Morality through Experience and Interaction",
     "section": "Tldr",
-    "text": "Tldr\n[Abridged abstract] Large Language Models (LLMs) can solve someundergraduate-level to graduate-level physics textbook problems and areproficient at coding. Combining these two capabilities could one day enable AIsystems to simulate and predict the physical world.We present an evaluation of state-of-the-art (SOTA) LLMs on PhD-level toresearch-level computational physics problems. We condition LLM generation onthe use of well-documented and widely-used packages to elicit codingcapabilities in the physics and astrophysics domains. We contribute \\(\\sim 50\\)original and challenging problems in celestial mechanics (with REBOUND),stellar physics (with MESA), 1D fluid dynamics (with Dedalus) and non-lineardynamics (with SciPy). Since our problems do not admit unique solutions, weevaluate LLM performance on several soft metrics: counts of lines that containdifferent types of errors (coding, physics, necessity and sufficiency) as wellas a more “educational” Pass-Fail metric focused on capturing the salientphysical ingredients of the problem at hand.As expected, today’s SOTA LLM (GPT4) zero-shot fails most of our problems,although about 40% of the solutions could plausibly get a passing grade. About\\(70-90 \\%\\) of the code lines produced are necessary, sufficient and correct(coding & physics). Physics and coding errors are the most common, with someunnecessary or insufficient lines. We observe significant variations acrossproblem class and difficulty. We identify several failure modes of GPT4 in thecomputational physics domain.Our reconnaissance work provides a snapshot of current computationalcapabilities in classical physics and points to obvious improvement targets ifAI systems are ever to reach a basic level of autonomy in physics simulationcapabilities."
+    "text": "Tldr\nIncreasing interest in ensuring safety of next-generation ArtificialIntelligence (AI) systems calls for novel approaches to embedding morality intoautonomous agents. Traditionally, this has been done by imposing explicittop-down rules or hard constraints on systems, for example by filtering systemoutputs through pre-defined ethical rules. Recently, instead, entirelybottom-up methods for learning implicit preferences from human behavior havebecome increasingly popular, such as those for training and fine-tuning LargeLanguage Models. In this paper, we provide a systematization of existingapproaches to the problem of introducing morality in machines - modeled as acontinuum, and argue that the majority of popular techniques lie at theextremes - either being fully hard-coded, or entirely learned, where noexplicit statement of any moral principle is required. Given the relativestrengths and weaknesses of each type of methodology, we argue that more hybridsolutions are needed to create adaptable and robust, yet more controllable andinterpretable agents.In particular, we present three case studies of recent works which uselearning from experience (i.e., Reinforcement Learning) to explicitly providemoral principles to learning agents - either as intrinsic rewards, morallogical constraints or textual principles for language models. For example,using intrinsic rewards in Social Dilemma games, we demonstrate how it ispossible to represent classical moral frameworks for agents. We also present anoverview of the existing work in this area in order to provide empiricalevidence for the potential of this hybrid approach. We then discuss strategiesfor evaluating the effectiveness of moral learning agents. Finally, we presentopen research questions and implications for the future of AI safety and ethicswhich are emerging from this framework."
   },
   {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#paper-authors",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html#paper-authors",
-    "title": "Physics simulation capabilities of LLMs",
+    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#paper-authors",
+    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#paper-authors",
+    "title": "Learning Machine Morality through Experience and Interaction",
     "section": "Paper-authors",
     "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
   },
   {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#more-resources",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html#more-resources",
-    "title": "Physics simulation capabilities of LLMs",
+    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#more-resources",
+    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#more-resources",
+    "title": "Learning Machine Morality through Experience and Interaction",
+    "section": "More Resources",
+    "text": "More Resources"
+  },
+  {
+    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html",
+    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html",
+    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
+    "section": "",
+    "text": "names = [\"Randall Balestriero\",\"Romain Cosentino\",\"Sarath Shekkizhar\"]"
+  },
+  {
+    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#tldr",
+    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#tldr",
+    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
+    "section": "Tldr",
+    "text": "Tldr\nLarge Language Models~(LLMs) drive current AI breakthroughs despite verylittle being known about their internal representations, e.g., how to extract afew informative features to solve various downstream tasks. To provide apractical and principled answer, we propose to characterize LLMs from ageometric perspective. We obtain in closed form (i) the intrinsic dimension inwhich the Multi-Head Attention embeddings are constrained to exist and (ii) thepartition and per-region affine mappings of the per-layer feedforward networks.Our results are informative, do not rely on approximations, and are actionable.First, we show that, motivated by our geometric interpretation, we can bypassLlama\\(2\\)’s RLHF by controlling its embedding’s intrinsic dimension throughinformed prompt manipulation. Second, we derive \\(7\\) interpretable splinefeatures that can be extracted from any (pre-trained) LLM layer, providing arich abstract representation of their inputs. Those features alone (\\(224\\) forMistral-7B and Llama\\(2\\)-7B) are sufficient to help solve toxicity detection,infer the domain of the prompt, and even tackle the Jigsaw challenge, whichaims at characterizing the type of toxicity of various prompts. Our resultsdemonstrate how, even in large-scale regimes, exact theoretical results cananswer practical questions in language models. Code:."
+  },
+  {
+    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#paper-authors",
+    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#paper-authors",
+    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
+    "section": "Paper-authors",
+    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
+  },
+  {
+    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#more-resources",
+    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#more-resources",
+    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
     "section": "More Resources",
     "text": "More Resources"
   },
