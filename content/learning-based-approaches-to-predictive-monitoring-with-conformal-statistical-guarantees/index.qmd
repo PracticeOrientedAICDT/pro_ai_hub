@@ -1,0 +1,93 @@
+---
+categories: artificial intelligence
+description: 'This tutorial focuses on efficient methods to predictive monitoring
+  (PM), theproblem of detecting at runtime future violations of a given requirement
+  fromthe current state of a system. While performing model checking at runtime wouldoffer
+  a precise solution to the PM problem, it is generally computationallyexpensive.
+  To address this scalability issue, several lightweight approachesbased on machine
+  learning have recently been proposed. These approaches work bylearning an approximate
+  yet efficient surrogate (deep learning) model of theexpensive model checker. A key
+  challenge remains to ensure reliablepredictions, especially in safety-critical applications.
+  We review our recentwork on predictive monitoring, one of the first to propose learning-basedapproximations
+  for CPS verification of temporal logic specifications and thefirst in this context
+  to apply conformal prediction (CP) for rigorousuncertainty quantification. These
+  CP-based uncertainty estimators offerstatistical guarantees regarding the generalization
+  error of the learningmodel, and they can be used to determine unreliable predictions
+  that should berejected. In this tutorial, we present a general and comprehensive
+  frameworksummarizing our approach to the predictive monitoring of CPSs, examining
+  indetail several variants determined by three main dimensions: system dynamics(deterministic,
+  non-deterministic, stochastic), state observability, andsemantics of requirements''
+  satisfaction (Boolean or quantitative).'
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/cs/1/au:+Cairoli_F/0/1/0/all/0/1
+    name: Cairoli, Francesca
+  author_2:
+    link: https://arxiv.org/find/cs/1/au:+Bortolussi_L/0/1/0/all/0/1
+    name: Bortolussi, Luca
+  author_3:
+    link: https://arxiv.org/find/cs/1/au:+Paoletti_N/0/1/0/all/0/1
+    name: Paoletti, Nicola
+  overview: 'This tutorial focuses on efficient methods to predictive monitoring (PM),
+    theproblem of detecting at runtime future violations of a given requirement fromthe
+    current state of a system. While performing model checking at runtime wouldoffer
+    a precise solution to the PM problem, it is generally computationallyexpensive.
+    To address this scalability issue, several lightweight approachesbased on machine
+    learning have recently been proposed. These approaches work bylearning an approximate
+    yet efficient surrogate (deep learning) model of theexpensive model checker. A
+    key challenge remains to ensure reliablepredictions, especially in safety-critical
+    applications. We review our recentwork on predictive monitoring, one of the first
+    to propose learning-basedapproximations for CPS verification of temporal logic
+    specifications and thefirst in this context to apply conformal prediction (CP)
+    for rigorousuncertainty quantification. These CP-based uncertainty estimators
+    offerstatistical guarantees regarding the generalization error of the learningmodel,
+    and they can be used to determine unreliable predictions that should berejected.
+    In this tutorial, we present a general and comprehensive frameworksummarizing
+    our approach to the predictive monitoring of CPSs, examining indetail several
+    variants determined by three main dimensions: system dynamics(deterministic, non-deterministic,
+    stochastic), state observability, andsemantics of requirements'' satisfaction
+    (Boolean or quantitative).'
+  pdf_url: http://arxiv.org/pdf/2312.01959
+  research_area: artificial intelligence
+title: Learning-Based Approaches to Predictive Monitoring with Conformal Statistical
+  Guarantees
+
+---
+```{ojs} 
+
+ names = ["Francesca Cairoli","Luca Bortolussi","Nicola Paoletti"] 
+
+``` 
+
+## Tldr 
+This tutorial focuses on efficient methods to predictive monitoring (PM), theproblem of detecting at runtime future violations of a given requirement fromthe current state of a system. While performing model checking at runtime wouldoffer a precise solution to the PM problem, it is generally computationallyexpensive. To address this scalability issue, several lightweight approachesbased on machine learning have recently been proposed. These approaches work bylearning an approximate yet efficient surrogate (deep learning) model of theexpensive model checker. A key challenge remains to ensure reliablepredictions, especially in safety-critical applications. We review our recentwork on predictive monitoring, one of the first to propose learning-basedapproximations for CPS verification of temporal logic specifications and thefirst in this context to apply conformal prediction (CP) for rigorousuncertainty quantification. These CP-based uncertainty estimators offerstatistical guarantees regarding the generalization error of the learningmodel, and they can be used to determine unreliable predictions that should berejected. In this tutorial, we present a general and comprehensive frameworksummarizing our approach to the predictive monitoring of CPSs, examining indetail several variants determined by three main dimensions: system dynamics(deterministic, non-deterministic, stochastic), state observability, andsemantics of requirements' satisfaction (Boolean or quantitative).
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
