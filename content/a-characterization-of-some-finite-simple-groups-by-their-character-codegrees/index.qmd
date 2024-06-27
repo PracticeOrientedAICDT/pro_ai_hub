@@ -1,0 +1,61 @@
+---
+categories: group theory
+description: For a finite group $G$ and an irreducible complex character $\chi$ of
+  $G$,the codegree of $\chi$ is defined by$\textrm{cod}(\chi)=|G:\textrm{ker}(\chi)|/\chi(1)$,
+  where $\textrm{ker}(\chi)$is the kernel of $\chi$. In this paper, we show that if
+  $H$ is a finite simpleexceptional group of Lie type or a projective special linear
+  group and $G$ isany finite group such that the character codegree sets of $G$ and
+  $H$ coincide,then $G$ and $H$ are isomorphic.
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/math/1/au:+Tong_Viet_H/0/1/0/all/0/1
+    name: Tong-Viet, Hung P.
+  overview: For a finite group $G$ and an irreducible complex character $\chi$ of
+    $G$,the codegree of $\chi$ is defined by$\textrm{cod}(\chi)=|G:\textrm{ker}(\chi)|/\chi(1)$,
+    where $\textrm{ker}(\chi)$is the kernel of $\chi$. In this paper, we show that
+    if $H$ is a finite simpleexceptional group of Lie type or a projective special
+    linear group and $G$ isany finite group such that the character codegree sets
+    of $G$ and $H$ coincide,then $G$ and $H$ are isomorphic.
+  pdf_url: http://arxiv.org/pdf/2406.17794
+  research_area: group theory
+title: A characterization of some finite simple groups by their character codegrees
+
+---
+```{ojs} 
+
+ names = ["Hung P. Tong-Viet"] 
+
+``` 
+
+## Tldr 
+For a finite group $G$ and an irreducible complex character $\chi$ of $G$,the codegree of $\chi$ is defined by$\textrm{cod}(\chi)=|G:\textrm{ker}(\chi)|/\chi(1)$, where $\textrm{ker}(\chi)$is the kernel of $\chi$. In this paper, we show that if $H$ is a finite simpleexceptional group of Lie type or a projective special linear group and $G$ isany finite group such that the character codegree sets of $G$ and $H$ coincide,then $G$ and $H$ are isomorphic.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
