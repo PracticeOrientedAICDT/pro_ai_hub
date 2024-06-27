@@ -1,1 +1,1 @@
-Sitemap: https://github.com/DelmiroDaladier/icr/sitemap.xml
+Sitemap: https://DelmiroDaladier.github.io/icr/sitemap.xml

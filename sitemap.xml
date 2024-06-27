@@ -1,83 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_content.html</loc>
-    <lastmod>2023-12-05T16:38:59.719Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/about.html</loc>
+    <lastmod>2024-06-27T21:46:00.957Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers.html</loc>
-    <lastmod>2023-12-05T16:38:58.295Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/event_calendar.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/physics-simulation-capabilities-of-llms/index.html</loc>
-    <lastmod>2023-12-05T16:38:56.563Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/templates/template_for_blogposts.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html</loc>
-    <lastmod>2023-12-05T16:38:54.243Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter.html</loc>
-    <lastmod>2023-12-05T16:38:51.823Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/content/physics-simulation-capabilities-of-llms/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/about.html</loc>
-    <lastmod>2023-12-05T16:38:50.787Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/content/jellyfish-a-large-language-model-for-data-preprocessing/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html</loc>
-    <lastmod>2023-12-05T16:38:50.207Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.957Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html</loc>
-    <lastmod>2023-12-05T16:38:48.347Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/posts_by_author.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts_by_author.html</loc>
-    <lastmod>2023-12-05T16:38:47.007Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
-    <lastmod>2023-12-05T16:38:45.463Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
-    <lastmod>2023-12-05T16:38:44.147Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/newsletter.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/event_calendar.html</loc>
-    <lastmod>2023-12-05T16:38:45.955Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/index.html</loc>
-    <lastmod>2023-12-05T16:38:47.559Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html</loc>
-    <lastmod>2023-12-05T16:38:49.123Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/posts/blogpost-example/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/blog.html</loc>
-    <lastmod>2023-12-05T16:38:50.527Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/posts/blogpost-example/index.html</loc>
-    <lastmod>2023-12-05T16:38:51.471Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/content/learning-machine-morality-through-experience-and-interaction/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/jellyfish-a-large-language-model-for-data-preprocessing/index.html</loc>
-    <lastmod>2023-12-05T16:38:53.031Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.957Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/learning-machine-morality-through-experience-and-interaction/index.html</loc>
-    <lastmod>2023-12-05T16:38:55.371Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/researchers.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html</loc>
-    <lastmod>2023-12-05T16:38:57.991Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/templates/template_for_content.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/DelmiroDaladier/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2023-12-05T16:38:58.991Z</lastmod>
+    <loc>https://DelmiroDaladier.github.io/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
+    <lastmod>2024-06-27T21:46:00.961Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DelmiroDaladier.github.io/icr/blog.html</loc>
+    <lastmod>2024-06-27T21:46:00.957Z</lastmod>
   </url>
 </urlset>
