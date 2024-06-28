@@ -1,0 +1,108 @@
+---
+categories: image and video processing
+description: '3D reconstruction of the liver for volumetry is important for qualitativeanalysis
+  and disease diagnosis. Liver volumetry using ultrasound (US) scans,although advantageous
+  due to less acquisition time and safety, is challengingdue to the inherent noisiness
+  in US scans, blurry boundaries, and partial livervisibility. We address these challenges
+  by using the segmentation masks of afew incomplete sagittal-plane US scans of the
+  liver in conjunction with astatistical shape model (SSM) built using a set of CT
+  scans of the liver. Wecompute the shape parameters needed to warp this canonical
+  SSM to fit the USscans through a parametric regression network. The resulting 3D
+  liverreconstruction is accurate and leads to automatic liver volume calculation.
+  Weevaluate the accuracy of the estimated liver volumes with respect to CTsegmentation
+  volumes using RMSE. Our volume computation is statistically muchcloser to the volume
+  estimated using CT scans than the volume computed usingChilds'' method by radiologists:
+  p-value of 0.094 (>0.05) says that there is nosignificant difference between CT
+  segmentation volumes and ours in contrast toChilds'' method. We validate our method
+  using investigations (ablation studies)on the US image resolution, the number of
+  CT scans used for SSM, the number ofprincipal components, and the number of input
+  US scans. To the best of ourknowledge, this is the first automatic liver volumetry
+  system using a fewincomplete US scans given a set of CT scans of livers for SSM.'
+execute:
+  echo: false
+format:
+  html:
+    df-print: paged
+    toc: true
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png
+params:
+  author_1:
+    link: https://arxiv.org/find/eess/1/au:+Sivayogaraj_K/0/1/0/all/0/1
+    name: Sivayogaraj, Kaushalya
+  author_2:
+    link: https://arxiv.org/find/eess/1/au:+Guruge_S/0/1/0/all/0/1
+    name: Guruge, Sahan T.
+  author_3:
+    link: https://arxiv.org/find/eess/1/au:+Liyanage_U/0/1/0/all/0/1
+    name: Liyanage, Udari
+  author_4:
+    link: https://arxiv.org/find/eess/1/au:+Udupihille_J/0/1/0/all/0/1
+    name: Udupihille, Jeevani
+  author_5:
+    link: https://arxiv.org/find/eess/1/au:+Jayasinghe_S/0/1/0/all/0/1
+    name: Jayasinghe, Saroj
+  author_6:
+    link: https://arxiv.org/find/eess/1/au:+Fernando_G/0/1/0/all/0/1
+    name: Fernando, Gerard
+  author_7:
+    link: https://arxiv.org/find/eess/1/au:+Rodrigo_R/0/1/0/all/0/1
+    name: Rodrigo, Ranga
+  author_8:
+    link: https://arxiv.org/find/eess/1/au:+Liyanaarachchi_M/0/1/0/all/0/1
+    name: Liyanaarachchi, M. Rukshani
+  overview: '3D reconstruction of the liver for volumetry is important for qualitativeanalysis
+    and disease diagnosis. Liver volumetry using ultrasound (US) scans,although advantageous
+    due to less acquisition time and safety, is challengingdue to the inherent noisiness
+    in US scans, blurry boundaries, and partial livervisibility. We address these
+    challenges by using the segmentation masks of afew incomplete sagittal-plane US
+    scans of the liver in conjunction with astatistical shape model (SSM) built using
+    a set of CT scans of the liver. Wecompute the shape parameters needed to warp
+    this canonical SSM to fit the USscans through a parametric regression network.
+    The resulting 3D liverreconstruction is accurate and leads to automatic liver
+    volume calculation. Weevaluate the accuracy of the estimated liver volumes with
+    respect to CTsegmentation volumes using RMSE. Our volume computation is statistically
+    muchcloser to the volume estimated using CT scans than the volume computed usingChilds''
+    method by radiologists: p-value of 0.094 (>0.05) says that there is nosignificant
+    difference between CT segmentation volumes and ours in contrast toChilds'' method.
+    We validate our method using investigations (ablation studies)on the US image
+    resolution, the number of CT scans used for SSM, the number ofprincipal components,
+    and the number of input US scans. To the best of ourknowledge, this is the first
+    automatic liver volumetry system using a fewincomplete US scans given a set of
+    CT scans of livers for SSM.'
+  pdf_url: http://arxiv.org/pdf/2406.19336
+  research_area: image and video processing
+title: 'LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with
+  a Few Partial Ultrasound Scans'
+
+---
+```{ojs} 
+
+ names = ["Kaushalya Sivayogaraj","Sahan T. Guruge","Udari Liyanage","Jeevani Udupihille","Saroj Jayasinghe","Gerard Fernando","Ranga Rodrigo","M. Rukshani Liyanaarachchi"] 
+
+``` 
+
+## Tldr 
+3D reconstruction of the liver for volumetry is important for qualitativeanalysis and disease diagnosis. Liver volumetry using ultrasound (US) scans,although advantageous due to less acquisition time and safety, is challengingdue to the inherent noisiness in US scans, blurry boundaries, and partial livervisibility. We address these challenges by using the segmentation masks of afew incomplete sagittal-plane US scans of the liver in conjunction with astatistical shape model (SSM) built using a set of CT scans of the liver. Wecompute the shape parameters needed to warp this canonical SSM to fit the USscans through a parametric regression network. The resulting 3D liverreconstruction is accurate and leads to automatic liver volume calculation. Weevaluate the accuracy of the estimated liver volumes with respect to CTsegmentation volumes using RMSE. Our volume computation is statistically muchcloser to the volume estimated using CT scans than the volume computed usingChilds' method by radiologists: p-value of 0.094 (>0.05) says that there is nosignificant difference between CT segmentation volumes and ours in contrast toChilds' method. We validate our method using investigations (ablation studies)on the US image resolution, the number of CT scans used for SSM, the number ofprincipal components, and the number of input US scans. To the best of ourknowledge, this is the first automatic liver volumetry system using a fewincomplete US scans given a set of CT scans of livers for SSM.
+
+## Paper-authors
+
+```{ojs} 
+
+ html`<ul>${names.map(name => html`<li><a href="../../posts_by_author.html?name=${name}" >${name}</a></li>`)}</ul>` 
+
+``` 
+
+```{ojs} 
+
+ htl = require("htl@0.2") 
+
+``` 
+
+```{ojs} 
+
+ html = htl.html 
+
+``` 
+
+## More Resources
+[![](https://img.shields.io/badge/PDF-green?style=flat)]({{< meta params.pdf_url >}})
