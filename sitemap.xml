@@ -1,95 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/about.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/about.html</loc>
+    <lastmod>2024-07-08T16:09:15.008Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/event_calendar.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/event_calendar.html</loc>
+    <lastmod>2024-07-08T16:09:15.012Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/templates/template_for_blogposts.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/templates/template_for_blogposts.html</loc>
+    <lastmod>2024-07-08T16:09:15.016Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/index.html</loc>
+    <lastmod>2024-07-08T16:09:15.012Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/posts_by_author.html</loc>
+    <lastmod>2024-07-08T16:09:15.012Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/newsletter.html</loc>
+    <lastmod>2024-07-08T16:09:15.012Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/learning-machine-morality-through-experience-and-interaction/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/researchers.html</loc>
+    <lastmod>2024-07-08T16:09:15.016Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/templates/template_for_content.html</loc>
+    <lastmod>2024-07-08T16:09:15.016Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/posts_by_author.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
+    <lastmod>2024-07-08T16:09:15.012Z</lastmod>
   </url>
   <url>
-    <loc>https://DelmiroDaladier.github.io/icr/researchers/roussel-desmond-nzoyem/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/newsletter.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/posts/blogpost-example/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/jellyfish-a-large-language-model-for-data-preprocessing/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/content/physics-simulation-capabilities-of-llms/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/researchers.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/templates/template_for_content.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/newsletter/cdt_weekly_newsletter-20-11-2023/index.html</loc>
-    <lastmod>2024-06-28T11:48:05.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DelmiroDaladier.github.io/icr/blog.html</loc>
-    <lastmod>2024-06-28T11:48:05.837Z</lastmod>
+    <loc>https://PracticeOrientedAICDT.github.io/pro_ai_hub/blog.html</loc>
+    <lastmod>2024-07-08T16:09:15.008Z</lastmod>
   </url>
 </urlset>

@@ -25,119 +25,7 @@
     "href": "index.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Spectral conditions implying the existence of doubly chorded cycles without or with constraints\n\n\n\n\n\n\ncombinatorics\n\n\n\nWhat spectral conditions imply a graph contains a chorded cycle? Thisquestion was asked by R.J. Gould in 2022. We answer three modified versions ofGould’s question by giving tight spectral conditions that imply the existenceof doubly chorded cycle…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLearning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees\n\n\n\n\n\n\nartificial intelligence\n\n\n\nThis tutorial focuses on efficient methods to predictive monitoring (PM), theproblem of detecting at runtime future violations of a given requirement fromthe current state of a system. While performing model checking at runtime wouldoffer a precise…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacterizing Large Language Model Geometry Solves Toxicity Detection and Generation\n\n\n\n\n\n\nartificial intelligence\n\n\n\nLarge Language Models~(LLMs) drive current AI breakthroughs despite verylittle being known about their internal representations, e.g., how to extract afew informative features to solve various downstream tasks. To provide apractical and principled…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLearning Machine Morality through Experience and Interaction\n\n\n\n\n\n\nartificial intelligence\n\n\n\nIncreasing interest in ensuring safety of next-generation ArtificialIntelligence (AI) systems calls for novel approaches to embedding morality intoautonomous agents. Traditionally, this has been done by imposing explicittop-down rules or hard…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJellyfish: A Large Language Model for Data Preprocessing\n\n\n\n\n\n\nartificial intelligence\n\n\n\nIn this paper, we present Jellyfish, an open-source LLM as a universal tasksolver for DP. Built on the Llama 2 13B model, Jellyfish is instruction-tunedwith the datasets of several typical DP tasks including error detection, dataimputation, schema…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA characterization of some finite simple groups by their character codegrees\n\n\n\n\n\n\ngroup theory\n\n\n\nFor a finite group \\(G\\) and an irreducible complex character \\(\\chi\\) of \\(G\\),the codegree of \\(\\chi\\) is defined by\\(\\textrm{cod}(\\chi)=|G:\\textrm{ker}(\\chi)|/\\chi(1)\\), where \\(\\textrm{ker}(\\chi)\\)is the kernel of \\(\\chi\\). In this paper, we show that if \\(H\\)…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhysics simulation capabilities of LLMs\n\n\n\n\n\n\nartificial intelligence\n\n\n\n[Abridged abstract] Large Language Models (LLMs) can solve someundergraduate-level to graduate-level physics textbook problems and areproficient at coding. Combining these two capabilities could one day enable AIsystems to simulate and predict the…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans\n\n\n\n\n\n\nimage and video processing\n\n\n\n3D reconstruction of the liver for volumetry is important for qualitativeanalysis and disease diagnosis. Liver volumetry using ultrasound (US) scans,although advantageous due to less acquisition time and safety, is challengingdue to the inherent…\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html",
-    "href": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html",
-    "title": "LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans",
-    "section": "",
-    "text": "names = [\"Kaushalya Sivayogaraj\",\"Sahan T. Guruge\",\"Udari Liyanage\",\"Jeevani Udupihille\",\"Saroj Jayasinghe\",\"Gerard Fernando\",\"Ranga Rodrigo\",\"M. Rukshani Liyanaarachchi\"]"
-  },
-  {
-    "objectID": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html#tldr",
-    "href": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html#tldr",
-    "title": "LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans",
-    "section": "Tldr",
-    "text": "Tldr\n3D reconstruction of the liver for volumetry is important for qualitativeanalysis and disease diagnosis. Liver volumetry using ultrasound (US) scans,although advantageous due to less acquisition time and safety, is challengingdue to the inherent noisiness in US scans, blurry boundaries, and partial livervisibility. We address these challenges by using the segmentation masks of afew incomplete sagittal-plane US scans of the liver in conjunction with astatistical shape model (SSM) built using a set of CT scans of the liver. Wecompute the shape parameters needed to warp this canonical SSM to fit the USscans through a parametric regression network. The resulting 3D liverreconstruction is accurate and leads to automatic liver volume calculation. Weevaluate the accuracy of the estimated liver volumes with respect to CTsegmentation volumes using RMSE. Our volume computation is statistically muchcloser to the volume estimated using CT scans than the volume computed usingChilds’ method by radiologists: p-value of 0.094 (&gt;0.05) says that there is nosignificant difference between CT segmentation volumes and ours in contrast toChilds’ method. We validate our method using investigations (ablation studies)on the US image resolution, the number of CT scans used for SSM, the number ofprincipal components, and the number of input US scans. To the best of ourknowledge, this is the first automatic liver volumetry system using a fewincomplete US scans given a set of CT scans of livers for SSM."
-  },
-  {
-    "objectID": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html#paper-authors",
-    "href": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html#paper-authors",
-    "title": "LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html#more-resources",
-    "href": "content/liverusrecon-automatic-3d-reconstruction-and-volumetry-of-the-liver-with-a-few-partial-ultrasound-scans/index.html#more-resources",
-    "title": "LiverUSRecon: Automatic 3D Reconstruction and Volumetry of the Liver with a Few Partial Ultrasound Scans",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html",
-    "href": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html",
-    "title": "A characterization of some finite simple groups by their character codegrees",
-    "section": "",
-    "text": "names = [\"Hung P. Tong-Viet\"]"
-  },
-  {
-    "objectID": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html#tldr",
-    "href": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html#tldr",
-    "title": "A characterization of some finite simple groups by their character codegrees",
-    "section": "Tldr",
-    "text": "Tldr\nFor a finite group \\(G\\) and an irreducible complex character \\(\\chi\\) of \\(G\\),the codegree of \\(\\chi\\) is defined by\\(\\textrm{cod}(\\chi)=|G:\\textrm{ker}(\\chi)|/\\chi(1)\\), where \\(\\textrm{ker}(\\chi)\\)is the kernel of \\(\\chi\\). In this paper, we show that if \\(H\\) is a finite simpleexceptional group of Lie type or a projective special linear group and \\(G\\) isany finite group such that the character codegree sets of \\(G\\) and \\(H\\) coincide,then \\(G\\) and \\(H\\) are isomorphic."
-  },
-  {
-    "objectID": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html#paper-authors",
-    "href": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html#paper-authors",
-    "title": "A characterization of some finite simple groups by their character codegrees",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html#more-resources",
-    "href": "content/a-characterization-of-some-finite-simple-groups-by-their-character-codegrees/index.html#more-resources",
-    "title": "A characterization of some finite simple groups by their character codegrees",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html",
-    "title": "Learning Machine Morality through Experience and Interaction",
-    "section": "",
-    "text": "names = [\"Elizaveta Tennant\",\"Stephen Hailes\",\"Mirco Musolesi\"]"
-  },
-  {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#tldr",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#tldr",
-    "title": "Learning Machine Morality through Experience and Interaction",
-    "section": "Tldr",
-    "text": "Tldr\nIncreasing interest in ensuring safety of next-generation ArtificialIntelligence (AI) systems calls for novel approaches to embedding morality intoautonomous agents. Traditionally, this has been done by imposing explicittop-down rules or hard constraints on systems, for example by filtering systemoutputs through pre-defined ethical rules. Recently, instead, entirelybottom-up methods for learning implicit preferences from human behavior havebecome increasingly popular, such as those for training and fine-tuning LargeLanguage Models. In this paper, we provide a systematization of existingapproaches to the problem of introducing morality in machines - modeled as acontinuum, and argue that the majority of popular techniques lie at theextremes - either being fully hard-coded, or entirely learned, where noexplicit statement of any moral principle is required. Given the relativestrengths and weaknesses of each type of methodology, we argue that more hybridsolutions are needed to create adaptable and robust, yet more controllable andinterpretable agents.In particular, we present three case studies of recent works which uselearning from experience (i.e., Reinforcement Learning) to explicitly providemoral principles to learning agents - either as intrinsic rewards, morallogical constraints or textual principles for language models. For example,using intrinsic rewards in Social Dilemma games, we demonstrate how it ispossible to represent classical moral frameworks for agents. We also present anoverview of the existing work in this area in order to provide empiricalevidence for the potential of this hybrid approach. We then discuss strategiesfor evaluating the effectiveness of moral learning agents. Finally, we presentopen research questions and implications for the future of AI safety and ethicswhich are emerging from this framework."
-  },
-  {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#paper-authors",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#paper-authors",
-    "title": "Learning Machine Morality through Experience and Interaction",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/learning-machine-morality-through-experience-and-interaction/index.html#more-resources",
-    "href": "content/learning-machine-morality-through-experience-and-interaction/index.html#more-resources",
-    "title": "Learning Machine Morality through Experience and Interaction",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
-    "section": "",
-    "text": "names = [\"Francesca Cairoli\",\"Luca Bortolussi\",\"Nicola Paoletti\"]"
-  },
-  {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#tldr",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#tldr",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
-    "section": "Tldr",
-    "text": "Tldr\nThis tutorial focuses on efficient methods to predictive monitoring (PM), theproblem of detecting at runtime future violations of a given requirement fromthe current state of a system. While performing model checking at runtime wouldoffer a precise solution to the PM problem, it is generally computationallyexpensive. To address this scalability issue, several lightweight approachesbased on machine learning have recently been proposed. These approaches work bylearning an approximate yet efficient surrogate (deep learning) model of theexpensive model checker. A key challenge remains to ensure reliablepredictions, especially in safety-critical applications. We review our recentwork on predictive monitoring, one of the first to propose learning-basedapproximations for CPS verification of temporal logic specifications and thefirst in this context to apply conformal prediction (CP) for rigorousuncertainty quantification. These CP-based uncertainty estimators offerstatistical guarantees regarding the generalization error of the learningmodel, and they can be used to determine unreliable predictions that should berejected. In this tutorial, we present a general and comprehensive frameworksummarizing our approach to the predictive monitoring of CPSs, examining indetail several variants determined by three main dimensions: system dynamics(deterministic, non-deterministic, stochastic), state observability, andsemantics of requirements’ satisfaction (Boolean or quantitative)."
-  },
-  {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#paper-authors",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#paper-authors",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#more-resources",
-    "href": "content/learning-based-approaches-to-predictive-monitoring-with-conformal-statistical-guarantees/index.html#more-resources",
-    "title": "Learning-Based Approaches to Predictive Monitoring with Conformal Statistical Guarantees",
-    "section": "More Resources",
-    "text": "More Resources"
+    "text": "No matching items"
   },
   {
     "objectID": "posts_by_author.html",
@@ -147,172 +35,18 @@
     "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
   },
   {
-    "objectID": "researchers/roussel-desmond-nzoyem/index.html",
-    "href": "researchers/roussel-desmond-nzoyem/index.html",
-    "title": "Roussel Desmond Nzoyem",
-    "section": "",
-    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
-  },
-  {
-    "objectID": "researchers/roussel-desmond-nzoyem/index.html#bio",
-    "href": "researchers/roussel-desmond-nzoyem/index.html#bio",
-    "title": "Roussel Desmond Nzoyem",
-    "section": "",
-    "text": "Hey there, I’m the OG lover of AI, HPC, and SciComp. Give me a shout !"
-  },
-  {
-    "objectID": "newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
-    "href": "newsletter_issues/cdt_weekly_newsletter-04-12-2023/index.html",
-    "title": "Newsletter Issue - 04-12-2023",
-    "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nRandom announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nRandom announcementlorem ipsum\n\nForthcoming Calendar of Events"
-  },
-  {
     "objectID": "newsletter.html",
     "href": "newsletter.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Newsletter Issue - 28-11-2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNewsletter Issue - 04-12-2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNewsletter Issue - 24-11-2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html",
-    "href": "newsletter_issues/cdt_weekly_newsletter-28-11-2023/index.html",
-    "title": "Newsletter Issue - 28-11-2023",
-    "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nAnnouncement 10\n\n\nEvent 6\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nAnnouncement 10Loren IpsumEvent 6Loren Ipsum\n\nForthcoming Calendar of Events\n\nEvent 6 - 2023-12-01"
-  },
-  {
-    "objectID": "newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
-    "href": "newsletter_issues/cdt_weekly_newsletter-24-11-2023/index.html",
-    "title": "Newsletter Issue - 24-11-2023",
-    "section": "",
-    "text": "CDT Weekly Newsletter\n\n\n\n\nannouncement 1\n\n\nAnnouncement 2\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nannouncement 1Lorem IpsumAnnouncement 2Lorem Ipsum\n\nForthcoming Calendar of Events"
-  },
-  {
-    "objectID": "posts/blogpost-example/index.html",
-    "href": "posts/blogpost-example/index.html",
-    "title": "Blogpost Example",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  },
-  {
-    "objectID": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html",
-    "href": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html",
-    "title": "Spectral conditions implying the existence of doubly chorded cycles without or with constraints",
-    "section": "",
-    "text": "names = [\"Leyou Xu\",\"Bo Zhou\"]"
-  },
-  {
-    "objectID": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html#tldr",
-    "href": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html#tldr",
-    "title": "Spectral conditions implying the existence of doubly chorded cycles without or with constraints",
-    "section": "Tldr",
-    "text": "Tldr\nWhat spectral conditions imply a graph contains a chorded cycle? Thisquestion was asked by R.J. Gould in 2022. We answer three modified versions ofGould’s question by giving tight spectral conditions that imply the existenceof doubly chorded cycle, a doubly chorded cycle with two chords incident to avertex, and a doubly chorded cycle on five vertices with two chords incident toone vertex, in a graph, respectively."
-  },
-  {
-    "objectID": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html#paper-authors",
-    "href": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html#paper-authors",
-    "title": "Spectral conditions implying the existence of doubly chorded cycles without or with constraints",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html#more-resources",
-    "href": "content/spectral-conditions-implying-the-existence-of-doubly-chorded-cycles-without-or-with-constraints/index.html#more-resources",
-    "title": "Spectral conditions implying the existence of doubly chorded cycles without or with constraints",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html",
-    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html",
-    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
-    "section": "",
-    "text": "names = [\"Randall Balestriero\",\"Romain Cosentino\",\"Sarath Shekkizhar\"]"
-  },
-  {
-    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#tldr",
-    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#tldr",
-    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
-    "section": "Tldr",
-    "text": "Tldr\nLarge Language Models~(LLMs) drive current AI breakthroughs despite verylittle being known about their internal representations, e.g., how to extract afew informative features to solve various downstream tasks. To provide apractical and principled answer, we propose to characterize LLMs from ageometric perspective. We obtain in closed form (i) the intrinsic dimension inwhich the Multi-Head Attention embeddings are constrained to exist and (ii) thepartition and per-region affine mappings of the per-layer feedforward networks.Our results are informative, do not rely on approximations, and are actionable.First, we show that, motivated by our geometric interpretation, we can bypassLlama\\(2\\)’s RLHF by controlling its embedding’s intrinsic dimension throughinformed prompt manipulation. Second, we derive \\(7\\) interpretable splinefeatures that can be extracted from any (pre-trained) LLM layer, providing arich abstract representation of their inputs. Those features alone (\\(224\\) forMistral-7B and Llama\\(2\\)-7B) are sufficient to help solve toxicity detection,infer the domain of the prompt, and even tackle the Jigsaw challenge, whichaims at characterizing the type of toxicity of various prompts. Our resultsdemonstrate how, even in large-scale regimes, exact theoretical results cananswer practical questions in language models. Code:."
-  },
-  {
-    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#paper-authors",
-    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#paper-authors",
-    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#more-resources",
-    "href": "content/characterizing-large-language-model-geometry-solves-toxicity-detection-and-generation/index.html#more-resources",
-    "title": "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
-    "section": "",
-    "text": "names = [\"Haochen Zhang\",\"Yuyang Dong\",\"Chuan Xiao\",\"Masafumi Oyamada\"]"
-  },
-  {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#tldr",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#tldr",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
-    "section": "Tldr",
-    "text": "Tldr\nIn this paper, we present Jellyfish, an open-source LLM as a universal tasksolver for DP. Built on the Llama 2 13B model, Jellyfish is instruction-tunedwith the datasets of several typical DP tasks including error detection, dataimputation, schema matching, and entity matching, and delivers generalizabilityto other tasks. Remarkably, Jellyfish can operate on a local, single, andlow-priced GPU with its 13 billion parameters, ensuring data security andenabling further tuning. Its proficiency in understanding natural languageallows users to manually craft instructions for DP tasks. Unlike many existingmethods that heavily rely on prior knowledge, Jellyfish acquires domainknowledge during its tuning process and integrates optional knowledge injectionduring inference. A distinctive feature of Jellyfish is its interpreter, whichelucidates its output decisions. To construct Jellyfish, we develop a series ofpre-tuning and DP-tuning techniques. Jellyfish is equipped with an instanceserializer, which automatically translates raw data into model prompts, and aknowledge injector, which optionally introduces task- and dataset-specificknowledge to enhance DP performance. Our evaluation of Jellyfish, using a rangeof real datasets, shows its competitiveness compared to state-of-the-artmethods and its strong generalizability to unseen tasks. Jellyfish’sperformance rivals that of GPT series models, and its interpreter offersenhanced reasoning capabilities compared to GPT-3.5. Furthermore, ourevaluation highlights the effectiveness of the techniques employed inconstructing Jellyfish. Our model is available at Hugging Face:this https URL ."
-  },
-  {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#paper-authors",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#paper-authors",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#more-resources",
-    "href": "content/jellyfish-a-large-language-model-for-data-preprocessing/index.html#more-resources",
-    "title": "Jellyfish: A Large Language Model for Data Preprocessing",
-    "section": "More Resources",
-    "text": "More Resources"
-  },
-  {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html",
-    "title": "Physics simulation capabilities of LLMs",
-    "section": "",
-    "text": "names = [\"Mohamad Ali-Dib\",\"Kristen Menou\"]"
-  },
-  {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#tldr",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html#tldr",
-    "title": "Physics simulation capabilities of LLMs",
-    "section": "Tldr",
-    "text": "Tldr\n[Abridged abstract] Large Language Models (LLMs) can solve someundergraduate-level to graduate-level physics textbook problems and areproficient at coding. Combining these two capabilities could one day enable AIsystems to simulate and predict the physical world.We present an evaluation of state-of-the-art (SOTA) LLMs on PhD-level toresearch-level computational physics problems. We condition LLM generation onthe use of well-documented and widely-used packages to elicit codingcapabilities in the physics and astrophysics domains. We contribute \\(\\sim 50\\)original and challenging problems in celestial mechanics (with REBOUND),stellar physics (with MESA), 1D fluid dynamics (with Dedalus) and non-lineardynamics (with SciPy). Since our problems do not admit unique solutions, weevaluate LLM performance on several soft metrics: counts of lines that containdifferent types of errors (coding, physics, necessity and sufficiency) as wellas a more “educational” Pass-Fail metric focused on capturing the salientphysical ingredients of the problem at hand.As expected, today’s SOTA LLM (GPT4) zero-shot fails most of our problems,although about 40% of the solutions could plausibly get a passing grade. About\\(70-90 \\%\\) of the code lines produced are necessary, sufficient and correct(coding & physics). Physics and coding errors are the most common, with someunnecessary or insufficient lines. We observe significant variations acrossproblem class and difficulty. We identify several failure modes of GPT4 in thecomputational physics domain.Our reconnaissance work provides a snapshot of current computationalcapabilities in classical physics and points to obvious improvement targets ifAI systems are ever to reach a basic level of autonomy in physics simulationcapabilities."
-  },
-  {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#paper-authors",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html#paper-authors",
-    "title": "Physics simulation capabilities of LLMs",
-    "section": "Paper-authors",
-    "text": "Paper-authors\n\nhtml`&lt;ul&gt;${names.map(name =&gt; html`&lt;li&gt;&lt;a href=\"../../posts_by_author.html?name=${name}\" &gt;${name}&lt;/a&gt;&lt;/li&gt;`)}&lt;/ul&gt;`\n\n\n\n\n\n\n\nhtl = require(\"htl@0.2\")\n\n\n\n\n\n\n\nhtml = htl.html"
-  },
-  {
-    "objectID": "content/physics-simulation-capabilities-of-llms/index.html#more-resources",
-    "href": "content/physics-simulation-capabilities-of-llms/index.html#more-resources",
-    "title": "Physics simulation capabilities of LLMs",
-    "section": "More Resources",
-    "text": "More Resources"
+    "text": "No matching items"
   },
   {
     "objectID": "researchers.html",
     "href": "researchers.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Roussel Desmond Nzoyem\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "templates/template_for_content.html#image",
@@ -375,6 +109,6 @@
     "href": "blog.html",
     "title": "IAI Hub",
     "section": "",
-    "text": "Blogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   }
 ]
