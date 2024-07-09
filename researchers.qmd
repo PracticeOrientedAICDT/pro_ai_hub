@@ -1,5 +1,5 @@
 ---
-title: "IAI Hub"
+title: "Pro-AI Hub"
 listing:
   contents: researchers
   sort: "date desc"
@@ -9,6 +9,5 @@ listing:
   filter-ui: false
   feed: false
   max-description-length: 250
-title-block-banner: true
 comments: false
 ---

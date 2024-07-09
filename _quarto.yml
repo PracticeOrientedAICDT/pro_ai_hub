@@ -1,15 +1,13 @@
 project:
   type: website
   
-
 website:
   comments:
     giscus:
-      repo: DelmiroDaladier/icr
+      repo: PracticeOrientedAICDT/pro_ai_hub
       theme:  preferred_color_scheme
 
   navbar:
-    background: primary
     search: true
     right:
       - text: "Home"
@@ -23,14 +21,10 @@ website:
       - text: "Events"
         file: event_calendar.qmd
       - about.qmd 
-
-title-block-banner: true      
+  
 format:
   html:
-    page-layout: article
-    theme: 
-      light: cosmo
-      dark: cyborg
+    theme: default
     css: styles.css
     toc: true
 

@@ -1,6 +1,7 @@
 ---
-title: "IAI Hub"
+title: "Pro-AI Hub"
 listing:
+  id: blog_listings
   contents: posts
   sort: "date desc"
   type: default
@@ -9,6 +10,5 @@ listing:
   filter-ui: false
   feed: false
   max-description-length: 250
-title-block-banner: true
 comments: false
 ---

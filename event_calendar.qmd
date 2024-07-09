@@ -2,7 +2,6 @@
 comments: false
 page-layout: full
 title: Event Calendar
-title-block-banner: true
 code-fold: true
 execute:
   echo: false
