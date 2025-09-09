@@ -1,54 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
-  },
-  {
-    "objectID": "event_calendar.html",
-    "href": "event_calendar.html",
-    "title": "Event Calendar",
-    "section": "",
-    "text": "Code\ndata = FileAttachment(\"input_events.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
-  },
-  {
-    "objectID": "templates/template_for_blogposts.html",
-    "href": "templates/template_for_blogposts.html",
-    "title": "Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pro-AI Hub",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "posts_by_author.html",
-    "href": "posts_by_author.html",
-    "title": "Interactive Content Repository",
-    "section": "",
-    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
-  },
-  {
-    "objectID": "newsletter.html",
-    "href": "newsletter.html",
-    "title": "Pro-AI Hub",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "researchers.html",
-    "href": "researchers.html",
-    "title": "Pro-AI Hub",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "templates/template_for_content.html#image",
     "href": "templates/template_for_content.html#image",
     "title": "Title for your work",
@@ -98,6 +49,55 @@
     "text": "More Resources\nPDF\nPoster\nSupplement\nScholar\nBlog Post"
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Pro-AI Hub",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pro-AI Hub",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "researchers.html",
+    "href": "researchers.html",
+    "title": "Pro-AI Hub",
+    "section": "",
+    "text": "nodes = [\n  {id: \"Berenika Ewart-James\"},\n  {id: \"Bezawit Tilaye\"},\n  {id: \"David Fox\"},\n  {id: \"Jack Woodcock\"},\n  {id: \"Jake Chastney\"},\n  {id: \"James Brock\"},\n  {id: \"Jono Vincent\"},\n  {id: \"Moses Guran\"}\n]\n\n// Links com distâncias específicas\nlinks = [\n  {source: \"Berenika Ewart-James\", target: \"Bezawit Tilaye\", distance: 80},\n  {source: \"Berenika Ewart-James\", target: \"David Fox\", distance: 120},\n  {source: \"Bezawit Tilaye\", target: \"Jack Woodcock\", distance: 100},\n  {source: \"David Fox\", target: \"Jake Chastney\", distance: 90},\n  {source: \"Jake Chastney\", target: \"James Brock\", distance: 70},\n  {source: \"James Brock\", target: \"Jono Vincent\", distance: 60},\n  {source: \"Jono Vincent\", target: \"Moses Guran\", distance: 115},\n  {source: \"David Fox\", target: \"Moses Guran\", distance: 130},\n  {source: \"Jack Woodcock\", target: \"Jake Chastney\", distance: 85},\n  {source: \"Berenika Ewart-James\", target: \"James Brock\", distance: 140}\n]\n\n// Simulação de forças com distância personalizada\nsimulation = d3.forceSimulation(nodes)\n    .force(\"link\", d3.forceLink(links)\n        .id(d =&gt; d.id)\n        .distance(d =&gt; d.distance)  // respeita a distância de cada link\n        .strength(0.8)             // força maior mantém distâncias mais rígidas\n    )\n    .force(\"charge\", d3.forceManyBody().strength(-200))\n    .force(\"center\", d3.forceCenter(400, 300))\n\n// Renderização do grafo\nsvg = {\n  const svg = d3.create(\"svg\")\n      .attr(\"width\", 800)\n      .attr(\"height\", 600)\n\n  const link = svg.append(\"g\")\n      .attr(\"stroke\", \"#999\")\n      .attr(\"stroke-opacity\", 0.6)\n    .selectAll(\"line\")\n    .data(links)\n    .join(\"line\")\n      .attr(\"stroke-width\", 2)\n\n  const node = svg.append(\"g\")\n      .attr(\"stroke\", \"#fff\")\n      .attr(\"stroke-width\", 1.5)\n    .selectAll(\"circle\")\n    .data(nodes)\n    .join(\"circle\")\n      .attr(\"r\", 15)\n      .attr(\"fill\", \"steelblue\")\n\n  const label = svg.append(\"g\")\n    .selectAll(\"text\")\n    .data(nodes)\n    .join(\"text\")\n      .text(d =&gt; d.id)\n      .attr(\"font-size\", 12)\n      .attr(\"dx\", 18)\n      .attr(\"dy\", \"0.35em\")\n\n  simulation.on(\"tick\", () =&gt; {\n    link\n        .attr(\"x1\", d =&gt; d.source.x)\n        .attr(\"y1\", d =&gt; d.source.y)\n        .attr(\"x2\", d =&gt; d.target.x)\n        .attr(\"y2\", d =&gt; d.target.y)\n\n    node\n        .attr(\"cx\", d =&gt; d.x)\n        .attr(\"cy\", d =&gt; d.y)\n\n    label\n        .attr(\"x\", d =&gt; d.x)\n        .attr(\"y\", d =&gt; d.y)\n  })\n\n  return svg.node()\n}"
+  },
+  {
+    "objectID": "event_calendar.html",
+    "href": "event_calendar.html",
+    "title": "Event Calendar",
+    "section": "",
+    "text": "Code\ndata = FileAttachment(\"input_events.csv\").csv({ typed: true })\ntoday = new Date()\n\nnewData = data.filter(function (item) {\n  return item.start_date &gt; today\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nInputs.table(newData.map(d =&gt; ({Name: [[d.link,d.name]], ...d})), {\n  sort: \"start\",\n  reverse: true,\n  columns:[\n    \"venue_name\",\n    \"location\",\n    \"start_date\",\n    \"end_date\"\n  ],  \n  format: {\n    Name: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[0]} target=_blank&gt;${link[1]}&lt;/a&gt; `)}`\n  },\n  layout: \"auto\",\n  header: {\n    venue_name: \"Conference Name\",\n    location: \"Location\",\n    start_date: \"Start Date\",\n    end_date: \"End Date\"\n  },\n  width: {\n    Name: 300,\n    location: 300,\n    start_date: 300,\n    end_date: 300\n  },\n  align: {\n    Name: \"center\",\n    location: \"center\",\n    start_date: \"center\",\n    end_date: \"center\"\n  }\n})"
+  },
+  {
+    "objectID": "newsletter.html",
+    "href": "newsletter.html",
+    "title": "Pro-AI Hub",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts_by_author.html",
+    "href": "posts_by_author.html",
+    "title": "Interactive Content Repository",
+    "section": "",
+    "text": "name = {\n        const params = new Proxy(new URLSearchParams(window.location.search), {\n            get: (searchParams, prop) =&gt; searchParams.get(prop),\n        });\n        const name = params.name \n        return name \n    }\n\n\n\n\n\n\n\nhtml`&lt;h1&gt;${name}&lt;/h1&gt;`\n\n\n\n\n\n\n\ndata = FileAttachment(\"input.csv\").csv({ typed: true })\n\nnewData = data.filter(function (item) {\n  return item.authors.includes(name)\n});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlink = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var link = ''\n    console.log(newData[0].authors_link)\n    if(newData[0].authors_link ){\n\n        link = newData[0].authors_link.split(\",\")[idx]\n    }else{\n        link = ''\n    }\n\n    return link\n\n}\n\ntext = {\n    \n    var idx = newData[0].authors.split(\",\").indexOf(name) \n    \n    var text =  ''\n    if(newData[0].authors_link !== 'NONE'){\n        console.log(newData[0].authors_link.split(\",\")[idx])\n        text  = 'Arxiv link'\n    }else{\n        \n        text = ''\n    }\n\n    return text\n\n}\n\nhtml`&lt;a href=${link}&gt;${text}&lt;/a&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(newData.map(d =&gt; ({publication_set: [[d.publication,d.publication_url]], ...d})), {\n        sort: \"start\",\n        reverse: true, \n        format: {\n            publication_set: links =&gt; htl.html`${links.map((link, i) =&gt; htl.html`&lt;a href=${link[1]} &gt;${link[0]}&lt;/a&gt; `)}`,\n            research_area: item =&gt;  htl.html`&lt;a href='/#category=${item}' &gt;${item}&lt;/a&gt;`\n        },  \n        layout: \"fixed\",      \n        width: {\n            publication_set: 1200,\n        },\n        columns:[\n            \"publication_set\",\n            \"research_area\"\n        ],  \n        header: {\n            publication_set: \"Publication\",\n            research_area: \"Research Area\"\n        },\n        align: {\n            publication_set: \"center\",        \n        }\n    })"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a unified authoring platform that makes it easy (for reasonably computer-savvy users) to make academic content in all its forms available on the web in a coherent and easily maintained way, increasing both presence and reach of the work going on in an AI research group or CDT.\nContributions made using the Github repo"
+  },
+  {
     "objectID": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
     "href": "newsletter/cdt_weekly_newsletter-20-11-2023/index.html",
     "title": "Newsletter Issue - 20-11-2023",
@@ -105,10 +105,10 @@
     "text": "CDT Weekly Newsletter\n\n\n\n\nNew Announcement\n\n\nAnother Announcement\n\n\n\nWelcome to this week’s issue of the newsletter.\n\nNew AnnouncementLorem ipsum.Another AnnouncementLorem ipsum.\n\nForthcoming Calendar of Events"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Pro-AI Hub",
+    "objectID": "templates/template_for_blogposts.html",
+    "href": "templates/template_for_blogposts.html",
+    "title": "Title",
     "section": "",
-    "text": "No matching items"
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus. Nunc vel risus commodo viverra maecenas accumsan. Viverra nam libero justo laoreet sit. Enim tortor at auctor urna. Sit amet facilisis magna etiam tempor. Sit amet massa vitae tortor condimentum lacinia quis vel. Urna nunc id cursus metus aliquam. Pellentesque adipiscing commodo elit at imperdiet. Arcu felis bibendum ut tristique et egestas. Sit amet nulla facilisi morbi tempus iaculis. Purus ut faucibus pulvinar elementum integer enim. Convallis convallis tellus id interdum velit laoreet id."
   }
 ]

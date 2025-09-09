@@ -1,18 +1,14 @@
 [
   {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": []
   },
   {
     "listing": "/newsletter.html",
-    "items": []
-  },
-  {
-    "listing": "/researchers.html",
-    "items": []
-  },
-  {
-    "listing": "/blog.html",
     "items": []
   }
 ]
